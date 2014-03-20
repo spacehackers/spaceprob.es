@@ -1,0 +1,2 @@
+exclude: [README.markdown,]
+pygments: True

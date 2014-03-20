@@ -1,0 +1,32 @@
+---
+layout: base
+---
+
+<div>{{title}}</div>
+
+<h3>Probes:</h3>
+
+<ul>
+  {% for probe in site.categories['probes'] %}
+    <li><a href="{{ probe.url }}">{{ probe.title }}</a></li>
+  {% endfor %}
+</ul>
+
+
+<h3>Destinations:</h3>
+
+<ul>
+  {% for target in site.categories['targets'] %}
+    <li>{{ target.title }}
+      <ul>
+         {% for probe in site.categories['probes'] %}
+            {% if probe.target contains target.target %}
+                  <li><a href="{{ probe.url }}">{{ probe.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+</ul>
+
+{{content}}

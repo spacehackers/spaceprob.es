@@ -1,0 +1,7 @@
+---
+layout: target
+title: Jupiter
+target: jupiter
+---
+
+jupiter is a planet
