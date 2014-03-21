@@ -5,7 +5,7 @@ layout: base
 <div id="probes" class="container-fluid">
   <div class="row">
       {% for probe in site.categories['probes'] %}
-        <a href="{{ probe.url }}" class="title">
+        <a href="{{ probe.url }}">
         <div class="col-sm-4 probe" style="background-color:{{probe.color}};">
             
             <img src="/resources/img/{{ probe.image }}" alt="{{ probe.title }}" class="img-responsive">
