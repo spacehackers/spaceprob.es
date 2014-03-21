@@ -2,19 +2,24 @@
 layout: base
 ---
 
-<div>{{title}}</div>
+<div id="probes" class="container-fluid">
+  <div class="row">
+      {% for probe in site.categories['probes'] %}
+        <a href="{{ probe.url }}" class="title">
+        <div class="col-sm-4 probe" style="background-color:{{probe.color}};">
+            
+            <img src="/resources/img/{{ probe.image }}" alt="{{ probe.title }}" class="img-responsive">
+            <div class="title">{{ probe.title }}</div>
+            <div class="distance">4,567,897,678 km FROM EARTH</div>
+        </div></a>
+       {% endfor %}
+  </div>
+</div>
 
-<h3>Probes:</h3>
 
-<ul>
-  {% for probe in site.categories['probes'] %}
-    <li><a href="{{ probe.url }}">{{ probe.title }}</a></li>
-  {% endfor %}
-</ul>
-
-
-<h3>Destinations:</h3>
-
+<div id="destinations" class="container-fluid">
+    <h3>destinations</h3>
+  <div class="row">
 <ul>
   {% for target in site.categories['targets'] %}
     <li>{{ target.title }}
@@ -28,5 +33,7 @@ layout: base
     </li>
   {% endfor %}
 </ul>
+</div>
+</div>
 
 {{content}}

@@ -1,0 +1,35 @@
+/* Sticky CSS Footer */
+html, body, .wrapper { height: 100%; margin: 0; padding: 0; }
+body > .wrapper { height: auto; min-height: 100%; }
+#content { padding-top: 2.0em; padding-bottom: 250px; }
+#footer { clear: both; position: relative; z-index: 10; height: 150px; margin-top: -150px; padding-top: 20px;}
+
+#header {
+    background: #f7f7f7;
+    color: #bbb;
+    font-family: 'Nixie One';
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+
+.probe {
+    color: #000;
+    padding: 10px 20px;
+
+}
+.probe img {
+    padding: 0px 20px;
+}
+
+.probe .title {
+    color: #000;
+    text-transform: uppercase;
+    width: 70%;
+    border-bottom: 3px solid #000;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.probe .distance {
+    font-size: 0.9em;
+}

@@ -1,7 +1,9 @@
 ---
 layout: probe
-title: Cassini–Huygens
+title: Cassini
 target: [saturn]
+color: '#77ccc9'
+image: cassini.png
 ---
 
 Cassini–Huygens is an unmanned spacecraft sent to the planet Saturn. It is a flagship-class NASA-ESA-ASI
