@@ -3,9 +3,8 @@
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="beyond Earth Orbit">
-  <meta name="author" content="Ariel Waldman, Lisa Ballard, Nathan Bergey et al">
-  
+  <meta name="author" content="{{ site.authors }}">
+  <meta name="description" content="{{ site.description }}">
   {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
   {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
   <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
@@ -20,19 +19,19 @@
      <h1>spaceprob.es</h1>
     </div>
    </div>
-   
+
    <div id="content">
     <div class="container">
       {{ content }}
     </div>
    </div>
-   
   </div>
+
   <div id="footer">
    <div class="container">
     <a class="pull-right" href="#">Back to top</a>
     <p>
-    space probes in the solar system
+    {{ site.footermessage }}
     </p>
    </div>
   </div>

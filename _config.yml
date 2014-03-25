@@ -1,2 +1,8 @@
+# site information
+authors: "The League of Space Hackers"
+description: "Current information on the scientific probes sent into deep space by human beings of planet Earth"
+footermessage: "Built be The League of Space Hackers"
+
+# jekyll stuff:
 exclude: [README.markdown,]
-pygments: True
+pygments: False
