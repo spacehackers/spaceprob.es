@@ -1,0 +1,19 @@
+<div id="destinations" class="container-fluid">
+  <h3>destinations</h3>
+  <div class="row">
+    <ul>
+      {% for target in site.categories['targets'] %}
+        <li>{{ target.title }}
+          <ul>
+             {% for probe in site.categories['probes'] %}
+                {% if probe.target contains target.target %}
+                      <li><a href="{{ probe.url }}">{{ probe.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+

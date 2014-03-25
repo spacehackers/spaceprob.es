@@ -1,6 +1,8 @@
 ---
 layout: frontpage
-title: Space Probes
+title: Data From Space
 ---
+
+{% include probelist.html %}
 
 More info about the site

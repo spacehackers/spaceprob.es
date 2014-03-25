@@ -10,20 +10,19 @@
   <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
   <link href="{{ relative }}resources/css/bootstrap.min.css" rel="stylesheet">
   <link href="{{ relative }}resources/css/style.css" rel="stylesheet">
-  <title>{{ page.title }}</title>
+  <title>spaceprobe.es {{ page.title }}</title>
  </head>
  <body>
   <div class="wrapper">
    <div id="header">
-    <div class="container">
-     <h1>spaceprob.es</h1>
+    <div class="container-fluid">
+     <h1 class="pull-left">spaceprob.es</h1>
+     <a class="twitter pull-right" href="https://twitter.com/{{ site.twitter }}" title="@{{ site.twitter }}"><img src="{{ relative }}resources/img/Twitter_logo_white.png" alt="spaceprobes twitter"></a>
     </div>
    </div>
 
    <div id="content">
-    <div class="container">
       {{ content }}
-    </div>
    </div>
   </div>
 

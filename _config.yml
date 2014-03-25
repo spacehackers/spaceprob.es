@@ -1,8 +1,14 @@
 # site information
 authors: "The League of Space Hackers"
 description: "Current information on the scientific probes sent into deep space by human beings of planet Earth"
-footermessage: "Built be The League of Space Hackers"
+footermessage: "Built by The League of Space Hackers"
+twitter: dsntweet
+
 
 # jekyll stuff:
+permalink: /:categories/:title/
 exclude: [README.markdown,]
 pygments: False
+timezone: UTC
+encoding: utf-8
+baseurl: /
