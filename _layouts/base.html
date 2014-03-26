@@ -15,7 +15,7 @@
    <div id="header">
     <div class="container-fluid">
      <a id="menu" class="pull-left visible-xs"><img src="/resources/img/menu.svg" alt="menu"></a>
-     <h1 class="pull-left">spaceprob.es</h1>
+     <h1 class="pull-left">{% if page.url == '/index.html' %}spaceprob.es{% else %}<a href="/">spaceprob.es</a>{% endif %}</h1>
      <a class="twitter pull-right hidden-xs" href="https://twitter.com/{{ site.twitter }}" title="@{{ site.twitter }}"><img src="/resources/img/Twitter_logo_white.png" alt="spaceprobes twitter"></a>
     </div>
    </div>

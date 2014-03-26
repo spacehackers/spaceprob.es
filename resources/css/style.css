@@ -17,6 +17,11 @@ a, a:hover {
     padding-bottom: 10px;
 }
 
+#header a {
+    color: #bbb;
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     #header h1 {
         font-size: 1.3em;
