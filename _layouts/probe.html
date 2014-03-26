@@ -2,6 +2,22 @@
 layout: base
 ---
 
-<h2>{{ page.title}}</h2>
+<div id="probe-detail" class="container-fluid">
 
-{{content}}
+ {% if page.attract %}
+ <div id="attract" class="hidden-xs"><img src="/resources/img/attract/{{ page.attract }}" class="img-responsive"></div>
+ {% endif %}
+
+ <h1>{{ page.title}}</h1>
+ <hr class="accent-line" style="border-color:{{page.color}};">
+
+ <div class="row">
+  <div class="col-sm-4">
+    {% include probe.html %}
+  </div>
+  <div class="col-sm-8"> 
+    {{content}}
+  </div>
+ </div>
+</div>
+
