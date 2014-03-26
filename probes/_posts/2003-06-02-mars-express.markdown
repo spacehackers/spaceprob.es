@@ -1,6 +1,6 @@
 ---
 layout: probe
-title: Mars Express
+title: Mars&nbsp;Express
 target: [mars]
 color: '#78ae62'
 image: cassini.png
