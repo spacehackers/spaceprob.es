@@ -5,11 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="{{ site.authors }}">
   <meta name="description" content="{{ site.description }}">
-  {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
-  {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
   <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
-  <link href="{{ relative }}resources/css/bootstrap.min.css" rel="stylesheet">
-  <link href="{{ relative }}resources/css/style.css" rel="stylesheet">
+  <link href="/resources/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/resources/css/style.css" rel="stylesheet">
   <title>spaceprobe.es {{ page.title }}</title>
  </head>
  <body>
@@ -17,21 +15,18 @@
    <div id="header">
     <div class="container-fluid">
      <h1 class="pull-left">spaceprob.es</h1>
-     <a class="twitter pull-right" href="https://twitter.com/{{ site.twitter }}" title="@{{ site.twitter }}"><img src="{{ relative }}resources/img/Twitter_logo_white.png" alt="spaceprobes twitter"></a>
+     <a class="twitter pull-right" href="https://twitter.com/{{ site.twitter }}" title="@{{ site.twitter }}"><img src="/resources/img/Twitter_logo_white.png" alt="spaceprobes twitter"></a>
     </div>
    </div>
 
    <div id="content">
       {{ content }}
    </div>
-  </div>
+  </div><!--end wrapper-->
 
   <div id="footer">
-   <div class="container">
-    <a class="pull-right" href="#">Back to top</a>
-    <p>
-    {{ site.footermessage }}
-    </p>
+   <div class="container-fluid">
+     {% include footer.html %}
    </div>
   </div>
  </body>

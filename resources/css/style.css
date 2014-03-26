@@ -1,8 +1,8 @@
 /* Sticky CSS Footer */
 html, body, .wrapper { height: 100%; margin: 0; padding: 0; }
 body > .wrapper { height: auto; min-height: 100%; }
-#content { padding-top: 2.0em; padding-bottom: 250px; }
-#footer { clear: both; position: relative; z-index: 10; height: 150px; margin-top: -150px; padding-top: 20px;}
+#content { padding-top: 2.0em; padding-bottom: 100px; }
+#footer { clear: both; position: relative; z-index: 10; height: 100px; margin-top: -100px; padding-top: 40px;}
 
 #header {
     background: #f5f2eb;
@@ -26,8 +26,8 @@ body > .wrapper { height: auto; min-height: 100%; }
     padding-top: 33%;
 }
 
-#content .container-fluid {
-    padding-right: 0;
+#probes {
+    margin-left: 0;
 }
 
 .probe,
@@ -62,4 +62,10 @@ body > .wrapper { height: auto; min-height: 100%; }
 
 .fast-easeOutQuad {
     -webkit-transition:  300ms cubic-bezier(0.25, 0.46, 0.45, 0.94); all;
+}
+
+#footer {
+    background: #f5f2eb;
+    font-family: 'Nixie One';
+    color: #888;
 }
