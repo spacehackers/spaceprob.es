@@ -3,7 +3,7 @@ layout: probe
 title: New&nbsp;Horizons
 target: [pluto]
 color: '#ff6e48'
-image: newhorizons.png
+image: newhorizons.svg
 ---
 
 New Horizons is a space probe launched by NASA on 19 January 2006 to study the dwarf

@@ -3,7 +3,7 @@ layout: probe
 title: Juno
 target: [jupiter]
 color: '#8e8566'
-image: cassini.png
+image: juno.svg
 ---
 
 a probe
