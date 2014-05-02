@@ -1,0 +1,12 @@
+---
+layout: probe
+title: Voyager 1
+target: [saturn,jupiter]
+color: '#fe9d99'
+image: voyager1.svg
+---
+
+Voyager 1 is a 722-kilogram (1,592 lb) space probe launched by NASA on September 5, 1977 to
+study the outer Solar System. Operating for 36 years, 7 months and 27 days as of 2 May 2014,
+the spacecraft communicates with the Deep Space Network to receive routine commands and return
+data. At a distance of about from the Earth as of 2 May 2014, it is the farthest human-made object from Earth.
