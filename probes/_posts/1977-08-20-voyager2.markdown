@@ -1,0 +1,13 @@
+---
+layout: probe
+title: Voyager 2
+target: [saturn,jupiter]
+color: '#ff6e48'
+image: voyager2.svg
+---
+
+Voyager 2 is a 722-kilogram (1,592 lb) space probe launched by NASA on August 20, 1977 to
+study the outer Solar System. Operating for 36 years, 7 months and 27 days as of 2 May 2014,
+the spacecraft communicates with the Deep Space Network to receive routine commands and return
+data. At a distance of about from the Earth as of 2 May 2014, it is the farthest human-made object from Earth.
+Blah blah blah.

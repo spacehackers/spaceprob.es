@@ -1,0 +1,9 @@
+---
+layout: probe
+title: SOHO
+target: [sun]
+color: '#fe9d99'
+image: soho.svg
+---
+
+Soho is so howawesome, amiright?
