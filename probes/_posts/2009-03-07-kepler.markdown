@@ -5,8 +5,20 @@ target: [saturn]
 color: '#77ccc9'
 attract: saturn_rings.jpg
 image: cassini.svg
----
 
+data:
+  - this is some data
+  - they are very nice data = 6 million m/s
+  - i want them to be a proper html list
+  - so here's a go of it
+
+links:
+  - here are some <a href = "http://spacehack.org">cool links</a>
+  - they are very nice links
+  - i want them to be a proper html list
+  - so here's a go of it
+
+---
 Cassini–Huygens is an unmanned spacecraft sent to the planet Saturn. It is a flagship-class NASA-ESA-ASI
 robotic spacecraft sent to the Saturn system. It has studied the planet and its many natural satellites
 since arriving there in 2004, also observing Jupiter, the heliosphere, and testing the theory of relativity.
@@ -23,3 +35,5 @@ duration of the mission), a compact and lightweight radar, which also uses the h
 serves as a synthetic aperture radar, a radar altimeter, a radiometer, the radio science subsystem (RSS),
 the visible channel portion VIMS-V of VIMS spectrometer (the VIMS-IR counterpart was provided by NASA, as
 well as Main Electronic Assembly, which includes electronic subassemblies provided by CNES of France.
+
+

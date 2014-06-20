@@ -20,11 +20,12 @@ layout: base
           {% include probe.html %}
 
           <div class = "data"><!-- lorem ipsum -->
-            <p>this is some data</p>
-            <p>this is more fake data</p>
-            <p> and other stuff like data </p>
+            <ul>
+            {% for data in page.data %}
+              <li>{{data}}</li>
+            {% endfor %}
+            </ul>
 
-            {{data}}
           </div><!-- /data -->
 
         </div><!-- /style -->
@@ -44,15 +45,15 @@ layout: base
           <a href = "http://spaceipsum.com/">http://spaceipsum.com</a>
       </div>
 
-      <div class = "explore">
+      <div class = "link">
           Worth Exploring:
 
-              <ul><!-- lorem ipsum -->
-                <li>blah</li>
-                <li>blah</li>
-              </ul>
+            <ul>
+            {% for link in page.links %}
+              <li>{{link}}</li>
+            {% endfor %}
+            </ul>
 
-              {{explore}}
       </div>
 
     </div><!-- /col-sm-8 -->

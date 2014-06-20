@@ -151,8 +151,8 @@ a, a:hover {
 }
 .latest_news a { color:#000; }
 
-.explore {
-
+.data ul li {
+    margin-left:-30px;
 }
 
 .fast-easeOutQuad {
