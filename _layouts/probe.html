@@ -11,13 +11,32 @@ layout: base
  <h1>{{ page.title}}</h1>
  <hr class="accent-line" style="border-color:{{page.color}};">
 
- <div class="row">
-  <div class="col-sm-4">
-    {% include probe.html %}
-  </div>
-  <div class="col-sm-8"> 
-    {{content}}
-  </div>
- </div>
-</div>
+  <div class="row">
+
+    <div class="col-sm-4">
+      {% include probe.html %}
+    </div>
+
+    <div class="col-sm-8">
+
+      <div class = "content">
+          {{content}}
+      </div>
+
+      <div class = "latest_news">
+          <b>Latest News:</b>
+          To be the first to enter the cosmos, to engage, single-handed,
+          in an unprecedented duel with nature—could one dream of anything more?
+          <a href = "http://spaceipsum.com/">http://spaceipsum.com</a>
+      </div>
+
+      <div class = "explore">
+          Worth Exploring:
+              {{explore}}
+      </div>
+
+    </div><!-- /col-sm-8 -->
+
+ </div><!-- /row -->
+</div><!-- /probe-detail -->
 
