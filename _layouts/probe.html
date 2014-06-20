@@ -14,7 +14,21 @@ layout: base
   <div class="row">
 
     <div class="col-sm-4">
-      {% include probe.html %}
+      <div class="probe">
+        <div style="background-color:{{page.color}};">
+
+          {% include probe.html %}
+
+          <div class = "data"><!-- lorem ipsum -->
+            <p>this is some data</p>
+            <p>this is more fake data</p>
+            <p> and other stuff like data </p>
+
+            {{data}}
+          </div><!-- /data -->
+
+        </div><!-- /style -->
+      </div><!-- /probe -->
     </div>
 
     <div class="col-sm-8">
@@ -24,7 +38,7 @@ layout: base
       </div>
 
       <div class = "latest_news">
-          <b>Latest News:</b>
+          <b>Latest News:</b><!-- lorem ipsum -->
           To be the first to enter the cosmos, to engage, single-handed,
           in an unprecedented duel with nature—could one dream of anything more?
           <a href = "http://spaceipsum.com/">http://spaceipsum.com</a>
@@ -32,6 +46,12 @@ layout: base
 
       <div class = "explore">
           Worth Exploring:
+
+              <ul><!-- lorem ipsum -->
+                <li>blah</li>
+                <li>blah</li>
+              </ul>
+
               {{explore}}
       </div>
 
