@@ -80,13 +80,17 @@ a, a:hover {
 }
 
 .probe>div {
-    margin-right: 15px;
-    margin-bottom: 15px;
+    margin-right: 35px;
+    margin-bottom: 37px;
     padding: 10px 20px;
 }
 
 .probe img {
-    padding: 0px 20px;
+    padding: 15px 20px;
+    width:97%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .probe .title{
