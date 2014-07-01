@@ -2,7 +2,7 @@
 layout: probe
 title: Kepler
 target: [saturn]
-color: '#77ccc9'
+color: '#fe9d99'
 attract: saturn_rings.jpg
 image: kepler.svg
 

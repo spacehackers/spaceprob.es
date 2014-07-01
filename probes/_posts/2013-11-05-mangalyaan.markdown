@@ -2,7 +2,7 @@
 layout: probe
 title: Mangalyaan
 target: [saturn]
-color: '#77ccc9'
+color: '#ff6e48'
 attract: saturn_rings.jpg
 image: mangalyaan.svg
 ---
