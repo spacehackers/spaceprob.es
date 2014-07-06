@@ -5,8 +5,20 @@ target: [saturn]
 color: '#938bbe'
 attract: saturn_rings.jpg
 image: rosetta.svg
----
 
+data:
+  - this is some data
+  - they are very nice data = 6 million m/s
+  - i want them to be a proper html list
+  - so here's a go of it
+
+links:
+  - the Rosetta team's <a href = "http://blogs.esa.int/rosetta/">blog</a>
+  - tbd
+  - tbd
+  - tbd
+
+---
 Cassini–Huygens is an unmanned spacecraft sent to the planet Saturn. It is a flagship-class NASA-ESA-ASI
 robotic spacecraft sent to the Saturn system. It has studied the planet and its many natural satellites
 since arriving there in 2004, also observing Jupiter, the heliosphere, and testing the theory of relativity.
