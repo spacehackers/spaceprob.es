@@ -2,7 +2,7 @@
 layout: probe
 title: Spitzer
 target: [saturn]
-color: '#77ccc9'
+color: '#adafaa'
 attract: saturn_rings.jpg
 image: cassini.svg
 ---
