@@ -2,9 +2,9 @@
 layout: probe
 title: MESSENGER
 target: [saturn]
-color: '#77ccc9'
+color: '#adafaa'
 attract: saturn_rings.jpg
-image: cassini.svg
+image: messenger.svg
 ---
 
 Cassini–Huygens is an unmanned spacecraft sent to the planet Saturn. It is a flagship-class NASA-ESA-ASI
