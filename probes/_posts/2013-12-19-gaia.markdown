@@ -13,7 +13,7 @@ data:
   - so here's a go of it
 
 links:
-  - here are some <a href = "http://spacehack.org">cool links</a>
+  - download the <a href = "https://itunes.apple.com/us/app/gaia-mission/id735128015?mt=8">Gaia app</a> to to receive updates about the mission
   - they are very nice links
   - i want them to be a proper html list
   - so here's a go of it
