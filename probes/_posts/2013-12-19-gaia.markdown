@@ -19,6 +19,6 @@ links:
   - so here's a go of it
 
 ---
-The Gaia space probe aims to create a detailed three-dimensional map of the Milky Way galaxy. By measuring the motion of 100 billion stars (approximately one percent of all the stars in the Milky Way), the Gaia mission will be able to study the formation and evolution of our galaxy. The mission is expected to last five years with the probe observing each of the billion stars seventy times. Along the way, Gaia is expected to discover exoplanets (planets in outside of our Solar System), asteroids, comets, brown dwarf stars, supernovas and quasars.
+The Gaia space probe aims to create a detailed three-dimensional map of the Milky Way galaxy. By measuring the motion of 100 billion stars (approximately one percent of all the stars in the Milky Way), the Gaia mission will be able to study the formation and evolution of our galaxy. The mission is expected to last five years with the probe observing each of the billion stars seventy times. Along the way, Gaia is expected to discover exoplanets (planets outside of our Solar System), asteroids, comets, brown dwarf stars, supernovas and quasars.
 
 
