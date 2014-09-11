@@ -12,7 +12,7 @@ data:
   - so here's a go of it
 
 links:
-  - they are very nice links
+  - Juno's <a href="http://missionjuno.swri.edu/">interactive walk-through</a> of the science behind the mission
   - i want them to be a proper html list
   - so here's a go of it
 ---
