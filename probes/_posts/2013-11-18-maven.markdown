@@ -7,7 +7,7 @@ attract: saturn_rings.jpg
 image: maven.svg
 
 data:
-  - Principal investigator: <a href="http://lasp.colorado.edu/home/maven/about/teampartners/principal-investigator/">Dr. Bruce Jakosky</a>, University of Colorado’s Laboratory for Atmospheric and Space Physics (CU/LASP)
+  - 'Principal investigator: <a href="http://lasp.colorado.edu/home/maven/about/teampartners/principal-investigator/">Dr. Bruce Jakosky</a>, University of Colorado’s Laboratory for Atmospheric and Space Physics (CU/LASP)'
   - they are very nice data = 6 million m/s
   - i want them to be a proper html list
   - so here's a go of it
@@ -16,5 +16,6 @@ links:
   - they are very nice links
   - i want them to be a proper html list
   - so here's a go of it
+
 ---
 The MAVEN (Mars Atmosphere and Volatile Evolution) space probe is orbiting Mars to learn more about the planet's upper atmosphere. Its eliptical orbit allows for the space probe to pass through the upper atmosphere of Mars and take samples of various molecules. When MAVEN is above the atmosphere, it will conduct ultraviolet imaging of the planet. By sampling and imaging the upper atmosphere, scientists expect to be able to learn more about the history of the Martian climate and habitability for life.

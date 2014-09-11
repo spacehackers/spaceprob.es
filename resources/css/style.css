@@ -99,7 +99,9 @@ a, a:hover {
 .probe .data p {
     margin:0;
 }
-
+.probe .data a {
+    color:#505050;
+}
 
 .probe img {
     padding: 15px 20px;
