@@ -13,7 +13,7 @@ data:
   - so here's a go of it
 
 links:
-  - a <a href = "https://itunes.apple.com/us/app/gaia-mission/id735128015?mt=8">Gaia app</a> to receive updates on the mission
+  - an <a href = "https://itunes.apple.com/us/app/gaia-mission/id735128015?mt=8">iPhone app</a> to receive updates on the mission
   - they are very nice links
   - i want them to be a proper html list
   - so here's a go of it
