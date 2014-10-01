@@ -38,10 +38,25 @@ layout: base
           {{content}}
       </div>
 
+        <script>
+          url = "http://dry-eyrie-9951.herokuapp.com//{{ page.title }}"
+          $.ajax({
+              url: url,
+              type: 'get',
+              dataType: 'jsonp',
+              success: function(data) {
+                content = '<b>Latest news:<br>' + data.post.title + '</b> ';
+                link_label = data.post.link.substring(0, 60) + '...'
+                content += '<a href = "' + data.post.link + '">' + link_label + '</a>';
+                $('.latest_news').html(content);
+
+              }
+          });
+          </script>
+
       <div class = "latest_news">
           <b>Latest news:</b><!-- lorem ipsum -->
-          To be the first to enter the cosmos, to engage, single-handed,
-          in an unprecedented duel with nature—could one dream of anything more?
+          Problems look mighty small from 150 miles up.
           <a href = "http://spaceipsum.com/">http://spaceipsum.com</a>
       </div>
 
