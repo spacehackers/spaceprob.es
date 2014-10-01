@@ -1,6 +1,6 @@
 ---
 layout: probe
-title: New&nbsp;Horizons
+title: New Horizons
 target: [pluto]
 color: '#ff6e48'
 image: newhorizons.svg
