@@ -4,6 +4,7 @@ title: Voyager 2
 target: [saturn,jupiter]
 color: '#ff6e48'
 image: voyager2.svg
+dsn_name: VGR2
 ---
 
 Voyager 2 is a 722-kilogram (1,592 lb) space probe launched by NASA on August 20, 1977 to

@@ -5,6 +5,7 @@ target: [saturn]
 color: '#938bbe'
 attract: saturn_rings.jpg
 image: rosetta.svg
+dsn_name: ROSE
 
 data:
   - this is some data

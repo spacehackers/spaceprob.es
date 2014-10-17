@@ -5,6 +5,7 @@ target: [saturn]
 color: '#77ccc9'
 attract: saturn_rings.jpg
 image: maven.svg
+dsn_name: MVN
 
 data:
   - 'Principal investigator: <a href="http://lasp.colorado.edu/home/maven/about/teampartners/principal-investigator/">Dr. Bruce Jakosky</a>, University of Colorado’s Laboratory for Atmospheric and Space Physics (CU/LASP)'

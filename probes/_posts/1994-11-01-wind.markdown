@@ -5,6 +5,7 @@ target: [saturn]
 color: '#78ae62'
 attract: saturn_rings.jpg
 image: wind.svg
+dsn_name: WIND
 
 data:
   - this is some data

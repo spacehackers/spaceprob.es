@@ -5,6 +5,7 @@ target: [saturn]
 color: '#938bbe'
 attract: saturn_rings.jpg
 image: akatsuki.svg
+dsn_name: PLC
 
 data:
   - this is some data

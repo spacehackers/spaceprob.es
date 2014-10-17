@@ -5,6 +5,7 @@ target: [saturn]
 color: '#fe9d99'
 attract: saturn_rings.jpg
 image: kepler.svg
+dsn_name: KEPL
 
 data:
   - this is some data

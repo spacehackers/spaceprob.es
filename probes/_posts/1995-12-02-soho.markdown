@@ -4,6 +4,7 @@ title: SOHO
 target: [sun]
 color: '#faca66'
 image: soho.svg
+dsn_name: WIND
 ---
 
 Soho is so howawesome, amiright?

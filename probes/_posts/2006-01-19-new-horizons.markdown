@@ -4,6 +4,7 @@ title: New Horizons
 target: [pluto]
 color: '#ff6e48'
 image: newhorizons.svg
+dsn_name: NHPC
 ---
 
 New Horizons is a space probe launched by NASA on 19 January 2006 to study the dwarf

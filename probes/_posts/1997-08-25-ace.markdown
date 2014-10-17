@@ -5,6 +5,7 @@ target: [saturn]
 color: '#8e8566'
 attract: saturn_rings.jpg
 image: ace.svg
+dsn_name: ACE
 
 data:
   - this is some data

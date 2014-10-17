@@ -5,6 +5,7 @@ target: [saturn]
 color: '#ff6e48'
 attract: saturn_rings.jpg
 image: lro.svg
+dsn_name: LRO
 
 data:
   - this is some data

@@ -5,6 +5,7 @@ target: [saturn]
 color: '#ff6e48'
 attract: saturn_rings.jpg
 image: mangalyaan.svg
+dsn_name: MOM
 
 data:
   - this is some data

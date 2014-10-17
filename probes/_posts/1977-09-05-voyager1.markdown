@@ -4,6 +4,7 @@ title: Voyager 1
 target: [saturn,jupiter]
 color: '#938bbe'
 image: voyager1.svg
+dsn_name: VGR1
 ---
 
 Voyager 1 is a 722-kilogram (1,592 lb) space probe launched by NASA on September 5, 1977 to

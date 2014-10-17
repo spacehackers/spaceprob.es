@@ -4,6 +4,7 @@ title: Juno
 target: [jupiter]
 color: '#8e8566'
 image: juno.svg
+dsn_name: JNO
 
 data:
   - this is some data

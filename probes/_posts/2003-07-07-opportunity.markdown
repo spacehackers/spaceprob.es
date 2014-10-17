@@ -5,6 +5,7 @@ target: [saturn]
 color: '#8e8566'
 attract: saturn_rings.jpg
 image: opportunity.svg
+dsn_name: MER1
 
 data:
   - this is some data

@@ -5,6 +5,7 @@ target: [saturn]
 color: '#78ae62'
 attract: saturn_rings.jpg
 image: curiosity.svg
+dsn_name: MSL
 
 data:
   - this is some data

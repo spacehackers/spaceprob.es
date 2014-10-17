@@ -5,6 +5,7 @@ target: [saturn]
 color: '#77ccc9'
 attract: saturn_rings.jpg
 image: cassini.svg
+dsn_name: CAS
 ---
 
 Cassini–Huygens is an unmanned spacecraft sent to the planet Saturn. It is a flagship-class NASA-ESA-ASI
