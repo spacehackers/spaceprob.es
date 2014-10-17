@@ -23,15 +23,17 @@ var spaceprobes = {
 //          console.log(typeOf(dsn_name);
           // wtf?
           // elem = "div\\.distance\\." + dsn_name;
-          elem = 'span[class=' + dsn_name + ']';
           distance = Number(spaceprobes.dsn_data[dsn_name]['uplegRange']);
-          distance_words = numeral(distance).format('0.00 a');
-          $(elem, '.distance').html(distance_words);
+          if (distance > 0) {
+              distance_words = numeral(distance).format('0.00 a');
+              elem = 'span[class=' + dsn_name + ']';
+              $(elem, '.distance').html(distance_words);
+          }
         }
       }
     });
 
-  }, // /loaddata
+  }, // /get_dsn
 
 
 }; // /var spaceprobes
