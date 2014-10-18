@@ -45,7 +45,7 @@ var spaceprobes = {
 
             // grab each probe snippet from the homepage #probes div and then empty the div
             probe_snippets = {};
-            my_list = []
+            my_list = [];
             count = 0;
             $('#probes').children().each(function() {
                 count = count + 1;
