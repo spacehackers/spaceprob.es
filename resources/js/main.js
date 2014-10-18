@@ -17,6 +17,10 @@ var spaceprobes = {
       url: url,
       type: 'get',
       dataType: 'jsonp',
+      timeout: 3000,
+      error:function (xhr, ajaxOptions, thrownError){
+        $('#probes').slideDown("slow");
+      },
       success: function(data) {
         spaceprobes.dsn_data = data.dsn_by_probe;
 
