@@ -69,6 +69,7 @@ a, a:hover {
 }
 
 #probes {
+    display:none;
     margin-left: 0;
 }
 
