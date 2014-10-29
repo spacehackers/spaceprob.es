@@ -2,7 +2,7 @@
 layout: probe
 title: 2001 Mars Odyssey
 target: [saturn]
-color: '#fe9d99'
+color: '#77ccc9'
 attract: saturn_rings.jpg
 image: 2001marsodyssey.svg
 dsn_name: M01O
