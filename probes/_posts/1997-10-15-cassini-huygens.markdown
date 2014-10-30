@@ -2,7 +2,7 @@
 layout: probe
 title: Cassini
 target: [saturn]
-color: '#938bbe'
+color: '#fe9d99'
 attract: saturn_rings.jpg
 image: cassini.svg
 dsn_name: CAS

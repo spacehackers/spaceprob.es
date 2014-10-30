@@ -2,7 +2,7 @@
 layout: probe
 title: Rosetta
 target: [saturn]
-color: '#77ccc9'
+color: '#938bbe'
 attract: saturn_rings.jpg
 image: rosetta.svg
 dsn_name: ROSE
