@@ -6,8 +6,8 @@ twitter: dsntweet
 
 # jekyll stuff:
 permalink: /:categories/:title/
-exclude: [README.markdown,]
-pygments: False
+exclude: [README.markdown, Makefile]
+highlighter: null
 timezone: UTC
 encoding: utf-8
 baseurl: /
