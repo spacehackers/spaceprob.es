@@ -2,7 +2,7 @@
 layout: probe
 title: STEREO
 target: [saturn]
-color: '#ff6e48'
+color: '#77ccc9'
 attract: saturn_rings.jpg
 image: stereo.svg
 dsn_name: STB

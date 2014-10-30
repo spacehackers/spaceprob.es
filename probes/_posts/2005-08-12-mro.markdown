@@ -2,7 +2,7 @@
 layout: probe
 title: MRO
 target: [saturn]
-color: '#938bbe'
+color: '#8e8566'
 attract: saturn_rings.jpg
 image: mro.svg
 dsn_name: MRO
