@@ -2,7 +2,7 @@
 layout: probe
 title: SOHO
 target: [sun]
-color: '#ff6e48'
+color: '#78ae62'
 image: soho.svg
 dsn_name: SOHO
 ---
