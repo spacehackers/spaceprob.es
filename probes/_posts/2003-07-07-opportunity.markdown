@@ -2,7 +2,7 @@
 layout: probe
 title: Opportunity
 target: [saturn]
-color: '#8e8566'
+color: '#77ccc9'
 attract: saturn_rings.jpg
 image: opportunity.svg
 dsn_name: MER1
