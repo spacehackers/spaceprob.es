@@ -2,7 +2,7 @@
 layout: probe
 title: Chang'e 3
 target: [saturn]
-color: '#ff6e48'
+color: '#8e8566'
 attract: saturn_rings.jpg
 image: chang'e3.svg
 ---

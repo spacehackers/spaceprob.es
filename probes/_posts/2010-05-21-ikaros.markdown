@@ -2,7 +2,7 @@
 layout: probe
 title: IKAROS
 target: [saturn]
-color: '#77ccc9'
+color: '#fe9d99'
 attract: saturn_rings.jpg
 image: ikaros.svg
 distance: 230000000  # per Jaxa http://www.isas.jaxa.jp/j/topics/topics/2014/0526.shtml
