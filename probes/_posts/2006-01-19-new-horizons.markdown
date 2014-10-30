@@ -2,7 +2,7 @@
 layout: probe
 title: New Horizons
 target: [pluto]
-color: '#ff6e48'
+color: '#8e8566'
 image: newhorizons.svg
 dsn_name: NHPC
 ---

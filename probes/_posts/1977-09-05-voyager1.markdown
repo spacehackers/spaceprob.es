@@ -2,7 +2,7 @@
 layout: probe
 title: Voyager 1
 target: [saturn,jupiter]
-color: '#938bbe'
+color: '#77ccc9'
 image: voyager1.svg
 dsn_name: VGR1
 ---
