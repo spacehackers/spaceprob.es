@@ -2,7 +2,7 @@
 layout: probe
 title: MAVEN
 target: [saturn]
-color: '#78ae62'
+color: '#faca66'
 attract: saturn_rings.jpg
 image: maven.svg
 dsn_name: MVN
