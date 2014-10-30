@@ -12,7 +12,7 @@ var spaceprobes = {
   init: function() {
 
     // fetch the dsn json feed
-    url = "http://murmuring-anchorage-8062.herokuapp.com/dsn/probes.json";
+    url = "http://murmuring-anchorage-8062.herokuapp.com/dsn/spaceprobes.json";
     $.ajax({
       url: url,
       type: 'get',
@@ -22,7 +22,7 @@ var spaceprobes = {
         $('#probes').slideDown("slow");
       },
       success: function(data) {
-        spaceprobes.dsn_data = data.dsn_by_probe;
+        spaceprobes.dsn_data = data.spaceprobes;
 
         // update distance display for each probe
         for (var dsn_name in spaceprobes.dsn_data) {
