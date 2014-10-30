@@ -2,7 +2,7 @@
 layout: probe
 title: Juno
 target: [jupiter]
-color: '#8e8566'
+color: '#faca66'
 image: juno.svg
 dsn_name: JNO
 

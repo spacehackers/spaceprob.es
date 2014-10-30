@@ -2,7 +2,7 @@
 layout: probe
 title: Dawn
 target: [saturn]
-color: '#faca66'
+color: '#78ae62'
 attract: saturn_rings.jpg
 image: dawn.svg
 dsn_name: DAWN
