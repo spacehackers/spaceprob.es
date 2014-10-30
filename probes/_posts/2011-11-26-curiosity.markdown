@@ -2,7 +2,7 @@
 layout: probe
 title: Curiosity
 target: [saturn]
-color: '#78ae62'
+color: '#ff6e48'
 attract: saturn_rings.jpg
 image: curiosity.svg
 dsn_name: MSL

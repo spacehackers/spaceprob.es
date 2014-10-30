@@ -2,7 +2,7 @@
 layout: probe
 title: MESSENGER
 target: [saturn]
-color: '#ff6e48'
+color: '#faca66'
 attract: saturn_rings.jpg
 image: messenger.svg
 dsn_name: MSGR
