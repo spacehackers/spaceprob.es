@@ -5,6 +5,7 @@ target: [saturn]
 color: '#78ae62'
 attract: saturn_rings.jpg
 image: gaia.svg
+distance: 1500000  # Gaia orbits around L2
 
 data:
   - this is some data
