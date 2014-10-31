@@ -10,7 +10,8 @@ layout: nil
       "date" : "{{ post.date | date: "%B %d, %Y" }}",
       "dsn_name" : "{{ post.dsn_name }}",
       "orbit_planet" : "{{ post.orbit_planet }}",
-      "distance" : "{{ post.distance }}"
+      "distance" : "{{ post.distance }}",
+      "slug" : "{{ post.title|slugify }}"
     } {% if forloop.last %}{% else %},{% endif %}
 {% endfor %}
 ]
