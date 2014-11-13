@@ -6,11 +6,8 @@ color: '#fe9d99'
 attract: saturn_rings.jpg
 image: cassini.svg
 dsn_name: CAS
-
-data:
-Cassini launched into space on <strong>October 14, 1997</strong> and is now <strong>1.63 billion km</strong> from Earth. It’s primary destination is <strong>Saturn</strong>, which it arrived at on <strong>July 1, 2004</strong>. Wherever Cassini goes, it carries it’s trusty <strong>spectrometers, cosmic dust analyzer, cameras, magnetometer, radar, radio sensors, and spectrograph</strong>. Cassini regularly chats with a lot of people who hail from <strong><a href="http://www.nasa.gov">NASA</a>, ESA and ASI</strong>.
-
 ---
+
 Cassini–Huygens is an unmanned spacecraft sent to the planet Saturn. It is a flagship-class NASA-ESA-ASI
 robotic spacecraft sent to the Saturn system. It has studied the planet and its many natural satellites
 since arriving there in 2004, also observing Jupiter, the heliosphere, and testing the theory of relativity.
