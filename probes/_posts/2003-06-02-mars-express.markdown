@@ -5,7 +5,6 @@ target: [mars]
 color: '#78ae62'
 image: marsexpress.svg
 dsn_name: MEX
----
 
 data:
   - this is some data
