@@ -2,7 +2,7 @@
 layout: probe
 title: ISEE-3
 target: [saturn]
-color: '#ff6e48'
+color: '#938bbe'
 attract: saturn_rings.jpg
 image: isee3.svg
 ---

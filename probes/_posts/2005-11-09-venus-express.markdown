@@ -2,7 +2,7 @@
 layout: probe
 title: Venus Express
 target: [saturn]
-color: '#8e8566'
+color: '#78ae62'
 attract: saturn_rings.jpg
 image: venusexpress.svg
 orbit_planet: Venus

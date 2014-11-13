@@ -2,7 +2,7 @@
 layout: probe
 title: LRO
 target: [saturn]
-color: '#ff6e48'
+color: '#77ccc9'
 attract: saturn_rings.jpg
 image: lro.svg
 dsn_name: LRO

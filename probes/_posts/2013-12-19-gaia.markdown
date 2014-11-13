@@ -2,7 +2,7 @@
 layout: probe
 title: Gaia
 target: [saturn]
-color: '#78ae62'
+color: '#ff6e48'
 attract: saturn_rings.jpg
 image: gaia.svg
 distance: 1500000  # Gaia orbits around L2

@@ -2,7 +2,7 @@
 layout: probe
 title: ACE
 target: [saturn]
-color: '#8e8566'
+color: '#938bbe'
 attract: saturn_rings.jpg
 image: ace.svg
 dsn_name: ACE
