@@ -18,9 +18,13 @@ var spaceprobes = {
       url: url,
       type: 'get',
       dataType: 'jsonp',
-      timeout: 3000,
+      timeout: 4000,
       error:function (xhr, ajaxOptions, thrownError){
         $('#probes').slideDown("slow");
+        if(textStatus==="timeout") {
+              // todo
+              alert('heroku!!! *shakes tiny fist*');
+        }
       },
       success: function(data) {
         spaceprobes.distances = data.spaceprobe_distances;
