@@ -19,4 +19,4 @@ links:
   - so here's a go of it
 
 ---
-The Spitzer Space Telescope is a space probe that is able to see what the Milky Way galaxy really looks like for the first time by peering past all the space dust that normally blocks our view. The Spitzer Space Telescope utilizes infrared technology to 
+The Spitzer Space Telescope is a space probe that has been able to see what the Milky Way galaxy really looks like for the first time by peering past all the space dust that normally blocks our view. The Spitzer Space Telescope utilizes infrared technology to 
