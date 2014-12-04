@@ -21,6 +21,7 @@ var spaceprobes = {
       timeout: 4000,
       error:function (xhr, ajaxOptions, thrownError){
         $('#probes').slideDown("slow");
+        alert(textStatus);
         if(textStatus==="timeout") {
               // todo
               alert('heroku!!! *shakes tiny fist*');
