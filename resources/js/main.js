@@ -44,7 +44,7 @@ var spaceprobes = {
         if ($('#probes').is(":hidden")) {  // true if this is homepage
 
             // sort the probes by distance
-            api_probes_sorted = Object.keys(spaceprobes.probe_distances).sort(function(a,b){return spaceprobes.probe_distances[b]-spaceprobes.probe_distances[a]; });
+            api_probes_sorted = Object.keys(spaceprobes.probe_distances).sort(function(a,b){return parseInt(spaceprobes.probe_distances[b], 10)-parseInt(spaceprobes.probe_distances[a], 10); });
 
             // grab each probe snippet from the homepage #probes div and then empty the div
             probe_snippets = {};
