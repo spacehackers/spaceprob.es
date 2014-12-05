@@ -21,17 +21,13 @@ var spaceprobes = {
       timeout: 4000,
       error:function (xhr, ajaxOptions, thrownError){
 
-        alert(textStatus);
-
         $('#probes').slideDown("slow");
 
         if(textStatus==="timeout") {
               // todo
-              alert('heroku!!! *shakes tiny fist*');
         }
       },
       success: function(data) {
-        alert('success');
         spaceprobes.distances = data.spaceprobe_distances;
 
         // first update distance display for each probe
