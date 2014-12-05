@@ -1,3 +1,47 @@
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+{% capture arrivalunix %}{{page.arrival_date | date: '%s'}}{% endcapture %}
+
 <img src="/resources/img/silhouette/{{ page.image }}" alt="{{ page.title }}" class="img-responsive">
 <div class="title">{{ page.title }}</div>
-<div class="distance"><span class="{{ page.title|slugify }}">unknown</span> km from Earth</div>
+<div class="sidebar">
+    {{page.title}} launched into space on <strong>{{page.launch_date}}</strong> and is now
+    <strong><span class = "distance"><span class="{{ page.title|slugify }}">unknown</span></strong> km from Earth</span>. It's primary destination is <strong>{{page.primary_target}}</strong> where
+
+    {% if arrivalunix < nowunix %}
+        it's set to arrive on
+    {% else %}
+        it arrived in
+    {% endif %}
+
+    {{ page.arrival_date }}.
+
+    Wherever {{ page.title }} goes, it carries it's trusty
+
+    <strong>
+        {% capture last_word %}{{ page.instruments | last}}{% endcapture %}
+        {% for p in page.instruments %}
+
+            {% if p == last_word %}
+                and {{ p }}.
+            {% else %}
+                {{ p }},
+            {% endif %}
+
+        {% endfor %}
+    </strong>
+
+    {{ page.title }} regularly chats with a lot of people who hail from
+    {% capture last_word %}{{ page.teams | last}}{% endcapture %}
+    {% for p in page.teams %}
+
+        {% if p == last_word %}
+            and {{ p }}
+        {% else %}
+            {{ p }},
+        {% endif %}
+
+    {% endfor %}
+
+</div>
+
+

@@ -1,10 +1,26 @@
 ---
 layout: probe
 title: Voyager 2
-target: [saturn,jupiter]
 color: '#ff6e48'
 image: voyager2.svg
 dsn_name: VGR2
+launch_date: August 20, 1977
+primary_target: the outer solar system
+arrival_date: April 1979
+instruments:
+    - spectrometers
+    - cosmic dust analyzer
+    - cameras
+    - magnetometer
+    - radar
+    - radio sensors
+    - spectrograph
+teams: [NASA, ESA, ASI]
+links:
+    voyager.jpl.nasa.gov: http://voyager.jpl.nasa.gov,
+    cat: http://voyager.jpl.nasa.gov,
+    dog: http://voyager.jpl.nasa.gov
+
 ---
 
 Voyager 2 is a 722-kilogram (1,592 lb) space probe launched by NASA on August 20, 1977 to

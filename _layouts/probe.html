@@ -17,14 +17,9 @@ layout: base
       <div class="probe">
         <div style="background-color:{{page.color}};">
 
-          {% include probe.html %}
-
           <div class = "data"><!-- lorem ipsum -->
-            <ul>
-            {% for data in page.data %}
-              <li>{{data}}</li>
-            {% endfor %}
-            </ul>
+
+              {% include probe.html %}
 
           </div><!-- /data -->
 
@@ -62,10 +57,9 @@ layout: base
 
       <div class = "link">
           Worth exploring:
-
             <ul>
             {% for link in page.links %}
-              <li>{{link}}</li>
+              <li><a href = "{{link[1]}}">{{link[0]}}</a></li>
             {% endfor %}
             </ul>
 

@@ -35,18 +35,19 @@ var spaceprobes = {
         spaceprobes.distances = data.spaceprobe_distances;
 
         // first update distance display for each probe
+        // this may be running on the probe page or the homepage
         for (var slug in spaceprobes.distances) {
           distance = Number(spaceprobes.distances[slug]);
           if (distance > 0) {
               distance_str = numeral(distance).format('0.00 a');
-              elem = 'span[class=' + slug + ']';
+              elem = '.distance span[class=' + slug + ']';
               $(elem).html(distance_str);
               spaceprobes.probe_distances[slug] = distance;
           }
         }
 
         // rearrange the homepage probes to be in distance order
-        if ($('#probes').is(":hidden")) {  // true if this is homepage
+        if ($('#probes').is(":hidden")) {  // true if this is the homepage
 
             // sort the probes by distance
             api_probes_sorted = Object.keys(spaceprobes.probe_distances).sort(function(a,b){return parseInt(spaceprobes.probe_distances[b], 10)-parseInt(spaceprobes.probe_distances[a], 10); });
@@ -88,6 +89,7 @@ var spaceprobes = {
             $('#probes').slideDown("slow");
 
         }
+
       } // success
     });
 
