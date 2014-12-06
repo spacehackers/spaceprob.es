@@ -5,16 +5,17 @@ target: [jupiter]
 color: '#faca66'
 image: juno.svg
 dsn_name: JNO
-
-data:
-  - this is some data
-  - they are very nice data = 6 million m/s
-  - i want them to be a proper html list
-  - so here's a go of it
-
+launch_date: August 20, 1977
+primary_target: the outer solar system
+arrival_date: April 1979
+instruments:
+    - 
+teams: [NASA, SWRI]
 links:
-  - Juno's <a href="http://missionjuno.swri.edu/">interactive walk-through</a> of the science behind the mission
-  - i want them to be a proper html list
-  - so here's a go of it
+    voyager.jpl.nasa.gov: http://voyager.jpl.nasa.gov,
+    cat: http://voyager.jpl.nasa.gov,
+    dog: http://voyager.jpl.nasa.gov
+    Juno's <a href="http://missionjuno.swri.edu/">interactive walk-through</a> of the science behind the mission
+
 ---
 Juno is a space probe currently on its way to arrive at Jupiter in 2016. Juno will study Jupiter's origin, interior, atmosphere and <a href="https://solarsystem.nasa.gov/scitech/display.cfm?ST_ID=1589">magnetosphere</a>. Notably, the space probe will be gathering clues as to what the inside of Jupiter is made up of – whether it has a solid core and how much water is present in its atmosphere. Juno will also directly sample the charged particles that make up planet's auroras, while simultaneously observing them in ultraviolet.
