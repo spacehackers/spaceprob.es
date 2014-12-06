@@ -5,9 +5,9 @@ target: [jupiter]
 color: '#faca66'
 image: juno.svg
 dsn_name: JNO
-launch_date: August 20, 1977
-primary_target: the outer solar system
-arrival_date: April 1979
+launch_date: August 5, 2011
+primary_target: Jupiter
+arrival_date: August 2016
 instruments:
     - 
 teams: [NASA, SWRI]
