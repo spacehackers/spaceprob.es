@@ -9,13 +9,10 @@ launch_date: August 5, 2011
 primary_target: Jupiter
 arrival_date: August 2016
 instruments:
-    - 
+    -
 teams: [NASA, SWRI]
 links:
-    voyager.jpl.nasa.gov: http://voyager.jpl.nasa.gov,
-    cat: http://voyager.jpl.nasa.gov,
-    dog: http://voyager.jpl.nasa.gov
-    Juno's <a href="http://missionjuno.swri.edu/">interactive walk-through</a> of the science behind the mission
+    - Juno's <a href="http://missionjuno.swri.edu/">interactive walk-through</a> of the science behind the mission
 
 ---
 Juno is a space probe currently on its way to arrive at Jupiter in 2016. Juno will study Jupiter's origin, interior, atmosphere and <a href="https://solarsystem.nasa.gov/scitech/display.cfm?ST_ID=1589">magnetosphere</a>. Notably, the space probe will be gathering clues as to what the inside of Jupiter is made up of – whether it has a solid core and how much water is present in its atmosphere. Juno will also directly sample the charged particles that make up planet's auroras, while simultaneously observing them in ultraviolet.
