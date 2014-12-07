@@ -6,12 +6,12 @@ color: '#fe9d99'
 attract: saturn_rings.jpg
 image: kepler.svg
 dsn_name: KEPL
-
-data:
-  - this is some data
-  - they are very nice data = 6 million m/s
-  - i want them to be a proper html list
-  - so here's a go of it
+launch_date: March 7, 2009
+primary_target: a heliocentric orbit
+arrival_date: May 2009
+instruments:
+    - <a href="http://www.nasa.gov/mission_pages/kepler/spacecraft/">photometer</a>
+teams: [NASA, LASP]
 
 links:
   - here are some <a href = "http://spacehack.org">cool links</a>
