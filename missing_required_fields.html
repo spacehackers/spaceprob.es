@@ -1,9 +1,9 @@
 ---
-layout: nil
+layout: base
 ---
 {% assign required_fields = "title,image,launch_date,primary_target,arrival_date,instruments,teams,links" | split: "," %}
-{% assign my_array = "one|two|three" | split: "|" %}
 
+<div style = "padding:20px">
 {% for post in site.posts %}
     {% if post.layout == 'probe' %}
         {% assign missing_fields_flag = "" %}
@@ -18,8 +18,9 @@ layout: nil
             {% endfor %}
 
             {% if missing_fields_flag == "true" %}{% else %}
-                no missing fields
+                <span style = "color:yellow">no missing fields</span>
             {% endif %}
         </p>
     {% endif %}
 {% endfor %}
+</div>
