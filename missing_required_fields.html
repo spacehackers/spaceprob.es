@@ -1,0 +1,25 @@
+---
+layout: nil
+---
+{% assign required_fields = "title,image,launch_date,primary_target,arrival_date,instruments,teams,links" | split: "," %}
+{% assign my_array = "one|two|three" | split: "|" %}
+
+{% for post in site.posts %}
+    {% if post.layout == 'probe' %}
+        {% assign missing_fields_flag = "" %}
+        <h1>{{ post.title }}</h1>
+        <p>
+            {% for field in required_fields %}
+                {% if post[field] %}{% else %}
+                    {% assign missing_fields_flag = "true" %}
+                    {{ field }},
+
+                {% endif %}
+            {% endfor %}
+
+            {% if missing_fields_flag == "true" %}{% else %}
+                no missing fields
+            {% endif %}
+        </p>
+    {% endif %}
+{% endfor %}
