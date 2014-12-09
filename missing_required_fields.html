@@ -7,8 +7,10 @@ layout: base
 {% for post in site.posts %}
     {% if post.layout == 'probe' %}
         {% assign missing_fields_flag = "" %}
+        <div>
         <h1>{{ post.title }}</h1>
         <p>
+            <span style = "color:red"><strong>
             {% for field in required_fields %}
                 {% if post[field] %}{% else %}
                     {% assign missing_fields_flag = "true" %}
@@ -16,11 +18,15 @@ layout: base
 
                 {% endif %}
             {% endfor %}
+            </strong></span>
 
             {% if missing_fields_flag == "true" %}{% else %}
-                <span style = "color:#66CD00">hurray! no missing fields</span>
+                <img src="/resources/img/silhouette/{{ post.image }}" width = "100px">
+                <span style = "color:#66CD00">Woo Hoo! No missing fields.</span>
             {% endif %}
         </p>
+        <hr>
+    </div>
     {% endif %}
 {% endfor %}
 </div>
