@@ -27,13 +27,13 @@ a, a:hover {
     color: #bbb;
     text-decoration: none;
 }
-#header .container {
-    padding-right:35px;
-}
-
 #logo {
     margin-top: 17px;
     margin-right: 15px;
+}
+
+#probe-detail {
+        font-family: 'Nixie One';
 }
 
 @media (max-width: 768px) {
