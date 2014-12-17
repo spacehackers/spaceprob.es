@@ -134,6 +134,7 @@ a, a:hover {
 
 #probe-detail h1 {
     text-align: center;
+    font-weight:700;
     text-transform: uppercase;
     font-size: 4.0em;
 }
