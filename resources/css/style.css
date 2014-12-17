@@ -135,8 +135,8 @@ a, a:hover {
     text-align: center;
     font-weight:400;
     text-transform: uppercase;
-    font-size: 6.0em;
-    margin-bottom:0;
+    font-size: 7.0em;
+    margin-bottom:5px;
 }
 
 #probe-detail p {
@@ -147,7 +147,7 @@ a, a:hover {
 .accent-line {
     display: block;
     width: 100px;
-    margin: 0px auto;
+    margin: 0 auto;
     margin-bottom:50px;
     border-top: 3px solid #77ccc9;
 }
