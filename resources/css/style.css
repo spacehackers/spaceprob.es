@@ -33,7 +33,12 @@ a, a:hover {
 }
 
 #probe-detail {
-        font-family: 'Nixie One';
+        font-family: 'Josefin Slab', serif;
+        font-weight:400;
+}
+
+#probe-detail p {
+        font-size:140%;
 }
 
 @media (max-width: 768px) {
