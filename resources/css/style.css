@@ -156,10 +156,10 @@ a, a:hover {
 
 .accent-line {
     display: block;
-    width: 100px;
+    width: 150px;
     margin: 0 auto;
     margin-bottom:50px;
-    border-top: 3px solid #77ccc9;
+    border-top: 5px solid #77ccc9;
 }
 
 .latest_news {
