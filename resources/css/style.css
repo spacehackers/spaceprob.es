@@ -32,15 +32,6 @@ a, a:hover {
     margin-right: 15px;
 }
 
-#probe-detail {
-        font-family: 'Josefin Slab', serif;
-        font-weight:400;
-}
-
-#probe-detail p {
-        font-size:140%;
-}
-
 @media (max-width: 768px) {
     #header h1 {
         font-size: 22px;
@@ -136,16 +127,21 @@ a, a:hover {
 }
 
 #probe-detail {
+    font-family: 'Nixie One';
+    font-weight: 400;
     margin-bottom: 100px;
 }
 
 #probe-detail h1 {
-    font-family: 'Nixie One';
-    font-weight: 400;
     text-align: center;
     text-transform: uppercase;
     font-size: 4.0em;
 }
+
+#probe-detail p {
+        font-size:140%;
+}
+
 
 .accent-line {
     display: block;
