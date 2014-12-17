@@ -95,6 +95,12 @@ a, a:hover {
 .probe .data {
     margin:0;
     padding:0;
+    font-family: 'Nixie One';
+    font-weight: 400;
+    font-size:140%;
+}
+.probe .data strong {
+    font-weight:900;
 }
 .probe .data p {
     margin:0;
@@ -102,10 +108,15 @@ a, a:hover {
 .probe .data a {
     color:#505050;
 }
+.data ul li {
+    margin-left:-30px;
+}
+
 
 .probe img {
-    padding: 15px 20px;
-    width:97%;
+    padding: 5px;
+    padding-top:10px;
+    padding-bottom:20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -115,7 +126,6 @@ a, a:hover {
     color: #000 !important;
     text-transform: uppercase;
     width: 70%;
-    border-bottom: 3px solid #000;
     font-size: 1.4em;
     font-weight: 700;
     white-space: nowrap;
@@ -159,10 +169,6 @@ a, a:hover {
     padding:10px;
 }
 .latest_news a { color:#000; }
-
-.data ul li {
-    margin-left:-30px;
-}
 
 .fast-easeOutQuad {
     -webkit-transition:  300ms cubic-bezier(0.25, 0.46, 0.45, 0.94); all;
