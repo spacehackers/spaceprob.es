@@ -99,6 +99,7 @@ a, a:hover {
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
     font-size:140%;
+    color:#505050;
 }
 .probe .data strong {
     font-weight:900;
@@ -113,9 +114,8 @@ a, a:hover {
     margin-left:-30px;
 }
 
-
 .probe img {
-    padding: 5px;
+    padding: 0px;
     padding-top:10px;
     padding-bottom:20px;
     display: block;
@@ -145,8 +145,8 @@ a, a:hover {
 
 #probe-detail h1 {
     text-align: center;
-    font-family: 'Roboto Slab', serif;
     font-weight:100;
+    color: 262224;
     text-transform: uppercase;
     font-size: 7.0em;
     margin-bottom:5px;
@@ -154,12 +154,14 @@ a, a:hover {
 
 #probe-detail p {
     font-size:190%;
+    color: #696969;
 }
 
 .link {
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
     font-size:190%;
+    color: #696969;
 }
 
 
@@ -174,8 +176,8 @@ a, a:hover {
 .latest_news {
     background-color: #D0D0D0;
     min-height:50px;
-    margin:20px 0;
-    padding:10px;
+    margin:40px 0;
+    padding:13px;
     font-size:140%;
     color: #505050;
 }
