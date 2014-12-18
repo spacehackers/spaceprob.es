@@ -96,6 +96,7 @@ a, a:hover {
 .probe .sidebar {
     margin:0;
     padding:0;
+    padding-top:13px;
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
     font-size:140%;
@@ -130,6 +131,7 @@ a, a:hover {
 
 .sidebar .content {
     padding:10px 32px;
+    padding-bottom:30px;
 }
 .sidebar .title{
     display:none;
