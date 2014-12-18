@@ -13,13 +13,10 @@ instruments:
     - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/grs/">gamma ray spectrometer</a>
     - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/marie/">radiation spectrometer</a>
     - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/themis/">thermal imager</a>
-teams: [NASA]
+teams: 
+	- <a href = "http://www.nasa.gov">NASA</a>
 
 links:
-  - here are some <a href = "http://spacehack.org">cool links</a>
-  - they are very nice links
-  - i want them to be a proper html list
-  - so here's a go of it
 
 ---
 The 2001 Mars Odyssey space probe is orbiting Mars to detect water and ice, as well as study the planet's radiation environment. A significant amount of ice was discovered in the polar regions of Mars thanks to a map of hydrogen distribution created by the space probe. By observing water, ice and radiation, the mission hopes to glean insights on if life ever existed on Mars and how humans could one day explore the planet. In addition to its main mission, 2001 Mars Odyssey serves as a communication relay for the space probes Opportunity and Curiosity. As of 2014, 2001 Mars Odyssey has been operating for over 13 years and holds the title of the longest surviving active space probe around another planet.
