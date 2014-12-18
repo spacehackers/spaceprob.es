@@ -12,8 +12,9 @@ a, a:hover {
 #header {
     background: #333;
     color: #bbb;
-    font-family: 'Nixie One';
-    font-weight: 200;
+    font-family: 'HelveticaNeue-UltraLight';
+    letter-spacing: 1px;
+    font-weight: 300;
     padding-bottom: 10px;
 }
 
@@ -124,6 +125,7 @@ a, a:hover {
 
 .probe .title{
     color: #000 !important;
+    font-family: 'Helvetica Neue';
     text-transform: uppercase;
     width: 70%;
     font-size: 1.4em;
