@@ -8,19 +8,4 @@ image: cassini.svg
 dsn_name: CAS
 ---
 
-Cassini–Huygens is an unmanned spacecraft sent to the planet Saturn. It is a flagship-class NASA-ESA-ASI
-robotic spacecraft sent to the Saturn system. It has studied the planet and its many natural satellites
-since arriving there in 2004, also observing Jupiter, the heliosphere, and testing the theory of relativity.
-
-Sixteen European countries and the United States make up the team responsible for designing, building,
-flying and collecting data from the Cassini orbiter and Huygens probe. The mission is managed by NASA’s
-Jet Propulsion Laboratory in the United States, where the orbiter was assembled. Huygens was developed
-by the European Space Research and Technology Centre. The Centre's prime contractor, Aérospatiale of
-France (now Thales Alenia Space), assembled the probe with equipment and instruments supplied by many
-European countries (Huygens' batteries and two scientific instruments by the United States).
-The Italian Space Agency (ASI) provided the Cassini orbiter's high-gain radio antenna, with the
-incorporation of a low-gain antenna (that ensure telecommunications with the Earth for the entire
-duration of the mission), a compact and lightweight radar, which also uses the high-gain antenna and
-serves as a synthetic aperture radar, a radar altimeter, a radiometer, the radio science subsystem (RSS),
-the visible channel portion VIMS-V of VIMS spectrometer (the VIMS-IR counterpart was provided by NASA, as
-well as Main Electronic Assembly, which includes electronic subassemblies provided by CNES of France.
+<span style="font-size: 50%;">(top image: <a href="http://www.nasa.gov/mission_pages/cassini/multimedia/pia14922.html">natural color image of Titan and Saturn by Cassini</a>, NASA/JPL-Caltech/SSI)</span>
