@@ -3,10 +3,14 @@ layout: nil
 ---
 [
 {% for post in site.posts %}
-
-        {{ post | json}}
-
-    {% if forloop.last %}{% else %},{% endif %}
-
+    {
+      "title" : "{{ post.title }}",
+      "url" : "{{ post.url }}",
+      "date" : "{{ post.date | date: "%B %d, %Y" }}",
+      "dsn_name" : "{{ post.dsn_name }}",
+      "orbit_planet" : "{{ post.orbit_planet }}",
+      "distance" : "{{ post.distance }}",
+      "slug" : "{{ post.title|slugify }}"
+    } {% if forloop.last %}{% else %},{% endif %}
 {% endfor %}
 ]
