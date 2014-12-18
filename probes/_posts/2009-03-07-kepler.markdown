@@ -3,7 +3,7 @@ layout: probe
 title: Kepler
 target: [saturn]
 color: '#fe9d99'
-attract: saturn_rings.jpg
+attract: kepler_imageheader_2.jpg
 image: kepler.svg
 dsn_name: KEPL
 launch_date: March 7, 2009
