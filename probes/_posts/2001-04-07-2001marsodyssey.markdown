@@ -13,9 +13,8 @@ instruments:
     - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/grs/">gamma ray spectrometer</a>
     - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/marie/">radiation spectrometer</a>
     - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/themis/">thermal imager</a>
-teams: 
-	- <a href = "http://www.nasa.gov">NASA</a>
-
+teams:
+    - <a href = "http://www.nasa.gov">NASA</a>
 links:
 
 ---
