@@ -96,8 +96,8 @@ a, a:hover {
 .probe .data {
     margin:0;
     padding:0;
-    font-family: 'Nixie One';
-    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
     font-size:140%;
 }
 .probe .data strong {
@@ -139,19 +139,26 @@ a, a:hover {
 }
 
 #probe-detail {
-    font-family: 'Nixie One';
-    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
 }
 
 #probe-detail h1 {
     text-align: center;
-    font-weight:400;
+    font-family: 'Roboto Slab', serif;
+    font-weight:100;
     text-transform: uppercase;
     font-size: 7.0em;
     margin-bottom:5px;
 }
 
 #probe-detail p {
+    font-size:190%;
+}
+
+.link {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
     font-size:190%;
 }
 
@@ -182,7 +189,7 @@ a, a:hover {
 }
 #footer {
     background: #f5f2eb;
-    font-family: 'Nixie One';
+    font-family: 'Roboto Slab';
     color: #bbb;
     text-shadow: 1px 1px 1px #fff;
 }
