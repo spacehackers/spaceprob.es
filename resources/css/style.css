@@ -110,6 +110,7 @@ a, a:hover {
 }
 .probe .sidebar a {
     color:#505050;
+    text-decoration:underline;
 }
 
 .frontpage .probe .sidebar {
