@@ -1,0 +1,37 @@
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+{% capture arrivalunix %}{{page.arrival_date | date: '%s'}}{% endcapture %}
+
+<img src="/resources/img/silhouette/{{ page.image }}" alt="{{ page.title }}" class="img-responsive">
+<div class="title">{{ page.title }}</div>
+
+<div class = "content">
+    {{page.title}} launched into space on <strong>{{page.launch_date}}</strong>
+    and is now
+
+    <strong><span class = "distance"><span class="{{ page.title|slugify }}">unknown</span></strong> km from Earth</span>.
+
+    It's primary destination is <strong>{{page.primary_target}}</strong>
+
+    where
+
+    {% if arrivalunix < nowunix %}
+        it's set to arrive on
+    {% else %}
+        it arrived in
+    {% endif %}
+    {{ page.arrival_date }}.
+
+    {% if page.instruments %}
+        Wherever {{ page.title }} goes, it carries it's trusty
+        <strong>
+            {{ page.instruments | array_to_sentence_string }}.
+        </strong>
+    {% endif %}
+
+    {% if page.teams %}
+        {{ page.title }} regularly chats with a lot of people who hail from
+        {{ page.teams | array_to_sentence_string }}.
+    {% endif %}
+</div>
+
+

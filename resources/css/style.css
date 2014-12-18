@@ -12,7 +12,7 @@ a, a:hover {
 #header {
     background: #333;
     color: #bbb;
-    font-family: 'HelveticaNeue-UltraLight';
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica';
     letter-spacing: 1px;
     font-weight: 300;
     padding-bottom: 10px;
@@ -93,7 +93,7 @@ a, a:hover {
     margin-bottom: 37px;
 }
 
-.probe .data {
+.probe .sidebar {
     margin:0;
     padding:0;
     font-family: 'Roboto Slab', serif;
@@ -101,22 +101,22 @@ a, a:hover {
     font-size:140%;
     color:#505050;
 }
-.probe .data strong {
+.probe .sidebar strong {
     font-weight: 700;
 }
 
-.probe .data p {
+.probe .sidebar p {
     margin:0;
 }
-.probe .data a {
+.probe .sidebar a {
     color:#505050;
 }
 
-.frontpage .probe .data {
+.frontpage .probe .sidebar {
     display:none;
 }
 
-.data ul li {
+.sidebar ul li {
     margin-left:-30px;
 }
 
