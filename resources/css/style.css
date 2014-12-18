@@ -167,6 +167,7 @@ a, a:hover {
     min-height:50px;
     margin:20px 0;
     padding:10px;
+    font-size:140%;
 }
 .latest_news a { color:#000; }
 
@@ -175,7 +176,7 @@ a, a:hover {
 }
 
 .published_date {
-    font-size:smaller;
+    font-size:100%;
 }
 #footer {
     background: #f5f2eb;
