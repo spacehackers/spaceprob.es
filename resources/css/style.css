@@ -73,6 +73,11 @@ a, a:hover {
     margin-left: 0;
 }
 
+.container.frontpage {
+    padding:0;
+    padding-right:10px;
+}
+
 .probe,
 .probe:hover {
     color: #000;
@@ -80,19 +85,14 @@ a, a:hover {
     text-decoration: none;
 }
 
-.probe>div {
-    margin-right: 5px;
+.frontpage .probe>div {
     margin-bottom: 5px;
     padding: 10px 20px;
 }
 .frontpage .probe>div {
-    margin-right: 35px;
     margin-bottom: 37px;
-    padding: 10px 20px;
 }
-.frontpage .probe .data {
-    display:none;
-}
+
 .probe .data {
     margin:0;
     padding:0;
@@ -102,37 +102,48 @@ a, a:hover {
     color:#505050;
 }
 .probe .data strong {
-    font-weight:900;
+    font-weight: 700;
 }
+
 .probe .data p {
     margin:0;
 }
 .probe .data a {
     color:#505050;
 }
+
+.frontpage .probe .data {
+    display:none;
+}
+
 .data ul li {
     margin-left:-30px;
 }
 
-.probe img {
-    padding: 0px;
-    padding-top:10px;
-    padding-bottom:20px;
+.frontpage .probe img, .sidebar img{
+    padding: 15px 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.probe .title{
+.sidebar .content {
+    padding:10px 32px;
+}
+.sidebar .title{
+    display:none;
+}
+.frontpage .probe .title{
+    display:inline-block;
+    border-bottom: 3px solid #000;
     color: #000 !important;
     font-family: 'Helvetica Neue';
     text-transform: uppercase;
     width: 70%;
-    font-size: 1.4em;
+    font-size: 1.8em;
     font-weight: 700;
     white-space: nowrap;
 }
-
 .probe .distance {
     font-size: 0.9em;
     text-transform: uppercase;
@@ -181,9 +192,9 @@ a, a:hover {
     font-size:140%;
     color: #505050;
 }
-.latest_news a { 
+.latest_news a {
     color:#505050;
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
 .fast-easeOutQuad {

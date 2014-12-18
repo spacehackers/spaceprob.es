@@ -1,8 +1,8 @@
 <div id="probes" class="row">
 {% for probe in site.categories['probes'] %}
 
-    <div data-title = "{{ probe.title }}" data-slug = "{{ probe.title|slugify }}">
-        <a class="col-sm-4 probe" href="{{ probe.url }}">
+    <div class = "col-sm-4" data-title = "{{ probe.title }}" data-slug = "{{ probe.title|slugify }}">
+        <a class="probe" href="{{ probe.url }}">
           <div style="background-color:{{probe.color}};">
             <img src="/resources/img/silhouette/{{ probe.image }}" alt="{{ probe.title }}" class="img-responsive">
             <div class="title">{{ probe.title|slugify }}</div>
