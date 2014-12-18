@@ -29,8 +29,8 @@
     {% endif %}
 
     {% if page.teams %}
-        {{ page.title }} regularly chats with a lot of people who hail from
-        {{ page.teams | array_to_sentence_string }}.
+        {{ page.title }} regularly chats with a lot of humans from
+        <strong>{{ page.teams | array_to_sentence_string }}</strong>.
     {% endif %}
 </div>
 
