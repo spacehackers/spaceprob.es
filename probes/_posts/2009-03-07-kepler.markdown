@@ -11,7 +11,9 @@ primary_target: a heliocentric orbit
 arrival_date: May 2009
 instruments:
     - <a href="http://www.nasa.gov/mission_pages/kepler/spacecraft/">photometer</a>
-teams: [NASA, LASP]
+teams:
+    - <a href = "http://www.nasa.gov">NASA</a>
+    - <a href = "http://www.lasp.colorado.edu">LASP</a>
 
 links:
   - here are some <a href = "http://spacehack.org">cool links</a>
