@@ -5,6 +5,7 @@
 <div class="title">{{ page.title }}</div>
 
 <div class = "content">
+
     {{page.title}} launched into space on <strong>{{page.launch_date}}</strong>
     and is now
 
@@ -14,12 +15,12 @@
 
     where
 
-    {% if arrivalunix < nowunix %}
+    {% if arrivalunix > nowunix %}
         it's set to arrive on
     {% else %}
         it arrived in
     {% endif %}
-    {{ page.arrival_date }}.
+    {{ page.arrival_date | date: '%B %Y' }}.
 
     {% if page.instruments %}
         Wherever {{ page.title }} goes, it carries it's trusty
