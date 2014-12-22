@@ -1,7 +1,6 @@
 ---
 layout: probe
 title: Voyager 1
-target: [saturn,jupiter]
 color: '#77ccc9'
 attract: voyager1_imageheader.jpg
 image: voyager1.svg

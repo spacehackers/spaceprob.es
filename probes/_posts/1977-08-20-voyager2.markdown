@@ -19,4 +19,4 @@ instruments:
 links:
 
 ---
-<span style="font-size: 50%;">(top image: <a href="http://solarsystem.nasa.gov/multimedia/display.cfm?Category=Spacecraft&IM_ID=2424">Neptune</a> as seen from 4.4 million miles away by Voyager 2, NASA)</span>
+<small>(top image: <a href="http://solarsystem.nasa.gov/multimedia/display.cfm?Category=Spacecraft&IM_ID=2424">Neptune</a> as seen from 4.4 million miles away by Voyager 2, NASA)</small>
