@@ -7,4 +7,4 @@ attract: stereo_imageheader.jpg
 image: stereo.svg
 dsn_name: STB
 ---
-<small>(top image: <a href="http://www.nasa.gov/mission_pages/stereo/news/stereo3D_press.html">3D image of the Sun</a> taken by STEREO, NASA/STEREO)</small>
+<div class="caption">(top image: <a href="http://www.nasa.gov/mission_pages/stereo/news/stereo3D_press.html">3D image of the Sun</a> taken by STEREO, NASA/STEREO)</div>

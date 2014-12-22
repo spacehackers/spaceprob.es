@@ -175,9 +175,9 @@ a, a:hover {
     line-height: 1.5;
 }
 
-#probe-detail small {
-    font-size:50%;
-    line-height: 0.5;
+#probe-detail .caption { 
+    font-size: 95%; 
+    line-height: 1.5em; 
 }
 
 .link {

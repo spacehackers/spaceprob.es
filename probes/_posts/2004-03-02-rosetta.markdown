@@ -11,4 +11,4 @@ links:
   - the Rosetta team's <a href = "http://blogs.esa.int/rosetta/">blog</a>
 
 ---
-<small>(top image: a <a href="http://www.esa.int/spaceinimages/Images/2014/11/Comet_on_4_November_NavCam">mosaic of Comet 67P</a> taken by Rosetta, ESA/Rosetta/NAVCAM)
+<div class="caption">(top image: a <a href="http://www.esa.int/spaceinimages/Images/2014/11/Comet_on_4_November_NavCam">mosaic of Comet 67P</a> taken by Rosetta, ESA/Rosetta/NAVCAM)</div>

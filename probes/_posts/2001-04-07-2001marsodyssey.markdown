@@ -20,5 +20,5 @@ links:
 ---
 The 2001 Mars Odyssey space probe is orbiting Mars to detect water and ice, as well as study the planet's radiation environment. A significant amount of ice was discovered in the polar regions of Mars thanks to a map of hydrogen distribution created by the space probe. By observing water, ice and radiation, the mission hopes to glean insights on whether life ever existed on Mars and how humans could one day explore the planet. In addition to its main mission, 2001 Mars Odyssey serves as a communication relay for the Mars rovers Opportunity and Curiosity. As of 2014, 2001 Mars Odyssey has been operating for over 13 years and holds the title of the longest surviving active space probe around another planet.
 
-<small>(top image: <a href="http://www.nasa.gov/mission_pages/odyssey/images/pia13654b.html">Martian sand dunes captured by 2001 Mars Odyssey</a>, NASA/JPL-Caltech/ASU)</small>
+<div class="caption">(top image: <a href="http://www.nasa.gov/mission_pages/odyssey/images/pia13654b.html">Martian sand dunes captured by 2001 Mars Odyssey</a>, NASA/JPL-Caltech/ASU)</div>
 

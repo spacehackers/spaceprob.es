@@ -8,4 +8,4 @@ image: mro.svg
 dsn_name: MRO
 ---
 
-<small>(top image: enhanced color image of <a href="http://hirise.lpl.arizona.edu/ESP_013954_1780">Victoria Crater</a> on Mars as captured by MRO, NASA/JPL-caltech/University of Arizona)</small>
+<div class="caption">(top image: enhanced color image of <a href="http://hirise.lpl.arizona.edu/ESP_013954_1780">Victoria Crater</a> on Mars as captured by MRO, NASA/JPL-caltech/University of Arizona)</div>
