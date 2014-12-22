@@ -1,9 +1,9 @@
 ---
 layout: probe
 title: MAVEN
-target: [saturn]
+primary_target: Mars
 color: '#faca66'
-attract: saturn_rings.jpg
+attract: maven_imageheader.jpg
 image: maven.svg
 dsn_name: MVN
 
@@ -14,9 +14,8 @@ data:
   - so here's a go of it
 
 links:
-  - they are very nice links
-  - i want them to be a proper html list
-  - so here's a go of it
 
 ---
 The MAVEN (Mars Atmosphere and Volatile Evolution) space probe is orbiting Mars to learn more about the planet's upper atmosphere. Its eliptical orbit allows for the space probe to pass through the upper atmosphere of Mars and take samples of various molecules. When MAVEN is above the atmosphere, it will conduct ultraviolet imaging of the planet. By sampling and imaging the upper atmosphere, scientists expect to be able to learn more about the history of the Martian climate and habitability for life.
+
+<small>(top image: <a href="http://www.nasa.gov/content/goddard/maven-ultraviolet-image-of-comet-siding-spring-s-hydrogen-coma/">hydrogen surrounding a comet</a> near Mars as seen in ultraviolet by MAVEN, Laboratory for Atmospheric and Space Physics, University of Colorado; NASA)</small>
