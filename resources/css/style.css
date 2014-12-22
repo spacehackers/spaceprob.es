@@ -101,6 +101,7 @@ a, a:hover {
     font-weight: 300;
     font-size:140%;
     color:#505050;
+    line-height: 1.5;
 }
 .probe .sidebar strong {
     font-weight: 700;
@@ -171,6 +172,12 @@ a, a:hover {
 #probe-detail p {
     font-size:190%;
     color: #696969;
+    line-height: 1.5;
+}
+
+#probe-detail small {
+    font-size:50%;
+    line-height: 0.5;
 }
 
 .link {
