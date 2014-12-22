@@ -5,6 +5,7 @@ target: [saturn,jupiter]
 color: '#77ccc9'
 attract: voyager1_imageheader.jpg
 image: voyager1.svg
+primary_target: Jupiter and Saturn
 dsn_name: VGR1
 ---
 
