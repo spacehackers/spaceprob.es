@@ -3,7 +3,6 @@ layout: probe
 title: WIND
 target: [saturn]
 color: '#faca66'
-attract: saturn_rings.jpg
 image: wind.svg
 dsn_name: WIND
 
@@ -19,6 +18,5 @@ links:
   - so here's a go of it
 
 ---
-Some blurb.
 
 

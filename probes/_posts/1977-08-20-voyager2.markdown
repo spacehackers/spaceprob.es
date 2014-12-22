@@ -2,6 +2,7 @@
 layout: probe
 title: Voyager 2
 color: '#ff6e48'
+attract: voyager2_imageheader.jpg
 image: voyager2.svg
 dsn_name: VGR2
 launch_date: August 20, 1977
@@ -16,14 +17,6 @@ instruments:
     - radio sensors
     - spectrograph
 links:
-    voyager.jpl.nasa.gov: http://voyager.jpl.nasa.gov,
-    cat: http://voyager.jpl.nasa.gov,
-    dog: http://voyager.jpl.nasa.gov
 
 ---
-
-Voyager 2 is a 722-kilogram (1,592 lb) space probe launched by NASA on August 20, 1977 to
-study the outer Solar System. Operating for 36 years, 7 months and 27 days as of 2 May 2014,
-the spacecraft communicates with the Deep Space Network to receive routine commands and return
-data. At a distance of about from the Earth as of 2 May 2014, it is the farthest human-made object from Earth.
-Blah blah blah.
+<span style="font-size: 50%;">(top image: <a href="http://solarsystem.nasa.gov/multimedia/display.cfm?Category=Spacecraft&IM_ID=2424">Neptune</a> as seen from 4.4 million miles away by Voyager 2, NASA)</span>
