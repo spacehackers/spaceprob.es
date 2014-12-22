@@ -11,6 +11,8 @@ primary_target: Jupiter
 arrival_date: August 2016
 instruments:
 teams:
+    - <a href = "http://www.nasa.gov">NASA</a>
+    - <a href = "http://www.swri.org/">SWRI</a>
 links:
     - Juno's <a href="http://missionjuno.swri.edu/">interactive walk-through</a> of the science behind the mission
 
