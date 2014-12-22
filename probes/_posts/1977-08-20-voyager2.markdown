@@ -15,7 +15,6 @@ instruments:
     - radar
     - radio sensors
     - spectrograph
-teams: [NASA, ESA, ASI]
 links:
     voyager.jpl.nasa.gov: http://voyager.jpl.nasa.gov,
     cat: http://voyager.jpl.nasa.gov,
