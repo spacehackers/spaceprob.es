@@ -1,22 +1,10 @@
 ---
 layout: probe
 title: IKAROS
-target: [saturn]
 color: '#fe9d99'
-attract: saturn_rings.jpg
 image: ikaros.svg
 distance: 230000000  # per Jaxa http://www.isas.jaxa.jp/j/topics/topics/2014/0526.shtml
 
-data:
-  - this is some data
-  - they are very nice data = 6 million m/s
-  - i want them to be a proper html list
-  - so here's a go of it
-
 links:
-  - they are very nice links
-  - i want them to be a proper html list
-  - so here's a go of it
 
 ---
-Some blurb.
