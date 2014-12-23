@@ -10,4 +10,4 @@ dsn_name: MSL
 links:
 
 ---
-<div id="caption">(top image: Curiosity looks out over the <a href="http://mars.jpl.nasa.gov/msl/multimedia/images/?ImageID=5773">Martian surface</a>, NASA/JPL-Caltech/MSSS)</div>
+<div class="caption">(top image: Curiosity looks out over the <a href="http://mars.jpl.nasa.gov/msl/multimedia/images/?ImageID=5773">Martian surface</a>, NASA/JPL-Caltech/MSSS)</div>

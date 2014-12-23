@@ -10,6 +10,6 @@ dsn_name: HYB2
 links:
 
 ---
-<div id="caption">(top image: the launch of the Hayabusa 2 space probe in Japan)</div>
+<div class="caption">(top image: the launch of the Hayabusa 2 space probe in Japan)</div>
 
 
