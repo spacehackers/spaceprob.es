@@ -1,37 +1,13 @@
 ---
 layout: probe
 title: Curiosity
-target: [saturn]
+primary_target: Mars
 color: '#938bbe'
-attract: saturn_rings.jpg
+attract: curiosity_imageheader.jpg
 image: curiosity.svg
 dsn_name: MSL
 
-data:
-  - this is some data
-  - they are very nice data = 6 million m/s
-  - i want them to be a proper html list
-  - so here's a go of it
-
 links:
-  - they are very nice links
-  - i want them to be a proper html list
-  - so here's a go of it
 
 ---
-Cassini–Huygens is an unmanned spacecraft sent to the planet Saturn. It is a flagship-class NASA-ESA-ASI
-robotic spacecraft sent to the Saturn system. It has studied the planet and its many natural satellites
-since arriving there in 2004, also observing Jupiter, the heliosphere, and testing the theory of relativity.
-
-Sixteen European countries and the United States make up the team responsible for designing, building,
-flying and collecting data from the Cassini orbiter and Huygens probe. The mission is managed by NASA’s
-Jet Propulsion Laboratory in the United States, where the orbiter was assembled. Huygens was developed
-by the European Space Research and Technology Centre. The Centre's prime contractor, Aérospatiale of
-France (now Thales Alenia Space), assembled the probe with equipment and instruments supplied by many
-European countries (Huygens' batteries and two scientific instruments by the United States).
-The Italian Space Agency (ASI) provided the Cassini orbiter's high-gain radio antenna, with the
-incorporation of a low-gain antenna (that ensure telecommunications with the Earth for the entire
-duration of the mission), a compact and lightweight radar, which also uses the high-gain antenna and
-serves as a synthetic aperture radar, a radar altimeter, a radiometer, the radio science subsystem (RSS),
-the visible channel portion VIMS-V of VIMS spectrometer (the VIMS-IR counterpart was provided by NASA, as
-well as Main Electronic Assembly, which includes electronic subassemblies provided by CNES of France.
+<div id="caption">(top image: Curiosity looks out over the <a href="http://mars.jpl.nasa.gov/msl/multimedia/images/?ImageID=5773">Martian surface</a>, NASA/JPL-Caltech/MSSS)</div>
