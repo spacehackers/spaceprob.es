@@ -1,22 +1,13 @@
 ---
 layout: probe
 title: WIND
-target: [saturn]
 color: '#faca66'
+attract: wind_imageheader.jpg
 image: wind.svg
 dsn_name: WIND
 
-data:
-  - this is some data
-  - they are very nice data = 6 million m/s
-  - i want them to be a proper html list
-  - so here's a go of it
-
 links:
-  - they are very nice links
-  - i want them to be a proper html list
-  - so here's a go of it
 
 ---
 
-
+<div class="caption">(top image: an <a href="http://www.nasa.gov/multimedia/imagegallery/image_feature_2175.html">aurora</a> on Earth, an effect of the space weather WIND looks for, seen from the International Space Station, NASA)</div>

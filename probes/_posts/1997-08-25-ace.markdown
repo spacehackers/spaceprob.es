@@ -9,5 +9,5 @@ dsn_name: ACE
 links:
 
 ---
-<div class="caption">(top image: an <a href="http://www.nasa.gov/content/aurora-australis-or-the-southern-lights-0/">aurora</a> on Earth, an effect of the space weather ACE looks for, seen by the International Space Station, NASA)</div>
+<div class="caption">(top image: an <a href="http://www.nasa.gov/content/aurora-australis-or-the-southern-lights-0/">aurora</a> on Earth, an effect of the space weather ACE looks for, seen from the International Space Station, NASA)</div>
 
