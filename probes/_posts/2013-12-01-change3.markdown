@@ -6,4 +6,4 @@ color: '#8e8566'
 attract: change3_imageheader.jpg
 image: chang'e3.svg
 ---
-<div class="caption">(top image: the Yutu rover <a href="http://www.nasa.gov/mission_pages/LRO/multimedia/tycho-peak-gal.html">looks back</a> at the Chang'e 3 lander, Chinese Academy of Sciences)</div>
+<div class="caption">(top image: the Yutu rover <a href="http://moon.bao.ac.cn/multimedia/img2dce3.jsp">looks back</a> at the Chang'e 3 lander, Chinese Academy of Sciences)</div>
