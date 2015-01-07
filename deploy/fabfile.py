@@ -5,9 +5,9 @@ GIT_BRANCH = 'master'
 
 def deploy():
 
-    # remove any old checked out rep and grab the latest
+    # remove any old checked out repo and grab the latest
     with lcd(LOCAL_PATH):
-        local('rm -rf spaceprobes')
+        local('rm -rf spaceprobes')  # BAD! BAD LISA!
         local("git clone -b %s %s" % (GIT_BRANCH, GIT_REPO))
 
     # build the _site directory and rsync it
