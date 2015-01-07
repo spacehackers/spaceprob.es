@@ -1,2 +1,5 @@
 _site/
 .DS_Store
+deploy/venv
+deploy/secrets.py
+deploy/*.pyc
