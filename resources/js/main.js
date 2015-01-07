@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
   spaceprobes.init();
+  spaceprobes.init_news();
 
 });
 
@@ -91,6 +92,10 @@ var spaceprobes = {
 
   }, // /get_dsn
 
+  init_news: function() {
+    // just ping the news site make sure it's awake for any probe pages
+    $.ajax({ url: "http://dry-eyrie-9951.herokuapp.com/"});
+  }
 
 }; // /var spaceprobes
 
