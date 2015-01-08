@@ -37,6 +37,7 @@ a, a:hover {
     #header h1 {
         font-size: 22px;
         margin-top: 18px;
+        margin-left: 15px;
     }
 
     #probe-detail h1 {
@@ -44,9 +45,18 @@ a, a:hover {
     }
 }
 
+.site-menu {
+    display:inline;
+    text-transform: uppercase;
+    margin-top:15px;
+    font-size:90%;
+}
+.site-menu ul li {
+    padding-right:2px;
+}
 #menu {
     display: block;
-    margin-top: 15px;
+    margin-top: -35px;
 }
 
 #menu img {
@@ -59,7 +69,9 @@ a, a:hover {
     background: #55acee;
     height: 50px;
     width: 50px;
-    margin-top: 15px;
+    margin-top: 0;
+    margin-right:-15px;
+    margin-bottom:0;
 }
 
 .twitter img {
@@ -175,9 +187,9 @@ a, a:hover {
     line-height: 1.5;
 }
 
-#probe-detail .caption { 
-    font-size: 95%; 
-    line-height: 1.5em; 
+#probe-detail .caption {
+    font-size: 95%;
+    line-height: 1.5em;
 }
 
 .link {

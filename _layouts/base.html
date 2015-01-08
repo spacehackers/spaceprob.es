@@ -17,26 +17,42 @@
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   <script src="/resources/js/main.js"></script>
 
 
  </head>
  <body>
   <div class="wrapper">
+  <nav id="header" class = "nav navbar-inverse">
 
-     <div id="header">
-      <div class="container">
-        
-             <h1 class="pull-left">{% if page.url == '/index.html' %}spaceprob.es{% else %}<a href="/">spaceprob.es</a>{% endif %}</h1>
-             <a id="menu" class="pull-right visible-xs"><img src="/resources/img/menu.svg" alt="menu"></a>
-             <a class="twitter pull-right hidden-xs" href="https://twitter.com/{{ site.twitter }}" title="@{{ site.twitter }}"><img src="/resources/img/Twitter_Probe.svg" alt="spaceprobes twitter"></a>
+    <div class="container">
+
+      <div class="navbar-header">
+        <h1>{% if page.url == '/index.html' %}spaceprob.es{% else %}<a href="/">spaceprob.es</a>{% endif %}</h1>
+      </div>
+
+      <div class="collapse navbar-collapse site-menu hidden-xs">
+
+        <a class="twitter nav navbar-text navbar-right pull-right" href="https://twitter.com/{{ site.twitter }}" title="@{{ site.twitter }}"><img src="/resources/img/Twitter_Probe.svg" alt="spaceprobes twitter"></a>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href = "/news">News</a></li>
+          <li><a href = "/store">Store</a></li>
+          <li><a href = "/about">About</a></li>
+        </ul>
 
       </div>
-    </div>
 
-    <div id="content">
-        {{ content }}
-    </div>
+      <a id="menu" class="pull-right visible-xs"><img src="/resources/img/menu.svg" alt="menu"></a>
+
+
+    </div><!-- /container -->
+  </nav>
+
+  <div id="content">
+    {{ content }}
+  </div>
 
   </div><!--end wrapper-->
 
