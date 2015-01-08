@@ -46,7 +46,6 @@ a, a:hover {
 }
 
 .site-menu {
-    display:inline;
     text-transform: uppercase;
     margin-top:15px;
     font-size:90%;
