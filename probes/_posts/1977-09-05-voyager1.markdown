@@ -7,6 +7,8 @@ image: voyager1.svg
 primary_target: Jupiter and Saturn
 dsn_name: VGR1
 instruments:
+teams:
+    - <a href = "http://www.nasa.gov">NASA</a>
 links:
     - an automatic <a href="https://classic.scraperwiki.com/scrapers/voyager_cosmic_ray_subsystem_data/">data scraper</a> of the <a href="http://voyager.gsfc.nasa.gov/heliopause/data.html">data</a> from the cosmic ray detector on Voyager 1 and 2
 

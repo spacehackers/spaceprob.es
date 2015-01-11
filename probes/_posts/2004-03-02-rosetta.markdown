@@ -1,14 +1,24 @@
 ---
 layout: probe
 title: Rosetta
-primary_target: Comet 67P
+primary_target: Comet 67P/Churyumov-Gerasimenko
+arrival_date: August 6, 2014
 color: '#938bbe'
 attract: rosetta_imageheader.jpg
 image: rosetta.svg
 dsn_name: ROSE
-
+instruments:
+teams:
+    - <a href="http://www.esa.int/">ESA</a>
+    - <a href = "http://www.nasa.gov">NASA</a>
+    - DLR
+    - MPS
+    - CNES
+    - <a href="http://www.asi.it/">ASI</a>
 links:
-  - the Rosetta team's <a href = "http://blogs.esa.int/rosetta/">blog</a>
-
+    - amazing photographs of the comet on Rosetta's <a href="http://instagram.com/rosettamission">instagram</a>
+    - the Rosetta team's <a href = "http://blogs.esa.int/rosetta/">blog</a>
 ---
+Rosetta is a space probe orbiting Comet 67P/Churyumov-Gerasimenko, witnessing how it changes as it orbits the Sun. The Rosetta orbiter was launched carrying the Philae lander which semi-successfully landed on Comet 67P in 2014, becoming the first space probe to ever land on a comet. Philae bounced twice before landing at an angle in the shadow of a cliff and soon after powered down due to the lack of sunlight. Scientists are hopeful for Philae to eventually gain enough sunlight to power back on. Meanwhile, Rosetta continues to study the comet and its role in the evolution of the solar system. 
+
 <div class="caption">(top image: a <a href="http://www.esa.int/spaceinimages/Images/2014/11/Comet_on_4_November_NavCam">mosaic of Comet 67P</a> taken by Rosetta, ESA/Rosetta/NAVCAM)</div>
