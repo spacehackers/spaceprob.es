@@ -1,10 +1,17 @@
 ---
 layout: probe
 title: STEREO
-primary_target:
 color: '#77ccc9'
+primary_target: a heliocentric orbit
 attract: stereo_imageheader.jpg
 image: stereo.svg
 dsn_name: STB
+teams:
+    - <a href="http://stereo.gsfc.nasa.gov/">NASA</a>
+    - <a href="http://www.stereo.jhuapl.edu/">JHU/APL</a>
+links:
+    - a <a href="http://www.solarstormwatch.com/">citizen science project</a> for anyone to make new scientific discoveries with STEREO's data
 ---
+STEREO, short for "Solar TErrestrial RElations Observatory", is a set of twin space probes that are studying the Sun and its solar storms through 3D imaging. The STEREO space probes have been able to reveal the 3D structure of solar storm eruptions from the Sun known as coronal mass ejections (often abbreviated as CME). Coronal mass ejections that venture in the direction of the Earth can disrupt satellites, power grids and endanger astronauts with intense solar radiation. By studying these events, STEREO is building knowledge about why solar storms occur and providing Earth early warnings for when they might hit.
+
 <div class="caption">(top image: <a href="http://www.nasa.gov/mission_pages/stereo/news/stereo3D_press.html">3D image of the Sun</a> taken by STEREO, NASA/STEREO)</div>
