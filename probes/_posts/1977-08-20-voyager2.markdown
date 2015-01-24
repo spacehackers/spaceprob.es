@@ -17,7 +17,7 @@ instruments:
     - radio sensors
     - spectrograph
 teams:
-    - <a href = "http://www.nasa.gov">NASA</a>
+    - <a href = "http://voyager.jpl.nasa.gov/">NASA / JPL</a>
 links:
     - an automatic <a href="https://classic.scraperwiki.com/scrapers/voyager_cosmic_ray_subsystem_data/">data scraper</a> of the <a href="http://voyager.gsfc.nasa.gov/heliopause/data.html">data</a> from the cosmic ray detector on Voyager 1 and 2
 
