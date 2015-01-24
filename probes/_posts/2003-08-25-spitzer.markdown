@@ -2,7 +2,7 @@
 layout: probe
 title: Spitzer
 primary_target: heliocentric orbit
-color: '#ff6e48'
+color: '#8e8566'
 attract: spitzer_imageheader2.jpg
 image: spitzer.svg
 dsn_name: STF

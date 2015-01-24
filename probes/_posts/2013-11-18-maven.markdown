@@ -2,7 +2,7 @@
 layout: probe
 title: MAVEN
 primary_target: Mars
-color: '#faca66'
+color: '#938bbe'
 attract: maven_imageheader.jpg
 image: maven.svg
 dsn_name: MVN

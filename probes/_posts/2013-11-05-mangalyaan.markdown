@@ -2,7 +2,7 @@
 layout: probe
 title: Mangalyaan
 primary_target: Mars
-color: '#fe9d99'
+color: '#8e8566'
 attract: mangalyaan_imageheader.jpg
 image: mangalyaan.svg
 dsn_name: MOM

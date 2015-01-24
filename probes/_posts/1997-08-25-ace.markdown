@@ -1,7 +1,7 @@
 ---
 layout: probe
 title: ACE
-color: '#938bbe'
+color: '#77ccc9'
 attract: ace_imageheader.jpg
 image: ace.svg
 dsn_name: ACE

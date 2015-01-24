@@ -1,7 +1,7 @@
 ---
 layout: probe
 title: Chang'e 5-T1
-color: '#ff6e48'
+color: '#78ae62'
 primary_target: the Moon
 attract: change5t1_imageheader.jpg
 image: change5t1.svg

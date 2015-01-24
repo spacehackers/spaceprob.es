@@ -2,7 +2,7 @@
 layout: probe
 title: LRO
 target: the Moon
-color: '#77ccc9'
+color: '#fe9d99'
 attract: lro_imageheader.jpg
 image: lro.svg
 dsn_name: LRO

@@ -2,7 +2,7 @@
 layout: probe
 title: Juno
 target: [jupiter]
-color: '#faca66'
+color: '#78ae62'
 attract: juno_imageheader.jpg
 image: juno.svg
 dsn_name: JNO
@@ -12,7 +12,7 @@ arrival_date: August 2016
 instruments:
 teams:
     - <a href = "http://www.nasa.gov">NASA</a>
-    - <a href = "http://www.swri.org/">SWRI</a>
+    - <a href = "http://www.swri.org/">SWRI</a>    
 links:
     - Juno's <a href="http://missionjuno.swri.edu/">interactive walk-through</a> of the science behind the mission
 

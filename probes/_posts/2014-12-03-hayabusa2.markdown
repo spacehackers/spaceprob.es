@@ -2,7 +2,7 @@
 layout: probe
 title: Hayabusa 2
 primary_target: asteroid 1999 JU3
-color: '#77ccc9'
+color: '#78ae62'
 attract: hayabusa2_imageheader.jpg
 image: hayabusa2.svg
 dsn_name: HYB2

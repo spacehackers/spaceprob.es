@@ -1,7 +1,7 @@
 ---
 layout: probe
 title: WIND
-color: '#faca66'
+color: '#8e8566'
 attract: wind_imageheader.jpg
 image: wind.svg
 dsn_name: WIND

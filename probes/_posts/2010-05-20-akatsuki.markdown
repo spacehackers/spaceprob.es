@@ -2,7 +2,7 @@
 layout: probe
 title: Akatsuki
 target: Venus
-color: '#faca66'
+color: '#ff6e48'
 attract: akatsuki_imageheader.jpg
 image: akatsuki.svg
 dsn_name: PLC

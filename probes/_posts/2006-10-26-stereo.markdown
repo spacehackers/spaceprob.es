@@ -1,7 +1,7 @@
 ---
 layout: probe
 title: STEREO
-color: '#77ccc9'
+color: '#faca66'
 primary_target: a heliocentric orbit
 attract: stereo_imageheader.jpg
 image: stereo.svg

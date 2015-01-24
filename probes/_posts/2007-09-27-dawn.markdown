@@ -2,7 +2,7 @@
 layout: probe
 title: Dawn
 primary_target: Vesta and Ceres
-color: '#78ae62'
+color: '#faca66'
 attract: dawn_imageheader.jpg
 image: dawn.svg
 dsn_name: DAWN

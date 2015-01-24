@@ -2,7 +2,7 @@
 layout: probe
 title: Mars Express
 primary_target: Mars
-color: '#78ae62'
+color: '#77ccc9'
 attract: marsexpress_imageheader.jpg
 image: marsexpress.svg
 dsn_name: MEX

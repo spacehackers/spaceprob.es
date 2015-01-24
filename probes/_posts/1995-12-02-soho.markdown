@@ -1,7 +1,7 @@
 ---
 layout: probe
 title: SOHO
-color: '#78ae62'
+color: '#938bbe'
 attract: soho_imageheader.jpg
 image: soho.svg
 dsn_name: SOHO

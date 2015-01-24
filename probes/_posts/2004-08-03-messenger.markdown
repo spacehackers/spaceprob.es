@@ -2,7 +2,7 @@
 layout: probe
 title: MESSENGER
 primary_target: Mercury
-color: '#8e8566'
+color: '#fe9d99'
 attract: messenger_imageheader.jpg
 image: messenger.svg
 dsn_name: MSGR

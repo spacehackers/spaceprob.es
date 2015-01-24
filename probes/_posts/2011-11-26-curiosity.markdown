@@ -2,7 +2,7 @@
 layout: probe
 title: Curiosity
 primary_target: Mars
-color: '#938bbe'
+color: '#78ae62'
 attract: curiosity_imageheader.jpg
 image: curiosity.svg
 dsn_name: MSL
