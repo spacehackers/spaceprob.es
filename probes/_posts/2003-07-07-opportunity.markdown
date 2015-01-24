@@ -5,6 +5,8 @@ primary_target: Mars
 color: '#fe9d99'
 attract: opportunity_imageheader.jpg
 image: opportunity.svg
+launch_date: July 7, 2003
+arrival_date: January 25, 2004
 dsn_name: MER1
 instruments:
     - panoramic camera
