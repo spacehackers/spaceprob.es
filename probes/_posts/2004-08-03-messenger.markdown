@@ -9,6 +9,11 @@ launch_date: August 3, 2004
 arrival_date: January 14, 2008
 dsn_name: MSGR
 instruments:
+    - cameras
+    - spectrometers
+    - magnetometer
+    - laser
+    - radio-signal generator
 teams:
     - <a href="http://www.nasa.gov/mission_pages/messenger/main/">NASA</a>
     - <a href="http://messenger.jhuapl.edu/">JHUAPL</a>

@@ -14,7 +14,8 @@ instruments:
     - cameras
     - magnetometer
     - radar
-    - radio sensors
+    - radio-signal generator
+    - radio-signal sensor
     - spectrograph
 teams:
     - <a href = "http://voyager.jpl.nasa.gov/">NASA / JPL</a>
