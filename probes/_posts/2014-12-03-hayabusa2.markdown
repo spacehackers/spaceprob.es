@@ -5,11 +5,24 @@ primary_target: asteroid 1999 JU3
 color: '#78ae62'
 attract: hayabusa2_imageheader.jpg
 image: hayabusa2.svg
+launch_date: December 3, 2014
+arrival_date: July, 2018
 dsn_name: HYB2
-
+instruments:
+    - ion engine
+    - sampler horn
+    - beanbag target markers
+    - re-entry capsule
+    - explosive impactor
+    - infrared spectrometer and imager
+    - small rovers
+    - small lander
+teams:
+    - <a href="http://global.jaxa.jp/projects/sat/hayabusa2/">JAXA</a>
 links:
-
 ---
+Hayabusa 2 is a space probe on a mission to collect a piece of an asteroid and return it back to Earth. Hayabusa 2 hopes to learn more about the origin and evolution of the solar system by landing various devices on the primordial asteroid called "1999 JU3". Among other activities, the space probe intends to hurl an explosive impactor at the asteroid in order to create an artificial crater for studying its inside structure. Three hopping rovers and a small lander will also be sent to the surface of the asteroid to study it. Additionally, Hayabusa 2 comes equipped with a "sampling horn" so that it can capture gas and materials from the asteroid by pecking at it without landing.
+
 <div class="caption">(top image: the launch of the Hayabusa 2 space probe in Japan)</div>
 
 
