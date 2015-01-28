@@ -3,6 +3,9 @@ layout: probe
 title: SOHO
 color: '#938bbe'
 attract: soho_imageheader.jpg
+launch_date: December 2, 1995
+arrival_date: May, 1996
+primary_target: an L1 orbit
 image: soho.svg
 dsn_name: SOHO
 ---

@@ -17,6 +17,7 @@ instruments:
     - radio-signal generator
     - radio-signal sensor
     - spectrograph
+    - golden record
 teams:
     - <a href = "http://voyager.jpl.nasa.gov/">NASA / JPL</a>
 links:

@@ -4,6 +4,8 @@ title: Cassini
 primary_target: Saturn
 color: '#fe9d99'
 attract: cassini_imageheader.jpg
+launch_date: October 15, 1997
+arrival_date: July 1, 2004
 image: cassini.svg
 dsn_name: CAS
 instruments:
