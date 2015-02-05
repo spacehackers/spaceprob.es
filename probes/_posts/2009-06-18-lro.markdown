@@ -1,13 +1,27 @@
 ---
 layout: probe
 title: LRO
-target: the Moon
 color: '#fe9d99'
 attract: lro_imageheader.jpg
 image: lro.svg
 dsn_name: LRO
-
+launch_date: June 18, 2009
+arrival_date: June 23, 2009
+primary_target: the Moon
+instruments:
+    - <a href="http://www.lroc.asu.edu/">camera</a>
+    - <a href="http://crater.sr.unh.edu/">cosmic ray telescope</a>
+    - <a href="http://diviner.ucla.edu/">temperature mapper</a>
+    - <a href="http://www.boulder.swri.edu/lamp/">ultraviolet sensor</a>
+    - <a href="http://l503.iki.rssi.ru/LEND-en.html">neutron detector</a>
+    - <a href="http://lunar.gsfc.nasa.gov/lola/">lidar</a>
+    - <a href="http://www.nasa.gov/mission_pages/Mini-RF/main/">radar</a>
+teams:
+    - <a href="http://www.nasa.gov/mission_pages/LRO/main/">NASA</a> / <a href="http://lunar.gsfc.nasa.gov/">GSFC</a>
 links:
-
+    - a <a href="https://www.youtube.com/watch?v=1TL5nT-seAs">timelapse of the illumination</a> on the South Pole of the Moon
+    - the <a href="http://lroc.sese.asu.edu/about/whereislro">current location of LRO</a> at any given time
 ---
+The Lunar Reconnaissance Orbiter (LRO) is a space probe in orbit of the Moon that maps the lunar surface. By doing this, LRO helps identify areas that may be scientifically interesting as well as what locations might be the best choice for future human and robotic missions to the Moon. LRO's instruments allow it to map the Moon both visually and in 3D, as well as survey its radiation environment, temperature and hydrogen. LRO has provided the most accurate topographic map of the Moon to date. The space probe continues to hunt for new locations of water ice in the lunar soil that could one day prove to be a critical resource for long-term human missions on the Moon.
+
 <div class="caption">(top image: LRO sneaks a "peak" of <a href="http://www.nasa.gov/mission_pages/LRO/multimedia/tycho-peak-gal.html">Tycho Crater</a> on the Moon, NASA Goddard/Arizona State University)</div>
