@@ -1,13 +1,25 @@
 ---
 layout: probe
-title: WIND
+title: Wind
 color: '#8e8566'
 attract: wind_imageheader.jpg
 image: wind.svg
 dsn_name: WIND
-
+launch_date: November 1, 1994
+arrival_date: 1995
+primary_target: a halo orbit at the Earth-Sun L1 point
+instruments:
+    - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">magnetic field sensor</a>
+    - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">solar wind sensor</a>
+    - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">plasma sensors</a>
+    - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">spectrometers</a>
+    - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">particle detector</a>
+teams:
+    - <a href="http://pwg.gsfc.nasa.gov/wind.shtml">NASA</a>
 links:
 
 ---
+The Wind space probe studies plasma (ionized gas), particles and magnetic fields around the Sun. In addition, the space probe provides early warnings to Earth as to when intense solar storms might be directed its way. Wind makes 11 magnetic measurements a second and particle observations every three seconds. Wind aims to help improve our understanding of the physics involved in the relationship between the Earth and the Sun and has often worked together with the space probe <a href="/probes/ace">ACE</a> to do so. By continuing to monitor solar activity, the space probe can better forecast how solar phenomena affects Earth and when it might be hazardous. Over its lifetime, Wind has detected different kinds of electromagnetic waves, which is <a href="http://www.nasa.gov/content/goddard/solar-wind-workhorse-marks-20-years-of-science-discoveries/">said</a> to have opened up new areas of research.
+
 
 <div class="caption">(top image: an <a href="http://www.nasa.gov/multimedia/imagegallery/image_feature_2175.html">aurora</a> on Earth, an effect of the space weather WIND looks for, seen from the International Space Station, NASA)</div>

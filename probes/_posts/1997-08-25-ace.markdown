@@ -6,7 +6,7 @@ attract: ace_imageheader.jpg
 image: ace.svg
 launch_date: August 25, 1997
 arrival_date: January, 1998
-primary_target: an L1 orbit
+primary_target: a halo orbit at the Earth-Sun L1 point
 dsn_name: ACE
 instruments:
     - <a href="http://www.srl.caltech.edu/ACE/CRIS_SIS/cris.html">cosmic ray spectrometer</a>
