@@ -10,6 +10,6 @@ dsn_name: PLC
 links:
 
 ---
-Akatsuki is a space probe that was intended for Venus but failed to enter orbit around the planet in 2010 when its main engine died. Now in orbit around the Sun, the probe will attempt once again to enter into an orbit around Venus at the end of 2015. Once at Venus, Akatsuki will study the weather, atmosphere and surface of the planet. The mission also hopes to confirm the presence of active volvanoes and thunder on Venus.
+Akatsuki is a space probe that was intended for Venus but failed to enter orbit around the planet in 2010 when its main engine died. Now in orbit around the Sun, the probe will attempt once again to enter into an orbit around Venus at the end of 2015. Once at Venus, Akatsuki will study the weather, atmosphere and surface of the planet. The mission also hopes to confirm the presence of active volcanoes and thunder on Venus.
 
 <div class="caption">(top image: the <a href="https://commons.wikimedia.org/wiki/File:H-IIA_F17_launching_AKATSUKI.jpg">launch</a> of the Akatsuki probe, Narita Masahiro)</div>

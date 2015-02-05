@@ -7,7 +7,7 @@ attract: mro_imageheader.jpg
 image: mro.svg
 dsn_name: MRO
 arrival_date: March 10, 2006
-intruments:
+instruments:
 teams:
     - <a href="http://mars.jpl.nasa.gov/mro/">JPL</a>
     - <a href="http://www.nasa.gov/mission_pages/MRO/main/index.html">NASA</a>
