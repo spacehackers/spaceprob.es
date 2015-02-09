@@ -95,17 +95,17 @@ var spaceprobes = {
 
             try {
                 next = api_probes_sorted[key + 1];
+                $('.pagination a.next').attr("href", '/probes/' + next.replace(/-/g,''));
             } catch(e) {
-                next = api_probes_sorted.length - 1;
+                $('.pagination a.next').hide();
             }
             try {
                 prev = api_probes_sorted[key - 1];
+                $('.pagination a.prev').attr("href", '/probes/' + prev.replace(/-/g,''));
             } catch(e) {
-                prev = api_probes_sorted[0];
+                $('.pagination a.prev').hide();
             }
 
-            $('.pagination a.next').attr("href", '/probes/' + next.replace(/-/g,''));
-            $('.pagination a.prev').attr("href", '/probes/' + prev.replace(/-/g,''));
         }
 
       } // success
