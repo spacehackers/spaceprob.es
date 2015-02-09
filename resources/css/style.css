@@ -189,6 +189,7 @@ a, a:hover {
 #probe-detail .caption {
     font-size: 95%;
     line-height: 1.5em;
+    margin:40px 0;
 }
 
 .link {

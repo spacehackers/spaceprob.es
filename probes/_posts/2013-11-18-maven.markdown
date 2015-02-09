@@ -15,7 +15,9 @@ data:
 
 links:
 
+caption: >
+    (top image: <a href="http://www.nasa.gov/content/goddard/maven-ultraviolet-image-of-comet-siding-spring-s-hydrogen-coma/">hydrogen surrounding a comet</a> near Mars as seen in ultraviolet by MAVEN, Laboratory for Atmospheric and Space Physics, University of Colorado; NASA)
+
 ---
 The MAVEN (Mars Atmosphere and Volatile Evolution) space probe is orbiting Mars to learn more about the planet's upper atmosphere. Its elliptical orbit allows for the space probe to pass through the upper atmosphere of Mars and take samples of various molecules. When MAVEN is above the atmosphere, it will conduct ultraviolet imaging of the planet. By sampling and imaging the upper atmosphere, scientists expect to be able to learn more about the history of the Martian climate and habitability for life.
 
-<div class="caption">(top image: <a href="http://www.nasa.gov/content/goddard/maven-ultraviolet-image-of-comet-siding-spring-s-hydrogen-coma/">hydrogen surrounding a comet</a> near Mars as seen in ultraviolet by MAVEN, Laboratory for Atmospheric and Space Physics, University of Colorado; NASA)</div>

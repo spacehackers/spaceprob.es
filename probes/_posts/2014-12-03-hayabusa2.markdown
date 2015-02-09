@@ -19,10 +19,13 @@ instruments:
     - small lander
 teams:
     - <a href="http://global.jaxa.jp/projects/sat/hayabusa2/">JAXA</a>
+
 links:
+
+caption: >
+    (top image: the launch of the Hayabusa 2 space probe in Japan)
 ---
 Hayabusa 2 is a space probe on a mission to collect a piece of an asteroid and return it back to Earth. Hayabusa 2 hopes to learn more about the origin and evolution of the solar system by landing various devices on the primordial asteroid called "1999 JU3". Among other activities, the space probe intends to hurl an explosive impactor at the asteroid in order to create an artificial crater for studying its inside structure. Three hopping rovers and a small lander will also be sent to the surface of the asteroid to study it. Additionally, Hayabusa 2 comes equipped with a "sampling horn" so that it can capture gas and materials from the asteroid by pecking at it without landing.
 
-<div class="caption">(top image: the launch of the Hayabusa 2 space probe in Japan)</div>
 
 

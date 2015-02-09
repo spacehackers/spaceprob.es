@@ -19,7 +19,10 @@ links:
     - amazing photographs of the comet on Rosetta's <a href="http://instagram.com/rosettamission">instagram</a>
     - an <a href="http://sci.esa.int/where_is_rosetta/">interactive map</a> of where Rosetta is in the solar system
     - the Rosetta team's <a href = "http://blogs.esa.int/rosetta/">blog</a>
+
+caption: >
+    (top image: a <a href="http://www.esa.int/spaceinimages/Images/2014/11/Comet_on_4_November_NavCam">mosaic of Comet 67P</a> taken by Rosetta, ESA/Rosetta/NAVCAM)
+
 ---
 Rosetta is a space probe orbiting Comet 67P/Churyumov-Gerasimenko, witnessing how it changes as it orbits the Sun. The Rosetta orbiter was launched carrying the Philae lander which semi-successfully landed on Comet 67P in 2014, becoming the first space probe to ever land on a comet. Philae bounced twice before landing at an angle in the shadow of a cliff and soon after powered down due to the lack of sunlight. Scientists are hopeful for Philae to eventually gain enough sunlight to power back on. Meanwhile, Rosetta continues to study the comet and its role in the evolution of the solar system. On board Rosetta is a <a href="http://rosettaproject.org/">micro-etched nickel disk</a> containing an archive of 1500 human languages compiled by the Long Now Foundation.
 
-<div class="caption">(top image: a <a href="http://www.esa.int/spaceinimages/Images/2014/11/Comet_on_4_November_NavCam">mosaic of Comet 67P</a> taken by Rosetta, ESA/Rosetta/NAVCAM)</div>

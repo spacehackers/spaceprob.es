@@ -10,6 +10,7 @@ teams:
     - <a href="http://www.cnsa.gov.cn/">China National Space Administration</a>
 links:
 
+caption: >
+    (top image: the Moon's <a href="http://news.xinhuanet.com/world/2014-10/28/c_1113016268.htm">Mare Marginis</a> as seen by Chang'e 5-T1, Xinhua News/CNSA)
 ---
-<div class="caption">(top image: the Moon's <a href="http://news.xinhuanet.com/world/2014-10/28/c_1113016268.htm">Mare Marginis</a> as seen by Chang'e 5-T1, Xinhua News/CNSA)</div>
 

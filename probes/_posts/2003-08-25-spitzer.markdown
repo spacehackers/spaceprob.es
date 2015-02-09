@@ -9,7 +9,9 @@ dsn_name: STF
 
 links:
 
+caption: >
+    (top image: the <a href="http://www.nasa.gov/mission_pages/spitzer/multimedia/pia13932.html">center of the Milky Way galaxy</a> as seen by Spitzer's infrared camera, NASA/JPL-Caltech)
+
 ---
 The Spitzer Space Telescope is a space probe that has seen what our Milky Way galaxy looks like for the first time by peering past all the cosmic dust that normally blocks our view. The Spitzer Space Telescope utilizes infrared technology to gain insights and produce stunning views of not only our own galaxy, but of numerous galaxies, stars and nebulas throughout the early and distant universe. In 2009, Spitzer ran out of the liquid helium needed to cool the telescope, thus concluding its primary mission and switching over into a less instrument-intensive "warm mission". In 2011, scientists creatively hacked Spitzer's instruments, transforming it into an exoplanet-studying telescope.
 
-<div class="caption">(top image: the <a href="http://www.nasa.gov/mission_pages/spitzer/multimedia/pia13932.html">center of the Milky Way galaxy</a> as seen by Spitzer's infrared camera, NASA/JPL-Caltech)</div>
