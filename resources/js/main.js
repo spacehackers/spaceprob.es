@@ -43,11 +43,13 @@ var spaceprobes = {
           }
         }
 
-        // rearrange the homepage probes to be in distance order
-        if ($('#probes').is(":hidden")) {  // true if this is the homepage
+        // sort the probes by distance
+        api_probes_sorted = Object.keys(spaceprobes.probe_distances).sort(function(a,b){return parseInt(spaceprobes.probe_distances[b], 10)-parseInt(spaceprobes.probe_distances[a], 10); });
 
-            // sort the probes by distance
-            api_probes_sorted = Object.keys(spaceprobes.probe_distances).sort(function(a,b){return parseInt(spaceprobes.probe_distances[b], 10)-parseInt(spaceprobes.probe_distances[a], 10); });
+
+        // rearrange the homepage probes to be in distance order
+        if ($('#probes').is(":hidden")) {
+            // true if this is the homepage
 
             // grab each probe snippet from the homepage #probes div and then empty the div
             probe_snippets = {};
@@ -85,6 +87,25 @@ var spaceprobes = {
             // and display it
             $('#probes').slideDown("slow");
 
+        } else { // end if homepage
+
+            // this is a probe page, compute the next/prev links
+            slug = $('#probe-detail').data("slug");
+            key = api_probes_sorted.indexOf(slug);
+
+            try {
+                next = api_probes_sorted[key + 1];
+            } catch(e) {
+                next = api_probes_sorted.length - 1;
+            }
+            try {
+                prev = api_probes_sorted[key - 1];
+            } catch(e) {
+                prev = api_probes_sorted[0];
+            }
+
+            $('.pagination a.next').attr("href", '/probes/' + next.replace(/-/g,''));
+            $('.pagination a.prev').attr("href", '/probes/' + prev.replace(/-/g,''));
         }
 
       } // success

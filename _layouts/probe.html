@@ -2,7 +2,7 @@
 layout: base
 ---
 
-<div id="probe-detail" class="container">
+<div id="probe-detail" data-slug = "{{ page.title|slugify }}" class="container">
 
  {% if page.attract %}
  <div id="attract" class="hidden-xs"><img src="/resources/img/attract/{{ page.attract }}" alt="{{ page.title }}" class="img-responsive"></div>
@@ -68,6 +68,10 @@ layout: base
       <div class="caption">{{ page.caption }}</div>
     </div><!-- /col-sm-8 -->
 
+    <div class = "col-sm-12 pagination">
+        <div class = "col-sm-11"><a class = "prev" href = "">prev</a></div>
+        <div class = "col-sm-1"><a class = "next" href = "">next</a></div>
+    </div>
  </div><!-- /row -->
 </div><!-- /probe-detail -->
 
