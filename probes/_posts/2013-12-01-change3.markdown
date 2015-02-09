@@ -5,6 +5,7 @@ target: the Moon
 color: '#faca66'
 attract: change3_imageheader.jpg
 image: chang'e3.svg
+orbit_planet: Moon
 teams:
     - <a href="http://www.cnsa.gov.cn/">China National Space Administration</a>
 ---
