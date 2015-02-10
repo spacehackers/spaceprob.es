@@ -33,6 +33,12 @@ a, a:hover {
     margin-right: 15px;
 }
 
+@media (max-width: 480px) {
+    #probe-detail .content {
+        margin-top:25px;
+    }
+}
+
 @media (max-width: 768px) {
     #header h1 {
         font-size: 22px;
