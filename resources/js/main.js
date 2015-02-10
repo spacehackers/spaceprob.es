@@ -7,118 +7,135 @@ $(document).ready(function() {
 
 var spaceprobes = {
 
-  probe_distances: {},
+    distances_feed_url: "http://murmuring-anchorage-8062.herokuapp.com/distances.json",
+    // distances_feed_url: "http://127.0.0.1:5000/distances.json", // local
 
-  init: function() {
-
-    // fetch the distances json feed
-    url = "http://murmuring-anchorage-8062.herokuapp.com/distances.json";
-    // url = "http://127.0.0.1:5000/distances.json";  // local
-    $.ajax({
-      url: url,
-      type: 'get',
-      dataType: 'jsonp',
-      timeout: 4000,
-      error:function (xhr, ajaxOptions, thrownError){
-
-        $('#probes').slideDown("slow");
-
-        if(textStatus==="timeout") {
-              // todo
-        }
-      },
-      success: function(data) {
-        // first update distance display for each probe
-        // this may be running on the probe page or the homepage
-        for (var slug in data.spaceprobe_distances) {
-          distance = Number(data.spaceprobe_distances[slug]);
-          if (distance > 0) {
-              distance_str = numeral(distance).format('0.00 a');
-              elem = '.distance span[class=' + slug + ']';
-              $(elem).html(distance_str);
-              spaceprobes.probe_distances[slug] = distance;
-          }
-        }
-
-        // sort the probes by distance
-        api_probes_sorted = Object.keys(spaceprobes.probe_distances).sort(function(a,b){return parseInt(spaceprobes.probe_distances[b], 10)-parseInt(spaceprobes.probe_distances[a], 10); });
+    distances: {},
+    sorted: [],
+    sort_by: 'distance',  // 'distance' or 'launch'
 
 
-        // rearrange the homepage probes to be in distance order
-        if ($('#probes').is(":hidden")) {
-            // true if this is the homepage
+    init_news: function() {
+        // just ping the news site make sure it's awake for any probe pages
+        $.ajax({ url: "http://dry-eyrie-9951.herokuapp.com/"});
+    },
 
-            // grab each probe snippet from the homepage #probes div and then empty the div
-            probe_snippets = {};
-            my_list = [];
-            count = 0;
-            $('#probes').children().each(function() {
-                count = count + 1;
-                title = $(this).data('title');
-                slug = $(this).data('slug');
-                my_list.push(title);
-                if (slug.length) {
-                    probe_snippets[slug] = $(this);
-                } else {
-                    probe_snippets[title] = $(this);
+    init: function() {
+
+        $.ajax({
+            url: spaceprobes.distances_feed_url,
+            type: 'get',
+            dataType: 'jsonp',
+            timeout: 4000,
+            error:function (xhr, ajaxOptions, thrownError){
+                // just show the #probes div as it was drawn by Jekyll
+                $('#probes').slideDown("slow");
+                if(textStatus==="timeout") {
+                      // todo
                 }
-            });
-            $('#probes').html('');
+            },
+            success: function(data) {
 
-
-            // re-append all the snippets in order of distance
-            for (var k in api_probes_sorted) {
-                title = api_probes_sorted[k];
-                if (title in probe_snippets) {
-                    // append to #probes
-                    $('#probes').append(probe_snippets[title]);
-                    delete probe_snippets[title];
+                // the distances arrive as text, make them numbers in
+                // this data struct, and also display them in their
+                // html place holders and properly formatted
+                for (var slug in data.spaceprobe_distances) {
+                    distance = Number(data.spaceprobe_distances[slug]);
+                    if (distance > 0) {
+                        distance_str = numeral(distance).format('0.00 a');
+                        elem = '.distance span[class=' + slug + ']';
+                        $(elem).html(distance_str);
+                        spaceprobes.distances[slug] = distance;
+                    }
                 }
-            }
 
-            // now append whatever is left = the un sorted ones with no distance info
-            for (var p in probe_snippets) {
-                $('#probes').append(probe_snippets[p]);
-            }
+                // make a list of probes slugs ordered by distance
+                sorted_by_time = Object.keys(spaceprobes.distances).sort(function(a,b){return parseInt(spaceprobes.distances[b], 10)-parseInt(spaceprobes.distances[a], 10); });
 
-            // and display it
-            $('#probes').slideDown("slow");
+                spaceprobes.sorted = sorted_by_time;
 
-        } else { // end if homepage
+                // rearrange the homepage probes and store the sorting by launch date
+                if ($('#probes').is(":hidden")) {
+                    // true if this is the homepage
 
-            // this is a probe page, compute the next/prev links
-            slug = $('#probe-detail').data("slug");
-            key = api_probes_sorted.indexOf(slug);
+                    // grab each probe snippet and info from the homepage Jekyll drew it
+                    // this will be in launch date order
+                    probe_snippets = {};
+                    sorted_by_launch = [];
+                    count = 0;
+                    $('#probes').children().each(function() {
+                        count = count + 1;
+                        title = $(this).data('title');
+                        slug = $(this).data('slug');
+                        sorted_by_launch.push(slug);
+                        if (slug.length) {
+                            probe_snippets[slug] = $(this);
+                        } else {
+                            probe_snippets[title] = $(this);
+                        }
+                    });
 
-            try {
-                next = api_probes_sorted[key + 1];
-                $('.pagination a.next').attr("href", '/' + next.replace(/-/g,''));
-            } catch(e) {
-                $('.pagination a.next').hide();
-            }
-            try {
-                prev = api_probes_sorted[key - 1];
-                $('.pagination a.prev').attr("href", '/' + prev.replace(/-/g,''));
-            } catch(e) {
-                $('.pagination a.prev').hide();
-            }
+                    // re-append all the snippets in sorted order
 
+                    // first hide the #probes div
+                    $('#probes').html('');
+
+                    // append each widget that appears in spaceprobes.sorted
+                    for (var k in spaceprobes.sorted) {
+                        title = spaceprobes.sorted[k];
+                        if (title in probe_snippets) {
+                            // append to #probes
+                            $('#probes').append(probe_snippets[title]);
+                            delete probe_snippets[title];
+                        }
+                    }
+
+                    // now append whatever is left = the un sorted ones with no distance info
+                    for (var p in probe_snippets) {
+                        $('#probes').append(probe_snippets[p]);
+                    }
+
+                    // and display the #probes div
+                    $('#probes').slideDown("slow");
+
+
+                } else { // end if homepage
+                    // this is a probe page, display the  the next/prev links
+                    spaceprobes.display_paging_links();
+                }
+
+            } // success
+        });
+
+    }, // /init
+
+    display_paging_links: function() {
+        // for the probe detail page, computes the
+        // next/prev link href and displays the next/prev link
+
+        slug = $('#probe-detail').data("slug");
+        key = spaceprobes.sorted.indexOf(slug);
+
+        try {
+            next = spaceprobes.sorted[key + 1];
+            $('.pagination a.next').attr("href", '/' + next.replace(/-/g,''));
+        } catch(e) {
+            $('.pagination a.next').hide();
         }
+        try {
+            prev = spaceprobes.sorted[key - 1];
+            $('.pagination a.prev').attr("href", '/' + prev.replace(/-/g,''));
+        } catch(e) {
+            $('.pagination a.prev').hide();
+        }
+    }
 
-      } // success
-    });
 
-  }, // /get_dsn
-
-  init_news: function() {
-    // just ping the news site make sure it's awake for any probe pages
-    $.ajax({ url: "http://dry-eyrie-9951.herokuapp.com/"});
-  }
 
 }; // /var spaceprobes
 
 
-// override numerals defaults to make nice words describing distances
+// overriding Numerals plugin defaults to make nice words describing distances
 numeral.language('en', {
     delimiters: {
         thousands: ',',
