@@ -7,12 +7,11 @@ $(document).ready(function() {
 
 var spaceprobes = {
 
-  distances: {},
   probe_distances: {},
 
   init: function() {
 
-    // fetch the dsn json feed
+    // fetch the distances json feed
     url = "http://murmuring-anchorage-8062.herokuapp.com/distances.json";
     // url = "http://127.0.0.1:5000/distances.json";  // local
     $.ajax({
@@ -29,12 +28,10 @@ var spaceprobes = {
         }
       },
       success: function(data) {
-        spaceprobes.distances = data.spaceprobe_distances;
-
         // first update distance display for each probe
         // this may be running on the probe page or the homepage
-        for (var slug in spaceprobes.distances) {
-          distance = Number(spaceprobes.distances[slug]);
+        for (var slug in data.spaceprobe_distances) {
+          distance = Number(data.spaceprobe_distances[slug]);
           if (distance > 0) {
               distance_str = numeral(distance).format('0.00 a');
               elem = '.distance span[class=' + slug + ']';
