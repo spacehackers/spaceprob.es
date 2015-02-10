@@ -9,19 +9,20 @@ launch_date: August 20, 1977
 primary_target: the outer solar system
 arrival_date: April 1979
 instruments:
-    - spectrometers
-    - cosmic dust analyzer
     - cameras
+    - cosmic dust analyzer
+    - golden record
     - magnetometer
     - radar
     - radio-signal generator
     - radio-signal sensor
     - spectrograph
-    - golden record
+    - spectrometers
 teams:
     - <a href = "http://voyager.jpl.nasa.gov/">NASA / JPL</a>
 links:
-    - an automatic <a href="https://classic.scraperwiki.com/scrapers/voyager_cosmic_ray_subsystem_data/">data scraper</a> of the <a href="http://voyager.gsfc.nasa.gov/heliopause/data.html">data</a> from the cosmic ray detector on Voyager 1 and 2
+    - the <a href="http://voyager.gsfc.nasa.gov/heliopause/data.html">data</a> from the cosmic ray detector on Voyager 1 and 2
+    - a <a href="http://web.mit.edu/lilybui/www/">playlist</a> of the music, sounds and greetings on the Voyager Golden Record
 
 caption: >
     (top image: <a href="http://solarsystem.nasa.gov/multimedia/display.cfm?Category=Spacecraft&IM_ID=2424">Neptune</a> as seen from 4.4 million miles away by Voyager 2, NASA)

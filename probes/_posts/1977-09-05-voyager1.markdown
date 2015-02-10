@@ -9,19 +9,22 @@ launch_date: September 5, 1977
 arrival_date: March 5, 1979
 dsn_name: VGR1
 instruments:
-    - spectrometers
-    - cosmic dust analyzer
     - cameras
+    - cosmic dust analyzer
+    - golden record
     - magnetometer
     - radar
     - radio-signal generator
     - radio-signal sensor
     - spectrograph
-    - golden record
+    - spectrometers
 teams:
     - <a href = "http://voyager.jpl.nasa.gov/">NASA / JPL</a>
 links:
-    - an automatic <a href="https://classic.scraperwiki.com/scrapers/voyager_cosmic_ray_subsystem_data/">data scraper</a> of the <a href="http://voyager.gsfc.nasa.gov/heliopause/data.html">data</a> from the cosmic ray detector on Voyager 1 and 2
+    - the <a href="http://voyager.gsfc.nasa.gov/heliopause/data.html">data</a> from the cosmic ray detector on Voyager 1 and 2
+    - a <a href="http://web.mit.edu/lilybui/www/">playlist</a> of the music, sounds and greetings on the Voyager Golden Record
+    - a cute <a href="https://www.youtube.com/watch?v=BwcJXUWXMTI">animated story</a> about Voyager 1
+    - the <a href="https://www.youtube.com/watch?v=LIAZWb9_si4">sound of interstellar space</a> as captured by Voyager 1's plasma spectrometer
 
 caption: >
     (top image: a <a href="http://solarsystem.nasa.gov/multimedia/display.cfm?Category=Spacecraft&IM_ID=10004">close-up of Jupiter</a> taken by Voyager 1, NASA/JPL-Caltech)

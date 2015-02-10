@@ -15,6 +15,7 @@ instruments:
     - telescopic camera
 links:
     - 3D print the New Horizons probe with this <a href="http://nasa3d.arc.nasa.gov/detail/new-horizons">.stl file</a>
+    - New Horizons on <a href="https://twitter.com/NASAnewhorizons">Twitter</a>
 
 caption: >
     (top image: Jupiter's moons, <a href="http://www.nasa.gov/multimedia/imagegallery/image_feature_1560.html">Io, Europa, Ganymede and Callisto</a> taken by New Horizons on its way to Pluto, NASA/JHU-APL/Southwest Research Institute)
