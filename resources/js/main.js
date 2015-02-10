@@ -95,13 +95,13 @@ var spaceprobes = {
 
             try {
                 next = api_probes_sorted[key + 1];
-                $('.pagination a.next').attr("href", '/probes/' + next.replace(/-/g,''));
+                $('.pagination a.next').attr("href", '/' + next.replace(/-/g,''));
             } catch(e) {
                 $('.pagination a.next').hide();
             }
             try {
                 prev = api_probes_sorted[key - 1];
-                $('.pagination a.prev').attr("href", '/probes/' + prev.replace(/-/g,''));
+                $('.pagination a.prev').attr("href", '/' + prev.replace(/-/g,''));
             } catch(e) {
                 $('.pagination a.prev').hide();
             }

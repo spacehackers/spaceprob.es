@@ -5,7 +5,7 @@ twitter: deepspacenet
 
 
 # jekyll stuff:
-permalink: /:categories/:title/
+permalink: /:title/
 exclude: [README.markdown, Makefile]
 highlighter: null
 timezone: UTC
