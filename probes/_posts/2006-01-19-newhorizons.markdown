@@ -6,6 +6,8 @@ color: '#8e8566'
 attract: newhorizons_imageheader.jpg
 image: newhorizons.svg
 dsn_name: NHPC
+launch_date: January 19, 2006
+arrival_date: July 14, 2015
 instruments:
     - imaging spectrometers
     - particle spectrometer
@@ -13,6 +15,9 @@ instruments:
     - solar wind spectrometer
     - space dust counter
     - telescopic camera
+teams:
+    - <a href="http://www.nasa.gov/mission_pages/newhorizons/main/index.html">NASA</a>
+    - <a href="http://pluto.jhuapl.edu/">JHUAPL</a>
 links:
     - 3D print the New Horizons probe with this <a href="http://nasa3d.arc.nasa.gov/detail/new-horizons">.stl file</a>
     - New Horizons on <a href="https://twitter.com/NASAnewhorizons">Twitter</a>
