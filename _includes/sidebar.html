@@ -11,16 +11,16 @@
 
     <strong><span class = "distance"><span class="{{ page.title|slugify }}">unknown</span></strong> km from Earth</span>.
 
-    Its primary destination is <strong>{{page.primary_target}}</strong>
+    Its primary destination is <strong>{{page.primary_target}}</strong>,
 
-    where
+    which
 
     {% if arrivalunix > nowunix %}
-        it's set to arrive on
+        it's set to arrive at on
     {% else %}
-        it arrived in
+        it arrived at on
     {% endif %}
-    {{ page.arrival_date | date: '%B %Y' }}.
+    {{ page.arrival_date }}.
 
     {% if page.instruments %}
         Wherever {{ page.title }} goes, it carries it's trusty
