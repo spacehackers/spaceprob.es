@@ -5,10 +5,20 @@ primary_target: Mars
 color: '#8e8566'
 attract: mangalyaan_imageheader.jpg
 image: mangalyaan.svg
+launch_date: November 5, 2013
+arrival_date: September 24, 2014
 dsn_name: MOM
-
+instruments:
+    - camera
+    - methane sensor
+    - particle analyzer
+    - photometer
+    - spectrometer
+teams:
+    - <a href="http://isro.gov.in/pslv-c25-mars-orbiter-mission">ISRO</a>
 links:
-
+    - a Vine of <a href="https://vine.co/v/OqbduWXK0Qw">Phobos crossing Mars</a> shot by MOM
+    - MOM on <a href="https://twitter.com/MarsOrbiter/">Twitter</a>
 caption: >
     (top image: Mars <a href="http://www.isro.org/pslv-c25-mars-orbiter-mission/images-mom">captured by MOM<a>, ISRO)
 ---
