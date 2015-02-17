@@ -5,15 +5,19 @@ primary_target: Mars
 color: '#938bbe'
 attract: maven_imageheader.jpg
 image: maven.svg
+launch_date: November 18, 2013
+arrival_date: September 22, 2014
 dsn_name: MVN
-
-data:
-  - 'Principal investigator: <a href="http://lasp.colorado.edu/home/maven/about/teampartners/principal-investigator/">Dr. Bruce Jakosky</a>, University of Colorado’s Laboratory for Atmospheric and Space Physics (CU/LASP)'
-  - they are very nice data = 6 million m/s
-  - i want them to be a proper html list
-  - so here's a go of it
-
+instruments:
+    - <a href="http://lasp.colorado.edu/home/maven/science/instrument-package/">solar wind and ionosphere sensors</a>
+    - <a href="http://lasp.colorado.edu/home/maven/science/instrument-package/ngims/">spectrometer</a>
+    - <a href="http://lasp.colorado.edu/home/maven/science/instrument-package/iuvs/">ultraviolet spectrograph</a>
+teams:
+    - <a href="http://www.nasa.gov/mission_pages/maven/main/">NASA</a>
+    - <a href="http://lasp.colorado.edu/home/maven/">CU/LASP</a>
 links:
+    - a couple of MAVEN <a href="http://mars.nasa.gov/files/resources/MAVEN_MSL_coloring_sheet.pdf">coloring book</a> <a href="http://mars.nasa.gov/files/resources/MAVEN_at_Mars_coloring_sheet.pdf">sheets</a>
+    - MAVEN on <a href="https://twitter.com/MAVEN2Mars/">Twitter</a>
 
 caption: >
     (top image: <a href="http://www.nasa.gov/content/goddard/maven-ultraviolet-image-of-comet-siding-spring-s-hydrogen-coma/">hydrogen surrounding a comet</a> near Mars as seen in ultraviolet by MAVEN, Laboratory for Atmospheric and Space Physics, University of Colorado; NASA)
