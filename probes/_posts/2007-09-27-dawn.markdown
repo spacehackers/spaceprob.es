@@ -6,9 +6,17 @@ color: '#faca66'
 attract: dawn_imageheader.jpg
 image: dawn.svg
 dsn_name: DAWN
+launch_date: September 27, 2007
+arrival_date: July 16, 2011
 instruments:
+    - <a href="http://www.nasa.gov/mission_pages/dawn/spacecraft/instruments.html">camera</a>
+    - <a href="http://www.nasa.gov/mission_pages/dawn/spacecraft/instruments.html">radio transmitter</a> 
+    - <a href="http://www.nasa.gov/mission_pages/dawn/spacecraft/instruments.html">spectrometers</a>
 team:
+    - <a href="http://www.nasa.gov/mission_pages/dawn/main/index.html">NASA</a> / <a href="http://dawn.jpl.nasa.gov/">JPL</a>
 links:
+    - animated <a href="http://www.jpl.nasa.gov/spaceimages/details.php?id=pia19171">gif of Ceres</a> from as seen from Dawn's approach
+    - a <a href="http://dawn.jpl.nasa.gov/DawnCommunity/asteroid_mappers.asp">citizen science project</a> to help scientists identify craters on Vesta
 
 caption: >
     (top image: one of the largest asteroids in the Solar System, <a href="http://sservi.nasa.gov/articles/nasas-dawn-spacecraft-orbits-vesta/">Vesta</a>, as seen by Dawn, NASA/JPL-Caltech/UCLA/MPS/DLR/IDA)
