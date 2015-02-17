@@ -6,8 +6,11 @@ color: '#faca66'
 attract: dawn_imageheader.jpg
 image: dawn.svg
 dsn_name: DAWN
+launch_date: September 27, 2007
+arrival_date: July 16, 2011
 instruments:
 team:
+    - <a href="http://www.nasa.gov/mission_pages/dawn/main/index.html">NASA</a> / <a href="http://www.jpl.nasa.gov/missions/dawn/">JPL</a>
 links:
 
 caption: >
