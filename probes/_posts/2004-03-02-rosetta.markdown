@@ -2,19 +2,20 @@
 layout: probe
 title: Rosetta
 primary_target: Comet 67P/Churyumov-Gerasimenko
+launch_date: March 2, 2004
 arrival_date: August 6, 2014
 color: '#938bbe'
 attract: rosetta_imageheader.jpg
 image: rosetta.svg
 dsn_name: ROSE
 instruments:
+    - cameras
+    - comet dust analyzers
+    - <a href="http://sci.esa.int/rosetta/35061-instruments/?fbodylongid=1644">plasma sensors</a>
+    - radio receiver and transmitters
+    - spectrometers
 teams:
-    - <a href="http://www.esa.int/">ESA</a>
-    - <a href = "http://www.nasa.gov">NASA</a>
-    - DLR
-    - MPS
-    - CNES
-    - <a href="http://www.asi.it/">ASI</a>
+    - <a href="http://rosetta.esa.int/">ESA</a>
 links:
     - amazing photographs of the comet on Rosetta's <a href="http://instagram.com/rosettamission">instagram</a>
     - an <a href="http://sci.esa.int/where_is_rosetta/">interactive map</a> of where Rosetta is in the solar system
