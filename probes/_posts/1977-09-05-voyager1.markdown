@@ -14,8 +14,8 @@ instruments:
     - golden record
     - magnetometer
     - radar
-    - radio-signal generator
-    - radio-signal sensor
+    - radio receiver
+    - radio transmitter
     - spectrograph
     - spectrometers
 teams:
