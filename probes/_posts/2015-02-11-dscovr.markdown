@@ -9,6 +9,9 @@ launch_date: February 11, 2015
 arrival_date: June 1, 2015
 dsn_name: DSCO
 instruments:
+    - camera
+    - magnetometer
+    - radiometer
 teams:
 links:
 caption: >
