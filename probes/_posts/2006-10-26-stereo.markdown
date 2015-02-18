@@ -19,6 +19,7 @@ teams:
 links:
     - a <a href="http://www.solarstormwatch.com/">citizen science project</a> for anyone to make new scientific discoveries with STEREO's data
     - plot <a href="http://stereo-ssc.nascom.nasa.gov/cgi-bin/make_where_gif">where STEREO is</a> at any given point in the past, present or future
+    - the first <a href="http://www.nasa.gov/mission_pages/stereo/news/stereo3D_press.html">3D images of the Sun</a>
 
 caption: >
     (top image: <a href="http://www.nasa.gov/mission_pages/stereo/news/stereo3D_press.html">3D image of the Sun</a> taken by STEREO, NASA/STEREO)
