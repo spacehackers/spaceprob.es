@@ -19,7 +19,6 @@ teams:
 links:
     - an <a href="http://marsfromspace.com">online art gallery</a> of pictures from MRO
     - MRO's high resolution camera, HiRISE, on <a href="https://twitter.com/HiRISE">Twitter</a>
-    - <a href="http://mars.nasa.gov/mars3d/">3D images</a> of Mars from MRO
 
 caption: >
     (top image: enhanced color image of <a href="http://hirise.lpl.arizona.edu/ESP_013954_1780">Victoria Crater</a> on Mars as captured by MRO, NASA/JPL-caltech/University of Arizona)
