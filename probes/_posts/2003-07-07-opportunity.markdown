@@ -9,18 +9,21 @@ launch_date: July 7, 2003
 arrival_date: January 25, 2004
 dsn_name: MER1
 instruments:
-    - panoramic camera
-    - thermal spectrometer
+    - drill
     - gamma ray spectrometer
-    - x-ray spectrometer
+    - hazcams
     - magnets
     - microscope
-    - drill
+    - navigational camera
+    - panoramic camera
+    - thermal spectrometer
+    - x-ray spectrometer
 teams:
-    - <a href="http://mars.nasa.gov/mer/home/index.html">NASA / JPL</a>
+    - <a href="http://mars.nasa.gov/mer/home/">NASA / JPL</a>
 links:
     - <a href="http://mars.nasa.gov/mer/gallery/all/opportunity.html">raw images</a> taken by Opportunity
-
+    - <a href="http://xkcd.com/695/">xkcd</a> comic of Opportunity's twin, Spirit
+    - <a href="http://www.nasa.gov/sites/default/files/14-202b.jpg">infographic</a> of the distances rovers have driven on the Moon and Mars
 caption: >
     (top image: a <a href="http://www.jpl.nasa.gov/spaceimages/details.php?id=PIA13596">mosaic of Yankee Clipper crater</a> on Mars witnessed by Opportunity, NASA/JPL-Caltech)
 ---

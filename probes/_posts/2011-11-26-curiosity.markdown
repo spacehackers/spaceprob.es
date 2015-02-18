@@ -9,16 +9,17 @@ arrival_date: August 6, 2012
 image: curiosity.svg
 dsn_name: MSL
 instruments:
-    - cameras
-    - spectrometers
-    - radiation detectors
-    - environmental sensor
-    - atmospheric sensor
+    - <a href="http://mars.jpl.nasa.gov/msl/mission/instruments/atmossensors/medli/">atmospheric sensor</a>
+    - <a href="http://mars.jpl.nasa.gov/msl/mission/instruments/">cameras</a>
+    - <a href="http://mars.jpl.nasa.gov/msl/mission/instruments/environsensors/rems/">environmental sensor</a>
+    - <a href="http://mars.jpl.nasa.gov/msl/mission/instruments/">radiation detectors</a>
+    - <a href="http://mars.jpl.nasa.gov/msl/mission/instruments/">spectrometers</a>
 teams:
     - <a href="http://www.nasa.gov/mission_pages/msl/">NASA</a> / <a href="http://mars.jpl.nasa.gov/msl/">JPL</a>
 links:
     - an incredible <a href="http://www.nytimes.com/interactive/2014/12/09/science/space/curiosity-rover-28-months-on-mars.html?_r=0">time-lapse</a> of Curiosity's photos over 28 months
     - <a href="http://mars.jpl.nasa.gov/msl/multimedia/raw/?s=#/">raw images</a> from Curiosity
+    - the <a href="https://www.youtube.com/watch?v=Ki_Af_o9Q9s">7 Minutes of Terror video</a> about the difficulty of landing Curiosity with a new sky-crane technology
 
 caption: >
     (top image: Curiosity looks out over the <a href="http://mars.jpl.nasa.gov/msl/multimedia/images/?ImageID=5773">Martian surface</a>, NASA/JPL-Caltech/MSSS)

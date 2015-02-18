@@ -17,7 +17,9 @@ instruments:
 teams:
     - <a href="http://rosetta.esa.int/">ESA</a>
 links:
-    - amazing photographs of the comet on Rosetta's <a href="http://instagram.com/rosettamission">instagram</a>
+    - amazing photographs of the comet on Rosetta's <a href="http://instagram.com/rosettamission">Instagram</a>
+    - a model of Comet 67P for <a href="http://sci.esa.int/rosetta/54728-shape-model-of-comet-67p/">3D printing</a>
+    - an <a href="https://www.youtube.com/watch?v=AvkPFXdpOQQ">adorable cartoon</a> about Rosetta and Philae preparing for the comet landing
     - an <a href="http://sci.esa.int/where_is_rosetta/">interactive map</a> of where Rosetta is in the solar system
     - the Rosetta team's <a href = "http://blogs.esa.int/rosetta/">blog</a>
 
