@@ -10,12 +10,19 @@ launch_date: August 5, 2011
 primary_target: Jupiter
 arrival_date: August 2016
 instruments:
+    - magnetometer
+    - particle detectors
+    - radio/plasma wave sensor
+    - radio transmitter
+    - radiometer
+    - spectrometers
 teams:
-    - <a href = "http://www.nasa.gov">NASA</a>
-    - <a href = "http://www.swri.org/">SWRI</a>
+    - <a href = "http://www.nasa.gov/mission_pages/juno/main/">NASA</a>
+    - <a href = "http://missionjuno.swri.edu/">SWRI</a>
 links:
     - Juno's <a href="http://missionjuno.swri.edu/">interactive walk-through</a> of the science behind the mission
-
+    - a DIY <a href="http://www.jpl.nasa.gov/images/pdf/Juno_Spacecraft_Paper_Model_FC.pdf">paper model</a> of Juno
+    - a <a href="https://www.youtube.com/watch?v=_CzBlSXgzqI">video</a> of Earth and the Moon as seen from Juno
 caption: >
     top image: <a href="http://www.nasa.gov/jpl/juno/southern-atlantic-antarctica-20140325/">Earth as seen by Juno's red, green and blue spectral filters</a> on its way to Jupiter, NASA/JPL-Caltech/MSSS
 ---

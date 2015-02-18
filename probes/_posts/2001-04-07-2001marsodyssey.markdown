@@ -1,7 +1,6 @@
 ---
 layout: probe
 title: 2001 Mars Odyssey
-target: [saturn]
 color: '#ff6e48'
 attract: 2001marsodyssey_imageheader.jpg
 image: 2001marsodyssey.svg
@@ -10,12 +9,14 @@ launch_date: April 7, 2001
 primary_target: Mars
 arrival_date: October 24, 2001
 instruments:
+    - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/themis/">camera</a>
     - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/grs/">gamma ray spectrometer</a>
     - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/marie/">radiation spectrometer</a>
-    - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/themis/">thermal imager</a>
 teams:
-    - <a href = "http://www.nasa.gov">NASA</a>
+    - <a href="http://mars.nasa.gov/odyssey/">NASA / JPL</a>
 links:
+    - a program where students can <a href="http://mars.nasa.gov/msip/">take photos of Mars</a> using 2001 Mars Odyssey's camera
+    - categorized <a href="http://themis.asu.edu/topic">photos</a> from 2001 Mars Odyssey 
 
 caption: >
     (top image: <a href="http://www.nasa.gov/mission_pages/odyssey/images/pia13654b.html">Martian sand dunes captured by 2001 Mars Odyssey</a>, NASA/JPL-Caltech/ASU)

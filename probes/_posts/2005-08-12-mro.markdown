@@ -6,13 +6,19 @@ color: '#77ccc9'
 attract: mro_imageheader.jpg
 image: mro.svg
 dsn_name: MRO
+launch_date: August 12, 2005
 arrival_date: March 10, 2006
 instruments:
+    - <a href="http://mars.jpl.nasa.gov/mro/mission/instruments/">cameras</a>
+    - <a href="http://www.asi.it/en/activity/solar_system/sharad">radar</a>
+    - <a href="http://www.planetary.org/explore/projects/mcs/">radiometer</a>
+    - <a href="http://crism.jhuapl.edu/">spectrometer</a>
 teams:
     - <a href="http://mars.jpl.nasa.gov/mro/">JPL</a>
     - <a href="http://www.nasa.gov/mission_pages/MRO/main/index.html">NASA</a>
 links:
     - an <a href="http://marsfromspace.com">online art gallery</a> of pictures from MRO
+    - MRO's high resolution camera, HiRISE, on <a href="https://twitter.com/HiRISE">Twitter</a>
 
 caption: >
     (top image: enhanced color image of <a href="http://hirise.lpl.arizona.edu/ESP_013954_1780">Victoria Crater</a> on Mars as captured by MRO, NASA/JPL-caltech/University of Arizona)
