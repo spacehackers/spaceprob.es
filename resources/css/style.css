@@ -170,9 +170,9 @@ a, a:hover {
     display:inline-block;
     border-bottom: 2px solid #000;
     color: #000 !important;
+    width: 70%;
     font-family: 'Helvetica Neue';
     text-transform: uppercase;
-    width: 70%;
     font-size: 1.6em;
     font-weight: 700;
     white-space: nowrap;
@@ -180,6 +180,20 @@ a, a:hover {
 .probe .distance, .aboutpage .probe .distance {
     font-size: 0.9em;
     text-transform: uppercase;
+}
+.aboutpage .probe .title {
+    font-family: 'Helvetica Neue';
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.aboutpage .probe .distance {
+    font-family: 'Helvetica Neue';
+    text-transform: uppercase;
+    font-size: .7em;
+    color:black;
+    white-space: nowrap;
+
 }
 
 #probe-detail {
