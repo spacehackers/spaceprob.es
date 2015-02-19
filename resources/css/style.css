@@ -164,7 +164,7 @@ a, a:hover {
 .sidebar .title{
     display:none;
 }
-.frontpage .probe .title{
+.frontpage .probe .title, .aboutpage .probe .title{
     padding:0; margin:0;
     margin-bottom:5px;
     display:inline-block;
@@ -180,6 +180,9 @@ a, a:hover {
 .probe .distance {
     font-size: 0.9em;
     text-transform: uppercase;
+}
+.aboutpage .probe .title{
+    font-size:1.2em;
 }
 
 #probe-detail {
