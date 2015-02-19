@@ -1,5 +1,5 @@
-{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-{% capture arrivalunix %}{{page.arrival_date | date: '%s'}}{% endcapture %}
+{% capture nowiso %}{{'now' | date: '%F'}}{% endcapture %}
+{% capture arrivaliso %}{{page.arrival_date | date: '%F'}}{% endcapture %}
 
 <img src="/resources/img/silhouette/{{ page.image }}" alt="{{ page.title }}" class="img-responsive">
 <div class="title">{{ page.title }}</div>
@@ -10,20 +10,20 @@
     and is now
 
     <strong><span class = "distance"><span class="{{ page.title|slugify }}">unknown</span></strong> km from Earth</span>.
-
     Its primary destination is <strong>{{page.primary_target}}</strong>,
 
     which
 
-    {% if arrivalunix > nowunix %}
+    {% if arrivaliso > nowiso %}
         it's set to arrive at on
     {% else %}
         it arrived at on
     {% endif %}
+
     {{ page.arrival_date }}.
 
     {% if page.instruments %}
-        Wherever {{ page.title }} goes, it carries it's trusty
+        Wherever {{ page.title }} goes, it carries its trusty
         <strong>
             {{ page.instruments | array_to_sentence_string }}.
         </strong>
