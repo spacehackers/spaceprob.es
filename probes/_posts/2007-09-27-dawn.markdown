@@ -12,8 +12,8 @@ instruments:
     - <a href="http://www.nasa.gov/mission_pages/dawn/spacecraft/instruments.html">camera</a>
     - <a href="http://www.nasa.gov/mission_pages/dawn/spacecraft/instruments.html">radio transmitter</a> 
     - <a href="http://www.nasa.gov/mission_pages/dawn/spacecraft/instruments.html">spectrometers</a>
-team:
-    - <a href="http://www.nasa.gov/mission_pages/dawn/main/index.html">NASA</a> / <a href="http://dawn.jpl.nasa.gov/">JPL</a>
+teams:
+    - <a href="http://www.nasa.gov/mission_pages/dawn/main/">NASA</a> / <a href="http://dawn.jpl.nasa.gov/">JPL</a>
 links:
     - animated <a href="http://www.jpl.nasa.gov/spaceimages/details.php?id=pia19171">gif of Ceres</a> from as seen from Dawn's approach
     - a <a href="http://dawn.jpl.nasa.gov/DawnCommunity/asteroid_mappers.asp">citizen science project</a> to help scientists identify craters on Vesta
