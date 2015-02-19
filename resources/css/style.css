@@ -284,7 +284,7 @@ a, a:hover {
     color:#989898;
 }
 .sorting a:hover {
-    color:#707070;
+    color:#333333;
     text-decoration: none;
     outline-width:0;
     outline-style: none;
@@ -292,7 +292,7 @@ a, a:hover {
 }
 
 .sortby_selected { /* matches sorting a:hover */
-    color:#707070 !important;
+    color:#333333 !important;
 }
 
 /* undo the hover style on the div around the navbar links
