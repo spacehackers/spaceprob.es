@@ -17,6 +17,6 @@ teams:
 links:
     - DSCOVR on <a href="https://www.flickr.com/photos/noaasatellites/sets/72157647534218825/">Flickr</a>
 caption: >
-    (top image: the launch of the DSCOVR space probe in Japan, SpaceX)
+    (top image: the launch of the DSCOVR space probe, SpaceX)
 ---
 The Deep Space Climate Observatory (DSCOVR) is a space probe that's studying both Earth and the Sun. DSCOVR aims to provide early warnings of when dangerous solar storms might be headed our way, as well as measure Earth's radiation environment. The space probe will be able to warn Earth 15 to 60 minutes before a solar storm hits. DSCOVR was originally proposed to NASA by Al Gore in 1998 under the name Triana, for the intended purpose of continuous Earth observation. The DSCOVR space probe that ended up launching is similar to the aging <a href="/ace">ACE</a> space probe, which it will act as a replacement for. DSCOVR is the first deep space probe for the National Oceanic and Atmospheric Administration (NOAA) and was the first time a SpaceX rocket launched an object into deep space.
