@@ -263,8 +263,24 @@ a, a:hover {
 .sorting a:hover {
     color:#707070;
     text-decoration: none;
+    outline-width:0;
+    outline-style: none;
+
 }
 
 .sortby_selected { /* matches sorting a:hover */
     color:#707070 !important;
+}
+
+/* undo the hover style on the div around the navbar links
+   we just want them as links */
+ul.nav li a {
+    margin:0; padding:0;
+    font-size:120%;
+    margin-top:15px;
+    margin-right:25px;
+}
+ul.nav li a:hover {
+    color:white !important;
+    background-color: transparent;
 }
