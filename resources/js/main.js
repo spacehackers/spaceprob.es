@@ -115,6 +115,7 @@ var spaceprobes = {
     },
 
     display_paging_links: function() {
+        /*
         // for the probe detail page, computes the
         // next/prev link href and displays the next/prev link
 
@@ -142,6 +143,7 @@ var spaceprobes = {
         } catch(e) {
             $('.pagination a.prev').hide();
         }
+        */
     }
 
 
