@@ -2,7 +2,7 @@
 layout: probe
 title: DSCOVR
 primary_target: a halo orbit at the Earth-Sun L1 point
-color: '#938bbe'
+color: '#faca66'
 attract: dscovr_imageheader.jpg
 image: dscovr.svg
 launch_date: February 11, 2015
@@ -15,6 +15,7 @@ instruments:
 teams:
     - <a href="http://www.nesdis.noaa.gov/DSCOVR/">NOAA</a>
 links:
+    - DSCOVR on <a href="https://www.flickr.com/photos/noaasatellites/sets/72157647534218825/">Flickr</a>
 caption: >
     (top image: the launch of the DSCOVR space probe in Japan, SpaceX)
 ---

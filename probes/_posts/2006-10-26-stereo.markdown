@@ -1,7 +1,7 @@
 ---
 layout: probe
 title: STEREO
-color: '#faca66'
+color: '#938bbe'
 primary_target: a heliocentric orbit
 launch_date: October 26, 2006
 arrival date: 2007

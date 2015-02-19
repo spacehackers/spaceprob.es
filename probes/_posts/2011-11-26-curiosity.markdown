@@ -2,7 +2,7 @@
 layout: probe
 title: Curiosity
 primary_target: Mars
-color: '#78ae62'
+color: '#77ccc9'
 attract: curiosity_imageheader.jpg
 launch_date: November 26, 2011
 arrival_date: August 6, 2012

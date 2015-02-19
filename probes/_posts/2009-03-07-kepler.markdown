@@ -2,7 +2,7 @@
 layout: probe
 title: Kepler
 target: [saturn]
-color: '#faca66'
+color: '#77ccc9'
 attract: kepler_imageheader_2.jpg
 image: kepler.svg
 dsn_name: KEPL
