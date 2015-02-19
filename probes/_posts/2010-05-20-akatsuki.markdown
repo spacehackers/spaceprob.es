@@ -1,7 +1,7 @@
 ---
 layout: probe
 title: Akatsuki
-target: Venus
+primary_target: Venus
 color: '#ff6e48'
 launch_date: May 20, 2010
 arrival_date: December 7, 2015
