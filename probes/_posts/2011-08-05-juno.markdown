@@ -8,7 +8,7 @@ image: juno.svg
 dsn_name: JNO
 launch_date: August 5, 2011
 primary_target: Jupiter
-arrival_date: August 2016
+arrival_date: June 26, 2016
 instruments:
     - magnetometer
     - particle detectors
