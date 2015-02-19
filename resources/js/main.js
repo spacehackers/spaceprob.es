@@ -121,14 +121,23 @@ var spaceprobes = {
         slug = $('#probe-detail').data("slug");
         key = spaceprobes.sorted.indexOf(slug);
 
+        var slugs_sorted;
+        if (spaceprobes.current_sort == 'launch') {
+            slugs_sorted = spaceprobes.slugs_sorted_by_launch;
+        } else {
+            slugs_sorted = spaceprobes.slugs_sorted_by_distance;
+        }
+
+        key = slugs_sorted.indexOf(slug);
+
         try {
-            next = spaceprobes.sorted[key + 1];
+            next = slugs_sorted[key + 1];
             $('.pagination a.next').attr("href", '/' + next.replace(/-/g,''));
         } catch(e) {
             $('.pagination a.next').hide();
         }
         try {
-            prev = spaceprobes.sorted[key - 1];
+            prev = slugs_sorted[key - 1];
             $('.pagination a.prev').attr("href", '/' + prev.replace(/-/g,''));
         } catch(e) {
             $('.pagination a.prev').hide();
