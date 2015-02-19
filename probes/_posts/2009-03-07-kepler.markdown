@@ -12,10 +12,11 @@ arrival_date: May 2009
 instruments:
     - <a href="http://www.nasa.gov/mission_pages/kepler/spacecraft/">photometer</a>
 teams:
-    - <a href = "http://www.nasa.gov">NASA</a>
-    - <a href = "http://www.lasp.colorado.edu">LASP</a>
-
+    - <a href = "http://www.nasa.gov/mission_pages/kepler/">NASA</a> / <a href="http://kepler.nasa.gov/">ARC</a>
+    - <a href = "http://lasp.colorado.edu/home/missions-projects/quick-facts-kepler/">CU/LASP</a>
 links:
+    - a gestural <a href="https://vimeo.com/41655330">visualization tool</a> of exoplanet candidates discovered by Kepler
+    - a <a href="https://vimeo.com/44945226">sonification</a> of exoplanets transiting in front of a star
 
 caption: >
     (top image: <a href="http://kepler.nasa.gov/multimedia/photos/imagesbykepler/?ImageID=19">Kepler's field of view</a>, NASA/Ames/JPL-Caltech)
