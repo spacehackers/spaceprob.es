@@ -5,9 +5,9 @@ twitter: spaceprob_es
 
 
 # jekyll stuff:
+markdown: kramdown
 permalink: /:title/
 exclude: [README.markdown, Makefile]
-highlighter: null
 timezone: UTC
 encoding: utf-8
 baseurl: /
