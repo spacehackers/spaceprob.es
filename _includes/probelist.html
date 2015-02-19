@@ -1,7 +1,13 @@
-<div id="probes" class="row">
-{% for probe in site.categories['probes'] %}
+<div class = "sorting">
+    sort by:
+    <a href = "" class = "distance sortby_selected">distance</a>
+    <a href = "" class = "launch">launch</a>
+</div>
 
-    <div class = "col-sm-4" data-title = "{{ probe.title }}" data-slug = "{{ probe.title|slugify }}">
+<div id="probes" class="row probe_list">
+{% for probe in site.categories['probes']%}
+
+    <div class = "{{ probe.title|slugify }} col-sm-4" data-title = "{{ probe.title }}" data-slug = "{{ probe.title|slugify }}" data-id = "{{ probe.title|slugify }}">
         <a class="probe" href="{{ probe.url }}">
           <div style="background-color:{{probe.color}};">
             <img src="/resources/img/silhouette/{{ probe.image }}" alt="{{ probe.title }}" class="img-responsive">
@@ -10,5 +16,6 @@
           </div>
         </a>
     </div>
+
 {% endfor %}
 </div>

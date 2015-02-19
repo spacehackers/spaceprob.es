@@ -1,7 +1,22 @@
 $(document).ready(function() {
 
-  spaceprobes.init();
-  spaceprobes.init_news();
+    spaceprobes.init();
+    spaceprobes.init_news();
+
+    $('#content').on("click", 'a.distance, a.launch', function(e) {
+
+        $('.sorting a').removeClass('sortby_selected');
+        $(this).addClass('sortby_selected').blur();
+
+        if ($(this).hasClass('launch')) {
+            spaceprobes.current_sort = 'launch';
+            spaceprobes.display_probes(spaceprobes.slugs_sorted_by_launch);
+        } else {
+            spaceprobes.current_sort = 'distance';
+            spaceprobes.display_probes(spaceprobes.slugs_sorted_by_distance);
+        }
+        e.preventDefault();
+    });
 
 });
 
@@ -10,9 +25,10 @@ var spaceprobes = {
     distances_feed_url: "http://murmuring-anchorage-8062.herokuapp.com/distances.json",
     // distances_feed_url: "http://127.0.0.1:5000/distances.json", // local
 
-    distances: {},
-    sorted: [],
-    sort_by: 'distance',  // 'distance' or 'launch'
+    slugs_sorted_by_distance:[],
+    slugs_sorted_by_launch:[],
+    probe_snippets: {},
+    current_sort: 'distance',  // 'distance' or 'launch'
 
 
     init_news: function() {
@@ -36,6 +52,7 @@ var spaceprobes = {
             },
             success: function(data) {
 
+                distances = {}
                 // the distances arrive as text, make them numbers in
                 // this data struct, and also display them in their
                 // html place holders and properly formatted
@@ -45,58 +62,33 @@ var spaceprobes = {
                         distance_str = numeral(distance).format('0.00 a');
                         elem = '.distance span[class=' + slug + ']';
                         $(elem).html(distance_str);
-                        spaceprobes.distances[slug] = distance;
+                        distances[slug] = distance;
                     }
                 }
 
                 // make a list of probes slugs ordered by distance
-                sorted_by_time = Object.keys(spaceprobes.distances).sort(function(a,b){return parseInt(spaceprobes.distances[b], 10)-parseInt(spaceprobes.distances[a], 10); });
-
-                spaceprobes.sorted = sorted_by_time;
+                spaceprobes.slugs_sorted_by_distance = Object.keys(distances).sort(function(a,b){return parseInt(distances[b], 10)-parseInt(distances[a], 10); });
 
                 // rearrange the homepage probes and store the sorting by launch date
-                if ($('#probes').is(":hidden")) {
+                if (!$('#probe-detail').length) {
                     // true if this is the homepage
 
                     // grab each probe snippet and info from the homepage Jekyll drew it
                     // this will be in launch date order
-                    probe_snippets = {};
-                    sorted_by_launch = [];
+
                     count = 0;
                     $('#probes').children().each(function() {
                         count = count + 1;
                         title = $(this).data('title');
                         slug = $(this).data('slug');
-                        sorted_by_launch.push(slug);
-                        if (slug.length) {
-                            probe_snippets[slug] = $(this);
-                        } else {
-                            probe_snippets[title] = $(this);
-                        }
+                        spaceprobes.slugs_sorted_by_launch.push(slug);
+                        spaceprobes.probe_snippets[slug] = $(this);
                     });
 
-                    // re-append all the snippets in sorted order
+                    // no we have 2 lists of sorted slugs
+                    // and a dict containing the html for each slug
 
-                    // first hide the #probes div
-                    $('#probes').html('');
-
-                    // append each widget that appears in spaceprobes.sorted
-                    for (var k in spaceprobes.sorted) {
-                        title = spaceprobes.sorted[k];
-                        if (title in probe_snippets) {
-                            // append to #probes
-                            $('#probes').append(probe_snippets[title]);
-                            delete probe_snippets[title];
-                        }
-                    }
-
-                    // now append whatever is left = the un sorted ones with no distance info
-                    for (var p in probe_snippets) {
-                        $('#probes').append(probe_snippets[p]);
-                    }
-
-                    // and display the #probes div
-                    $('#probes').slideDown("slow");
+                    spaceprobes.display_probes(spaceprobes.slugs_sorted_by_distance);
 
 
                 } else { // end if homepage
@@ -108,6 +100,19 @@ var spaceprobes = {
         });
 
     }, // /init
+
+    display_probes: function(slug_list) {
+
+        // first hide the #probes div
+        $('#probes').hide();
+        for (var k in slug_list) {
+            slug = slug_list[k];
+            $('#probes').append(spaceprobes.probe_snippets[slug]);
+        }
+        // $('#probes').fadeIn("fast");
+        $('#probes').show();
+
+    },
 
     display_paging_links: function() {
         // for the probe detail page, computes the
