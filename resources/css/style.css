@@ -178,11 +178,17 @@ a, a:hover {
     white-space: nowrap;
 }
 .probe .distance {
-    font-size: 0.9em;
+    font-size: 0.6em;
     text-transform: uppercase;
+    font-family: 'Helvetica Neue';
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #000 !important;
 }
-.aboutpage .probe .title{
+.aboutpage .probe .title {
     font-size:1.2em;
+    font-weight:600;
+    font-family: 'Helvetica Neue';
 }
 
 #probe-detail {
