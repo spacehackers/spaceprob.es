@@ -3,7 +3,7 @@ layout: probe
 title: DSCOVR
 primary_target: a halo orbit at the Earth-Sun L1 point
 color: '#938bbe'
-attract: 
+attract: dscovr_imageheader.jpg
 image: dscovr.svg
 launch_date: February 11, 2015
 arrival_date: June 1, 2015
@@ -13,6 +13,7 @@ instruments:
     - magnetometer
     - radiometer
 teams:
+    - <a href="http://www.nesdis.noaa.gov/DSCOVR/">NOAA</a>
 links:
 caption: >
 ---
