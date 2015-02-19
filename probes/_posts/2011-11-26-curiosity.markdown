@@ -20,6 +20,7 @@ links:
     - an incredible <a href="http://www.nytimes.com/interactive/2014/12/09/science/space/curiosity-rover-28-months-on-mars.html?_r=0">time-lapse</a> of Curiosity's photos over 28 months
     - <a href="http://mars.jpl.nasa.gov/msl/multimedia/raw/?s=#/">raw images</a> from Curiosity
     - the <a href="https://www.youtube.com/watch?v=Ki_Af_o9Q9s">7 Minutes of Terror video</a> about the difficulty of landing Curiosity with a new sky-crane technology
+    - <a href="https://twitter.com/MarsWxReport">Weather reports from Mars</a> generated from Curiosity
 
 caption: >
     (top image: Curiosity looks out over the <a href="http://mars.jpl.nasa.gov/msl/multimedia/images/?ImageID=5773">Martian surface</a>, NASA/JPL-Caltech/MSSS)
