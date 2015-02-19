@@ -4,7 +4,7 @@ title: STEREO
 color: '#938bbe'
 primary_target: a heliocentric orbit
 launch_date: October 26, 2006
-arrival date: 2007
+arrival_date: January 21, 2007
 attract: stereo_imageheader.jpg
 image: stereo.svg
 dsn_name: STA
