@@ -4,7 +4,7 @@ title: SOHO
 color: '#938bbe'
 attract: soho_imageheader.jpg
 launch_date: December 2, 1995
-arrival_date: May, 1996
+arrival_date: May 2, 1996
 primary_target: a halo orbit at the Earth-Sun L1 point
 image: soho.svg
 dsn_name: SOHO

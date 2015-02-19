@@ -6,7 +6,7 @@ attract: wind_imageheader.jpg
 image: wind.svg
 dsn_name: WIND
 launch_date: November 1, 1994
-arrival_date: 1995
+arrival_date: April 1, 1995
 primary_target: a halo orbit at the Earth-Sun L1 point
 instruments:
     - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">magnetic field sensor</a>
