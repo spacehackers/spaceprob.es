@@ -4,9 +4,18 @@ title: Mars Express
 primary_target: Mars
 color: '#77ccc9'
 attract: marsexpress_imageheader.jpg
+launch_date: June 2, 2003
+arrival_date: December 25, 2003
 image: marsexpress.svg
 dsn_name: MEX
-
+instruments:
+    - <a href="http://sci.esa.int/mars-express/31033-objectives/">camera</a>
+    - <a href="http://sci.esa.int/mars-express/31033-objectives/">plasma and atom analyzer</a>
+    - <a href="http://sci.esa.int/mars-express/31033-objectives/">radar altimeter</a>
+    - <a href="http://sci.esa.int/mars-express/31033-objectives/">radio transmitter</a>
+    - <a href="http://sci.esa.int/mars-express/31033-objectives/">spectrometers</a>
+teams:
+    - <a href="http://sci.esa.int/mars-express/">ESA</a>
 links:
   - a <a href="http://www.nature.com/news/spectacular-flyover-of-mars-1.14041">fly-through of Mars' surface</a> based on the data from Mars Express
   - a Twitter account dedicated to <a href="https://twitter.com/esamarswebcam">tweeting photos from the camera<a> onboard Mars Express

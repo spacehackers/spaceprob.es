@@ -1,13 +1,24 @@
 ---
 layout: probe
 title: Spitzer
-primary_target: heliocentric orbit
+primary_target: a heliocentric orbit
 color: '#8e8566'
 attract: spitzer_imageheader2.jpg
 image: spitzer.svg
+launch_date: August 25, 2003
+arrival_date: December 18, 2003
 dsn_name: STF
-
+instruments:
+    - <a href="http://www.spitzer.caltech.edu/mission/398-The-Infrared-Array-Camera-IRAC-">infrared camera</a>
+    - <a href="http://www.spitzer.caltech.edu/mission/394-The-Infrared-Spectrograph-IRS-">infrared spectrograph</a>
+    - <a href="http://www.spitzer.caltech.edu/mission/396-The-Multiband-Imaging-Photometer-MIPS-">photometer</a>
+teams:
+    - <a href="http://www.nasa.gov/mission_pages/spitzer/main/">NASA</a> / <a href="http://www.jpl.nasa.gov/missions/spitzer-space-telescope/">JPL</a>
+    - <a href="http://www.spitzer.caltech.edu/">Caltech</a>
 links:
+    - a <a href="http://www.milkywayproject.org/">citizen science project</a> to better understand how stars form using data from Spitzer
+    - a new <a href="http://www.jpl.nasa.gov/news/news.php?feature=4462">scientific discovery</a> made by citizen scientists using Spitzer data
+    - select <a href="http://www.spitzer.caltech.edu/search/image_set/100?by_type=astronomical&page=1&tabs=hidden">astronomical images</a> taken by Spitzer
 
 caption: >
     (top image: the <a href="http://www.nasa.gov/mission_pages/spitzer/multimedia/pia13932.html">center of the Milky Way galaxy</a> as seen by Spitzer's infrared camera, NASA/JPL-Caltech)
