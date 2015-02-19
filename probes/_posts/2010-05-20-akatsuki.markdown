@@ -3,12 +3,21 @@ layout: probe
 title: Akatsuki
 target: Venus
 color: '#ff6e48'
+launch_date: May 20, 2010
+arrival_date: December 7, 2015
 attract: akatsuki_imageheader.jpg
 image: akatsuki.svg
 dsn_name: PLC
-
+instruments:
+    - <a href="http://www.stp.isas.jaxa.jp/venus/E_instrument.html">cameras</a>
+    - <a href="http://www.stp.isas.jaxa.jp/venus/E_instrument.html">camera controller</a>
+    - <a href="http://www.stp.isas.jaxa.jp/venus/E_instrument.html">radio transmitter</a>
+teams:
+    - <a href="http://global.jaxa.jp/projects/sat/planet_c/">JAXA</a>
 links:
-
+    - DIY <a href="http://www.stp.isas.jaxa.jp/venus/download.html#origami">origami</a> of Akatsuki
+    - a <a href="https://twitter.com/Akatsuki_JAXA/status/475914029303877634">snowman of Akatsuki</a>
+    - Akatsuki on <a href="https://twitter.com/Akatsuki_JAXA">Twitter</a>
 caption: >
     (top image: the <a href="https://commons.wikimedia.org/wiki/File:H-IIA_F17_launching_AKATSUKI.jpg">launch</a> of the Akatsuki probe, Narita Masahiro)
 ---

@@ -19,8 +19,8 @@ instruments:
     - small lander
 teams:
     - <a href="http://global.jaxa.jp/projects/sat/hayabusa2/">JAXA</a>
-
 links:
+    - Hayabusa 2 <a href="http://fanfun.jaxa.jp/countdown/hayabusa2/works.html">fan art</a>
 
 caption: >
     (top image: the launch of the Hayabusa 2 space probe in Japan)
