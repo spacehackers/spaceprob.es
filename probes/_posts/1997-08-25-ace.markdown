@@ -10,9 +10,9 @@ primary_target: a halo orbit at the Earth-Sun L1 point
 dsn_name: ACE
 instruments:
     - <a href="http://www.srl.caltech.edu/ACE/CRIS_SIS/cris.html">cosmic ray spectrometer</a>
-    - <a href="http://www.srl.caltech.edu/ACE/ASC/instruments.html">particle sensors</a>
-    - <a href="http://www.ssg.sr.unh.edu/mag/ACE.html">magnetometer</a>
     - <a href="http://www.srl.caltech.edu/ACE/ASC/instruments.html">isotope spectrometers</a>
+    - <a href="http://www.ssg.sr.unh.edu/mag/ACE.html">magnetometer</a>
+    - <a href="http://www.srl.caltech.edu/ACE/ASC/instruments.html">particle sensors</a>
 teams:
     - <a href="http://www.srl.caltech.edu/ACE/">Caltech</a>
     - <a href="http://helios.gsfc.nasa.gov/">NASA</a>
