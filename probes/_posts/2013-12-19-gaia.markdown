@@ -4,8 +4,11 @@ title: Gaia
 color: '#ff6e48'
 attract: gaia_imageheader.jpg
 image: gaia.svg
+launch_date: December 19, 2013
+arrival_date:
 distance: 1500000  # Gaia orbits around L2
-
+teams:
+    - <a href="http://sci.esa.int/gaia/">ESA</a>
 links:
   - an <a href = "https://itunes.apple.com/us/app/gaia-mission/id735128015?mt=8">iPhone app</a> to receive updates on the mission
 
