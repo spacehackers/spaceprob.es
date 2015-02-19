@@ -7,10 +7,14 @@ attract: change5t1_imageheader.jpg
 image: change5t1.svg
 orbit_planet: Moon
 launch_date: October 23, 2014
-arrival_date: October, 2014
+arrival_date: January 13, 2015
+instruments:
+    - radiation sensor
+    - radio beacon
 teams:
     - <a href="http://www.cnsa.gov.cn/">China National Space Administration</a>
 links:
+    - an <a href="http://sen.com/news/china-s-moon-sample-test-mission-returns-successfully-to-earth">article</a> on the successful return of Xiaofei capsule
 
 caption: >
     (top image: the Moon's <a href="http://news.xinhuanet.com/world/2014-10/28/c_1113016268.htm">Mare Marginis</a> as seen by Chang'e 5-T1, Xinhua News/CNSA)
