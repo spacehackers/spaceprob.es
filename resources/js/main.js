@@ -105,12 +105,24 @@ var spaceprobes = {
 
     display_probes: function(slug_list) {
 
-        // first hide the #probes div
         $('#probes').hide();
+
+        // make a local clone of the spaceprobes.probe_snippets array
+        var probe_snippets = $.extend(true,{},spaceprobes.probe_snippets);
+
+        // append the snippets to the div in slug_list order
         for (var k in slug_list) {
             slug = slug_list[k];
-            $('#probes').append(spaceprobes.probe_snippets[slug]);
+            $('#probes').append(probe_snippets[slug]);
+            delete probe_snippets[slug];
         }
+
+        // are there any left over? append those at bottom of page
+        // (this happens like when a probe has no distance data yet)
+        for (var slug in probe_snippets) {
+            $('#probes').append(probe_snippets[slug]);
+        }
+
         // $('#probes').fadeIn("fast");
         $('#probes').show();
 
