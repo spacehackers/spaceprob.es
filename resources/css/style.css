@@ -4,9 +4,7 @@ body > .wrapper { height: auto; min-height: 100%; }
 #content { padding-top: 2.0em; padding-bottom: 100px; }
 #footer { clear: both; position: relative; z-index: 10; height: 100px; margin-top: -100px; padding-top: 40px;}
 
-.wrapper {
-    margin:0; padding:0;
-}
+
 .pagination {
     display:none;
 }
@@ -98,11 +96,6 @@ a, a:hover {
     width: 100%;
     padding: 5%;
     padding-top: 5%;
-}
-
-.container.frontpage {
-    padding:0;
-    padding-right:10px;
 }
 
 .probe,
