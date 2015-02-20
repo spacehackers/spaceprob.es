@@ -47,14 +47,14 @@ var spaceprobes = {
             timeout: 4000,
             error:function (xhr, ajaxOptions, thrownError){
                 // just show the #probes div as it was drawn by Jekyll
-                $('#probes').slideDown("slow");
+                $('#probes').show();
                 if(textStatus==="timeout") {
                       // todo
                 }
             },
             success: function(data) {
 
-                distances = {}
+                distances = {};
                 // the distances arrive as text, make them numbers in
                 // this data struct, and also display them in their
                 // html place holders and properly formatted
