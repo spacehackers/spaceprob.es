@@ -2,7 +2,7 @@
 layout: probe
 title: Hayabusa 2
 primary_target: asteroid 1999 JU3
-color: '#78ae62'
+color: '#fe9d99'
 attract: hayabusa2_imageheader.jpg
 image: hayabusa2.svg
 launch_date: December 3, 2014

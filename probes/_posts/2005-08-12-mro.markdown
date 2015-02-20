@@ -2,7 +2,7 @@
 layout: probe
 title: MRO
 primary_target: Mars
-color: '#77ccc9'
+color: '#fe9d99'
 attract: mro_imageheader.jpg
 image: mro.svg
 orbit_planet: Mars

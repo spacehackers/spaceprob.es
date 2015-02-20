@@ -2,7 +2,7 @@
 layout: probe
 title: Chang'e 3
 primary_target: the Moon
-color: '#faca66'
+color: '#77ccc9'
 attract: change3_imageheader.jpg
 image: chang'e3.svg
 orbit_planet: Moon

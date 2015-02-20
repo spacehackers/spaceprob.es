@@ -1,7 +1,7 @@
 ---
 layout: probe
 title: LRO
-color: '#fe9d99'
+color: '#78ae62'
 attract: lro_imageheader.jpg
 image: lro.svg
 dsn_name: LRO

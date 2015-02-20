@@ -2,7 +2,7 @@
 layout: probe
 title: MESSENGER
 primary_target: Mercury
-color: '#fe9d99'
+color: '#faca66'
 attract: messenger_imageheader.jpg
 image: messenger.svg
 launch_date: August 3, 2004
