@@ -6,7 +6,7 @@ color: '#fe9d99'
 attract: messenger_imageheader.jpg
 image: messenger.svg
 launch_date: August 3, 2004
-arrival_date: January 14, 2008
+arrival_date: April 4, 2011
 dsn_name: MSGR
 instruments:
     - cameras
