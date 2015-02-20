@@ -3,7 +3,7 @@ layout: probe
 title: ARTEMIS
 primary_target: the Moon
 color: '#faca66'
-attract:
+attract: artemis_imageheader.jpg
 image: artemis.svg
 orbit_planet: Moon
 launch_date: February 17, 2007
@@ -17,7 +17,8 @@ teams:
     - <a href="http://www.nasa.gov/mission_pages/artemis/">NASA</a>
     - <a href="http://artemis.ssl.berkeley.edu/index.shtml">UCB/SSL</a>
 links:
-
+    - the <a href="http://artemis.ssl.berkeley.edu/overview_data.shtml">data hub</a> for ARTEMIS
 caption: >
-
+    (top image: <a href="http://science.nasa.gov/science-news/science-at-nasa/2009/17dec_whenaurorascollide/">colliding auroras</a> as seen by the THEMIS space probes, Toshi Nishimura/UCLA)
 ---
+ARTEMIS is a set of twin space probes in orbit of the Moon. The twin space probes, ARTEMIS P1 and P2, were originally part of a set of quintuplets in orbit of Earth, called THEMIS. ARTEMIS stands for "Acceleration, Reconnection, Turbulence and Electrodynamics of Moon's Interaction with the Sun". The two space probes entered lunar orbit after spending a few years studying the Earth. ARTEMIS P1 and P2 now spend their time studying the effects of solar radiation on the Moon. The space probes aim to gain unique insights about how the lunar environment interacts with the Sun.
