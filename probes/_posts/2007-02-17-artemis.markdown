@@ -3,9 +3,9 @@ layout: probe
 title: ARTEMIS
 primary_target: the Moon
 color: '#faca66'
-attract: 
+attract:
 image: artemis.svg
-dsn_name: THB
+orbit_planet: Moon
 launch_date: February 17, 2007
 arrival_date: July 2, 2011
 instruments:
