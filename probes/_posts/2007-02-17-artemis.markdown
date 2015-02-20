@@ -2,7 +2,7 @@
 layout: probe
 title: ARTEMIS
 primary_target: the Moon
-color: '#faca66'
+color: '#fe9d99'
 attract: artemis_imageheader.jpg
 image: artemis.svg
 orbit_planet: Moon
