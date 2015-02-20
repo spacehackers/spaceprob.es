@@ -10,9 +10,7 @@ body > .wrapper { height: auto; min-height: 100%; }
 .pagination {
     display:none;
 }
-ul#probes, ul#probes li {
-    margin:0; padding:0;
-}
+
 #probes {
     display:none;
     margin-left: 0;
