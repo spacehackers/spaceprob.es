@@ -9,8 +9,12 @@ dsn_name: THB
 launch_date: February 17, 2007
 arrival_date: July 2, 2011
 instruments:
+    - <a href="http://artemis.ssl.berkeley.edu/instrument_efi.shtml">electric field sensors</a>
+    - <a href="http://artemis.ssl.berkeley.edu/instrument_esa.shtml">electrostatic analyzers</a>
+    - <a href="http://artemis.ssl.berkeley.edu/instruments.shtml">magnetometers</a>
+    - <a href="http://artemis.ssl.berkeley.edu/instrument_sst.shtml">telescopes</a>
 teams:
-    - NASA
+    - <a href="http://www.nasa.gov/mission_pages/artemis/">NASA</a>
     - <a href="http://artemis.ssl.berkeley.edu/index.shtml">UCB/SSL</a>
 links:
 
