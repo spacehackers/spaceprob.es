@@ -5,7 +5,7 @@ primary_target: Mars
 color: '#77ccc9'
 attract: mro_imageheader.jpg
 image: mro.svg
-dsn_name: MRO
+orbit_planet: Mars
 launch_date: August 12, 2005
 arrival_date: March 10, 2006
 instruments:

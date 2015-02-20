@@ -7,7 +7,7 @@ attract: mangalyaan_imageheader.jpg
 image: mangalyaan.svg
 launch_date: November 5, 2013
 arrival_date: September 24, 2014
-dsn_name: MOM
+orbit_planet: Mars
 instruments:
     - camera
     - methane sensor

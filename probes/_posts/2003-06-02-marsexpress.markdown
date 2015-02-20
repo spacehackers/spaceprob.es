@@ -7,7 +7,7 @@ attract: marsexpress_imageheader.jpg
 launch_date: June 2, 2003
 arrival_date: December 25, 2003
 image: marsexpress.svg
-dsn_name: MEX
+orbit_planet: Mars
 instruments:
     - <a href="http://sci.esa.int/mars-express/31033-objectives/">camera</a>
     - <a href="http://sci.esa.int/mars-express/31033-objectives/">plasma and atom analyzer</a>

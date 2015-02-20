@@ -7,7 +7,7 @@ attract: curiosity_imageheader.jpg
 launch_date: November 26, 2011
 arrival_date: August 6, 2012
 image: curiosity.svg
-dsn_name: MSL
+orbit_planet: Mars
 instruments:
     - <a href="http://mars.jpl.nasa.gov/msl/mission/instruments/atmossensors/medli/">atmospheric sensor</a>
     - <a href="http://mars.jpl.nasa.gov/msl/mission/instruments/">cameras</a>

@@ -7,7 +7,7 @@ attract: maven_imageheader.jpg
 image: maven.svg
 launch_date: November 18, 2013
 arrival_date: September 22, 2014
-dsn_name: MVN
+orbit_planet: Mars
 instruments:
     - <a href="http://lasp.colorado.edu/home/maven/science/instrument-package/">solar wind and ionosphere sensors</a>
     - <a href="http://lasp.colorado.edu/home/maven/science/instrument-package/ngims/">spectrometer</a>
