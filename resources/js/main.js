@@ -44,6 +44,7 @@ var spaceprobes = {
             url: spaceprobes.distances_feed_url,
             type: 'get',
             dataType: 'jsonp',
+            cache : false,
             timeout: 4000,
             error:function (xhr, ajaxOptions, thrownError){
                 // just show the #probes div as it was drawn by Jekyll
