@@ -80,6 +80,9 @@ a, a:hover {
     #probe-detail h1 {
          font-size: 2.0em !important;
     }
+    #probe-detail {
+        padding-left:15px;
+    }
 }
 
 .site-menu {
