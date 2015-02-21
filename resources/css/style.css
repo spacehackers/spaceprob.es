@@ -316,14 +316,15 @@ ul.nav li a:hover {
 }
 
 .dropdown-menu li {
-    font-size:1.2em;
-    padding: 5px;
+    font-size:0.9em;
+    padding: 7px;
 }
 
 
 .dropdown-menu li a {
     font-weight: 700;
-    color: #606060;
+    color: #808080;
+    text-transform: uppercase;
 }
 .dropdown-menu li a:focus, .dropdown-menu li a:hover
 {
