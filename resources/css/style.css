@@ -322,9 +322,8 @@ ul.nav li a:hover {
 
 
 .dropdown-menu li a {
-    color:black;
     font-weight: 700;
-    font-color: black;
+    color: #606060;
 }
 .dropdown-menu li a:focus, .dropdown-menu li a:hover
 {
