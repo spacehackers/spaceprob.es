@@ -48,6 +48,10 @@ a, a:hover {
     margin-bottom:0;
 }
 
+#header h1 a {
+    color: #bbb;
+    text-decoration: none;
+}
 #logo {
     margin-top: 17px;
     margin-right: 15px;
@@ -310,4 +314,3 @@ ul.nav li a:hover {
 ul #dropdown-menu li a {
     font-color:black;
 }
-
