@@ -21,40 +21,56 @@
 
   <title>{{ page.title }}</title>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-
-  <script src="/resources/js/main.js"></script>
-
   <link rel = "image_src" href = "http://spaceprob.es/resources/img/juno2.png">
 
  </head>
  <body>
   <div class="wrapper">
-  <nav id="header" class = "nav navbar-inverse">
 
+  <nav id="header" class = "navbar navbar-inverse">
     <div class="container">
 
-      <div class="navbar-header">
+      <div class="navbar-header pull-left">
         <h1><a href="/">spaceprob.es</a></h1>
       </div>
 
-      <div class="collapse navbar-collapse site-menu hidden-xs">
+      <div class="navbar-collapse collapse">
 
-        <a class="twitter nav navbar-text navbar-right pull-right" href="https://twitter.com/{{ site.twitter }}" title="@{{ site.twitter }}"><img src="/resources/img/Twitter_Probe.svg" alt="spaceprobes twitter"></a>
+        <a class="navbar-text pull-right twitter"
+          href="https://twitter.com/{{ site.twitter }}" title="@{{ site.twitter }}">
+          <img width = "50" src="/resources/img/Twitter_Probe.svg" alt="spaceprobes twitter">
+        </a>
 
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href = "https://www.stickermule.com/user/1070646893/stickers">Store</a></li>
-          <li><a href = "/about">About</a></li>
+          <ul class="nav navbar-nav navbar-right site-menu" role = "menu">
+            <li>
+              <a href = "https://www.stickermule.com/user/1070646893/stickers">Store</a>
+            </li>
+            <li>
+              <a href = "/about">About</a>
+          </li>
+        </ul>
+      </div> <!-- collapse navbar -->
+
+
+      <div class="navbar pull-right visible-xs dropdown">
+
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            <img width = "23" src = "http://spaceprob.es/resources/img/menu.svg" alt = "menu">
+          </a>
+
+        <ul id = "dropdown-menu" class="dropdown-menu" role="menu">
+          <li><a href = "/about" >About</a>
+          <li><a href = "https://www.stickermule.com/user/1070646893/stickers">Store</a></li>
         </ul>
 
       </div>
 
+
+
+
       <!-- a id="menu" class="pull-right visible-xs"><img src="/resources/img/menu.svg" alt="menu"></a -->
 
-      <a href = "/about" id="menu" class="pull-right visible-xs">About</a>
+      <!--a href = "/about" id="menu" class="pull-right visible-xs">About</a -->
 
     </div><!-- /container -->
   </nav>
@@ -70,6 +86,13 @@
      {% include footer.html %}
    </div>
   </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  <script src="/resources/js/main.js"></script>
+
 
  </body>
 </html>
