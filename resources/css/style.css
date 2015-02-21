@@ -312,6 +312,11 @@ ul.nav li a:hover {
     background-color: transparent;
 }
 
+.dropdown-menu li {
+    font-size:1.1em;
+    padding: 3px;
+}
+
 
 .dropdown-menu li a {
     color:black;
