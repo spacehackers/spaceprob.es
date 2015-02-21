@@ -33,8 +33,11 @@ layout: base
           {{content}}
       </div>
 
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+
         <script>
           url = "http://dry-eyrie-9951.herokuapp.com/{{ page.title }}";
+
           $.ajax({
               url: url,
               type: 'get',
@@ -45,6 +48,9 @@ layout: base
                 content += '<span class = "published_date">(' + data.post.published_readable + ')</span>'
                 $('.latest_news').html(content);
 
+              },
+              error: function(e) {
+                console.log(e);
               }
           });
           </script>
