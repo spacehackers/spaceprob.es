@@ -117,6 +117,27 @@ a, a:hover {
     padding: 5%;
     padding-top: 5%;
 }
+@media screen and (min-width: 750px) and (max-width: 970px) {
+
+    .nav > li {
+        padding-top:0;
+    }
+    .twitter {
+        height: 2.5em;
+        width: 2.5em;
+        margin-top: 10px;
+        margin-bottom:0;
+    }
+
+    .twitter img {
+        width: 2.5em;
+        padding: 5%;
+        padding-top: 5%;
+    }
+
+
+
+}
 
 .probe,
 .probe:hover {
