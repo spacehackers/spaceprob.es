@@ -117,11 +117,10 @@ a, a:hover {
     padding: 5%;
     padding-top: 5%;
 }
-@media screen and (min-width: 750px) and (max-width: 970px) {
 
-    .nav > li {
-        padding-top:0;
-    }
+/* table portrait */
+@media screen and (min-width: 750px) and (max-width: 991px) {
+
     .twitter {
         height: 2.5em;
         width: 2.5em;
@@ -135,6 +134,9 @@ a, a:hover {
         padding-top: 5%;
     }
 
+    #probes .probe img {
+        padding:8px;
+    }
 
 
 }
