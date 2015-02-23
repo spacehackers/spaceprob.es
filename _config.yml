@@ -3,6 +3,7 @@ authors: "The League of Space Hackers"
 description: "Current information on the scientific probes sent into deep space by human beings of planet Earth"
 twitter: spaceprob_es
 sticker_url: https://www.stickermule.com/marketplace/4282-space-probes
+poster_url: http://society6.com/product/space-probes_print
 
 # jekyll stuff:
 markdown: kramdown
