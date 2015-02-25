@@ -18,6 +18,23 @@ $(document).ready(function() {
         e.preventDefault();
     });
 
+    // The following allows relative links within spaceprob.es to remain within the Apple web
+    // app on iOS. Non-relative links open in Safari.
+    if (window.navigator.standalone) {
+    	// The app is running in standalone mode.
+	    var a=document.getElementsByTagName("a");
+		for(var i=0;i<a.length;i++)
+		{
+			var pat = /^https?:\/\//i;
+			if (!pat.test(a[i].getAttribute("href"))){
+			    a[i].onclick=function() {
+			        window.location=this.getAttribute("href");
+			        return false
+			    }
+		    }
+		}
+	}
+
 });
 
 var spaceprobes = {
