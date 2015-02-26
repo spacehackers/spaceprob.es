@@ -26,7 +26,8 @@ $(document).ready(function() {
 		for(var i=0;i<a.length;i++)
 		{
 			var pat = /^https?:\/\//i;
-			if (!pat.test(a[i].getAttribute("href"))){
+			var href = a[i].getAttribute("href");
+			if (!pat.test(href) && href !== ""){
 			    a[i].onclick=function() {
 			        window.location=this.getAttribute("href");
 			        return false
