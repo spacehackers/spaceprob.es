@@ -87,8 +87,9 @@ var spaceprobes = {
                     }
                 }
 
-                // make a list of probes slugs ordered by distance
-                spaceprobes.slugs_sorted_by_distance = Object.keys(distances).sort(function(a,b){return parseInt(distances[b], 10)-parseInt(distances[a], 10); });
+                // make a list of probes slugs ordered by distance, then alphabetically
+                var sorted_keys = Object.keys(data.spaceprobe_distances).sort();  // first sort by alpha
+                spaceprobes.slugs_sorted_by_distance = sorted_keys.sort(function(a,b){return parseInt(distances[b], 10)-parseInt(distances[a], 10); });
 
                 // rearrange the homepage probes and store the sorting by launch date
                 if (!$('#probe-detail').length) {
