@@ -89,8 +89,7 @@ var spaceprobes = {
                 }
 
                 // make a list of probes slugs ordered by distance, then alphabetically
-                var sorted_keys = Object.keys(data.spaceprobe_distances).sort();  // first sort by alpha
-                spaceprobes.slugs_sorted_by_distance = sorted_keys.sort(function(a,b){return parseInt(distances[b], 10)-parseInt(distances[a], 10); });
+                spaceprobes.slugs_sorted_by_distance = spaceprobes.order_by_distance(data.spaceprobe_distances);
 
                 // rearrange the homepage probes and store the sorting by launch date
                 if (!$('#probe-detail').length) {
@@ -147,6 +146,46 @@ var spaceprobes = {
         // $('#probes').fadeIn("fast");
         $('#probes').show();
 
+    },
+
+    order_by_distance: function(distances) {
+        /* 
+            order spaceprobes by distance
+            for probes that are of equal distance, sort them alphabetically 
+        */
+
+        // Note: Why is this so long? was originally 2 lines of code:
+        // var sorted_keys = Object.keys(data.spaceprobe_distances).sort();  // first sort by alpha
+        // spaceprobes.slugs_sorted_by_distance = sorted_keys.sort(function(a,b){return parseInt(distances[b], 10)-parseInt(distances[a], 10); });
+        // which works in FF, Safari but not Chrome (others?): 
+        // because of the unpredictable way Chrome traverses the array in the sort function
+
+        // sort the probes into distance groups, keys are distances values are lists of slugs
+        // so that probes with the same distance end up in the same groupings
+        var distance_groups = {};
+        for (slug in distances) {
+            distance = distances[slug];
+            if (distance in distance_groups) {
+                distance_groups[distance].push(slug);
+            } else {
+                distance_groups[distance] = [slug];
+            }
+        }
+        // sort the distance groups by descending distance
+        var agg_distances_sorted = Object.keys(distance_groups).sort(function(a,b){return (b - a); });
+
+        // sort the slugs alphabetically within each group, you'll get an array of arrays
+        var slugs_arrays = [];
+        for (d in agg_distances_sorted) {
+            distance = agg_distances_sorted[d];
+            distance_groups[distance].sort();
+            slugs_arrays.push(distance_groups[distance]);
+        }
+
+        // now flatten the array of arrays and return that
+        merged = []
+        merged = merged.concat.apply(merged, slugs_arrays);
+        return merged                
     },
 
     display_paging_links: function() {
