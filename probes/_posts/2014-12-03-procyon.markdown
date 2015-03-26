@@ -7,7 +7,7 @@ attract: hayabusa2_imageheader.jpg
 image: PROCYON.svg
 launch_date: December 3, 2014
 arrival_date: June 3, 2018
-dsn_name: PRCN
+dsn_name: HYB2
 instruments:
     - antennas
     - cold gas jet thrusters
