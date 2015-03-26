@@ -4,7 +4,7 @@ title: PROCYON
 primary_target: asteroid 1999 JU3
 color: '#77ccc9'
 attract: hayabusa2_imageheader.jpg
-image: PROCYON.svg
+image: procyon.svg
 launch_date: December 3, 2014
 arrival_date: June 3, 2018
 dsn_name: HYB2
