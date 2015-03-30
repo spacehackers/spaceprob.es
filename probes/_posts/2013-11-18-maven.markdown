@@ -2,7 +2,7 @@
 layout: probe
 title: MAVEN
 primary_target: Mars
-color: '#78ae62'
+color: '#faca66'
 attract: maven_imageheader.jpg
 image: maven.svg
 launch_date: November 18, 2013

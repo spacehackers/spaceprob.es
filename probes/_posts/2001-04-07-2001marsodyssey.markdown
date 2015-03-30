@@ -1,7 +1,7 @@
 ---
 layout: probe
 title: 2001 Mars Odyssey
-color: '#faca66'
+color: '#77ccc9'
 attract: 2001marsodyssey_imageheader.jpg
 image: 2001marsodyssey.svg
 orbit_planet: Mars
