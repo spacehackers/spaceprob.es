@@ -2,7 +2,7 @@
 layout: probe
 title: Mangalyaan
 primary_target: Mars
-color: '#77ccc9'
+color: '#8e8566'
 attract: mangalyaan_imageheader.jpg
 image: mangalyaan.svg
 launch_date: November 5, 2013

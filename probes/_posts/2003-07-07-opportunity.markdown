@@ -2,7 +2,7 @@
 layout: probe
 title: Opportunity
 primary_target: Mars
-color: '#ff6e48'
+color: '#938bbe'
 attract: opportunity_imageheader.jpg
 image: opportunity.svg
 launch_date: July 7, 2003

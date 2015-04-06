@@ -2,7 +2,7 @@
 layout: probe
 title: Mars Express
 primary_target: Mars
-color: '#938bbe'
+color: '#fe9d99'
 attract: marsexpress_imageheader.jpg
 launch_date: June 2, 2003
 arrival_date: December 25, 2003
