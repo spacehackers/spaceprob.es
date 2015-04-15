@@ -1,12 +1,12 @@
 ---
 layout: probe
 title: PROCYON
-primary_target: asteroid 1999 JU3
+primary_target: asteroid 2000 DP107
 color: '#77ccc9'
 attract: hayabusa2_imageheader.jpg
 image: procyon.svg
 launch_date: December 3, 2014
-arrival_date: June 3, 2018
+arrival_date: May 12, 2016
 dsn_name: PRCN
 instruments:
     - antennas
