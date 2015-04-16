@@ -433,6 +433,9 @@ ul.nav li a:hover {
     height: 300px;
     overflow-y:hidden;
 }
+.shop .panel-body { /* centers the image since it in a link */
+    text-align: center;
+}
 
 .shop .panel-body img {
     padding:0; margin:0; 
