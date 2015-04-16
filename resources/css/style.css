@@ -447,6 +447,16 @@ ul.nav li a:hover {
     background: black;
     padding: 0;
 }
+.shop .panel-heading a {
+    color:#808080;
+    background: #f5f5f5;
+    padding: 0;
+}
+
+.shop .panel-heading a:hover {
+    color: #505050;
+    text-decoration: none;
+}
 
 .shop a img {
     display: block;
