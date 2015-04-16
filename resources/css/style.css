@@ -431,7 +431,7 @@ ul.nav li a:hover {
 .shop .panel-body {
     padding:0; margin:0; 
     height: 300px;
-    overflow-y:hidden;
+    overflow:hidden;
 }
 .shop .panel-body { /* centers the image since it in a link */
     text-align: center;
@@ -472,12 +472,37 @@ ul.nav li a:hover {
     }
 
 }
-@media (orientation: portrait) {
+
+@media (min-width: 992px) {
+    .shop .panel-body img {
+        min-width:550px;
+    }
+
+
+}
+@media (min-width:480px) and (max-width: 767px) {
+    .shop .panel-body img {
+        min-width:750px;
+    }
+    .shop .panel-body {
+        height: 400px;
+    }
+}
+@media (min-width:480px) and (max-width: 580px) {
+    .shop .panel-body img {
+        min-width:570px;
+    }
+    .shop .panel-body {
+        height: 370px;
+    }
+}
+
+
+media (orientation: portrait) {
     .shop {
         margin-left:15px;
     }
 
 }
-
 
 
