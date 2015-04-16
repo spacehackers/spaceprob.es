@@ -1,151 +1,65 @@
 ---
 layout: base
+
+products:
+
+    -   title: Space Probes Poster
+        link: http://society6.com/product/space-probes_print#1=45
+        price: $15 - $50
+        img: poster_cropped.jpg
+
+    -   title: Space Probes Sticker Sheet
+        link: https://www.stickermule.com/marketplace/4294-space-probes
+        price: $14
+        img: sticker_sheet.jpg
+
+    -   title: Voyager 1 Shirt
+        link: http://society6.com/product/voyager-1-67n_t-shirt#11=50&4=133&5=17
+        price: $22 - $28
+        img: t-shirt-vger.jpg
+
+    -   title: Voyager 1 Hoodie
+        link: http://society6.com/product/voyager-1-67n_hoody#7=140&19=144&8=36
+        price: $42
+        img: hoodie-vger.jpg
+
+    -   title: Furthest Probes Sticker Sheet
+        link: https://www.stickermule.com/marketplace/4956-space-probes
+        price: $14
+        img: stickers_furthest.jpg
+
+    -   title: Mars Probes Sticker Sheet
+        link: https://www.stickermule.com/marketplace/4957-mars-space-probes
+        price: $14
+        img: stickers_mars.jpg
+
 ---
 
 <div class = "shop container">
-	
-	<div class = "row">	
-		<div class = "col-lg-6 col-md-6 col-sm-6 col-xs-12">
 
-			<div class = "panel panel-default">
+  {% for product in page.products %}
+ 
+  <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-12">
+    <div class = "panel panel-default">
 
-				<div class="panel-heading">
-						<a href = "http://society6.com/product/space-probes_print#1=45">
-							Space Probes Poster
-						</a>
-					<span class = "price pull-right">
-						$15 - $50
-					</span>
-				</div>
+      <div class="panel-heading">
+        <a href = "{{ product.link }}">
+          {{ product.title }}
+        </a>
+        <span class = "price pull-right">
+          {{ product.price }}
+        </span>
+      </div>
 
-				<div class="panel-body">
-					<a href = "http://society6.com/product/space-probes_print#1=45">
-						<img src = "/resources/img/shop/poster_cropped.jpg">
-					</a> 
-			  </div>
+      <div class="panel-body">
+        <a href = "{{ product.link }}">
+          <img src = "/resources/img/shop/{{ product.img }}">
+        </a> 
+      </div>
 
-			</div>
-		</div><!-- /column 1 -->
+    </div><!-- /panel-default -->
 
-		
-		<div class = "col-lg-6 col-md-6 col-sm-6 col-xs-12">
-			<div class = "panel panel-default">
+  </div><!-- /col -->
+  {% endfor %}
+</div><!-- /shop container -->
 
-				<div class="panel-heading"> 
-					<a href = "https://www.stickermule.com/marketplace/4294-space-probes">
-						Space Probes Sticker Sheet
-					</a> 
-					<span class = "price pull-right">
-						$14
-					</span>
-				</div>
-
-				<div class="panel-body">
-					<a href = "https://www.stickermule.com/marketplace/4294-space-probes">
-						<img src = "/resources/img/shop/sticker_sheet.jpg">
-					</a> 
-				</div>
-
-			</div>
-		</div><!-- /column 2 -->
-	</div>
-
-
-
-	<div class = "row">	
-		<div class = "col-lg-6 col-md-6 col-sm-6 col-xs-12">
-
-			<div class = "panel panel-default">
-
-				<div class="panel-heading">
-					<a href = "http://society6.com/product/voyager-1-67n_t-shirt#11=50&4=133&5=17">
-						Voyager 1 Shirt
-					</a>
-					<span class = "price pull-right">
-						$22 - $28
-					</span>
-				</div>
-
-				<div class="panel-body">
-					<a href = "http://society6.com/product/voyager-1-67n_t-shirt#11=50&4=133&5=17">
-						<img src = "/resources/img/shop/t-shirt-vger.jpg">
-					</a> 
-			  </div>
-
-			</div>
-		</div><!-- /column 1 -->
-
-		
-		<div class = "col-lg-6 col-md-6 col-sm-6 col-xs-12">
-			<div class = "panel panel-default">
-
-				<div class="panel-heading"> 
-					<a href = "http://society6.com/product/voyager-1-67n_hoody#7=140&19=144&8=36">
-						Voyager 1 Hoodie
-					</a>
-					<span class = "price pull-right">
-						$42
-					</span>
-				</div>
-
-				<div class="panel-body">
-					<a href = "http://society6.com/product/voyager-1-67n_hoody#7=140&19=144&8=36">
-						<img src = "/resources/img/shop/hoodie-vger.jpg">
-					</a> 
-				</div>
-
-			</div>
-		</div><!-- /column 2 -->
-	</div>
-
-
-
-
-	<div class = "row">	
-		<div class = "col-lg-6 col-md-6 col-sm-6 col-xs-12">
-
-			<div class = "panel panel-default">
-
-				<div class="panel-heading">
-					<a href = "https://www.stickermule.com/marketplace/4956-space-probes">
-						Furthest Probes Sticker Sheet
-					</a>
-					<span class = "price pull-right">
-						$14
-					</span>
-				</div>
-
-				<div class="panel-body">
-					<a href = "https://www.stickermule.com/marketplace/4956-space-probes">
-						<img src = "/resources/img/shop/stickers_furthest.jpg">
-					</a> 
-			  </div>
-
-			</div>
-		</div><!-- /column 1 -->
-
-		
-		<div class = "col-lg-6 col-md-6 col-sm-6 col-xs-12">
-			<div class = "panel panel-default">
-
-				<div class="panel-heading"> 
-					<a href = "https://www.stickermule.com/marketplace/4957-mars-space-probes">
-						Mars Probes Sticker Sheet
-					</a>
-					<span class = "price pull-right">
-						$14
-					</span>
-				</div>
-
-				<div class="panel-body" style = "background-color:white">
-					<a href = "https://www.stickermule.com/marketplace/4957-mars-space-probes">
-						<img src = "/resources/img/shop/stickers_mars.jpg">
-					</a> 
-				</div>
-
-			</div>
-		</div><!-- /column 2 -->
-	</div>
-
-
-</div>
