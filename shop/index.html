@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: shop
 
 products:
 
@@ -35,31 +35,4 @@ products:
 
 ---
 
-<div class = "shop container">
-
-  {% for product in page.products %}
- 
-  <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-12">
-    <div class = "panel panel-default">
-
-      <div class="panel-heading">
-        <a href = "{{ product.link }}">
-          {{ product.title }}
-        </a>
-        <span class = "price pull-right">
-          {{ product.price }}
-        </span>
-      </div>
-
-      <div class="panel-body">
-        <a href = "{{ product.link }}">
-          <img src = "/resources/img/shop/{{ product.img }}">
-        </a> 
-      </div>
-
-    </div><!-- /panel-default -->
-
-  </div><!-- /col -->
-  {% endfor %}
-</div><!-- /shop container -->
 
