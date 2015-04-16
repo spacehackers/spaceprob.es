@@ -406,5 +406,75 @@ ul.nav li a:hover {
 }
 
 
+/* shop! */
+
+
+.shop>.row {
+    margin-bottom: -35px;
+}
+.shop>div {
+    padding:10px;
+}
+.shop .price {
+    position: relative;
+    margin-top:-20px;
+    margin-bottom:-20px;
+    padding:20px 0;
+    padding-left:15px;
+    border-left: 1px solid #C8C8C8;
+}
+.shop .panel-heading {
+    color: #808080;
+    font-size: 1.2em;
+    overflow: hidden;
+}
+.shop .panel-body {
+    padding:0; margin:0; 
+    height: 300px;
+    overflow-y:hidden;
+}
+
+.shop .panel-body img {
+    padding:0; margin:0; 
+    width:100%;
+}
+
+.shop a {
+    display: inline-block;
+    background: black;
+    padding: 0;
+}
+
+.shop a img {
+    display: block;
+
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+.shop a:hover img {
+    opacity: 0.7;
+
+}
+
+@media (max-width: 992px) {
+    .shop .panel-body {
+        height:200px;
+    }
+    .shop .panel-heading {
+        font-size: 0.9em;
+    }
+
+}
+@media (orientation: portrait) {
+    .shop {
+        margin-left:15px;
+    }
+
+}
+
 
 
