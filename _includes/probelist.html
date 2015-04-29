@@ -7,7 +7,11 @@
 <div id="probes" class="row">
 
 {% for probe in site.categories['probes']%}
-
+    
+    {% if probe.past %}
+        {% continue %}
+    {% endif %}
+    
     {% capture probe_title %}{{ probe.title }}{% endcapture %}
     {% assign table_title = false %}
 
