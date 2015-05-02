@@ -3,6 +3,15 @@ $(document).ready(function() {
     spaceprobes.init();
     spaceprobes.init_news();
 
+    $('ul.nav li a').css("color", "#B8B8B8");
+    if ($('.aboutpage').is(":visible")) {
+        $('ul.nav li a.about').css("color", "white");
+    } 
+    if ($('.shop').is(":visible")) {
+        $('.nav a.shop').css("color", "white");
+    } 
+
+
     $('#content').on("click", 'a.distance, a.launch', function(e) {
 
         $('.sorting a').removeClass('sortby_selected');
@@ -48,6 +57,7 @@ var spaceprobes = {
     slugs_sorted_by_launch:[],
     probe_snippets: {},
     current_sort: 'distance',  // 'distance' or 'launch'
+    all_probe_images: {},
 
 
     init_news: function() {
@@ -239,4 +249,6 @@ numeral.language('en', {
     },
 
 });
+
+
 

@@ -47,7 +47,7 @@
   <meta name="theme-color" content="#ffffff">
 
  </head>
- <body>
+ <body ng-app="spaceapp">
   <div class="wrapper">
 
   <nav id="header" class = "navbar navbar-inverse">
@@ -83,8 +83,8 @@
           </a>
 
         <ul id = "dropdown-menu" class="dropdown-menu" role="menu">
-          <li><a href = "/about" >About</a>
-          <li><a href = "/shop">Shop</a></li>
+          <li><a class = "about" href = "/about" >About</a>
+          <li><a class = "shop" href = "/shop">Shop</a></li>
           <li><a href="https://twitter.com/{{ site.twitter }}">Twitter</a></li>
         </ul>
 
@@ -112,11 +112,25 @@
    </div>
   </div>
 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular-resource.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
   <script src="/resources/js/main.js"></script>
+
+  <!-- news app -->
+  <script> 
+    {% for post in site.posts %}
+        {% if post.past %}
+            {% continue %}
+        {% endif %}
+        spaceprobes.all_probe_images["{{ post.title|downcase }}"] = "{{ post.image }}"; {% endfor %}
+      
+  </script>
+  <script src="/resources/js/news.js"></script>
 
 
  </body>

@@ -515,4 +515,29 @@ media (orientation: portrait) {
 
 }
 
+/** News page **/
+.news {
+}
+.news .news_title {
+    font-size: 1.8em;
+}
+.news div {
+    margin:0; padding:0;
+}
+.news .silhouette {
+    padding-left:70px;
+}
+
+.news .silhouette img{
+    padding: 5px 5px;
+    display: block;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;    
+}
+.news .probe_title {
+    text-transform: capitalize;
+}
 
