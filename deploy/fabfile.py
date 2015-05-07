@@ -55,7 +55,7 @@ def checkout_codebase(server):
 
     with lcd("%s%s/" % (LOCAL_TEMP_DIR, DEPLOY_DIR_NAME)):
         print("cloning into %s%s/" % (LOCAL_TEMP_DIR, DEPLOY_DIR_NAME))
-        branch = 'staging' if server != 'production' else 'staging'
+        branch = 'staging' if server != 'production' else 'master'
         clone_cmd = "git clone -b %s %s" % (branch, GIT_REPO)
         print(clone_cmd)
         local(clone_cmd)
