@@ -3,4 +3,4 @@ LOCAL_TEMP_DIR = '/some/temporary/path/different/than/GIT_REPO/'  # some local d
 DEV_USER = 'DEV_SERVER_USER'
 DEV_URL = 'www.DEV_SERVER_URL.com'
 DEV_PATH = '~/DEV_SERVER_WEB_ROOT/spaceprobes'  # no trailing slash
-
+STAGING = {'DEV_USER':'', 'DEV_URL','DEV_PATH'}
