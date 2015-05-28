@@ -37,8 +37,8 @@ layout: base
 
       <div class = "latest_news">
 
-          {% capture page_title %}{{ page.title|slugify }}{% endcapture %}
-          {% assign news =  site.data.news[page_title] %}
+          {% capture page_title %}{{ page.title|downcase }}{% endcapture %}
+          {% assign news = site.data.news[page_title] %}
 
           <b>Latest news: </b>
           <a href = "{{ news.link }}">{{ news.title }}</a>
