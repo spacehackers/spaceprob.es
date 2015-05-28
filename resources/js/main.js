@@ -50,13 +50,6 @@ var spaceprobes = {
     current_sort: 'distance',  // 'distance' or 'launch'
 
 
-    init_news: function() {
-        // just ping the news site make sure it's awake for any probe pages
-        $.ajax({ url: "http://dry-eyrie-9951.herokuapp.com/cassini",
-                dataType: 'jsonp'
-        });
-    },
-
     init: function() {
 
         $.ajax({

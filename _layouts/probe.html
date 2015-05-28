@@ -33,31 +33,17 @@ layout: base
           {{content}}
       </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
-
-        <script>
-          url = "http://dry-eyrie-9951.herokuapp.com/{{ page.title }}";
-
-          $.ajax({
-              url: url,
-              type: 'get',
-              dataType: 'jsonp',
-              success: function(data) {
-                content = '<b>Latest news: </b>';
-                content += '<a href = "' + data.post.link + '">' + data.post.title + '</a> ';
-                content += '<span class = "published_date">(' + data.post.published_readable + ')</span>'
-                $('.latest_news').html(content);
-
-              },
-              error: function(e) {
-              }
-          });
-          </script>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
 
       <div class = "latest_news">
-          <b>Latest news:</b><!-- lorem ipsum -->
-          Problems look mighty small from 150 miles up.
-          <a href = "http://spaceipsum.com/">http://spaceipsum.com</a>
+
+          {% capture page_title %}{{ page.title|slugify }}{% endcapture %}
+          {% assign news =  site.data.news[page_title] %}
+
+          <b>Latest news: </b>
+          <a href = "{{ news.link }}">{{ news.title }}</a>
+          <span class = "published_date">({{ news.published_readable }})</span>
+          
       </div>
 
       <div class = "link">
