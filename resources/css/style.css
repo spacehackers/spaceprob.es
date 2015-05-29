@@ -69,6 +69,7 @@ a, a:hover {
 }
 .site-menu ul li {
     padding-right:2px;
+    background-color:  #eeeeee;
 }
 #menu {
     display: block;
@@ -286,9 +287,11 @@ ul.nav li a {
     margin-top:15px;
     margin-right:25px;
 }
-ul.nav li a:hover {
+ul.nav li a:hover, ul.nav li a:active {
     color:white;
-    background-color: transparent;
+ }
+ul.nav li.goforlaunch a {  /* active nav style */
+    color:white;
 }
 
 .dropdown-menu li {
