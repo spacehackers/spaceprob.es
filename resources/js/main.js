@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
     spaceprobes.init();
-    spaceprobes.init_news();
 
     $('#content').on("click", 'a.distance, a.launch', function(e) {
 
