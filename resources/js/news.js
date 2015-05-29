@@ -10,10 +10,9 @@ spaceapp.factory('news', function($resource){
     return {
         fetchNews: function(callback){
 
-            url = "http://dry-eyrie-9951.herokuapp.com";
+            url = "/news.json";
 
-            var api = $resource(url + '?callback=JSON_CALLBACK',{},{
-                fetch:{method:'JSONP'}
+            var api = $resource(url,{},{fetch:{method:'GET'}
             });
 
             api.fetch(function(data){
