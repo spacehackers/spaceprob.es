@@ -36,18 +36,17 @@ layout: base
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
 
         <script>
-          url = "http://dry-eyrie-9951.herokuapp.com/{{ page.title }}";
-
+          url = "/news.json";
           $.ajax({
               url: url,
               type: 'get',
-              dataType: 'jsonp',
-              success: function(data) {
+              dataType: 'json',
+              success: function(bulk_data) {
+                data = bulk_data["{{ page.title|downcase }}"]
                 content = '<b>Latest news: </b>';
-                content += '<a href = "' + data.post.link + '">' + data.post.title + '</a> ';
-                content += '<span class = "published_date">(' + data.post.published_readable + ')</span>'
+                content += '<a href = "' + data.link + '">' + data.title + '</a> ';
+                content += '<span class = "published_date">(' + data.published_readable + ')</span>'
                 $('.latest_news').html(content);
-
               },
               error: function(e) {
               }
@@ -79,4 +78,3 @@ layout: base
     </div>
  </div><!-- /row -->
 </div><!-- /probe-detail -->
-

@@ -3,3 +3,4 @@ _site/
 deploy/venv
 deploy/secrets.py
 deploy/*.pyc
+news.json

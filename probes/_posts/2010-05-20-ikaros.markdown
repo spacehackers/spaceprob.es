@@ -1,0 +1,28 @@
+---
+layout: probe
+title: IKAROS
+primary_target: Venus
+color: '#faca66'
+attract: ikaros_imageheader.jpg
+launch_date: May 20, 2010
+arrival_date: December 8, 2010
+image: ikaros.svg
+distance: 120000000  # IKAROS is on a 10 month heliocentric orbit
+instruments:
+    - cosmic dust detector
+    - <a href="http://global.jaxa.jp/press/2010/07/20100714_ikaros_e.html">gamma-ray detector</a>
+    - monitoring cameras
+    - solar sail
+teams:
+    - <a href = "http://global.jaxa.jp/projects/sat/ikaros/">JAXA</a>
+links:
+    - adorable <a href="http://www.jaxa.jp/countdown/f17/special/craft_j.html">illustrated wallpapers</a> of IKAROS
+    - a DIY <a href="http://www.jspec.jaxa.jp/ikaros_channel/e/pdf/ikarospapercraft.pdf">papercraft</a> of the IKAROS space probe
+    - a celebratory <a href="http://www.isas.jaxa.jp/home/IKAROS-blog/?itemid=576">solar sail deployment cake</a> designed to look like IKAROS
+
+caption: >
+    (top image: a <a href="http://www.jspec.jaxa.jp/e/activity/ikaros.html">self-portrait</a> of the IKAROS space probe in front of Venus in the upper right, JAXA)
+
+---
+IKAROS (Interplanetary Kite-craft Accelerated by Radiation of the Sun) is the first space probe to successfully use a solar sail in deep space. The space probe launched on the same rocket as <a href="/akatsuki">Akatsuki</a>. IKAROS's 14 meter solar sail works by receiving a "push" from the light photons hitting it from the Sun. The solar sail comes equipped with solar cells to generate electricity for the probe. Four monitoring cameras remain on the space probe. The space probe's mission is largely experimental, testing out the capabilities of a solar sail-powered space probe in hopes of developing the technology further. Additionally, IKAROS is studying gamma-ray bursts and the density of interplanetary dust. A few months after its launch, IKAROS flew by Venus. IKAROS carried with it two deployable cameras (DCAM1 & DCAM2) that it ejected to take "selfies" of the space probe to ensure its solar sail deployed properly. At 6 centimeters high, DCAM1 and DCAM2 have since been recognized as the smallest space probes to have been in interplanetary space. IKAROS is now in a 10-month heliocentric orbit, where it frequently hibernates for months at a time due to insufficient power. 
+
