@@ -48,6 +48,7 @@
 
  </head>
  <body ng-app="spaceapp">
+
   <div class="wrapper">
 
   <nav id="header" class = "navbar navbar-inverse">
@@ -66,14 +67,28 @@
         </a>
 
           <ul class="nav navbar-nav navbar-right site-menu" role = "menu">
-            <li>
+            
+            <!-- shop -->
+            <li 
+              page.url
+              {% if page.url == '/shop/index.html' %}
+                class = "goforlaunch"
+              {% endif %}
+            >
               <a href = "/shop">Shop</a>
             </li>
-            <li>
+
+            <!-- about -->
+            <li
+              {% if page.url == '/about/index.html' %}
+                class = "goforlaunch"
+              {% endif %}
+            >
               <a href = "/about">About</a>
           </li>
-        </ul>
-      </div> <!-- collapse navbar -->
+
+        </ul><!-- /navbar -->
+      </div> <!-- /collapse navbar -->
 
       <!-- mobile menu -->
       <div  width = "23" class="hamburger navbar pull-right visible-xs dropdown">
