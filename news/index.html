@@ -2,31 +2,33 @@
 layout: base
 ---
 
-<div class="news ng-cloak" ng-controller="NewsController">
-	<div class="row " ng-repeat="probe in probes_by_time" ng-show="probe_images[probe].length">
+<div class="news container ng-cloak" ng-controller="NewsController">
+	<div class="row " ng-repeat="probe in probes_by_time" ng-show="probes_meta[probe]['img'].length">
+		
+		<div class = "vcenter col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-3">
 
-		<div class = "silhouette col-xs-4 col-md-2 col-lg-2 vcenter">
-			<div>
-				<img ng-src="/resources/img/silhouette/[[ probe_images[probe] ]]" alt="[[ probe ]]" class="img-responsive">
+			<div class = "silhouette" style="background-color:[[ probes_meta[probe]['color'] ]];">
+				<img ng-src="/resources/img/silhouette/[[ probes_meta[probe]['img'] ]]" alt="[[ probe ]]" class="img-responsive">
 			</div>
+
 		</div><!--
+
 		don't even ask
-    --><div class = "blurb col-xs-8 col-md-10 col-lg-10 vcenter">
-			<div>
-				<!-- span class = "probe_title">[[ probe ]]</span --> 
-				<div class = "news_title">
+
+    --><div class = "vcenter col-xs-8 col-sm-8 col-md-10 col-lg-9 col-xl-9">
+			<!-- span class = "probe_title">[[ probe ]]</span --> 
+			<div class = "blurb">
+				<h2 class = "news_title">
 					<a href = "[[ all_news[probe]['link'] ]]">
 						[[ all_news[probe]['title'] ]]
 					</a>
-				</div>
-				<div class = "news_meta">
-					[[ all_news[probe]['published'] | date:'medium' ]] 
-				</div> 
+				</h2>
+				<span class = "news_meta">
+					[[ all_news[probe]['published'] | date:'MMM d, yyyy' ]] 
+				</span> 
+			</div>
 				
-			</div> 
 		</div>
 
-	</div>
-
-
-</div>
+	</div><!-- /row -->
+</div><!-- /news -->

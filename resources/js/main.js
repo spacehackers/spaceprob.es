@@ -56,8 +56,7 @@ var spaceprobes = {
     slugs_sorted_by_launch:[],
     probe_snippets: {},
     current_sort: 'distance',  // 'distance' or 'launch'
-    all_probe_images: {},
-
+    all_probes_meta: {},
 
     init: function() {
 

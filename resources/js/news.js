@@ -58,7 +58,7 @@ function NewsController($scope, news){
 
         $scope.all_news = data;
         $scope.probes_by_time = probes_by_time;
-        $scope.probe_images = spaceprobes.all_probe_images;
+        $scope.probes_meta = spaceprobes.all_probes_meta;
 
     });
 

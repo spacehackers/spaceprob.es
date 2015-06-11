@@ -142,7 +142,7 @@
         {% if post.past %}
             {% continue %}
         {% endif %}
-        spaceprobes.all_probe_images["{{ post.title|downcase }}"] = "{{ post.image }}"; {% endfor %}
+        spaceprobes.all_probes_meta["{{ post.title|downcase }}"] = { "img": "{{ post.image }}", "color": "{{ post.color }}"}; {% endfor %}
       
   </script>
   <script src="/resources/js/news.js"></script>
