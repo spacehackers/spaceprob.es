@@ -511,29 +511,37 @@ ul.nav li.goforlaunch a {  /* active nav style */
 }
 
 
-media (orientation: portrait) {
+@media (orientation: portrait) {
     .shop {
         margin-left:15px;
     }
 
 }
 
+
+
 /** News page **/
 .news {
+    padding:20px;
+    padding-top:0;
+    margin-top:-20px;
 }
-.news .news_title {
-    font-size: 1.8em;
-}
-.news div {
-    margin:0; padding:0;
-}
-.news .silhouette {
-    padding-left:70px;
+.news .row {
+    padding:10px;
 }
 
+.news .news_title {
+    margin:0;
+    font-size: 1.5em;
+    font-weight: 400;
+}
 .news .silhouette img{
-    padding: 5px 5px;
-    display: block;
+    padding: 10px;
+    margin:auto;
+}
+.news h2 {
+}
+.blurb  {               
 }
 .vcenter {
     display: inline-block;
@@ -543,8 +551,9 @@ media (orientation: portrait) {
 .news .probe_title {
     text-transform: capitalize;
 }
-
-
+.news .news_meta {
+    color:#909090;
+}
 /* 
   Allow angular.js to be loaded in body, hiding cloaked elements until 
   templates compile.  The !important is important given that there may be 
