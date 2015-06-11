@@ -291,7 +291,7 @@ ul.nav li a:hover, ul.nav li a:active {
     color:white;
  }
 ul.nav li.goforlaunch a {  /* active nav style */
-    color:white;
+    color:white !important;
 }
 
 .dropdown-menu li {
@@ -371,7 +371,7 @@ ul.nav li.goforlaunch a {  /* active nav style */
         margin-top:5px;
     }
     ul.nav li a {
-        color: #B8B8B8 !important;
+        color: #B8B8B8;
 
     }
     #header h1{
