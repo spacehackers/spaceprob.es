@@ -44,13 +44,13 @@ function NewsController($scope, news){
         just_times.sort().reverse();
 
         // with that make a list of the probe names sorted by time
-        var probes_by_time = [];
-        for (k in just_times) {
+        var probes_by_time = [];  /* create a new object to hold the sorted list */
+        for (k in just_times) {  /* loop through all the times */
             time = just_times[k];
             if (!time) { continue; }
-            for (probe in data) {
+            for (probe in data) {  /* find the probe with this time */
                 if (!probe) { continue; }
-                if (data[probe]['published'] == time) {
+                if (data[probe]['published'] == time & probes_by_time.indexOf(probe) < 0) {
                     probes_by_time.push(probe);
                 }
             }
