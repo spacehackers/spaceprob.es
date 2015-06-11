@@ -77,6 +77,15 @@
               <a href = "/shop">Shop</a>
             </li>
 
+            <!-- news -->
+            <li
+              {% if page.url == '/news/index.html' %}
+                class = "goforlaunch"
+              {% endif %}
+            >
+              <a href = "/news">News</a>
+          </li>
+
             <!-- about -->
             <li
               {% if page.url == '/about/index.html' %}
@@ -84,7 +93,7 @@
               {% endif %}
             >
               <a href = "/about">About</a>
-          </li>
+          </li>          
 
         </ul><!-- /navbar -->
       </div> <!-- /collapse navbar -->
@@ -98,6 +107,7 @@
 
         <ul id = "dropdown-menu" class="dropdown-menu" role="menu">
           <li><a class = "about" href = "/about" >About</a>
+          <li><a class = "news" href = "/news" >News</a>
           <li><a class = "shop" href = "/shop">Shop</a></li>
           <li><a href="https://twitter.com/{{ site.twitter }}">Twitter</a></li>
         </ul>
