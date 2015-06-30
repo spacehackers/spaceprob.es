@@ -68,15 +68,6 @@
 
           <ul class="nav navbar-nav navbar-right site-menu" role = "menu">
             
-            <!-- shop -->
-            <li 
-              {% if page.url == '/shop/index.html' %}
-                class = "goforlaunch"
-              {% endif %}
-            >
-              <a href = "/shop">Shop</a>
-            </li>
-
             <!-- news -->
             <li
               {% if page.url == '/news/index.html' %}
@@ -85,6 +76,15 @@
             >
               <a href = "/news">News</a>
           </li>
+
+            <!-- shop -->
+            <li 
+              {% if page.url == '/shop/index.html' %}
+                class = "goforlaunch"
+              {% endif %}
+            >
+              <a href = "/shop">Shop</a>
+            </li>
 
             <!-- about -->
             <li
@@ -106,9 +106,9 @@
           </a>
 
         <ul id = "dropdown-menu" class="dropdown-menu" role="menu">
-          <li><a class = "about" href = "/about" >About</a>
-          <li><a class = "news" href = "/news" >News</a>
-          <li><a class = "shop" href = "/shop">Shop</a></li>
+          <li><a class = "news" href = "/news"> News </a></li>
+          <li><a class = "shop" href = "/shop"> Shop </a></li>
+          <li><a class = "about" href = "/about"> About </a></li>
           <li><a href="https://twitter.com/{{ site.twitter }}">Twitter</a></li>
         </ul>
 
