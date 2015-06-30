@@ -66,6 +66,9 @@ function NewsController($scope, news){
             data[probe]['short_title'] = truncate_line(data[probe]['title'], 64);
             data[probe]['title'] = truncate_line(data[probe]['title'], 120);
 
+            // and add the slug
+            data[probe]['slug'] = probe.replace(/[^\w]/gi, '');
+
             just_times.push(data[probe]['published']);
         }
         just_times.sort().reverse();
