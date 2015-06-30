@@ -44,7 +44,7 @@ function NewsController($scope, news){
 
             // while we are looping here, stop and 
             // trim the length of the news headline if too long :-( 
-            title_max_length = 77;
+            title_max_length = 64;
             if (data[probe]['title'].length > title_max_length) {
                 new_title = '';
                 words = data[probe]['title'].split(' ');
