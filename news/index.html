@@ -15,11 +15,20 @@ layout: base
 	 --><div class = "blurb_container vcenter col-xs-8 col-sm-9 col-md-9 col-lg-9 col-xl-9">
 			<div class = "blurb">
 			<span class = "probe_title">[[ probe ]]</span> 
-				<h2 class = "news_title">
+
+				<h2 class = "news_title visible-xs">
 					<a href = "[[ all_news[probe]['link'] ]]">
-						[[ all_news[probe]['title'] | limitTo : 5 : 0]]
+						[[ all_news[probe]['short_title'] ]]
 					</a>
 				</h2>
+
+
+				<h2 class = "news_title hidden-xs">
+					<a href = "[[ all_news[probe]['link'] ]]">
+						[[ all_news[probe]['title'] ]]
+					</a>
+				</h2>
+
 				<span class = "news_meta">
 					[[ all_news[probe]['published'] | date:'MMMM d, yyyy' ]] 
 				</span> 

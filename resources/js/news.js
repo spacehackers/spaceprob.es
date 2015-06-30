@@ -23,6 +23,24 @@ spaceapp.factory('news', function($resource){
     }
 });
 
+
+function truncate_line(line, max_len) {
+
+    if (line.length < max_len) {
+        return line;
+    }
+    short_line = '';
+    words = line.split(' ');
+    for (i in words) {
+        short_line += ' ' + words[i];
+        if (short_line.length > max_len-4) {
+            short_line += '...';
+            break;
+        }
+    }    
+    return short_line;
+}
+
 function NewsController($scope, news){
 
     // Default layout of the app. Clicking the buttons in the toolbar
@@ -39,24 +57,14 @@ function NewsController($scope, news){
         for (probe in data) {
 
             if (!data[probe]['title']) {
+
                 continue;
             }
 
             // while we are looping here, stop and 
             // trim the length of the news headline if too long :-( 
-            title_max_length = 64;
-            if (data[probe]['title'].length > title_max_length) {
-                new_title = '';
-                words = data[probe]['title'].split(' ');
-                for (i in words) {
-                    new_title += ' ' + words[i];
-                    if (new_title.length > title_max_length-4) {
-                        new_title += '...';
-                        break;
-                    }
-                }
-                data[probe]['title'] = new_title;
-            }
+            data[probe]['short_title'] = truncate_line(data[probe]['title'], 64);
+            data[probe]['title'] = truncate_line(data[probe]['title'], 120);
 
             just_times.push(data[probe]['published']);
         }
@@ -84,3 +92,4 @@ function NewsController($scope, news){
     });
 
 }
+
