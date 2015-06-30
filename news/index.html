@@ -5,19 +5,16 @@ layout: base
 <div class="news container ng-cloak" ng-controller="NewsController">
 	<div class="row " ng-repeat="probe in probes_by_time" ng-show="probes_meta[probe]['img'].length">
 		
-		<div class = "vcenter col-xs-4 col-sm-4 col-md-2 col-lg-3 col-xl-3">
+		<div class = "silhouette_container vcenter col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
 
-			<div class = "silhouette" style="background-color:[[ probes_meta[probe]['color'] ]];">
+			<div class = "silhouette_background" style="background-color:[[ probes_meta[probe]['color'] ]];">
 				<img ng-src="/resources/img/silhouette/[[ probes_meta[probe]['img'] ]]" alt="[[ probe ]]" class="img-responsive">
 			</div>
 
 		</div><!--
-
-		don't even ask
-
-    --><div class = "vcenter col-xs-8 col-sm-8 col-md-10 col-lg-9 col-xl-9">
-			<!-- span class = "probe_title">[[ probe ]]</span --> 
+	 --><div class = "blurb_container vcenter col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
 			<div class = "blurb">
+			<span class = "probe_title">[[ probe ]]</span> 
 				<h2 class = "news_title">
 					<a href = "[[ all_news[probe]['link'] ]]">
 						[[ all_news[probe]['title'] ]]
