@@ -37,9 +37,28 @@ function NewsController($scope, news){
         // make a list of just the published times sorted
         var just_times = [];
         for (probe in data) {
-            if (probe) {
-                just_times.push(data[probe]['published']);
+
+            if (!data[probe]['title']) {
+                continue;
             }
+
+            // while we are looping here, stop and 
+            // trim the length of the news headline if too long :-( 
+            title_max_length = 77;
+            if (data[probe]['title'].length > title_max_length) {
+                new_title = '';
+                words = data[probe]['title'].split(' ');
+                for (i in words) {
+                    new_title += ' ' + words[i];
+                    if (new_title.length > title_max_length-4) {
+                        new_title += '...';
+                        break;
+                    }
+                }
+                data[probe]['title'] = new_title;
+            }
+
+            just_times.push(data[probe]['published']);
         }
         just_times.sort().reverse();
 
@@ -51,7 +70,9 @@ function NewsController($scope, news){
             for (probe in data) {  /* find the probe with this time */
                 if (!probe) { continue; }
                 if (data[probe]['published'] == time & probes_by_time.indexOf(probe) < 0) {
+
                     probes_by_time.push(probe);
+
                 }
             }
         }

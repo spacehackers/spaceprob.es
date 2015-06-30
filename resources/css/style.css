@@ -1,7 +1,7 @@
 /* Sticky CSS Footer */
 html, body, .wrapper { height: 100%; margin: 0; padding: 0; }
 body > .wrapper { height: auto; min-height: 100%; }
-#content { padding-top: 0.5em; padding-bottom: 100px; }
+#content { padding-top: 0.5em; padding-bottom: 0px; }
 #footer { clear: both; position: relative; z-index: 10; height: 100px; margin-top: -100px; padding-top: 40px;}
 
 .nowrap {
@@ -294,23 +294,22 @@ ul.nav li.goforlaunch a {  /* active nav style */
     color:white !important;
 }
 
+/* mobile hamburger */ 
 .dropdown-menu li {
     font-size:0.9em;
     padding: 7px;
 }
-
-
 .dropdown-menu li a {
     font-weight: 700;
     color: #808080;
     text-transform: uppercase;
 }
-.dropdown-menu li a:focus, .dropdown-menu li a:hover
+.dropdown-menu li a:focus, .dropdown-menu li a:hover, .dropdown-menu li a:active
 {
   color: black;
   background-color: #f5f5f5;
 }
-.dropdown-menu li a:focus, .dropdown-menu li a:hover
+.dropdown-menu li a:focus, .dropdown-menu li a:hover .dropdown-menu li a:active
 {
   color: black;
   background-color: #f5f5f5;
@@ -412,13 +411,13 @@ ul.nav li.goforlaunch a {  /* active nav style */
 /* shop! */
 
 
-.shop>.row {
+.shop_container>.row {
     margin-bottom: -35px;
 }
-.shop>div {
+.shop_container>div {
     padding:10px;
 }
-.shop .price {
+.shop_container .price {
     position: relative;
     margin-top:-20px;
     margin-bottom:-20px;
@@ -426,42 +425,42 @@ ul.nav li.goforlaunch a {  /* active nav style */
     padding-left:15px;
     border-left: 1px solid #C8C8C8;
 }
-.shop .panel-heading {
+.shop_container .panel-heading {
     color: #808080;
     font-size: 1.2em;
     overflow: hidden;
 }
-.shop .panel-body {
+.shop_container .panel-body {
     padding:0; margin:0; 
     height: 300px;
     overflow:hidden;
 }
-.shop .panel-body { /* centers the image since it in a link */
+.shop_container .panel-body { /* centers the image since it in a link */
     text-align: center;
 }
 
-.shop .panel-body img {
+.shop_container .panel-body img {
     padding:0; margin:0; 
     width:100%;
 }
 
-.shop a {
+.shop_container a {
     display: inline-block;
     background: black;
     padding: 0;
 }
-.shop .panel-heading a {
+.shop_container .panel-heading a {
     color:#808080;
     background: #f5f5f5;
     padding: 0;
 }
 
-.shop .panel-heading a:hover {
+.shop_container .panel-heading a:hover {
     color: #505050;
     text-decoration: none;
 }
 
-.shop a img {
+.shop_container a img {
     display: block;
 
     -webkit-transition: all 0.2s linear;
@@ -471,48 +470,48 @@ ul.nav li.goforlaunch a {  /* active nav style */
             transition: all 0.2s linear;
 }
 
-.shop a:hover img {
+.shop_container a:hover img {
     opacity: 0.7;
 
 }
 
 @media (max-width: 992px) {
-    .shop .panel-body {
+    .shop_container .panel-body {
         height:200px;
     }
-    .shop .panel-heading {
+    .shop_container .panel-heading {
         font-size: 1.0em;
     }
 
 }
 
 @media (min-width: 992px) {
-    .shop .panel-body img {
+    .shop_container .panel-body img {
         min-width:550px;
     }
 
 
 }
 @media (min-width:480px) and (max-width: 767px) {
-    .shop .panel-body img {
+    .shop_container .panel-body img {
         min-width:750px;
     }
-    .shop .panel-body {
+    .shop_container .panel-body {
         height: 400px;
     }
 }
 @media (min-width:480px) and (max-width: 580px) {
-    .shop .panel-body img {
+    .shop_container .panel-body img {
         min-width:570px;
     }
-    .shop .panel-body {
+    .shop_container .panel-body {
         height: 370px;
     }
 }
 
 
 @media (orientation: portrait) {
-    .shop {
+    .shop_container {
         margin-left:15px;
     }
 
@@ -526,8 +525,10 @@ ul.nav li.goforlaunch a {  /* active nav style */
     background-color: #EFEFEF;
     width:100%;
     margin-top:-20px;
+    height:100%;
+    padding-bottom:50px;
 }
-@media (max-width: 688px) {
+@media (max-width: 678px) {
     .news {
         margin-top:0;
     }
@@ -538,7 +539,7 @@ ul.nav li.goforlaunch a {  /* active nav style */
     margin:auto;
     background-color: white;
 }
-@media (max-width: 688px) {
+@media (max-width: 678px) {
     .news .row {
         width:100%;
     }
@@ -550,20 +551,37 @@ ul.nav li.goforlaunch a {  /* active nav style */
     font-size: 1.4em;
     font-weight: 400;
 }
+
 .news .news_title a {
     color: #696969;
     font-family: 'Roboto Slab', serif;
-
 }
 .news .news_title a:hover {
     color: #77ccc9;
     text-decoration: none;
 }
 
+@media screen and (max-width : 480px) {
+    /* and (orientation : portrait) {  */
+    .news .news_title {
+        font-size: 1.2em;
+    }
+    .news .news_title a {
+        color:black;
+    }
+
+}
+
+
 .news .silhouette_container {
-    padding:7px 20px;
     padding:7px 25px;
 }
+@media screen and (max-width : 480px) {
+    .news .silhouette_container {
+        padding: 7px 20px;
+    }
+}
+
 .news .silhouette_background {
 
 }
@@ -574,8 +592,13 @@ ul.nav li.goforlaunch a {  /* active nav style */
 .news h2 {
 
 }
+
+
 .blurb_container {
     margin:0; padding:0;
+}
+@media screen and (max-width : 480px) {
+
 }
 .blurb  {    
     margin:0; 
@@ -583,6 +606,12 @@ ul.nav li.goforlaunch a {  /* active nav style */
     padding-right:50px;
     margin-left:-10px;
 }
+@media screen and (max-width : 480px) {
+    .blurb  {    
+        padding-right:10px;
+    }
+}
+
 .vcenter {
     display: inline-block;
     vertical-align: middle;
