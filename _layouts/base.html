@@ -136,25 +136,20 @@
    </div>
   </div>
 
-
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular-resource.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
   <script src="/resources/js/main.js"></script>
 
-  <!-- news app -->
-  <script> 
-    {% for post in site.posts %}
-        {% if post.past %}
-            {% continue %}
-        {% endif %}
-        spaceprobes.all_probes_meta["{{ post.title|downcase }}"] = { "img": "{{ post.image }}", "color": "{{ post.color }}"}; {% endfor %}
-      
-  </script>
-  <script src="/resources/js/news.js"></script>
+
+  {% if page.url == '/news/index.html' %}
+
+    {% include footer-news.html %}
+  
+  {% endif %}
+
+
 
 
  </body>

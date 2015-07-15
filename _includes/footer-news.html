@@ -1,0 +1,13 @@
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular-resource.min.js"></script>
+  <!-- news app -->
+  <script> 
+    {% for post in site.posts %}
+        {% if post.past %}
+            {% continue %}
+        {% endif %}
+        spaceprobes.all_probes_meta["{{ post.title|downcase }}"] = { "img": "{{ post.image }}", "color": "{{ post.color }}"}; {% endfor %}
+      
+  </script>
+  <script src="/resources/js/news.js"></script>
+
