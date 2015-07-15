@@ -2,6 +2,7 @@ $(document).ready(function() {
 
     spaceprobes.init();
 
+    // main menu highlighting what page we are on 
     $('ul.nav li a').css("color", "#B8B8B8");
     if ($('.aboutpage').is(":visible")) {
         $('ul.nav li a.about').css("color", "white");
@@ -10,7 +11,7 @@ $(document).ready(function() {
         $('.nav a.shop').css("color", "white");
     } 
 
-
+    // the sorting buttons behavior 
     $('#content').on("click", 'a.distance, a.launch', function(e) {
 
         $('.sorting a').removeClass('sortby_selected');
@@ -44,6 +45,17 @@ $(document).ready(function() {
 		}
 	}
 
+    // pre-load some of the top images
+    spaceprobes.preload(
+        "http://spaceprob.es/resources/img/attract/voyager1_imageheader.jpg",
+        "http://spaceprob.es/resources/img/attract/voyager2_imageheader.jpg",
+        "http://spaceprob.es/resources/img/attract/newhorizons_imageheader.jpg",
+        "http://spaceprob.es/resources/img/attract/mangalyaan_imageheader.jpg",
+        "http://spaceprob.es/resources/img/attract/cassini_imageheader.jpg",
+        "http://spaceprob.es/resources/img/attract/lro_imageheader.jpg",
+        "http://spaceprob.es/resources/img/attract/juno_imageheader.jpg"
+    );
+
 });
 
 var spaceprobes = {
@@ -57,6 +69,15 @@ var spaceprobes = {
     probe_snippets: {},
     current_sort: 'distance',  // 'distance' or 'launch'
     all_probes_meta: {},
+
+
+    preload: function() {
+        var images = new Array()
+        for (i = 0; i < spaceprobes.preload.arguments.length; i++) {
+            images[i] = new Image()
+            images[i].src = spaceprobes.preload.arguments[i]
+        }
+    }, 
 
     init: function() {
 
