@@ -1,7 +1,7 @@
 <div class = "sorting">
-    sort by:
-    <a href = "" class = "distance sortby_selected">distance</a>
-    <a href = "" class = "launch">launch</a>
+    sırala:
+    <a href = "" class = "distance sortby_selected">mesafe</a>
+    <a href = "" class = "launch">fırlatma tarihi</a>
 </div>
 
 <div id="probes" class="row">
@@ -36,7 +36,7 @@
                 <div class="title visible-sm">{{ table_title }}</div>
             {% endif %}
 
-            <div class="distance"><span class="{{ probe.title|slugify }}">Unknown</span> km from Earth</div>
+            <div class="distance">Dünya'dan <span class="{{ probe.title|slugify }}">Unknown</span> km uzaklıkta</div>
           </div>
         </a>
     </div>

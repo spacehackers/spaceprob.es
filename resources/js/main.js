@@ -250,10 +250,10 @@ numeral.language('en', {
         decimal: '.'
     },
     abbreviations: {
-        thousand: 'thousand',
-        million: 'million',
-        billion: 'billion',
-        trillion: 'trillion'
+        thousand: 'bin',
+        million: 'milyon',
+        billion: 'milyar',
+        trillion: 'trilyon'
     },
 
 });
