@@ -5,26 +5,26 @@ color: '#ff6e48'
 attract: voyager2_imageheader.jpg
 image: voyager2.svg
 dsn_name: VGR2
-launch_date: August 20, 1977
-primary_target: the outer solar system
-arrival_date: July 9, 1979
+launch_date: 20 Ağustos 1977
+primary_target: dış güneş sistemi
+arrival_date: 9 Temmuz 1979
 instruments:
-    - cameras
-    - cosmic dust analyzer
-    - golden record
-    - magnetometer
+    - kameralar
+    - kozmik toz analizörü
+    - altın plak
+    - mıknatısölçer
     - radar
-    - radio receiver
-    - radio transmitter
-    - spectrograph
-    - spectrometers
-teams:
+    - radio alıcısı
+    - radio vericisi
+    - spektograf
+    - spektrometre
+takımlar:
     - <a href = "http://voyager.jpl.nasa.gov/">NASA / JPL</a>
-links:
-    - the <a href="http://voyager.gsfc.nasa.gov/heliopause/data.html">data</a> from the cosmic ray detector on Voyager 1 and 2
-    - a <a href="http://web.mit.edu/lilybui/www/">playlist</a> of the music, sounds and greetings on the Voyager Golden Record
+bağlantılar:
+    - Voyager 1 ve 2'deki kozmik ışın algılayıcısın gönderdiği <a href="http://voyager.gsfc.nasa.gov/heliopause/data.html">veriler</a>
+    - Voyager Altın Plak'ında yer alan müziklerin, seslerin ve selamlaşmaların bir <a href="http://web.mit.edu/lilybui/www/">listesi</a>
 
 caption: >
-    (top image: <a href="http://solarsystem.nasa.gov/multimedia/display.cfm?Category=Spacecraft&IM_ID=2424">Neptune</a> as seen from 4.4 million miles away by Voyager 2, NASA)
+    (Üstteki <a href="http://solarsystem.nasa.gov/multimedia/display.cfm?Category=Spacecraft&IM_ID=2424">Neptün</a> fotoğrafı, Voyager 2'nin (NASA) 4.4 milyon mil uzaklıktan çektiği bir fotoğraftır.)
 ---
-Voyager 2 is the oldest currently active space probe, having been launched into space on August 20, 1977, just a couple weeks before its identical twin, Voyager 1, was launched. Like Voyager 1, Voyager 2's main mission was to study both Jupiter and Saturn. At Jupiter, Voyager 2 discovered three new moons. After encountering Saturn, Voyager 2's mission was extended to visit Uranus and Neptune, where it discovered 10 new Uranian moons. To this day, Voyager 2 is the only space probe to have visited Uranus and Neptune, providing <a href="http://www.nasaspaceflight.com/2011/08/thirty-four-years-voyager-2-continues-explore/">invaluable insights</a> about the planets and their moons. Now in the interstellar phase of its mission, Voyager 2 is estimated to leave the solar system around 2016, carrying with it the <a href="/voyager1/">same golden record as Voyager 1</a>.
+Voyager 2, aktif olan en yaşlı uzay aracıdır. Uzaya ikizi Voyager 1'den iki hafta önce, 20 Ağustos 1977'de fırlatılmıştır. Voyager 2'nin görevi, Voyager 1'inki gibi hem Jupiter hem de Satürn'ü incelemektir. Voyager 2, Jupiter'in üç yeni uydusunu keşfetmiştir. Satürn'le buluşmasından sonra, Voyager 2'nin misyonu Uranüs ve Neptün'ü de içine kapsayacak şekilde genişletilmiştir ve bunun sonucunda Voyager 2, 10 adet yeni Uranüs'e ait uydu keşfetmiştir. Bugun itibarıyle Voyager 2, Uranüs ve Neptün'ü ziyaret etmiş tek uzay aracıdır ve bu ziyaretler bize bu gezegenler ve uydularıyla ilgili <a href="http://www.nasaspaceflight.com/2011/08/thirty-four-years-voyager-2-continues-explore/">çok değerli bilgiler</a> kazandırmıştır. Şu an görevinin yıldızlararası bölümünde olan Voyager 2'nin, ikizi <a href="/voyager1/">Voyager 1'de de bulunan altın plak</a> ile birlikte 2016 yılında güneş sisteminden ayrılması beklenmektedir.
