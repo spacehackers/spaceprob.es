@@ -5,23 +5,21 @@ color: '#8e8566'
 attract: wind_imageheader.jpg
 image: wind.svg
 dsn_name: WIND
-launch_date: November 1, 1994
-arrival_date: April 1, 1995
-primary_target: a halo orbit at the Earth-Sun L1 point
+launch_date: 1 Kasım 1994
+arrival_date: 1 Nisan 1995
+primary_target: Dünya-Güneş L1 noktasındaki bir hale yörüngesi (halo orbit)
 instruments:
-    - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">magnetic field sensor</a>
-    - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">particle detector</a>
-    - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">plasma sensors</a>
+    - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">manyetik alan sensörü</a>
+    - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">parçacık detektörü</a>
+    - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">plazma sensörleri</a>
     - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">solar wind sensor</a>
     - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">spectrometers</a>
-teams:
+ekipler:
     - <a href="http://pwg.gsfc.nasa.gov/wind.shtml">NASA</a>
-links:
-    - near real-time <a href="http://pwg.gsfc.nasa.gov/windnrt/">data</a> from Wind
+bağlantılar:
+    - Wind'den gelen gerçek zamanlıya yakın <a href="http://pwg.gsfc.nasa.gov/windnrt/">veriler</a>
 
 caption: >
-    (top image: an <a href="http://www.nasa.gov/multimedia/imagegallery/image_feature_2175.html">aurora</a> on Earth, an effect of the space weather WIND looks for, seen from the International Space Station, NASA)
+    (Yukarıdaki görsel: Wind'in aradığı bir uzay hava efekti olan Dünya'daki <a href="http://www.nasa.gov/multimedia/imagegallery/image_feature_2175.html">kutup ışıkları</a>nın Uluslararası Uzay İstasyonu'ndan (NASA) görünüşü.)
 ---
-The Wind space probe studies plasma (ionized gas), particles and magnetic fields around the Sun. In addition, the space probe provides early warnings to Earth as to when intense solar storms might be directed its way. Wind makes 11 magnetic measurements a second and particle observations every three seconds. Wind aims to help improve our understanding of the physics involved in the relationship between the Earth and the Sun and has often worked together with the space probe <a href="/ace">ACE</a> to do so. By continuing to monitor solar activity, the space probe can better forecast how solar phenomena affects Earth and when it might be hazardous. Over its lifetime, Wind has detected different kinds of electromagnetic waves, which is <a href="http://www.nasa.gov/content/goddard/solar-wind-workhorse-marks-20-years-of-science-discoveries/">said</a> to have opened up new areas of research. It's estimated that Wind has enough fuel to continue operations until 2074.
-
-
+Wind uzay aracı Güneş etrafındaki manyetik alanları, parçacıkları ve plazmayı (iyonlaşmış gaz) inceler. Buna ek olarak, Dünya'nın yörüngesine doğru yönelebilecek şiddetli güneş fırtınalarına karşı Dünya'ya erken uyarı sinyali gönderir. Wind saniyede 11 kez manyetik ölçüm yapar ve her üç saniyede bir parçacık gözlemlemesinde bulunur. Wind, Güneş ve Dünya arasındaki fiziksel ilişkiyi daha iyi anlamamıza yardımcı olur ve bunu genellikle <a href="/ace">ACE</a> isimli uzay aracıyla birlikte çalışarak yapar. Wind, Güneş'teki aktiviteleri gözlemlemeye devam ederek, Güneş'e ait fenomenlerin ne zaman zararlı olabileceğini ve Dünya'ya olan etkilerini daha iyi öngörebilir. Wind'in, birçok farklı elektromanyetik dalgalar tespit ederek, yeni araştırma alanlarına önayak olduğu <a href="http://www.nasa.gov/content/goddard/solar-wind-workhorse-marks-20-years-of-science-discoveries/">söylenir</a>. Wind'in 2074 yılına dek çalışmasını sağlayacak kadar yakıtının olduğu tahmin edilmektedir.
