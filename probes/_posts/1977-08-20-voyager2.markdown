@@ -25,6 +25,6 @@ bağlantılar:
     - Voyager Altın Plak'ında yer alan müziklerin, seslerin ve selamlaşmaların bir <a href="http://web.mit.edu/lilybui/www/">listesi</a>
 
 caption: >
-    (Sayfanın üstündeki görsel, Voyager 2'nin (NASA) 4.4 milyon mil uzaktan çektiği bir Neptün fotoğrafıdır.)
+    (Yukarıdaki görsel: Voyager 2'nin (NASA) 4.4 milyon mil uzaktan çektiği bir Neptün fotoğrafıdır.)
 ---
 Voyager 2, aktif olan en yaşlı uzay aracıdır. Uzaya ikizi Voyager 1'den iki hafta önce, 20 Ağustos 1977'de fırlatılmıştır. Voyager 2'nin görevi, Voyager 1'inki gibi hem Jüpiter hem de Satürn'ü incelemektir. Voyager 2, Jüpiter'in üç yeni uydusunu keşfetmiştir. Satürn'le buluşmasından sonra, Voyager 2'nin misyonu Uranüs ve Neptün'ü de içine kapsayacak şekilde genişletilmiştir ve bunun sonucunda Voyager 2, 10 adet yeni Uranüs'e ait uydu keşfetmiştir. Bugun itibarıyle Voyager 2, Uranüs ve Neptün'ü ziyaret etmiş tek uzay aracıdır ve bu ziyaretler bize bu gezegenler ve uydularıyla ilgili <a href="http://www.nasaspaceflight.com/2011/08/thirty-four-years-voyager-2-continues-explore/">çok değerli bilgiler</a> kazandırmıştır. Şu an görevinin yıldızlararası bölümünde olan Voyager 2'nin, ikizi <a href="/voyager1/">Voyager 1'de de bulunan altın plak</a> ile birlikte 2016 yılında güneş sisteminden ayrılması beklenmektedir.

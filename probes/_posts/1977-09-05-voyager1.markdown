@@ -27,6 +27,6 @@ bağlantılar:
     - Voyager 1'in plazma spektrometresi tarafından yakalanmış <a href="https://www.youtube.com/watch?v=LIAZWb9_si4">yıldızlararası uzayın sesi</a>
 
 caption: >
-    (Sayfanın üstündeki görsel, Voyager 1'in (NASA/JPL-Caltech) Jüpiter'in yakınından çektiği bir fotoğraftır.)
+    (Yukarıdaki görsel: Voyager 1'in (NASA/JPL-Caltech) Jüpiter'in yakınından çektiği bir fotoğraftır.)
 ---
 Voyager 1, güneş sistemimizin dışına çıkmış ve daha da ötesine gitmeyi sürdüren bir uzay aracıdır. Voyager 1, güneş sistemini terk etmeden önce çok-gezegenli bir yolculuğa çıkmış, Jüpiter ve Satürn'ün yakınından geçmiştir. Voyager 1, Jüpiter'in, Satürn'ün ve uydularının ilk detaylı görüntülerini çekmiştir. Voyager 1, Jüpiter'in uydusu olan Io'da daha önce başka bir dünyada gözlemlenmemiş ilk aktif yanardağları keşfetmiştir. Voyager 1'in, güneş sisteminde farklı bir yönde hareket etmiş Voyager 2 isminde ikiz bir uzay aracı vardır. 2012 Ağustos ayında NASA, Voyager 1'in yıldızlararası uzaya ulaşan ilk uzay aracı olduğunu duyurmuştur. Voyager 1, aygıtlarıyla birlikte içinde doğa seslerini, müzikleri, farklı dilleri ve Dünya üzerindeki yaşamın çeşitliliğini gösteren 115 tane fotoğrafı barındıran bir altın plak taşır. Bu altın plak, dünya dışı uzay yolculuğu yapan bir uygarlığa ulaşması umuduyla, Carl Sagan ve diğerleri tarafından bir araya getirilmiştir.
