@@ -1,0 +1,10 @@
+---
+layout: probe
+title: IKAROS
+color: '#fe9d99'
+image: ikaros.svg
+distance: 230000000  # per Jaxa http://www.isas.jaxa.jp/j/topics/topics/2014/0526.shtml
+
+links:
+
+---

@@ -1,0 +1,31 @@
+---
+layout: probe
+title: SOHO
+color: '#938bbe'
+attract: soho_imageheader.jpg
+launch_date: December 2, 1995
+arrival_date: May 2, 1996
+primary_target: a halo orbit at the Earth-Sun L1 point
+image: soho.svg
+dsn_name: SOHO
+instruments:
+    - spectrometers
+    - solar wind sampler
+    - energetic particle analyzers
+    - ultraviolet telescope
+    - oscillation analyzers
+    - radiation analyzer
+    - solar wind mapper
+teams:
+    - <a href="http://www.nasa.gov/mission_pages/soho/">NASA</a>
+    - <a href="http://soho.esac.esa.int/">ESA</a>
+links:
+    - an <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=356679615&mt=8">iPhone app</a> that displays the latest images taken by SOHO
+    - a <a href="http://soho.esac.esa.int/freestuff/papermod.pdf">paper model</a> of the spacecraft
+
+caption: >
+    (top image: <a href="http://photojournal.jpl.nasa.gov/catalog/PIA03149">eruption on the Sun</a> captured in ultraviolet by SOHO, ESA/NASA/SOHO)
+
+---
+SOHO, short for the "Solar and Heliospheric Observatory", is a space probe on a mission to observe the Sun's core, outer atmosphere, and the stream of highly ionized gas it blows out into the solar system called the solar wind. SOHO observes the Sun continuously and is able to study seismic waves occurring on the Sun's outer shell as well as vibrations from deep inside. The space probe has discovered two notable new types of solar phenomena: coronal waves (roughly circular waves rippling through the Sun's outer atmosphere) and solar tornadoes. SOHO also plays a lead role in the early warning system for Earth-directed solar storms, giving humans up to three days of advance notice. In addition to studying the Sun, SOHO inadvertently became the most prolific comet discoverer, finding over 2700 comets to date.
+
