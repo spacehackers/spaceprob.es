@@ -4,23 +4,23 @@ title: Mars Express
 primary_target: Mars
 color: '#fe9d99'
 attract: marsexpress_imageheader.jpg
-launch_date: June 2, 2003
-arrival_date: December 25, 2003
+launch_date: 2 Haziran 2003
+arrival_date: 25 Aralık 2003
 image: marsexpress.svg
 orbit_planet: Mars
 instruments:
-    - <a href="http://sci.esa.int/mars-express/31033-objectives/">camera</a>
-    - <a href="http://sci.esa.int/mars-express/31033-objectives/">plasma and atom analyzer</a>
-    - <a href="http://sci.esa.int/mars-express/31033-objectives/">radar altimeter</a>
-    - <a href="http://sci.esa.int/mars-express/31033-objectives/">radio transmitter</a>
-    - <a href="http://sci.esa.int/mars-express/31033-objectives/">spectrometers</a>
+    - <a href="http://sci.esa.int/mars-express/31033-objectives/">kamera</a>
+    - <a href="http://sci.esa.int/mars-express/31033-objectives/">plazma ve atom analizörü</a>
+    - <a href="http://sci.esa.int/mars-express/31033-objectives/">radar yükseklikölçeri</a>
+    - <a href="http://sci.esa.int/mars-express/31033-objectives/">radio vericisi</a>
+    - <a href="http://sci.esa.int/mars-express/31033-objectives/">spektrometreler</a>
 teams:
     - <a href="http://sci.esa.int/mars-express/">ESA</a>
 links:
-  - a <a href="http://www.nature.com/news/spectacular-flyover-of-mars-1.14041">fly-through of Mars' surface</a> based on the data from Mars Express
-  - a Twitter account dedicated to <a href="https://twitter.com/esamarswebcam">tweeting photos from the camera<a> onboard Mars Express
+  - Mars Express'in verilerine dayanarak oluşturulmuş, <a href="http://www.nature.com/news/spectacular-flyover-of-mars-1.14041">Mars yüzeyinin kuş bakışı videosu</a>
+  - Mars Express'in yerleşik kamerasının çektiği görüntüleri tweetlemeye adanmış <a href="https://twitter.com/esamarswebcam">bir twtter hesabı<a>
 
 caption: >
-    (top image: a view of the <a href="http://sci.esa.int/mars-express/43929-light-toned-deposits-in-hebes-chasma/">"Grand Canyon of Mars"</a> by Mars Express, ESA/DLR/FU Berlin (G. Neukum))
+    (Görsel: <a href="http://sci.esa.int/mars-express/43929-light-toned-deposits-in-hebes-chasma/">Mars'ın Büyük Kanyon'u</a>nun Mars Express tarafından çekilmiş görüntüsü, ESA/DLR/FU Berlin (G. Neukum))
 ---
-Mars Express is an orbiting space probe examining the composition and history of Mars' surface, as well as its interaction with the atmosphere. The mission was the European Space Agency's first planetary probe. Mars Express originally consisted of an orbiter, the Mars Express Orbiter, and a lander, Beagle 2. Beagle 2 was a British spacecraft intended to search for extinct Martian life, or at minimum, if the planet was ever host to environmental conditions that could at one time have supported life. After being deployed from the orbiter, Beagle 2's signal was never heard from again and was soon after declared lost. In late 2014, the <a href="/mro/">MRO</a> space probe discovered <a href="http://www.planetary.org/blogs/emily-lakdawalla/2015/01160800-beagle-2-found.html">the remains</a> of Beagle 2. The Mars Express Orbiter continues to successfully study the planet, identifying glacial landforms, investigating ancient volcanoes, mapping Mars' moon, Phobos, and producing a near-complete topological map of the surface.
+Mars Express, Mars yörüngesinde gezegenin yüzeyinin kompozisyonunu, geçmişini ve atmosferiyle olan etkileşimini inceleyen bir uzay aracıdır. Mars Express, Avrupa Uzay Ajansı'nın (ESA) başka bir gezegene gönderdiği ilk uzay aracıdır. Mars Express fırlatıldığında bir uydudan (Mars Express Orbiter) ve bir lander'dan (Beagle 2) oluşuyordu. Beagle 2, soyu tükenmiş Mars yaşamını ya da en azından gezegenin daha önce yaşamın oluşmasına olanak sağlayacak bir ortama sahip olup olmadığını araştırmak amacıyla üretilmiş, Britanya tarafından üretilmiş araçtı. Uydudan ayrıldıktan sonra Beagle 2'den bir daha sinyal alınamadı ve bunun akabinde araç kayıp olarak deklare edildi. <a href="/mro/">MRO</a>, 2014'ün sonlarında Beagle 2'nin <a href="http://www.planetary.org/blogs/emily-lakdawalla/2015/01160800-beagle-2-found.html">kalıntılarını</a> keşfetti. Mars Express Uydusu gezegeni başarıyla incelemeye, buzlu yapıları tanımlamaya, antik yanardağları araştırmaya, Mars'ın uydusu olan Phobos'u haritalandırmaya ve yüzeyinin neredeyse tamamının topolojik haritasını üretmeye aktif olarak devam etmektedir.
