@@ -6,10 +6,10 @@
 
 <div class = "content">
 
-    {{page.title}} launched into space on <strong>{{page.launch_date}}</strong>
-    and is now
+    {{page.title}} uzaya <strong>{{page.launch_date}}</strong> tarihinde fırlatışmış
+    ve şu an Dünya'dan
 
-    <strong><span class = "distance"><span class="{{ page.title|slugify }}">unknown</span></strong> km from Earth</span>.
+    <strong><span class = "distance"><span class="{{ page.title|slugify }}">unknown</span></strong> km uzaklıktadır</span>.
     Its primary destination is <strong>{{page.primary_target}}</strong>,
 
     which
@@ -23,15 +23,15 @@
     {{ page.arrival_date }}.
 
     {% if page.instruments %}
-        Wherever {{ page.title }} goes, it carries its trusty
+        {{ page.title }} nereye giderse gitsin, aşağıdaki sadık cihazlarını yanından ayırmaz:
         <strong>
             {{ page.instruments | array_to_sentence_string }}.
         </strong>
     {% endif %}
 
     {% if page.teams %}
-        {{ page.title }} often chats with humans from
-        <strong>{{ page.teams | array_to_sentence_string }}</strong>.
+        {{ page.title }} sık sık
+        <strong>{{ page.teams | array_to_sentence_string }}</strong> çalışanlarıyla haberleşir.
     {% endif %}
 </div>
 
