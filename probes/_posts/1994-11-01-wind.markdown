@@ -14,9 +14,9 @@ instruments:
     - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">plazma sensörleri</a>
     - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">solar wind sensor</a>
     - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">spectrometers</a>
-ekipler:
+teams:
     - <a href="http://pwg.gsfc.nasa.gov/wind.shtml">NASA</a>
-bağlantılar:
+links:
     - Wind'den gelen gerçek zamanlıya yakın <a href="http://pwg.gsfc.nasa.gov/windnrt/">veriler</a>
 
 caption: >

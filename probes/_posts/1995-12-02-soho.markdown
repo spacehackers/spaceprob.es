@@ -16,10 +16,10 @@ instruments:
     - osilasyon analizörü
     - radyasyon analizörü
     - güneş rüzgarı haritalandırıcısı
-ekipler:
+teams:
     - <a href="http://www.nasa.gov/mission_pages/soho/">NASA</a>
     - <a href="http://soho.esac.esa.int/">ESA</a>
-bağlantılar:
+links:
     - an <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=356679615&mt=8">iPhone app</a> that displays the latest images taken by SOHO
     - a <a href="http://soho.esac.esa.int/freestuff/papermod.pdf">paper model</a> of the spacecraft
 

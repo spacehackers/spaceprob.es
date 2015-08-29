@@ -13,10 +13,10 @@ instruments:
     - <a href="http://www.srl.caltech.edu/ACE/ASC/instruments.html">izotop spektrometreleri</a>
     - <a href="http://www.ssg.sr.unh.edu/mag/ACE.html">mıknatısölçer</a>
     - <a href="http://www.srl.caltech.edu/ACE/ASC/instruments.html">parçacık sensörleri</a>
-ekipler:
+teams:
     - <a href="http://www.srl.caltech.edu/ACE/">Caltech</a>
     - <a href="http://helios.gsfc.nasa.gov/">NASA</a>
-bağlantılar:
+links:
     - <a href="http://www.swpc.noaa.gov/products/ace-real-time-solar-wind">real-time solar wind data</a> from ACE
 
 caption: >

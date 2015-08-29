@@ -18,9 +18,9 @@ instruments:
     - radio vericisi
     - spektograf
     - spektrometre
-ekipler:
+teams:
     - <a href = "http://voyager.jpl.nasa.gov/">NASA / JPL</a>
-bağlantılar:
+links:
     - Voyager 1 ve 2'deki kozmik ışın algılayıcısın gönderdiği <a href="http://voyager.gsfc.nasa.gov/heliopause/data.html">veriler</a>
     - Voyager Altın Plak'ında yer alan müziklerin, seslerin ve selamlaşmaların bir <a href="http://web.mit.edu/lilybui/www/">listesi</a>
     - Voyager 1'le ilgili hoş bir <a href="https://www.youtube.com/watch?v=BwcJXUWXMTI">animasyonlu hikaye</a>
