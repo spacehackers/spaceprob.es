@@ -23,7 +23,7 @@ teams:
     - <a href="http://www.esa.int/Our_Activities/Space_Science/Cassini-Huygens">ESA</a>
     - <a href="http://www.asi.it/en/activity/solar_system/cassinihuygens">ASI</a>
 links:
-    - Nine Inch Nails'in müziğiyle montajlanmış Cassini <a href="https://vimeo.com/24410924">görüntüleri</a>
+    - Nine Inch Nails eşliğinde Cassini <a href="https://vimeo.com/24410924">görüntüleri</a>
     - Bir uzay aracı olan Huygens'in Titan isimli uyduya doğru inerken <a href="http://www.esa.int/Our_Activities/Space_Science/Highlights/Ten_years_at_Titan">beş farklı yükseklikten çektiği fotoğraflar</a>
     - Satürn'ün <a href="http://www.nasa.gov/mission_pages/cassini/multimedia/jpl/pia17172.html#.VOKEY154qm0">doğal rengi ve insan gözüne göründüğü hali</a>
     - Uzay aracı Huygens tarafından kaydedilmiş <a href="http://www.esa.int/Our_Activities/Space_Science/Cassini-Huygens/Sounds_of_an_alien_world">Titan'daki sesler</a>

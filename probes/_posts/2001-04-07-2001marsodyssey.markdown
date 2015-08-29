@@ -9,14 +9,14 @@ launch_date: 7 Nisan 2001
 primary_target: Mars
 arrival_date: 24 Ekim 2001
 instruments:
-    - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/themis/">camera</a>
-    - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/grs/">gamma ray spectrometer</a>
-    - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/marie/">radiation spectrometer</a>
+    - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/themis/">kamera</a>
+    - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/grs/">gama ışını spektrometresi</a>
+    - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/marie/">radyasyon spektrometresi</a>
 teams:
     - <a href="http://mars.nasa.gov/odyssey/">NASA / JPL</a>
 links:
-    - a program where students can <a href="http://mars.nasa.gov/msip/">take photos of Mars</a> using 2001 Mars Odyssey's camera
-    - categorized <a href="http://themis.asu.edu/topic">photos</a> from 2001 Mars Odyssey
+    - Öğrencilerin 2001 Mars Odyssey'in kamerasını kullanarak <a href="http://mars.nasa.gov/msip/">Mars'ın fotoğrafını çekebilecekleri</a> bir program
+    - 2001 Mars Odyssey'in kategorize edilmiş <a href="http://themis.asu.edu/topic">fotoğrafları</a>
 
 caption: >
     (top image: <a href="http://www.nasa.gov/mission_pages/odyssey/images/pia13654b.html">Martian sand dunes captured by 2001 Mars Odyssey</a>, NASA/JPL-Caltech/ASU)
