@@ -1,17 +1,17 @@
 ---
 layout: probe
 title: Akatsuki
-primary_target: Venus
+primary_target: Venüs
 color: '#ff6e48'
-launch_date: May 20, 2010
-arrival_date: December 7, 2015
+launch_date: 20 Mayıs 2010
+arrival_date: 7 Aralık 2015
 attract: akatsuki_imageheader.jpg
 image: akatsuki.svg
 dsn_name: PLC
 instruments:
-    - <a href="http://www.stp.isas.jaxa.jp/venus/E_instrument.html">cameras</a>
-    - <a href="http://www.stp.isas.jaxa.jp/venus/E_instrument.html">camera controller</a>
-    - <a href="http://www.stp.isas.jaxa.jp/venus/E_instrument.html">radio transmitter</a>
+    - <a href="http://www.stp.isas.jaxa.jp/venus/E_instrument.html">kameralar</a>
+    - <a href="http://www.stp.isas.jaxa.jp/venus/E_instrument.html">kamera kontrolörü</a>
+    - <a href="http://www.stp.isas.jaxa.jp/venus/E_instrument.html">radyo vericisi</a>
 teams:
     - <a href="http://global.jaxa.jp/projects/sat/planet_c/">JAXA</a>
 links:

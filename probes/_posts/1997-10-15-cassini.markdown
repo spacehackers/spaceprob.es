@@ -1,7 +1,7 @@
 ---
 layout: probe
 title: Cassini
-primary_target: Saturn
+primary_target: Satürn
 color: '#fe9d99'
 attract: cassini_imageheader.jpg
 launch_date: 15 Ekim 1997
