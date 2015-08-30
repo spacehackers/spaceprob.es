@@ -17,7 +17,7 @@ teams:
     - <a href="http://www.srl.caltech.edu/ACE/">Caltech</a>
     - <a href="http://helios.gsfc.nasa.gov/">NASA</a>
 links:
-    - <a href="http://www.swpc.noaa.gov/products/ace-real-time-solar-wind">real-time solar wind data</a> from ACE
+    - ACE'ten gelen gerçek zamanlı <a href="http://www.swpc.noaa.gov/products/ace-real-time-solar-wind">güneş rüzgarı verileri</a>
 
 caption: >
     (Görsel: ACE'in aradığı bir uzay hava efekti olan Dünya'daki <a href="http://www.nasa.gov/content/aurora-australis-or-the-southern-lights-0/">kutup ışıkları</a>nın Uluslararası Uzay İstasyonu'ndan görünüşü, NASA)

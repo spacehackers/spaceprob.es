@@ -6,7 +6,7 @@ attract: voyager2_imageheader.jpg
 image: voyager2.svg
 dsn_name: VGR2
 launch_date: 20 Ağustos 1977
-primary_target: dış güneş sistemi
+primary_target: Dış güneş sistemi
 arrival_date: 9 Temmuz 1979
 instruments:
     - kameralar

@@ -1,17 +1,17 @@
 ---
 layout: probe
 title: Spitzer
-primary_target: a heliocentric orbit
+primary_target: Günmerkezli bir yörünge
 color: '#8e8566'
 attract: spitzer_imageheader2.jpg
 image: spitzer.svg
-launch_date: August 25, 2003
-arrival_date: December 18, 2003
+launch_date: 25 Ağustos 2003
+arrival_date: 18 Aralık 2003
 dsn_name: STF
 instruments:
-    - <a href="http://www.spitzer.caltech.edu/mission/398-The-Infrared-Array-Camera-IRAC-">infrared camera</a>
-    - <a href="http://www.spitzer.caltech.edu/mission/394-The-Infrared-Spectrograph-IRS-">infrared spectrograph</a>
-    - <a href="http://www.spitzer.caltech.edu/mission/396-The-Multiband-Imaging-Photometer-MIPS-">photometer</a>
+    - <a href="http://www.spitzer.caltech.edu/mission/398-The-Infrared-Array-Camera-IRAC-">kızılötesi kamera</a>
+    - <a href="http://www.spitzer.caltech.edu/mission/394-The-Infrared-Spectrograph-IRS-">kızılötesi spektrograpf</a>
+    - <a href="http://www.spitzer.caltech.edu/mission/396-The-Multiband-Imaging-Photometer-MIPS-">ışıkölçer</a>
 teams:
     - <a href="http://www.nasa.gov/mission_pages/spitzer/main/">NASA</a> / <a href="http://www.jpl.nasa.gov/missions/spitzer-space-telescope/">JPL</a>
     - <a href="http://www.spitzer.caltech.edu/">Caltech</a>
