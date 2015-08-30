@@ -6,21 +6,21 @@
 
 <div class = "content">
 
-    {{page.title}} uzaya <strong>{{page.launch_date}}</strong> tarihinde fırlatışmıştır
+    {{page.title}}, uzaya <strong>{{page.launch_date}}</strong> tarihinde fırlatışmıştır
     ve şu an Dünya'dan
 
-    <strong><span class = "distance"><span class="{{ page.title|slugify }}">unknown</span></strong> km uzaklıktadır</span>.
-    <strong>{{page.primary_target}}</strong>, aracın öncelikli varış noktasıdır
+    <strong><span class = "distance"><span class="{{ page.title|slugify }}">unknown</span></strong> km uzaklıktadır.</span>
+    <strong>{{page.primary_target}}</strong> aracın ana varış noktasıdır
 
     ve 
 
     {% if arrivaliso > nowiso %}
-        it's set to arrive at on
+        aracın buraya {{ page.arrival_date }} tarihinde ulaşması planlanmaktadır.
     {% else %}
-        buraya 
+        araç buraya 
     {% endif %}
 
-    {{ page.arrival_date }} tarihinde ulaşmıştır.
+    {{ page.arrival_date }} ulaşmıştır.
 
     {% if page.instruments %}
         {{ page.title }} nereye giderse gitsin, aşağıdaki sadık cihazlarını yanından ayırmaz:
