@@ -1,31 +1,30 @@
 ---
 layout: probe
 title: Rosetta
-primary_target: Comet 67P/Churyumov-Gerasimenko
-launch_date: March 2, 2004
-arrival_date: August 6, 2014
+primary_target: 67P/Churyumov-Gerasimenko kuyrukluyıldızı
+launch_date: 2 Mart 2004
+arrival_date: 6 Ağustos 2014
 color: '#938bbe'
 attract: rosetta_imageheader.jpg
 image: rosetta.svg
 dsn_name: ROSE
 instruments:
-    - cameras
-    - comet dust analyzers
-    - <a href="http://sci.esa.int/rosetta/35061-instruments/?fbodylongid=1644">plasma sensors</a>
-    - radio receiver and transmitters
-    - spectrometers
+    - kameralar
+    - kuyrukluyıldız tozu analizörü
+    - <a href="http://sci.esa.int/rosetta/35061-instruments/?fbodylongid=1644">plazma sensörleri</a>
+    - radyo alıcısı ve vericisi
+    - spektrometreler
 teams:
     - <a href="http://rosetta.esa.int/">ESA</a>
 links:
-    - amazing photographs of the comet on Rosetta's <a href="http://instagram.com/rosettamission">Instagram</a>
-    - a model of Comet 67P for <a href="http://sci.esa.int/rosetta/54728-shape-model-of-comet-67p/">3D printing</a>
-    - an <a href="https://www.youtube.com/watch?v=AvkPFXdpOQQ">adorable cartoon</a> about Rosetta and Philae preparing for the comet landing
-    - an <a href="http://sci.esa.int/where_is_rosetta/">interactive map</a> of where Rosetta is in the solar system
-    - the Rosetta team's <a href = "http://blogs.esa.int/rosetta/">blog</a>
+    - Kuyrukluyıldızın Rosetta'nın <a href="http://instagram.com/rosettamission">Instagram</a> sayfasındaki müthiş fotoğrafları 
+    - 67P kuyrukluyıldızının 3 boyutlu yazıcılar için hazırlanmış bir <a href="http://sci.esa.int/rosetta/54728-shape-model-of-comet-67p/">modeli</a>
+    - Kuyrukluyıldıza inmeye hazırlanan Rosetta ve Philae'yle ilgili çizilmiş <a href="https://www.youtube.com/watch?v=AvkPFXdpOQQ">sevimli bir karikatür</a>
+    - Rosetta'nın güneş sisteminde nerede bulunduğunu gösteren <a href="http://sci.esa.int/where_is_rosetta/">interaktif bir harita</a>
+    - Rosetta ekibinin <a href = "http://blogs.esa.int/rosetta/">blog'u</a>
 
 caption: >
-    (top image: a <a href="http://www.esa.int/spaceinimages/Images/2014/11/Comet_on_4_November_NavCam">mosaic of Comet 67P</a> taken by Rosetta, ESA/Rosetta/NAVCAM)
+    (Görsel: 67P kuyrukluyıldızının Rosetta tarafından çekilmiş <a href="http://www.esa.int/spaceinimages/Images/2014/11/Comet_on_4_November_NavCam">bir mozaiği</a>, ESA/Rosetta/NAVCAM)
 
 ---
-Rosetta is a space probe orbiting Comet 67P/Churyumov-Gerasimenko, witnessing how it changes as it orbits the Sun. The Rosetta orbiter was launched carrying the Philae lander which semi-successfully landed on Comet 67P in 2014, becoming the first space probe to ever land on a comet. Philae bounced twice before landing at an angle in the shadow of a cliff and soon after powered down due to the lack of sunlight. Scientists are hopeful for Philae to eventually gain enough sunlight to power back on. Meanwhile, Rosetta continues to study the comet and its role in the evolution of the solar system. On board Rosetta is a <a href="http://rosettaproject.org/">micro-etched nickel disk</a> containing an archive of 1500 human languages compiled by the Long Now Foundation.
-
+Rosetta, 67P/Churyumov-Gerasimenko kuyrukluyıldızının yörüngesinde, kuyrukluyıldızın Güneş yörüngesinde ne gibi değişikliklere uğradığına tanık olan bir uzay aracıdır. Rosetta uydusu, 2014 yılında 67P kuyrukluyıldızına yarı başarıyla iniş yapmış Philae lander'ıyla birlikte fırlatılmıştır. Philae inişini gerçekleştirmeden önce iki defa bir uçurumun gölge açısına doğru sekti ve kısa bir süre sonra güneş ışığının eksikliğinden ötürü güç kaybı yaşadı. Biliminsanları Philae'nin er ya da geç yeterli güneş ışığı alarak tekrar çalışmaya başlamasını umuyorlar. Rosetta ise bu sırada kuyrukluyıldızı ve kuyrukluyıldızın güneş sistemimizin gelişimindeki rolünü incelemeye devam ediyor. Rosetta, bünyesinde Long Now Foundation tarafından hazırlanmış ve içinde 1500 farklı dilin arşivinin yer aldığı <a href="http://rosettaproject.org/">bir disk</a> taşımaktadır.
