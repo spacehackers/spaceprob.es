@@ -6,22 +6,22 @@ color: '#78ae62'
 attract: mro_imageheader.jpg
 image: mro.svg
 orbit_planet: Mars
-launch_date: August 12, 2005
-arrival_date: March 10, 2006
+launch_date: 12 Ağustos 2005
+arrival_date: 10 Mart 2006
 instruments:
-    - <a href="http://mars.jpl.nasa.gov/mro/mission/instruments/">cameras</a>
+    - <a href="http://mars.jpl.nasa.gov/mro/mission/instruments/">kameralar</a>
     - <a href="http://www.asi.it/en/activity/solar_system/sharad">radar</a>
-    - <a href="http://www.planetary.org/explore/projects/mcs/">radiometer</a>
-    - <a href="http://crism.jhuapl.edu/">spectrometer</a>
+    - <a href="http://www.planetary.org/explore/projects/mcs/">radyometre</a>
+    - <a href="http://crism.jhuapl.edu/">spektrometre</a>
 teams:
     - <a href="http://mars.jpl.nasa.gov/mro/">JPL</a>
     - <a href="http://www.nasa.gov/mission_pages/MRO/main/index.html">NASA</a>
 links:
-    - an <a href="http://marsfromspace.com">online art gallery</a> of pictures from MRO
-    - MRO's high resolution camera, HiRISE, on <a href="https://twitter.com/HiRISE">Twitter</a>
+    - MRO fotoğraflarından oluşan bir <a href="http://marsfromspace.com">online sanat galerisi</a>
+    - MRO'nun yüksek çözünürlüklü kamerası HiRISE'ın <a href="https://twitter.com/HiRISE">Twitter</a> sayfası
 
 caption: >
-    (top image: enhanced color image of <a href="http://hirise.lpl.arizona.edu/ESP_013954_1780">Victoria Crater</a> on Mars as captured by MRO, NASA/JPL-caltech/University of Arizona)
+    (Görüntü: Mars'taki <a href="http://hirise.lpl.arizona.edu/ESP_013954_1780">Victoria Krateri</a>'nin MRO tarafından çekilmiş gelişmiş renk görüntüsü, NASA/JPL-Caltech/University of Arizona)
 
 ---
-The Mars Reconnaissance Orbiter (MRO) is a multipurpose space probe in the orbit of Mars that is providing detailed observations of the planet, identifying potential landing sites for future missions, and acting as a communications relay for other Martian space probes. Equipped with a powerful telescopic camera, MRO is able to image surface features as small as a kitchen table while making a complete orbit of Mars every 112 minutes. These observations are used to investigate where water may have once flowed on Mars for long enough to support a habitat for life. MRO also monitors the climate of Mars year-round, reporting on changes in its atmosphere and weather.
+MRO (açılımı: Mars Reconnaissance Orbiter), Mars yörüngesinde gezegeni detaylı bir şekilde gözlemleyen, gelecekteki uzay misyonları için potansiyel iniş alanlarını tespit eden ve diğer Mars robotlarının haberleşme aktarımını yapan çok amaçlı bir uzay aracıdır. Güçlü bir teleskopik kameraya sahip olan MRO, Mars'ın yörüngesindeki turunu 112 dakikada tamamlarken, gezegenin yüzeyinde yer alan bir mutfak masası küçüklüğündeki yer şekillerini görüntüleyebilmektedir. Bu gözlemler, Mars'ta bir zamanlar suyun bir hayatı destekleyecek kadar nerelerde akmış olabileceğinin incelenmesinde kullanılır. MRO aynı zamanda bütün yıl boyunca Mars'ın iklimini gözlemler ve gezegenin atmosferinde ya da havasında yaşanan değişiklikleri Dünya'ya rapor eder.
