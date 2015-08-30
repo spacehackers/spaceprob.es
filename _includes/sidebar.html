@@ -17,12 +17,12 @@
     {% if arrivaliso > nowiso %}
         aracın buraya {{ page.arrival_date }} tarihinde ulaşması planlanmaktadır.
     {% else %}
-        araç buraya 
+        araç buraya {{ page.arrival_date }} tarihinde ulaşmıştır.
     {% endif %}
-    {{ page.arrival_date }} tarihinde ulaşmıştır.
+    
 
     {% if page.instruments %}
-        {{ page.title }} nereye giderse gitsin, aşağıdaki sadık cihazlarını yanında taşır:
+        {{ page.title }} nereye giderse gitsin, aşağıdaki sadık aygıtlarını yanında taşır:
         <strong>
             {{ page.instruments | array_to_sentence_string }}.
         </strong>
