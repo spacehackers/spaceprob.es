@@ -2,28 +2,27 @@
 layout: probe
 title: MESSENGER
 past: true
-primary_target: Mercury
+primary_target: Merkür
 color: '#faca66'
 attract: messenger_imageheader.jpg
 image: messenger.svg
-launch_date: August 3, 2004
-arrival_date: April 4, 2011
+launch_date: 3 Ağustos 2004
+arrival_date: 4 Nisan 2011
 dsn_name: MSGR
 instruments:
-    - cameras
-    - laser altimeter
-    - magnetometer
-    - radio transmitter
-    - spectrometers
+    - kameralar
+    - lazerli yükseklikölçer
+    - mıknatısölçer
+    - radyo vericisi
+    - spektrometreler
 teams:
     - <a href="http://www.nasa.gov/mission_pages/messenger/main/">NASA</a>
     - <a href="http://messenger.jhuapl.edu/">JHUAPL</a>
 links:
-    - a <a href="https://www.youtube.com/watch?v=oSOv0-iWWwQ">hyperlapse</a> of Mercury's surface shot by MESSENGER
-    - an <a href="https://itunes.apple.com/us/app/messenger-nasas-mission-to/id510144229">iPhone/iPad app</a> detailing MESSENGER's mission and updates
+    - Merkür'ün yüzeyinin MESSENGER tarafından çekilmiş videosunun <a href="https://www.youtube.com/watch?v=oSOv0-iWWwQ">hızlandırılmış hali</a>
+    - MESSENGER misyonuyla ilgili detayları ve gelişmeleri takip edebileceğiniz <a href="https://itunes.apple.com/us/app/messenger-nasas-mission-to/id510144229">bir iPhone/iPad uygulaması</a>
 
 caption: >
-    (top image: <a href="http://www.nasa.gov/content/elliptical-crater-on-mercury/">Hovnatanian crater</a> on Mercury as seen by MESSENGER, NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington)
+    (Görsel: Merkür'deki Hovnatanian Krateri'nin MESSENGER tarafından yakalanmış görüntüsü, NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington)
 ---
-MESSENGER (short for MErcury Surface, Space ENvironment, GEochemistry, and Ranging) is the first space probe to orbit Mercury. The space probe traveled 8 billion km, including 15 trips around the Sun, one flyby of Earth, two flybys of Venus, and three flybys of Mercury, before reaching its orbit. MESSENGER is investigating Mercury's surface, atmosphere and magnetic field to learn more about how the planet evolved over time. Data from the space probe revealed that Mercury's surface was shaped by volcanic activity and confirmed the presence of water ice in the shadows of craters. On April 30, 2015, MESSENGER crashed into the surface of Mercury after using up all its fuel.
-
+MESSENGER (açılımı: MErcury Survace, Space ENvironment, GEochemistry, and Ranging), Merkür'ün yörüngesini izlemiş ilk uzay aracıdır. MESSENGER, Güneş etrafında 15 kez dolaşmış, Dünya'nın yakınından bir kez, Venüs'ün yakınından iki kez ve yörüngesine oturmadan önce Merkür'ün yakınından üç kez uçarak (flyby) toplamda 8 milyar kilometre yol katetmiştir. Uzay aracı, Merkür'ün yüzeyini, atmosferini, manyetik alanını inceleyerek gezegenin zamanla nasıl geliştiğini öğrenmeye çalışır. MESSENGER'dan gelen veriler, Merkür'ün yüzeyinin volkanik aktiviteler tarafından şekillendiğini göstermiş ve kraterlerinin gölgesinde suyun varlığını tespit etmiştir. Messenger, 30 Nisan 2015 tarihinde tüm yakıtını kullandıktan sonra Merkür'ün yüzeyine çarpmıştır.
