@@ -1,7 +1,7 @@
 ---
 layout: probe
 title: Spitzer
-primary_target: Günmerkezli bir yörünge
+primary_target: Güneş merkezli bir yörünge
 color: '#8e8566'
 attract: spitzer_imageheader2.jpg
 image: spitzer.svg
@@ -16,13 +16,12 @@ teams:
     - <a href="http://www.nasa.gov/mission_pages/spitzer/main/">NASA</a> / <a href="http://www.jpl.nasa.gov/missions/spitzer-space-telescope/">JPL</a>
     - <a href="http://www.spitzer.caltech.edu/">Caltech</a>
 links:
-    - a <a href="http://www.milkywayproject.org/">citizen science project</a> to better understand how stars form using data from Spitzer
+    - Spitzer'ın yolladığı verileri kullanarak yıldızların nasıl oluştuğunu daha iyi anlamaya çalışan bir <a href="http://www.milkywayproject.org/">vatandaş bilim projesi</a>
     - a new <a href="http://www.jpl.nasa.gov/news/news.php?feature=4462">scientific discovery</a> made by citizen scientists using Spitzer data
     - select <a href="http://www.spitzer.caltech.edu/search/image_set/100?by_type=astronomical&page=1&tabs=hidden">astronomical images</a> taken by Spitzer
 
 caption: >
-    (top image: the <a href="http://www.nasa.gov/mission_pages/spitzer/multimedia/pia13932.html">center of the Milky Way galaxy</a> as seen by Spitzer's infrared camera, NASA/JPL-Caltech)
+    (Görsel: <a href="http://www.nasa.gov/mission_pages/spitzer/multimedia/pia13932.html">Samanyolu'nun merkezinin</a> Spitzer'ın kızılötesi kamerası tarafından çekilmiş görüntüsü, NASA/JPL-Caltech)
 
 ---
-The Spitzer Space Telescope is a space probe that has seen what our Milky Way galaxy looks like for the first time by peering past all the cosmic dust that normally blocks our view. The Spitzer Space Telescope utilizes infrared technology to gain insights and produce stunning views of not only our own galaxy, but of numerous galaxies, stars and nebulas throughout the early and distant universe. In 2009, Spitzer ran out of the liquid helium needed to cool the telescope, thus concluding its primary mission and switching over into a less instrument-intensive "warm mission". In 2011, scientists creatively hacked Spitzer's instruments, transforming it into an exoplanet-studying telescope.
-
+Spitzer Uzay Teleskopu, genelde görüşümüzü engelleyen kozmik tozların ardına bakarak, Samanyolu'nu ilk defa gözlemlemiş uzay aracıdır. Spitzer Uzay teleskopu, kızılötesi teknolojisinden yararlanarak erken ve uzak evren boyunca sadece kendi galaksimizin değil, başka galaksilerin, yıldızların ve nebulaların iç yüzünü anlamamıza yardımcı olur ve onların büyüleyici görüntülerini hazırlar. Spitzer, 2009 yılında teleskopunu soğutmak için ihtiyaç duyduğu sıvı haldeki helyumu bitirdiği için ana görevinin sonuna varmıştır ve aygıtlarına fazla yüklenmeyeceği başka bir göreve geçiş yapmıştır. 2011 yılında biliminsanları Spitzer'ın aygıtlarını yaratıcı bir şekilde hackleyerek, uzay aracını güneş sistemi dışındaki gezegenleri inceleyen bir teleskopa dönüştürmüşlerdir.
