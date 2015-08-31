@@ -2,27 +2,27 @@
 layout: probe
 title: STEREO
 color: '#77ccc9'
-primary_target: a heliocentric orbit
-launch_date: October 26, 2006
-arrival_date: January 21, 2007
+primary_target: Güneş merkezli bir yörünge
+launch_date: 26 Ekim 2006
+arrival_date: 21 Ocak 2007
 attract: stereo_imageheader.jpg
 image: stereo.svg
 dsn_name: STA
 instruments:
-    - <a href="http://stereo.gsfc.nasa.gov/instruments/instruments.shtml">cameras</a>
-    - <a href="http://sprg.ssl.berkeley.edu/impact/">particle sensor</a>
-    - <a href="http://stereo.sr.unh.edu/index.html">plasma sensor</a>
-    - <a href="http://swaves.gsfc.nasa.gov/">radio burst tracker</a>
+    - <a href="http://stereo.gsfc.nasa.gov/instruments/instruments.shtml">kameralar</a>
+    - <a href="http://sprg.ssl.berkeley.edu/impact/">parçacık sensörü</a>
+    - <a href="http://stereo.sr.unh.edu/index.html">plazma sensörü</a>
+    - <a href="http://swaves.gsfc.nasa.gov/">radyo patlaması takip cihazı</a>
 teams:
     - <a href="http://www.nasa.gov/mission_pages/stereo/main/">NASA</a> / <a href="http://stereo.gsfc.nasa.gov/">GSFC</a>
     - <a href="http://www.stereo.jhuapl.edu/">JHU/APL</a>
 links:
     - a <a href="http://www.solarstormwatch.com/">citizen science project</a> for anyone to make new scientific discoveries with STEREO's data
-    - plot <a href="http://stereo-ssc.nascom.nasa.gov/cgi-bin/make_where_gif">where STEREO is</a> at any given point in the past, present or future
-    - the first <a href="http://www.nasa.gov/mission_pages/stereo/news/stereo3D_press.html">3D images of the Sun</a>
+    - STEREO'nun verilerini kullanarak yeni bilimsel buluşlar gerçekleştirmek isteyenler için bir vatandaş bilim projesi
+    - STEREO'nun geçmişte, bugün ya da gelecekte <a href="http://stereo-ssc.nascom.nasa.gov/cgi-bin/make_where_gif">nerede olduğunun haritasını çıkarın</a>
+    - <a href="http://www.nasa.gov/mission_pages/stereo/news/stereo3D_press.html">Güneş'in ilk 3D görüntüleri</a>
 
 caption: >
-    (top image: <a href="http://www.nasa.gov/mission_pages/stereo/news/stereo3D_press.html">3D image of the Sun</a> taken by STEREO, NASA/STEREO)
+    (Görsel: Güneş'in STEREO tarafından yakalanmış <a href="http://www.nasa.gov/mission_pages/stereo/news/stereo3D_press.html">3D görüntüsü</a>, NASA/STEREO)
 ---
-STEREO, short for "Solar TErrestrial RElations Observatory", is a set of twin space probes that are studying the Sun and its solar storms through 3D imaging. The STEREO space probes have been able to reveal the 3D structure of solar storm eruptions from the Sun known as coronal mass ejections (often abbreviated as CME). Coronal mass ejections that venture in the direction of the Earth can disrupt satellites, power grids and endanger astronauts with intense solar radiation. By studying these events, STEREO is building knowledge about why solar storms occur and providing Earth early warnings for when they might hit. Communication was <a href="http://stereo-ssc.nascom.nasa.gov/behind_status.shtml">lost</a> with STEREO B on October 1, 2014. While teams continue to try to reestablish communication with "B", STEREO A is continuing to provide views of the far side of the Sun.
-
+STEREO (açılımı: Solar TErrestrial RElations Observatory), iki çift uzay aracından oluşur ve 3D görüntülemeyle Güneş'i ve güneş fırtınalarını inceler. STEREO uzay araçları, taçküre kütle atımları (genelde CME şeklinde kısaltılır) denen ve Güneş'ten gelen güneş fırtınası patlamalarının 3D yapılarını ortaya çıkartmıştır. Dünya'ya doğru yönelen taçküre kütle atımları uyduların ve güç nakil şebekelerinin bozulmasına yol açabilir ve güçlü güneş radyasyonlarıyla astronotların hayatını tehlikeye atabilir. STEREO, bu olayları gözlemleyerek güneş fırtınalarının neden oluştuğu hakkında bilgiler edinir ve Dünya'yı bu fırtınaların ne zaman vurabileceğine dair uyarır. STEREO B ile olan iletişim 1 Ekim 2014 tarihinde kopmuştur. Biliminsanları "B" ile olan iletişimi yeniden kurulmaya çalışırken, STEREO A Güneş'in uzak tarafından görüntüler sağlamayı sürdürmektedir.
