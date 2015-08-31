@@ -24,6 +24,7 @@ links:
     - Opportunity tarafından çekilmiş <a href="http://mars.nasa.gov/mer/gallery/all/opportunity.html">ham (işlenmemiş) görüntüler</a> 
     - Opportunity'nin ikizi Spirit'in <a href="http://xkcd.com/695/">xkcd</a> karikatürü
     - Ay'daki ve Mars'taki uzay araçlarının katettikleri mesafeleri gösteren bir <a href="http://www.nasa.gov/sites/default/files/14-202b.jpg">infografik</a>
+
 caption: >
     (Görsel: Opportunity'nin tanık olduğu <a href="http://www.jpl.nasa.gov/spaceimages/details.php?id=PIA13596">bir kraterin mozaiği</a>, NASA/JPL-Caltech)
 ---
