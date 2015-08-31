@@ -17,8 +17,7 @@ teams:
     - <a href="http://www.spitzer.caltech.edu/">Caltech</a>
 links:
     - Spitzer'ın yolladığı verileri kullanarak yıldızların nasıl oluştuğunu daha iyi anlamaya çalışan bir <a href="http://www.milkywayproject.org/">vatandaş bilim projesi</a>
-    - a new <a href="http://www.jpl.nasa.gov/news/news.php?feature=4462">scientific discovery</a> made by citizen scientists using Spitzer data
-    - select <a href="http://www.spitzer.caltech.edu/search/image_set/100?by_type=astronomical&page=1&tabs=hidden">astronomical images</a> taken by Spitzer
+    - Vatandaş biliminsanları tarafından Spitzer'ın verilerini kullanarak ortaya çıkmış yeni bir <a href="http://www.jpl.nasa.gov/news/news.php?feature=4462">bilimsel buluş</a>
 
 caption: >
     (Görsel: <a href="http://www.nasa.gov/mission_pages/spitzer/multimedia/pia13932.html">Samanyolu'nun merkezinin</a> Spitzer'ın kızılötesi kamerası tarafından çekilmiş görüntüsü, NASA/JPL-Caltech)
