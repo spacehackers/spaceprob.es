@@ -5,22 +5,21 @@ primary_target: Mars
 color: '#8e8566'
 attract: mangalyaan_imageheader.jpg
 image: mangalyaan.svg
-launch_date: November 5, 2013
-arrival_date: September 24, 2014
+launch_date: 5 Kasım 2013
+arrival_date: 24 Eylül 2014
 orbit_planet: Mars
 instruments:
-    - camera
-    - methane sensor
-    - particle analyzer
-    - photometer
-    - spectrometer
+    - kamera
+    - metan sensörü
+    - parçacık analizörü
+    - ışıkölçer
+    - spektrometre
 teams:
     - <a href="http://isro.gov.in/pslv-c25-mars-orbiter-mission">ISRO</a>
 links:
-    - a Vine of <a href="https://vine.co/v/OqbduWXK0Qw">Phobos crossing Mars</a> shot by MOM
-    - MOM on <a href="https://twitter.com/MarsOrbiter/">Twitter</a>
+    - MOM tarafından çekilmiş <a href="https://vine.co/v/OqbduWXK0Qw">Phobos'un Mars geçişinin</a> Vine'ı
+    - MOM'un <a href="https://twitter.com/MarsOrbiter/">Twitter</a> sayfası
 caption: >
-    (top image: Mars <a href="http://www.isro.org/pslv-c25-mars-orbiter-mission/images-mom">captured by MOM<a>, ISRO)
+    (Görsel: MOM tarafından çekilmiş <a href="http://www.isro.org/pslv-c25-mars-orbiter-mission/images-mom">bir Mars fotoğrafı<a>, ISRO)
 ---
-The Mars Orbiter Mission (MOM), informally referred to as Mangalyaan, is India's first interplanetary space probe. Mangalyaan aims to demonstrate the technologies needed for the country's flagship interplanetary mission. During its orbit of Mars over six to ten months, the space probe will also conduct surveys of the Martian surface, mineral composition and atmosphere. India is the fourth space agency to have a space probe successfully reach Mars, after the Soviet space program, NASA and the European Space Agency.
-
+Gayrıresmi olarak Mangalyaan diye de anılan Mars Orbiter Mission (MOM), Hindistan'ın ilk gezegenlerarası uzay aracıdır. Mangalyaan, daha büyük bir gezegenlerarası misyonda ülkenin ne gibi teknolojilere ihtiyaç duyacağını göstermeyi amaçlamaktadır. 6-10 ay arası bir süre boyunca Mars'ın yörüngesinde olacak olan uzay aracı, gezegenin yüzeyini, mineral kompozisyonunu ve atmosferini araştıracaktır. Hindistan Uzay Araştırma Örgütü (ISRO), Sovyet uzay programı, NASA ve ESA'den sonra uzay aracı Mars'a başarıyla ulaşan dördüncü uzay ajansıdır.
