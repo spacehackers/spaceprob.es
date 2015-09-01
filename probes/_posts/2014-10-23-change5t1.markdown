@@ -2,21 +2,21 @@
 layout: probe
 title: Chang'e 5-T1
 color: '#8e8566'
-primary_target: the Moon
+primary_target: Ay
 attract: change5t1_imageheader.jpg
 image: change5t1.svg
 orbit_planet: Moon
-launch_date: October 23, 2014
-arrival_date: January 13, 2015
+launch_date: 23 Ekim 2014
+arrival_date: 13 Ocak 2015
 instruments:
-    - radiation sensor
-    - radio beacon
+    - radyasyon sensörü
+    - radyo sinyal vericisi
 teams:
     - <a href="http://www.cnsa.gov.cn/">China National Space Administration</a>
 links:
-    - an <a href="http://sen.com/news/china-s-moon-sample-test-mission-returns-successfully-to-earth">article</a> on the successful return of Xiaofei capsule
+    - Xiaofei kapsülünün başarıyla dönüşünü detaylandıran bir <a href="http://sen.com/news/china-s-moon-sample-test-mission-returns-successfully-to-earth">makale</a>
 
 caption: >
-    (top image: the Moon's <a href="http://news.xinhuanet.com/world/2014-10/28/c_1113016268.htm">Mare Marginis</a> as seen by Chang'e 5-T1, Xinhua News/CNSA)
+    (Görsel: Chang'e 5-T1'in görüntülediği Ay'daki <a href="http://news.xinhuanet.com/world/2014-10/28/c_1113016268.htm">Mare Marginis</a>, Xinhua News/CNSA
 ---
-Chang’e 5-T1 is a space probe in orbit of the Moon to test out technologies for the future lunar sample return mission, Chang'e 5, which is scheduled to launch in 2017. The space probe originally consisted of a return capsule called Xiaofei ("little flyer") and a service module. The return capsule successfully returned to Earth in 2014, acting as a test of high speed reentry capabilities and exposing organic life to a radiation environment. The Chang'e 5-T1 service module is continuing its orbit of the Moon, providing useful data for the upcoming Chang'e 5 mission.
+Chang'e 5-T1, Chang'e 5'in 2017 yılında yapacağı dönüşlü ve örnek toplayacağı misyon için gerekli teknolojileri test eden, Ay yörüngesindeki bir uzay aracıdır. Uzay aracı, Xiaofei ("küçük havacı") ismindeki bir dönüş kapsülüne ve servis modülüne sahiptir. Dönüş kapsülü, organik yaşamı radyasyonlu bir ortama maruz bırakma ve yüksek hızlı atmosfere dönüş (reentry) kabiliyetlerini test ettikten sonra 2014 yılında Dünya'ya başarılı bir şekilde geri dönmüştür. Chang'e 5-T1 servis modülü hala Ay'ın yörüngesindedir ve yaklaşmakta olan Chang'e 5 misyonuna yardımcı olacak verileri göndermeye devam etmektedir.
