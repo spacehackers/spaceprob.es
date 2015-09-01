@@ -6,25 +6,24 @@ color: '#78ae62'
 attract: juno_imageheader.jpg
 image: juno.svg
 dsn_name: JNO
-launch_date: August 5, 2011
-primary_target: Jupiter
-arrival_date: June 26, 2016
+launch_date: 5 Ağustos 2011
+primary_target: Jüpiter
+arrival_date: 26 Haziran 2016
 instruments:
-    - magnetometer
-    - particle detectors
-    - radio/plasma wave sensor
-    - radio transmitter
-    - radiometer
-    - spectrometers
+    - mıknatısölçer
+    - parçacık detektörü
+    - radyo/plazma dalga sensörü
+    - radyo vericisi
+    - radyometre
+    - spektrometreler
 teams:
     - <a href = "http://www.nasa.gov/mission_pages/juno/main/">NASA</a>
     - <a href = "http://missionjuno.swri.edu/">SWRI</a>
 links:
-    - Juno's <a href="http://missionjuno.swri.edu/">interactive walk-through</a> of the science behind the mission
-    - a DIY <a href="http://www.jpl.nasa.gov/images/pdf/Juno_Spacecraft_Paper_Model_FC.pdf">paper model</a> of Juno
-    - a <a href="https://www.youtube.com/watch?v=_CzBlSXgzqI">video</a> of Earth and the Moon as seen from Juno
+    - Juno misyonunun arkasındaki bilimin açıklandığı <a href="http://missionjuno.swri.edu/">interaktif bir rehber</a>
+    - Juno'nun DIY (kendin yap) <a href="http://www.jpl.nasa.gov/images/pdf/Juno_Spacecraft_Paper_Model_FC.pdf">kağıt modeli</a>
+    - Dünya ve Ay'ın Juno tarafından çekilmiş bir <a href="https://www.youtube.com/watch?v=_CzBlSXgzqI">videosu</a>
 caption: >
-    (top image: <a href="http://www.nasa.gov/jpl/juno/southern-atlantic-antarctica-20140325/">Earth as seen by Juno's red, green and blue spectral filters</a> on its way to Jupiter, NASA/JPL-Caltech/MSSS)
+    (Görsel: <a href="http://www.nasa.gov/jpl/juno/southern-atlantic-antarctica-20140325/">Earth as seen by Juno's red, green and blue spectral filters</a> on its way to Jupiter, NASA/JPL-Caltech/MSSS)
 ---
-Juno is a space probe currently on its way to arrive at Jupiter in 2016. Juno will study Jupiter's origin, interior, atmosphere and <a href="https://solarsystem.nasa.gov/scitech/display.cfm?ST_ID=1589">magnetosphere</a>. Notably, the space probe will be gathering clues as to what the inside of Jupiter is made up of – whether it has a solid core and how much water is present in its atmosphere. Juno will also directly sample the charged particles that make up planet's auroras, while simultaneously observing them in ultraviolet.
-
+Juno, 2016'da Jüpiter'e ulaşması planlanan bir uzay aracıdır. Juno, Jüpiter'in kökenini, iç kısmını, atmosferini ve <a href="https://solarsystem.nasa.gov/scitech/display.cfm?ST_ID=1589">manyetosferini</a> inceleyecektir. Uzay aracı bilhassa Jüpiter'in iç kısmının nelerden oluştuğuna dair ipuçlarını toplayacaktır (katı bir çekirdeğinin olup olmadığı ve atmosferinde ne kadar suyun olduğu gibi). Juno ayrıca gezegenin kuzey ışıklarını oluşturan yüklenmiş parçacıklardan direkt olarak örnek alacak ve aynı zamanda bunları ultraviyole olarak gözlemleyecektir.
