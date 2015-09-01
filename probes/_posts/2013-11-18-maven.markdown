@@ -5,23 +5,22 @@ primary_target: Mars
 color: '#faca66'
 attract: maven_imageheader.jpg
 image: maven.svg
-launch_date: November 18, 2013
-arrival_date: September 22, 2014
+launch_date: 18 Kasım 2013
+arrival_date: 22 Eylül 2014
 orbit_planet: Mars
 instruments:
-    - <a href="http://lasp.colorado.edu/home/maven/science/instrument-package/">solar wind and ionosphere sensors</a>
-    - <a href="http://lasp.colorado.edu/home/maven/science/instrument-package/ngims/">spectrometer</a>
-    - <a href="http://lasp.colorado.edu/home/maven/science/instrument-package/iuvs/">ultraviolet spectrograph</a>
+    - <a href="http://lasp.colorado.edu/home/maven/science/instrument-package/">güneş rüzgarı ve iyonosfer sensörleri</a>
+    - <a href="http://lasp.colorado.edu/home/maven/science/instrument-package/ngims/">spektrometre</a>
+    - <a href="http://lasp.colorado.edu/home/maven/science/instrument-package/iuvs/">ultraviyole spektograf</a>
 teams:
     - <a href="http://www.nasa.gov/mission_pages/maven/main/">NASA</a>
     - <a href="http://lasp.colorado.edu/home/maven/">CU/LASP</a>
 links:
-    - a couple of MAVEN <a href="http://mars.nasa.gov/files/resources/MAVEN_MSL_coloring_sheet.pdf">coloring book</a> <a href="http://mars.nasa.gov/files/resources/MAVEN_at_Mars_coloring_sheet.pdf">sheets</a>
-    - MAVEN on <a href="https://twitter.com/MAVEN2Mars/">Twitter</a>
+    - İki tane MAVEN <a href="http://mars.nasa.gov/files/resources/MAVEN_MSL_coloring_sheet.pdf">boyama kitabı</a> <a href="http://mars.nasa.gov/files/resources/MAVEN_at_Mars_coloring_sheet.pdf">kağıdı</a>
+    - MAVEN'in <a href="https://twitter.com/MAVEN2Mars/">Twitter</a> sayfası
 
 caption: >
-    (top image: <a href="http://www.nasa.gov/content/goddard/maven-ultraviolet-image-of-comet-siding-spring-s-hydrogen-coma/">hydrogen surrounding a comet</a> near Mars as seen in ultraviolet by MAVEN, Laboratory for Atmospheric and Space Physics, University of Colorado; NASA)
+    (Görsel: Mars'ın yakınındaki bir <a href="http://www.nasa.gov/content/goddard/maven-ultraviolet-image-of-comet-siding-spring-s-hydrogen-coma/">kuyrukluyıldızı saran hidrojenin</a> MAVEN tarafından çekilmiş ultraviyole görüntüsü, Laboratory for Atmospheric and Space Physics, University of Colorado; NASA)
 
 ---
-The MAVEN (Mars Atmosphere and Volatile Evolution) space probe is orbiting Mars to learn more about the planet's upper atmosphere. Its elliptical orbit allows for the space probe to pass through the upper atmosphere of Mars and take samples of various molecules. When MAVEN is above the atmosphere, it will conduct ultraviolet imaging of the planet. By sampling and imaging the upper atmosphere, scientists expect to be able to learn more about the history of the Martian climate and habitability for life.
-
+MAVEN (Mars Atmosphere and Volatile Evolution), Mars yörüngesinde gezegenin üst atmosferi hakkında bilgi toplayan bir uzay aracıdır. Oval yörüngesi uzay aracının Mars'ın üst atmosferinden geçmesini ve çeşitli moleküllerden örnekler almasına olanak sağlar. MAVEN atmosferin üstündeyken, gezegenin ultraviyole görüntülerini çeker. Üst atmosferden örnekler alarak ve görüntüleyerek, bilimadamları Mars'ın ikliminin tarihiyle ve yaşama uygunluğuyla ilgili birçok bilgiyi edinmeyi amaçlamaktadır.
