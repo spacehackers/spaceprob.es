@@ -1,26 +1,26 @@
 ---
 layout: probe
 title: Chang'e 3
-primary_target: the Moon
+primary_target: Ay
 color: '#77ccc9'
 attract: change3_imageheader.jpg
 image: chang'e3.svg
-orbit_planet: Moon
-launch_date: December 1, 2013
-arrival_date: December 14, 2013
+orbit_planet: Ay
+launch_date: 1 Aralık 2013
+arrival_date: 14 Aralık 2013
 instruments:
-    - engineering cameras
-    - extreme ultraviolet camera
-    - panoramic cameras
+    - teknik kameralar
+    - ekstrem ultraviyole kamera
+    - panaromik kameralar
     - radar
-    - spectrometers
-    - ultraviolet telescope
+    - spektrometreler
+    - ultraviyole teleskop
 teams:
     - <a href="http://www.cnsa.gov.cn/">China National Space Administration</a>
 links:
-    - <a href="http://moon.bao.ac.cn/multimedia/img2dce3.jsp">photos of the Moon</a> from Chang'e 3 and the Yutu rover
-    - <a href="http://iopscience.iop.org/1674-4527/14/12">research</a> generated from Chang'e 3 data
+    - Chang'e 3 ve Yutu robotunun çektiği <a href="http://moon.bao.ac.cn/multimedia/img2dce3.jsp">Ay fotoğrafları</a>
+    - Chang'e 3'ün verileriyle üretilmiş bir <a href="http://iopscience.iop.org/1674-4527/14/12">araştırma</a>
 caption: >
-    (top image: the Yutu rover <a href="http://moon.bao.ac.cn/multimedia/img2dce3.jsp">looks back</a> at the Chang'e 3 lander, Chinese Academy of Sciences)
+    (Görsel: Yutu robotu Chang'e 3 lander'ına <a href="http://moon.bao.ac.cn/multimedia/img2dce3.jsp">bakarken</a>, Chinese Academy of Sciences)
 ---
-Chang'e 3 is China's first space probe on the surface of the Moon. Chang'e 3 consists of a lander and a rover named Yutu ("Jade Rabbit"). In 2013, Chang'e 3 became the first space probe to "soft land" on the Moon since 1976. The space probe's mission is to demonstrate technologies for future Moon missions, conduct astronomical observations and survey the lunar environment. After several days on the Moon, the Yutu rover became immobile and was not able to carry out all commands, possibly due to frostbite. The Chang'e 3 lander frequently goes into hibernation but continues to emerge occasionally to talk to Earth.
+Chang'e 3, Çin'in Ay yüzeyindeki ilk uzay aracıdır. Chang'e 3, bünyesinde bir lander ve Yutu ("Yeşim Tavşan") isminde bir robot bulundurur. Chang'e 3, 2013 yılında 1976'dan beri Ay'a "yumuşak iniş" yapan ilk uzay aracı olmuştur. Uzay aracının görevi, gelecekte Ay'a yapılacak olan görevler için gerekli olan teknolojileri göstermek, astronomik gözlemler yürütmek ve ay ortamını araştırmaktır. Ay'daki birkaç günden sonra Yutu robotu muhtemelen donduğu için hareketsiz kalmış ve gönderilen komutları yerine getirememiştir. Chang'e 3 lander'ı da sık sık uyku moduna girer ancak bazen Dünya'yla konuşmak için uykusundan uyanır.
