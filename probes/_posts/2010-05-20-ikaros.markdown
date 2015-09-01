@@ -9,8 +9,8 @@ arrival_date: 8 Aralık 2010
 image: ikaros.svg
 distance: 120000000  # IKAROS is on a 10 month heliocentric orbit
 instruments:
-    - kozmik toz algılayıcısı
-    - <a href="http://global.jaxa.jp/press/2010/07/20100714_ikaros_e.html">gama ışını algılayıcısı</a>
+    - kozmik toz detektörü
+    - <a href="http://global.jaxa.jp/press/2010/07/20100714_ikaros_e.html">gama ışını detektörü</a>
     - denetleyici kameralar
     - güneş yelkeni
 teams:

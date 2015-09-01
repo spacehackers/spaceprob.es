@@ -13,7 +13,7 @@ instruments:
     - <a href="http://crater.sr.unh.edu/">kozmik toz teleskopu</a>
     - <a href="http://diviner.ucla.edu/">ısı haritalayıcısı</a>
     - <a href="http://www.boulder.swri.edu/lamp/">kızılötesi sensör</a>
-    - <a href="http://l503.iki.rssi.ru/LEND-en.html">nötron algılayıcısı</a>
+    - <a href="http://l503.iki.rssi.ru/LEND-en.html">nötron detektörü</a>
     - <a href="http://lunar.gsfc.nasa.gov/lola/">lidar</a>
     - <a href="http://www.nasa.gov/mission_pages/Mini-RF/main/">radar</a>
 teams:
