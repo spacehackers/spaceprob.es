@@ -4,26 +4,25 @@ title: Curiosity
 primary_target: Mars
 color: '#ff6e48'
 attract: curiosity_imageheader.jpg
-launch_date: November 26, 2011
-arrival_date: August 6, 2012
+launch_date: 26 Kasım 2011
+arrival_date: 6 Ağustos 2012
 image: curiosity.svg
 orbit_planet: Mars
 instruments:
-    - <a href="http://mars.jpl.nasa.gov/msl/mission/instruments/atmossensors/medli/">atmospheric sensor</a>
-    - <a href="http://mars.jpl.nasa.gov/msl/mission/instruments/">cameras</a>
-    - <a href="http://mars.jpl.nasa.gov/msl/mission/instruments/environsensors/rems/">environmental sensor</a>
-    - <a href="http://mars.jpl.nasa.gov/msl/mission/instruments/">radiation detectors</a>
-    - <a href="http://mars.jpl.nasa.gov/msl/mission/instruments/">spectrometers</a>
+    - <a href="http://mars.jpl.nasa.gov/msl/mission/instruments/atmossensors/medli/">atmosferik sensör</a>
+    - <a href="http://mars.jpl.nasa.gov/msl/mission/instruments/">kameralar</a>
+    - <a href="http://mars.jpl.nasa.gov/msl/mission/instruments/environsensors/rems/">çevresel sensör</a>
+    - <a href="http://mars.jpl.nasa.gov/msl/mission/instruments/">radyasyon detektörleri</a>
+    - <a href="http://mars.jpl.nasa.gov/msl/mission/instruments/">spektrometreler</a>
 teams:
     - <a href="http://www.nasa.gov/mission_pages/msl/">NASA</a> / <a href="http://mars.jpl.nasa.gov/msl/">JPL</a>
 links:
-    - an incredible <a href="http://www.nytimes.com/interactive/2014/12/09/science/space/curiosity-rover-28-months-on-mars.html?_r=0">time-lapse</a> of Curiosity's photos over 28 months
-    - <a href="http://mars.jpl.nasa.gov/msl/multimedia/raw/?s=#/">raw images</a> from Curiosity
-    - the <a href="https://www.youtube.com/watch?v=Ki_Af_o9Q9s">7 Minutes of Terror video</a> about the difficulty of landing Curiosity with a new sky-crane technology
-    - <a href="https://twitter.com/MarsWxReport">Weather reports from Mars</a> generated from Curiosity
+    - Curiosity'nin 28 ay boyunca çektiği fotoğraflardan oluşan bir <a href="http://www.nytimes.com/interactive/2014/12/09/science/space/curiosity-rover-28-months-on-mars.html">arşiv</a>
+    - Curiosity'den gelen ham (işlenmemiş) <a href="http://mars.jpl.nasa.gov/msl/multimedia/raw/?s=#/">görüntüler</a>
+    - Curiosity'i yeni sky-crane (gök vinci) teknolojisini kullanarak indirmenin zorluğunu anlatan "Seven Minutes of Terror" (Yedi Dakikalık Terör) <a href="https://www.youtube.com/watch?v=Ki_Af_o9Q9s">videosu</a>
+    - Curiosity tarafından oluşturulan Mars <a href="https://twitter.com/MarsWxReport">hava raporları</a>
 
 caption: >
-    (top image: Curiosity looks out over the <a href="http://mars.jpl.nasa.gov/msl/multimedia/images/?ImageID=5773">Martian surface</a>, NASA/JPL-Caltech/MSSS)
+    (Görsel: Curiosity'nin <a href="http://mars.jpl.nasa.gov/msl/multimedia/images/?ImageID=5773">Mars yüzeyine</a> göz atışı, NASA/JPL-Caltech/MSSS)
 ---
-Curiosity, also known as the Mars Science Laboratory (MSL), is a rover exploring the surface of Mars for evidence of conditions that may have been favorable to microbial life billions of years ago. Leading up to the landing of Curiosity, a video called "<a href="https://www.youtube.com/watch?v=Ki_Af_o9Q9s">Seven Minutes of Terror</a>" was widely circulated, detailing the new sky crane technology that was being used to land the car-sized rover safely on the surface of Mars. The rover landed successfully with much fanfare surrounding the livestreaming of <a href="https://www.youtube.com/watch?v=wnG-rFFpP8A">NASA's mission control</a>. Curiosity carries a large set of scientific instruments and is able to drill into rocks and scoop up soil samples to analyze their structure and chemical composition. The rover is the first space probe to collect samples from rocks drilled on Mars. Early in its mission, Curiosity drilled a rock and determined that the drilled material was 4.2 billion years old, but had only been exposed on the surface for 80 million years.
-
+Mars Science Laboratory (MSL) olarak da anılan Curiosity, Mars'ın yüzeyinin milyarlarca yıl önce mikrobik hayata elverişli olup olmadığın kanıtını arayan bir kaşif robotudur. Curiosity'nin inişine belli bir zaman kala, araba büyüklüğündeki uzay aracını güvenli bir şekilde Mars yüzeyine indirmek için kullanılan sky crane (gök vinci) teknolojisini detaylandıran "Seven Minutes of Terror" (Yedi Dakikalık Terör) isimli bir video popülerlik kazanmıştır. Uzay aracının inişini başarıyla tamamlaması, NASA görev kontrol merkezini saran <a href="https://www.youtube.com/watch?v=wnG-rFFpP8A">canlı yayın</a>da coşkuyla kutlanmıştır. Curiosity birçok bilimsel aygıt taşır ve taşları delerek toprak örneği toplayıp bu örneklerin yapısal ve kimyasal kompozisyonlarını analiz etme yeteneğine sahiptir. Curiosity, Mars'ta bir taşı delip, örnekler toplayan ilk uzay aracıdır. Curiosity, görevinin başında bir taşı delmiş ve topladığı delinmiş maddenin 4.2 milyar yıl yaşında olduğunu, ancak bu maddenin <i>yalnızca</i> 80 milyon yıl önce gezegenin yüzeyine çıktığını belirlemiştir.
