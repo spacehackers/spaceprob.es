@@ -1,24 +1,21 @@
 ---
 layout: probe
 title: Shin'en 2
-primary_target: a heliocentric orbit
+primary_target: Güneş merkezli bir yörünge
 color: '#78ae62'
 attract: hayabusa2_imageheader.jpg
 image: shinen2.svg
-launch_date: December 3, 2014
-arrival_date: June 3, 2018
+launch_date: 3 Aralık 2014
+arrival_date: 3 Haziran 2018
 dsn_name: HYB2
 instruments:
-    - transponder
+    - aktarıcı
 teams:
     - <a href="http://www.shin-en2.jp/">Kagoshima University</a>
     - <a href="http://kit-okuyama-lab.com/sinen2/">Kyushu Institute of Technology</a>
 links:
-    - the <a href="http://www.shin-en2.jp/">Kagoshima</a> and <a href="http://kit-okuyama-lab.com/sinen2/">Kyushu</a> websites for Shin'en 2
+    - Shin'en 2 için hazırlanmış <a href="http://www.shin-en2.jp/">Kagoshima</a> ve <a href="http://kit-okuyama-lab.com/sinen2/">Kyushu</a> websiteleri 
 caption: >
-    (top image: the launch of the Shin'en2 space probe in Japan)
+    (Görsel: Shin'en2 uzay aracının Japonya'dan fırlatılışı)
 ---
-Shin'en 2, also known as Abyss 2, is a polyhedron-shaped space probe on a mission to test a deep space communication technology. Shin'en 2's digital transponder will allow for amateur radio operators to interact with the probe. The lightweight space probe was built using carbon fiber reinforced plastic by students at the Kagoshima University and Kyushu Institute of Technology in Japan. The probe was launched as a secondary payload aboard the rocket that carried <a href="/hayabusa2/">Hayabusa 2</a> to space. Shin'en 2 will operate in a heliocentric orbit, between Venus and Mars.
-
-
-
+Aynı zamanda Abyss 2 olarak da bilinen Shin'en 2, çok yüzlü bir şekle sahip, derin uzay haberleşme teknolojisini test bir uzay aracıdır. Shin'en 2'nin dijital aktarıcısı, amatör radyo operatörlerinin uzay aracıyla etkileşmesine olanak sağlayacaktır. Bu hafif uzay aracı, karbon fiber ile desteklenmiş plastik kullanılarak Japonya'daki Kogoshima Üniversitesi ve Kyushu Institute of Technology öğrencileri tarafından yapılmıştır. Shin'en 2, ikincil bir yük olarak <a href="/hayabusa2">Hayabusa 2</a>'yi taşıyan roketle birlikte fırlatılmıştır. Shin'en 2, Venüs ve Mars arasındaki güneş merkezli bir yörüngede çalışacaktır.
