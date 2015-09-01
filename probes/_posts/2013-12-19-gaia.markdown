@@ -4,25 +4,22 @@ title: Gaia
 color: '#ff6e48'
 attract: gaia_imageheader.jpg
 image: gaia.svg
-primary_target: the Sun-Earth L2 point
-launch_date: December 19, 2013
-arrival_date: January 8, 2014
+primary_target: Güneş-Dünya L2 noktası
+launch_date: 19 Aralık 2013
+arrival_date: 8 Ocak 2014
 distance: 1500000  # Gaia orbits around L2
 instruments:
-    - photometer
-    - <a href="http://sci.esa.int/gaia/44092-gaia-rvs-grating/">spectrometer</a>
-    - <a href="http://www.cosmos.esa.int/web/gaia/astrometric-instrument">star scanner</a>
+    - ışıkölçer
+    - <a href="http://sci.esa.int/gaia/44092-gaia-rvs-grating/">spektrometre</a>
+    - <a href="http://www.cosmos.esa.int/web/gaia/astrometric-instrument">yıldız tarayıcısı</a>
 teams:
     - <a href="http://sci.esa.int/gaia/">ESA</a>
 links:
-  - an <a href = "https://itunes.apple.com/us/app/gaia-mission/id735128015?mt=8">iPhone app</a> to receive updates on the mission
-  - the Gaia team <a href="http://blogs.esa.int/gaia/">blog</a>
+  - Misyonla ilgili haberler almak için kullanabileceğiniz bir <a href = "https://itunes.apple.com/us/app/gaia-mission/id735128015?mt=8">iPhone uygulaması</a>
+  - Gaia ekibinin <a href="http://blogs.esa.int/gaia/">blog'u</a>
 
 caption: >
-    (top image: a <a href="http://sci.esa.int/gaia/53654-gaia-calibration-image/">test image</a> taken by Gaia of a star cluster in the Large Magellanic Cloud, ESA/DPAC/Airbus DS)
+    (Görsel: Large Magellanic Cloud'daki bir yıldız kümesinin Gaia tarafından çekilmiş <a href="http://sci.esa.int/gaia/53654-gaia-calibration-image/">test görüntüsü</a>, ESA/DPAC/Airbus DS)
 
 ---
-The Gaia space probe aims to create a detailed three-dimensional map of the Milky Way galaxy. By measuring the motion of one billion stars (approximately one percent or less of all the stars in the Milky Way), the Gaia mission will be able to study the formation and evolution of our galaxy. The mission is expected to last five years with the probe observing each of the billion stars seventy times. Along the way, Gaia is expected to discover exoplanets (planets outside of our Solar System), asteroids, comets, brown dwarf stars, supernovas and quasars.
-
-
-
+Gaia uzay aracı, Samanyolu galaksisinin üç boyutlu detaylandırılmış bir haritasını yaratmayı amaçlamaktadır. Gaia, 1 milyar yıldızın (bu sayı Samanyolu galaksisindeki yıldızların toplamının yüzde birine ya da daha azına eşittir) hareketlerini hesaplayarak, galaksimizin oluşumu ve gelişimini inceleyebilecektir. Misyon, bir milyar yıldızın her birini yedi defa inceleyecektir ve misyonun 5 sene kadar sürmesi beklenmektedir. Gaia'nın yolu boyunca güneş sisteminin dışındaki gezegenleri, astroidleri, kuyrukluyıldızları, kahverengi cüceleri, süpernovaları ve yıldızsı gökcisimlerini keşfetmesi beklenmektedir.
