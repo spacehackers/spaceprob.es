@@ -1,30 +1,27 @@
 ---
 layout: probe
 title: PROCYON
-primary_target: asteroid 2000 DP107
+primary_target: Astroid 2000 DP107
 color: '#77ccc9'
 attract: hayabusa2_imageheader.jpg
 image: procyon.svg
-launch_date: December 3, 2014
-arrival_date: May 12, 2016
+launch_date: 3 Aralık 2014
+arrival_date: 12 Mayıs 2016
 dsn_name: PRCN
 instruments:
-    - antennas
-    - cold gas jet thrusters
-    - ion thruster
-    - telescope
-    - transponder
+    - antenler
+    - soğuk gaz jet iticileri
+    - iyon iticileri
+    - teleskop
+    - aktarıcı
 teams:
     - <a href="http://www.isas.jaxa.jp/j/enterp/missions/procyon/">JAXA / ISAS</a>
     - <a href="http://www.space.t.u-tokyo.ac.jp/nlab/procyon.html">University of Tokyo</a>
 links:
-    - PROCYON's <a href="https://www.facebook.com/procyon.spacecraft">Facebook</a> page
-    - a more in-depth <a href="http://news.mynavi.jp/articles/2014/11/13/procyon/">introduction</a> to PROCYON
+    - PROCYON'un <a href="https://www.facebook.com/procyon.spacecraft">Facebook</a> sayfası
+    - PROCYON'a daha detaylı bir <a href="http://news.mynavi.jp/articles/2014/11/13/procyon/">bakış</a>
 
 caption: >
-    (top image: the launch of the PROCYON space probe in Japan)
+    (Görsel: PROCYON uzay aracının Japonya'dan fırlatılışı)
 ---
-PROCYON, short for PRoximate Object Close flYby with Optical Navigation, is a space probe set to conduct flybys of asteroids. The space probe is designed to use its optical telescope as a way of navigating closely around asteroids. In April 2015, the asteroid 2000 DP107 was selected as PROCYON's target destination. PROCYON was launched as a secondary payload aboard the rocket that carried <a href="/hayabusa2/">Hayabusa 2</a> to space.
-
-
-
+PROCYON (açılımı: PRoximate Object Close flYby with Optical Navigation), astroidlerin yakınından uçuşlar gerçekleştiren (flyby) bir uzay aracıdır. Uzay aracı, optik teleskobunu kullanarak astroidlerin etrafında yönünü bulması için tasarlanmıştır. 2015'in Nisan ayında astroid 2000 DP107 PROCYON'un varış noktası olarak belirlenmiştir. PROCYON, ikincil bir yük olarak <a href="/hayabusa2">Hayabusa 2</a>'yi taşıyan roketle birlikte fırlatılmıştır.
