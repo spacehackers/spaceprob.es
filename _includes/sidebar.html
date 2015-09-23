@@ -22,10 +22,12 @@
     
 
     {% if page.instruments %}
-        {{ page.title }} nereye giderse gitsin, aşağıdaki güvenilir aygıtlarını yanında götürür:
+        {{ page.title }} nereye giderse gitsin, güvenilir cihazlarını yanında taşır:
+
         <strong>
             {{ page.instruments | array_to_sentence_string }}.
         </strong>
+
     {% endif %}
 
     {% if page.teams %}
