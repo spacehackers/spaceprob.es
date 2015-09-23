@@ -9,7 +9,7 @@ launch_date: 3 Aralık 2014
 arrival_date: 3 Haziran 2018
 dsn_name: HYB2
 instruments:
-    - aktarıcı
+    - transponder
 teams:
     - <a href="http://www.shin-en2.jp/">Kagoshima University</a>
     - <a href="http://kit-okuyama-lab.com/sinen2/">Kyushu Institute of Technology</a>

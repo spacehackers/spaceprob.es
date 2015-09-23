@@ -14,8 +14,8 @@ instruments:
     - altın plak
     - mıknatısölçer
     - radar
-    - radio alıcısı
-    - radio vericisi
+    - radyo alıcısı
+    - radyo vericisi
     - spektograf
     - spektrometre
 teams:

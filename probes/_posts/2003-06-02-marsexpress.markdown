@@ -12,7 +12,7 @@ instruments:
     - <a href="http://sci.esa.int/mars-express/31033-objectives/">kamera</a>
     - <a href="http://sci.esa.int/mars-express/31033-objectives/">plazma ve atom analizörü</a>
     - <a href="http://sci.esa.int/mars-express/31033-objectives/">radar yükseklikölçeri</a>
-    - <a href="http://sci.esa.int/mars-express/31033-objectives/">radio vericisi</a>
+    - <a href="http://sci.esa.int/mars-express/31033-objectives/">radyo vericisi</a>
     - <a href="http://sci.esa.int/mars-express/31033-objectives/">spektrometreler</a>
 teams:
     - <a href="http://sci.esa.int/mars-express/">ESA</a>
