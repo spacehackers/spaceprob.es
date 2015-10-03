@@ -17,8 +17,7 @@ teams:
     - <a href="http://www.nasa.gov/mission_pages/stereo/main/">NASA</a> / <a href="http://stereo.gsfc.nasa.gov/">GSFC</a>
     - <a href="http://www.stereo.jhuapl.edu/">JHU/APL</a>
 links:
-    - a <a href="http://www.solarstormwatch.com/">citizen science project</a> for anyone to make new scientific discoveries with STEREO's data
-    - STEREO'nun verilerini kullanarak yeni bilimsel buluşlar gerçekleştirmek isteyenler için bir vatandaş bilim projesi
+    - STEREO'nun verilerini kullanarak yeni bilimsel buluşlar gerçekleştirmek isteyenler için bir <a href="http://www.solarstormwatch.com/">vatandaş bilim projesi</a>
     - STEREO'nun geçmişte, bugün ya da gelecekte <a href="http://stereo-ssc.nascom.nasa.gov/cgi-bin/make_where_gif">nerede olduğunun haritasını çıkarın</a>
     - <a href="http://www.nasa.gov/mission_pages/stereo/news/stereo3D_press.html">Güneş'in ilk 3D görüntüleri</a>
 
