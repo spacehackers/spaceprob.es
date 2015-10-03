@@ -21,4 +21,4 @@ links:
 caption: >
     (Görsel: Akatsuki'nin <a href="https://commons.wikimedia.org/wiki/File:H-IIA_F17_launching_AKATSUKI.jpg">fırlatılış anı</a>, Narita Masahiro)
 ---
-Akatsuki, Venüs'e gitmesi planlanan ancak 2010 yılında ana motoru durduğu için gezegenin yörüngesine girmeyi başaramamış bir uzay aracıdır. Şu an Güneş'in yörüngesinde olan uzay aracı, 2015 yılı sonunda tekrardan Venüs'ün yörüngesine girmeyi deneyecektir. Venüs'e ulaştıktan sonra, Akatsuki gezegenin havasını, atmosferini ve yüzeyini inceleyecektir. Misyon aynı zamanda Venüs'teki yanardağların ve yıldırımların varlığını doğrulamayı ümit etmektedir.
+Akatsuki, Venüs'e gitmesi planlanan ancak 2010 yılında ana motoru durduğu için gezegenin yörüngesine girmeyi başaramamış bir uzay aracıdır. Şu an Güneş'in yörüngesinde olan uzay aracı, 2015 yılı sonunda tekrardan Venüs yörüngesine girmeyi deneyecektir. Venüs'e ulaştıktan sonra Akatsuki gezegenin havasını, atmosferini ve yüzeyini inceleyecektir. Misyon aynı zamanda Venüs'teki yanardağların ve yıldırımların varlığını doğrulamayı ümit etmektedir.
