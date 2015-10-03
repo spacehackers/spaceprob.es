@@ -18,8 +18,8 @@ teams:
     - <a href="http://www.nasa.gov/mission_pages/MRO/main/index.html">NASA</a>
 links:
     - MRO görüntülerinden oluşan bir <a href="http://marsfromspace.com">online sanat galerisi</a>
-    - MRO'nun yüksek çözünürlüklü kamerası HiRISE'ın <a href="https://twitter.com/HiRISE">Twitter sayfası</a>
-    - HiTranslate Projesi kapsamında Türkçe'ye çevrilmiş HiRISE Türkçe'nin <a href="https://twitter.com/HiRISETurkish">twitter sayfası</a> ve <a href="http://www.uahirise.org/tr/">websitesi</a>
+    - MRO'nun yüksek çözünürlüklü kamerası HiRISE'ın <a href="https://twitter.com/HiRISE">Twitter</a> sayfası
+    - HiTranslate Projesi kapsamında Türkçe'ye çevrilmiş HiRISE Türkçe'nin <a href="https://twitter.com/HiRISETurkish">twitter</a> sayfası ve <a href="http://www.uahirise.org/tr/">websitesi</a>
 
 caption: >
     (Görüntü: Mars'taki <a href="http://hirise.lpl.arizona.edu/ESP_013954_1780">Victoria Krateri</a>'nin MRO tarafından çekilmiş gelişmiş renk görüntüsü, NASA/JPL-Caltech/University of Arizona)
