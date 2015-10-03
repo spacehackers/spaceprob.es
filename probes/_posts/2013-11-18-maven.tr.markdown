@@ -16,11 +16,11 @@ teams:
     - <a href="http://www.nasa.gov/mission_pages/maven/main/">NASA</a>
     - <a href="http://lasp.colorado.edu/home/maven/">CU/LASP</a>
 links:
-    - İki tane MAVEN <a href="http://mars.nasa.gov/files/resources/MAVEN_MSL_coloring_sheet.pdf">boyama kitabı</a> <a href="http://mars.nasa.gov/files/resources/MAVEN_at_Mars_coloring_sheet.pdf">kağıdı</a>
+    - İki adet MAVEN <a href="http://mars.nasa.gov/files/resources/MAVEN_MSL_coloring_sheet.pdf">boyama kitabı</a> <a href="http://mars.nasa.gov/files/resources/MAVEN_at_Mars_coloring_sheet.pdf">kağıdı</a>
     - MAVEN'in <a href="https://twitter.com/MAVEN2Mars/">Twitter</a> sayfası
 
 caption: >
     (Görsel: Mars'ın yakınındaki bir <a href="http://www.nasa.gov/content/goddard/maven-ultraviolet-image-of-comet-siding-spring-s-hydrogen-coma/">kuyrukluyıldızı saran hidrojenin</a> MAVEN tarafından çekilmiş ultraviyole görüntüsü, Laboratory for Atmospheric and Space Physics, University of Colorado; NASA)
 
 ---
-MAVEN (Mars Atmosphere and Volatile Evolution), Mars yörüngesinde gezegenin üst atmosferi hakkında bilgi toplayan bir uzay aracıdır. Oval yörüngesi uzay aracının Mars'ın üst atmosferinden geçmesini ve çeşitli moleküllerden örnekler almasına olanak sağlar. MAVEN atmosferin üstündeyken, gezegenin ultraviyole görüntülerini çeker. Üst atmosferden örnekler alarak ve görüntüleyerek, bilimadamları Mars'ın ikliminin tarihiyle ve yaşama uygunluğuyla ilgili birçok bilgiyi edinmeyi amaçlamaktadır.
+MAVEN (Mars Atmosphere and Volatile Evolution), Mars yörüngesinde gezegenin üst atmosferi hakkında bilgi toplayan bir uzay aracıdır. Oval yörüngesi uzay aracının Mars'ın üst atmosferinden geçmesini ve çeşitli moleküllerden örnekler almasına olanak sağlar. MAVEN atmosferin üstündeyken, gezegenin ultraviyole görüntülerini çeker. Üst atmosferden örnekler alarak ve görüntüleyerek, biliminsanları Mars'ın ikliminin tarihiyle ve yaşama uygunluğuyla ilgili birçok bilgi edinmeyi amaçlamaktadır.
