@@ -10,7 +10,7 @@ arrival_date: 18 Aralık 2003
 dsn_name: STF
 instruments:
     - <a href="http://www.spitzer.caltech.edu/mission/398-The-Infrared-Array-Camera-IRAC-">kızılötesi kamera</a>
-    - <a href="http://www.spitzer.caltech.edu/mission/394-The-Infrared-Spectrograph-IRS-">kızılötesi spektrograpf</a>
+    - <a href="http://www.spitzer.caltech.edu/mission/394-The-Infrared-Spectrograph-IRS-">kızılötesi spektrograf</a>
     - <a href="http://www.spitzer.caltech.edu/mission/396-The-Multiband-Imaging-Photometer-MIPS-">ışıkölçer</a>
 teams:
     - <a href="http://www.nasa.gov/mission_pages/spitzer/main/">NASA</a> / <a href="http://www.jpl.nasa.gov/missions/spitzer-space-telescope/">JPL</a>
@@ -23,4 +23,4 @@ caption: >
     (Görsel: <a href="http://www.nasa.gov/mission_pages/spitzer/multimedia/pia13932.html">Samanyolu'nun merkezinin</a> Spitzer'ın kızılötesi kamerası tarafından çekilmiş görüntüsü, NASA/JPL-Caltech)
 
 ---
-Spitzer Uzay Teleskopu, genelde görüşümüzü engelleyen kozmik tozların ardına bakarak, Samanyolu'nu ilk defa gözlemlemiş uzay aracıdır. Spitzer Uzay teleskopu, kızılötesi teknolojisinden yararlanarak erken ve uzak evren boyunca sadece kendi galaksimizin değil, başka galaksilerin, yıldızların ve nebulaların iç yüzünü anlamamıza yardımcı olur ve onların büyüleyici görüntülerini hazırlar. Spitzer, 2009 yılında teleskopunu soğutmak için ihtiyaç duyduğu sıvı haldeki helyumu bitirdiği için ana görevinin sonuna varmıştır ve aygıtlarına fazla yüklenmeyeceği başka bir göreve geçiş yapmıştır. 2011 yılında biliminsanları Spitzer'ın aygıtlarını yaratıcı bir şekilde hackleyerek, uzay aracını güneş sistemi dışındaki gezegenleri inceleyen bir teleskopa dönüştürmüşlerdir.
+Spitzer Uzay Teleskopu, genelde görüşümüzü engelleyen kozmik tozların ardına bakarak Samanyolu'nu ilk defa gözlemlemiş bir uzay aracıdır. Spitzer Uzay Teleskopu, kızılötesi teknolojisinden yararlanarak erken ve uzak evren boyunca sadece kendi galaksimizin değil, başka galaksilerin, yıldızların ve nebulaların iç yüzünü anlamamıza yardımcı olur ve onların büyüleyici görüntülerini hazırlar. Spitzer, 2009 yılında teleskopunu soğutmak için ihtiyaç duyduğu sıvı haldeki helyumu bitirdiği için ana görevinin sonuna gelmiştir ve aygıtlarına fazla yüklenmeyeceği başka bir göreve geçiş yapmıştır. 2011 yılında biliminsanları Spitzer'ın aygıtlarını yaratıcı bir şekilde hackleyerek, uzay aracını güneş sistemi dışındaki gezegenleri inceleyen bir teleskopa dönüştürmüşlerdir.
