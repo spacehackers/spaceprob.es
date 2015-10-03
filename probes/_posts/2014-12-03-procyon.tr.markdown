@@ -24,4 +24,4 @@ links:
 caption: >
     (Görsel: PROCYON uzay aracının Japonya'dan fırlatılışı)
 ---
-PROCYON (açılımı: PRoximate Object Close flYby with Optical Navigation), astroidlerin yakınından uçuşlar gerçekleştiren (flyby) bir uzay aracıdır. Uzay aracı, optik teleskobunu kullanarak astroidlerin etrafında yönünü bulması için tasarlanmıştır. 2015'in Nisan ayında astroid 2000 DP107 PROCYON'un varış noktası olarak belirlenmiştir. PROCYON, ikincil bir yük olarak <a href="/hayabusa2">Hayabusa 2</a>'yi taşıyan roketle birlikte fırlatılmıştır.
+PROCYON (açılımı: PRoximate Object Close flYby with Optical Navigation), astroidlerin yakınından uçuşlar gerçekleştirmesi (flyby) planlanan bir uzay aracıdır. Uzay aracı, optik teleskopunu kullanarak astroidlerin etrafında yakın bir şekilde gezinmek için tasarlanmıştır. 2015'in Nisan ayında astroid 2000 DP107, PROCYON'un varış noktası olarak belirlenmiştir. PROCYON, ikincil bir yük olarak <a href="/hayabusa2">Hayabusa 2</a>'yi taşıyan roketle birlikte fırlatılmıştır.
