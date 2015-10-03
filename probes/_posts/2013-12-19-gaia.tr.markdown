@@ -15,11 +15,11 @@ instruments:
 teams:
     - <a href="http://sci.esa.int/gaia/">ESA</a>
 links:
-  - Misyonla ilgili haberler almak için kullanabileceğiniz bir <a href = "https://itunes.apple.com/us/app/gaia-mission/id735128015?mt=8">iPhone uygulaması</a>
+  - Misyonla ilgili haberleri almak için kullanabileceğiniz bir <a href = "https://itunes.apple.com/us/app/gaia-mission/id735128015?mt=8">iPhone uygulaması</a>
   - Gaia ekibinin <a href="http://blogs.esa.int/gaia/">blog'u</a>
 
 caption: >
     (Görsel: Large Magellanic Cloud'daki bir yıldız kümesinin Gaia tarafından çekilmiş <a href="http://sci.esa.int/gaia/53654-gaia-calibration-image/">test görüntüsü</a>, ESA/DPAC/Airbus DS)
 
 ---
-Gaia uzay aracı, Samanyolu galaksisinin üç boyutlu detaylandırılmış bir haritasını yaratmayı amaçlamaktadır. Gaia, 1 milyar yıldızın (bu sayı Samanyolu galaksisindeki yıldızların toplamının yüzde birine ya da daha azına eşittir) hareketlerini hesaplayarak, galaksimizin oluşumu ve gelişimini inceleyebilecektir. Misyon, bir milyar yıldızın her birini yedi defa inceleyecektir ve misyonun 5 sene kadar sürmesi beklenmektedir. Gaia'nın yolu boyunca güneş sisteminin dışındaki gezegenleri, astroidleri, kuyrukluyıldızları, kahverengi cüceleri, süpernovaları ve yıldızsı gökcisimlerini keşfetmesi beklenmektedir.
+Gaia uzay aracı, Samanyolu galaksisinin üç boyutlu detaylandırılmış bir haritasını yaratmayı amaçlamaktadır. Gaia, 1 milyar yıldızın (bu sayı Samanyolu galaksisindeki yıldızların toplamının yüzde birine ya da daha azına eşittir) hareketlerini hesaplayarak, galaksimizin oluşumunu ve gelişimini inceleyebilecektir. Misyon, bir milyar yıldızın her birini yedi defa inceleyecektir ve misyonun 5 sene kadar sürmesi beklenmektedir. Gaia'nın yolu boyunca güneş sisteminin dışındaki gezegenleri, astroidleri, kuyrukluyıldızları, kahverengi cüceleri, süpernovaları ve yıldızsı gökcisimlerini keşfetmesi beklenmektedir.
