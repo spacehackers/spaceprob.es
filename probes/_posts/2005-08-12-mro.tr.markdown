@@ -17,11 +17,12 @@ teams:
     - <a href="http://mars.jpl.nasa.gov/mro/">JPL</a>
     - <a href="http://www.nasa.gov/mission_pages/MRO/main/index.html">NASA</a>
 links:
-    - MRO fotoğraflarından oluşan bir <a href="http://marsfromspace.com">online sanat galerisi</a>
-    - MRO'nun yüksek çözünürlüklü kamerası HiRISE'ın <a href="https://twitter.com/HiRISE">Twitter</a> sayfası
+    - MRO görüntülerinden oluşan bir <a href="http://marsfromspace.com">online sanat galerisi</a>
+    - MRO'nun yüksek çözünürlüklü kamerası HiRISE'ın <a href="https://twitter.com/HiRISE">Twitter sayfası</a>
+    - HiTranslate Projesi kapsamında Türkçe'ye çevrilmiş HiRISE Türkçe'nin <a href="https://twitter.com/HiRISETurkish">twitter sayfası</a> ve <a href="http://www.uahirise.org/tr/">websitesi</a>
 
 caption: >
     (Görüntü: Mars'taki <a href="http://hirise.lpl.arizona.edu/ESP_013954_1780">Victoria Krateri</a>'nin MRO tarafından çekilmiş gelişmiş renk görüntüsü, NASA/JPL-Caltech/University of Arizona)
 
 ---
-MRO (açılımı: Mars Reconnaissance Orbiter), Mars yörüngesinde gezegeni detaylı bir şekilde gözlemleyen, gelecekteki uzay misyonları için potansiyel iniş alanlarını tespit eden ve diğer Mars robotlarının haberleşme aktarımını yapan çok amaçlı bir uzay aracıdır. Güçlü bir teleskopik kameraya sahip olan MRO, Mars'ın yörüngesindeki turunu 112 dakikada tamamlarken, gezegenin yüzeyinde yer alan bir mutfak masası küçüklüğündeki yer şekillerini görüntüleyebilmektedir. Bu gözlemler, Mars'ta bir zamanlar suyun bir hayatı destekleyecek kadar nerelerde akmış olabileceğinin incelenmesinde kullanılır. MRO aynı zamanda bütün yıl boyunca Mars'ın iklimini gözlemler ve gezegenin atmosferinde ya da havasında yaşanan değişiklikleri Dünya'ya rapor eder.
+MRO (açılımı: Mars Reconnaissance Orbiter), Mars yörüngesinde gezegeni detaylı bir şekilde gözlemleyen, gelecekteki uzay misyonları için potansiyel iniş alanlarını tespit eden ve diğer Mars robotlarının haberleşme aktarımını yapan çok amaçlı bir uzay aracıdır. Güçlü bir teleskopik kameraya sahip olan MRO, Mars'ın yörüngesindeki turunu 112 dakikada tamamlarken, gezegenin yüzeyinde yer alan bir mutfak masası küçüklüğündeki yer şekillerini de görüntüleyebilmektedir. Bu gözlemler, Mars'ta bir zamanlar suyun hayatı destekleyecek kadar nerelerde akmış olabileceğinin incelenmesinde kullanılır. MRO aynı zamanda bütün yıl boyunca Mars'ın iklimini gözlemler ve gezegenin atmosferinde ya da havasında yaşanan değişiklikleri Dünya'ya rapor eder.
