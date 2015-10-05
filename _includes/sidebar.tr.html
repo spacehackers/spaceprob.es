@@ -6,7 +6,7 @@
 
 <div class = "content">
 
-    {{page.title}}, uzaya <strong>{{page.launch_date}}</strong> tarihinde fırlatışmıştır
+    {{page.title}} uzaya <strong>{{page.launch_date}}</strong> tarihinde fırlatışmıştır
     ve şu an Dünya'ya olan uzaklığı 
 
     <strong><span class = "distance"><span class="{{ page.title|slugify }}">unknown</span></strong> kilometredir.</span>
@@ -15,18 +15,20 @@
     ve 
 
     {% if arrivaliso > nowiso %}
-        aracın buraya {{ page.arrival_date }} tarihinde ulaşması planlanmaktadır.
+        aracın buraya {{ page.arrival_date }} tarihinde ulaşması planlanmaktadır. <!-- Future -->
     {% else %}
-        araç buraya {{ page.arrival_date }} tarihinde ulaşmıştır.
+        araç buraya {{ page.arrival_date }} tarihinde ulaşmıştır. <!-- Past -->
     {% endif %}
     
 
     {% if page.instruments %}
-        {{ page.title }} nereye giderse gitsin, güvenilir cihazlarını yanında taşır:
+        {{ page.title }} nereye giderse gitsin
 
         <strong>
-            {{ page.instruments | array_to_sentence_string }}.
+            {{ page.instruments | array_to_sentence_string }}
         </strong>
+
+        gibi güvenilir aygıtlarını beraberinde götürür.
 
     {% endif %}
 
@@ -35,5 +37,3 @@
         <strong>{{ page.teams | array_to_sentence_string }}</strong> merkeziyle sık sık haberleşir.
     {% endif %}
 </div>
-
-
