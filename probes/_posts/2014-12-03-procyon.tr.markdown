@@ -13,7 +13,7 @@ instruments:
     - soğuk gaz jet iticileri
     - iyon iticileri
     - teleskop
-    - aktarıcı
+    - transponder
 teams:
     - <a href="http://www.isas.jaxa.jp/j/enterp/missions/procyon/">JAXA / ISAS</a>
     - <a href="http://www.space.t.u-tokyo.ac.jp/nlab/procyon.html">University of Tokyo</a>

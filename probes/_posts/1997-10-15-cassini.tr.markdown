@@ -17,7 +17,7 @@ instruments:
     - <a href="http://saturn.jpl.nasa.gov/spacecraft/cassiniorbiterinstruments/instrumentscassinirss/">radyo-sinyal üreteci</a>
     - <a href="http://saturn.jpl.nasa.gov/spacecraft/cassiniorbiterinstruments/nstrumentscassinirpws/">radyo-sinyal sensörü</a>
     - <a href="http://saturn.jpl.nasa.gov/spacecraft/cassiniorbiterinstruments/">spektometreler</a>
-    - <a href="http://saturn.jpl.nasa.gov/spacecraft/cassiniorbiterinstruments/instrumentscassiniuvis/">ultraviyole teleskopları</a>
+    - <a href="http://saturn.jpl.nasa.gov/spacecraft/cassiniorbiterinstruments/instrumentscassiniuvis/">ultraviyole teleskoplar</a>
 teams:
     - <a href="http://www.nasa.gov/mission_pages/cassini/main/">NASA</a> / <a href="http://www.nasa.gov/mission_pages/cassini/main/">JPL</a>
     - <a href="http://www.esa.int/Our_Activities/Space_Science/Cassini-Huygens">ESA</a>
