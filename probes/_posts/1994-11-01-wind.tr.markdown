@@ -12,8 +12,8 @@ instruments:
     - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">manyetik alan sensörü</a>
     - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">parçacık detektörü</a>
     - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">plazma sensörleri</a>
-    - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">solar wind sensor</a>
-    - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">spectrometers</a>
+    - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">güneş rüzgarı sensörü</a>
+    - <a href="http://www-istp.gsfc.nasa.gov/istp/wind/wind_inst.html">spektrometreler</a>
 teams:
     - <a href="http://pwg.gsfc.nasa.gov/wind.shtml">NASA</a>
 links:
