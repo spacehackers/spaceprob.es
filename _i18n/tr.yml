@@ -1,0 +1,10 @@
+global:
+  turkish: Turkish
+  english: English
+  spanish: Español
+  worth_exploring_label: İncelemeye değer
+  latest_news_label: Güncel haberler
+pages:
+  about: About
+  shop: Shop
+  news: News
