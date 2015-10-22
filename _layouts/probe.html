@@ -18,8 +18,13 @@ layout: base
         <div style="background-color:{{page.color}};">
 
           <div class = "sidebar"><!-- lorem ipsum -->
+            {% if site.lang == 'en' %}
+              {% assign sidebar = 'sidebar.html' %}
+            {% else %}
+              {% capture sidebar %}{{ site.lang }}/sidebar.html{% endcapture %}
+            {% endif %}
 
-              {% include sidebar.html %}
+            {% include {{ sidebar }} %}
 
           </div><!-- /data -->
 
