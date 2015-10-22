@@ -1,0 +1,14 @@
+# site information
+authors: "The League of Space Hackers"
+description: "Current information on the scientific probes sent into deep space by human beings of planet Earth"
+twitter: spaceprob_es
+sticker_url: https://www.stickermule.com/user/1070646893/stickers
+poster_url: http://society6.com/product/space-probes_print
+
+# jekyll stuff:
+markdown: kramdown
+permalink: /:title/
+exclude: [README.markdown, Makefile]
+timezone: UTC
+encoding: utf-8
+baseurl: /

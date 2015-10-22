@@ -1,0 +1,80 @@
+---
+layout: base
+---
+
+<div id="probe-detail" data-slug = "{{ page.title|slugify }}" class="container">
+
+ {% if page.attract %}
+ <div id="attract"><img src="/resources/img/attract/{{ page.attract }}" alt="{{ page.title }}" class="img-responsive"></div>
+ {% endif %}
+
+ <h1>{{ page.title}}</h1>
+ <hr class="accent-line" style="border-color:{{page.color}};">
+
+  <div class="row">
+
+    <div class="col-sm-4">
+      <div class="probe">
+        <div style="background-color:{{page.color}};">
+
+          <div class = "sidebar"><!-- lorem ipsum -->
+
+              {% include sidebar.html %}
+
+          </div><!-- /data -->
+
+        </div><!-- /style -->
+      </div><!-- /probe -->
+    </div>
+
+    <div class="col-sm-8">
+
+      <div class = "content">
+          {{content}}
+      </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+
+        <script>
+          url = "/news.json";
+          $.ajax({
+              url: url,
+              type: 'get',
+              dataType: 'json',
+              success: function(bulk_data) {
+                data = bulk_data["{{ page.title|downcase }}"]
+                content = '<b>Latest news: </b>';
+                content += '<a href = "' + data.link + '">' + data.title + '</a> ';
+                content += '<span class = "published_date">(' + data.published_readable + ')</span>'
+                $('.latest_news').html(content);
+              },
+              error: function(e) {
+              }
+          });
+          </script>
+
+      <div class = "latest_news">
+          <b>Latest news:</b><!-- lorem ipsum -->
+          Problems look mighty small from 150 miles up.
+          <a href = "http://spaceipsum.com/">http://spaceipsum.com</a>
+      </div>
+
+      <div class = "link">
+          Worth exploring:
+            <ul>
+            {% for link in page.links %}
+              <li>{{ link}}</li>
+            {% endfor %}
+            </ul>
+
+      </div>
+
+      <div class="caption">{{ page.caption }}</div>
+    </div><!-- /col-sm-8 -->
+
+    <div class = "col-sm-12 pagination">
+        <div class = "col-sm-11"><a class = "prev" href = "">prev</a></div>
+        <div class = "col-sm-1"><a class = "next" href = "">next</a></div>
+    </div>
+ </div><!-- /row -->
+</div><!-- /probe-detail -->

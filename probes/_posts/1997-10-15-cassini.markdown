@@ -1,0 +1,36 @@
+---
+layout: probe
+title: Cassini
+primary_target: Saturn
+color: '#fe9d99'
+attract: cassini_imageheader.jpg
+launch_date: October 15, 1997
+arrival_date: July 1, 2004
+image: cassini.svg
+dsn_name: CAS
+instruments:
+    - <a href="http://saturn.jpl.nasa.gov/spacecraft/cassiniorbiterinstruments/instrumentscassiniiss/">cameras</a>
+    - <a href="http://saturn.jpl.nasa.gov/spacecraft/cassiniorbiterinstruments/instrumentscassinicda/">cosmic dust analyzer</a>
+    - <a href="http://saturn.jpl.nasa.gov/spacecraft/cassiniorbiterinstruments/instrumentscassinimag/">magnetometer
+    - <a href="http://saturn.jpl.nasa.gov/spacecraft/cassiniorbiterinstruments/instrumentscassinimimi/">magnetosphere sensors</a>
+    - <a href="http://saturn.jpl.nasa.gov/spacecraft/cassiniorbiterinstruments/instrumentscassiniradar/">radar</a>
+    - <a href="http://saturn.jpl.nasa.gov/spacecraft/cassiniorbiterinstruments/instrumentscassinirss/">radio-signal generator</a>
+    - <a href="http://saturn.jpl.nasa.gov/spacecraft/cassiniorbiterinstruments/nstrumentscassinirpws/">radio-signal sensor</a>
+    - <a href="http://saturn.jpl.nasa.gov/spacecraft/cassiniorbiterinstruments/">spectrometers</a>
+    - <a href="http://saturn.jpl.nasa.gov/spacecraft/cassiniorbiterinstruments/instrumentscassiniuvis/">ultraviolet telescopes</a>
+teams:
+    - <a href = "http://www.nasa.gov/mission_pages/cassini/main/">NASA</a> / <a href="http://www.nasa.gov/mission_pages/cassini/main/">JPL</a>
+    - <a href="http://www.esa.int/Our_Activities/Space_Science/Cassini-Huygens">ESA</a>
+    - <a href="http://www.asi.it/en/activity/solar_system/cassinihuygens">ASI</a>
+links:
+    - <a href="https://vimeo.com/24410924">footage</a> from the Cassini orbiter set to the music of Nine Inch Nails
+    - the <a href="http://www.esa.int/Our_Activities/Space_Science/Highlights/Ten_years_at_Titan">view of Titan</a> from five different altitudes as the Huygens probe plummeted to the surface
+    - the <a href="http://www.nasa.gov/mission_pages/cassini/multimedia/jpl/pia17172.html#.VOKEY154qm0">natural color and appearance</a> of Saturn to human eyes
+    - <a href="http://www.esa.int/Our_Activities/Space_Science/Cassini-Huygens/Sounds_of_an_alien_world">sounds collected from Titan</a> by the Huygens probe
+
+caption: >
+    (top image: <a href="http://www.nasa.gov/mission_pages/cassini/multimedia/pia14922.html">natural color image of Titan and Saturn by Cassini</a>, NASA/JPL-Caltech/SSI)
+
+---
+Cassini is a space probe orbiting Saturn, gaining unprecedented views and crucial information about the planet, its rings and its many moons. The Cassini orbiter was launched carrying the Huygens lander which landed successfully on Saturn's moon, Titan, in 2005. Huygens sent back <a href="http://esamultimedia.esa.int/docs/titanraw/index.htm">350 images of Titan</a> from its descent and landing. One of Cassini's largest discoveries to date is the existence of icy plumes spurting out into space from Saturn's moon Enceladus. Subsequently, Cassini confirmed that Enceladus harbors a large subsurface ocean. Other notable discoveries include the finding of seven new Saturn moons and liquid lakes of methane and ethane on Titan.
+
