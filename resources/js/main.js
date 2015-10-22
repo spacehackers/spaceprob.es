@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     spaceprobes.init();
 
     // main menu highlighting what page we are on 
@@ -45,6 +44,42 @@ $(document).ready(function() {
 		}
 	}
 
+
+
+    // overriding Numerals plugin defaults to make nice words describing distances
+    numeral.language(
+        'en', {
+            delimiters: {
+                thousands: ',',
+                decimal: '.'
+            },
+            abbreviations: {
+                thousand: 'thousand',
+                million: 'million',
+                billion: 'billion',
+                trillion: 'trillion'
+            },
+        }, 
+
+        'tr', {
+            delimiters: {
+                thousands: ',',
+                decimal: '.'
+            },
+            abbreviations: {
+                thousand: 'bin',
+                million: 'milyon',
+                billion: 'milyar',
+                trillion: 'trilyon'
+            },
+        }
+    );
+    lang = $('html').attr('lang');
+    numeral.language(lang);
+
+
+
+
     // pre-load some of the top images
     spaceprobes.preload(
         "http://spaceprob.es/resources/img/attract/voyager1_imageheader.jpg",
@@ -59,6 +94,7 @@ $(document).ready(function() {
 });
 
 var spaceprobes = {
+
     // how to test distances locally is explained in https://github.com/spacehackers/api.spaceprob.es/blob/master/api.py
 
     distances_feed_url: "http://murmuring-anchorage-8062.herokuapp.com/distances.json",
@@ -80,7 +116,6 @@ var spaceprobes = {
     }, 
 
     init: function() {
-
         $.ajax({
             url: spaceprobes.distances_feed_url,
             type: 'get',
@@ -245,22 +280,5 @@ var spaceprobes = {
 
 
 }; // /var spaceprobes
-
-
-// overriding Numerals plugin defaults to make nice words describing distances
-numeral.language('en', {
-    delimiters: {
-        thousands: ',',
-        decimal: '.'
-    },
-    abbreviations: {
-        thousand: 'thousand',
-        million: 'million',
-        billion: 'billion',
-        trillion: 'trillion'
-    },
-
-});
-
 
 
