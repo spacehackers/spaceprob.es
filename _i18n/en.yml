@@ -1,17 +1,16 @@
 global:
   turkish: Turkish
   english: English
-  spanish: Español
-  and: and
+  about: About
+  shop: Shop
+  news: News  
+  sort_by: sort by
   worth_exploring: Worth Exploring 
   latest_news: Latest News
   from_earth: from Earth
   distance: distance
   launch: launch
+  and: and
   unknown: Unknown 
   back_to_top: Back to top
   footer_credit: A space hack from <a href="http://arielwaldman.com">Ariel Waldman</a> + <a href="http://twitter.com/basilleaf">Lisa Ballard</a>.
-pages:
-  about: About
-  shop: Shop
-  news: News
