@@ -1,6 +1,6 @@
 from __future__ import print_function
 import sys
-from fabric.api import lcd, local, abort
+from fabric.api import lcd, local, abort, prompt
 from fabric.contrib.console import confirm
 from secrets import GIT_REPO, LOCAL_TEMP_DIR, DEV_USER, DEV_URL, DEV_PATH, STAGING
 
@@ -13,16 +13,18 @@ def deploy():
 
     try: 
         if sys.argv[2] == 'production':
-            checkout_codebase('production')
+            checkout_codebase('production', 'master')
         else: 
-            checkout_codebase('staging')
+            branch = prompt("What branch should we deploy?")
+            checkout_codebase('staging', branch)
+
     except IndexError:
         print("""
                 Hello! Things have changed a bit. 
 
                 Please say:
 
-                fab deploy staging
+                fab deploy staging 
 
                 or
 
@@ -46,7 +48,7 @@ def staging():
         rsync_call = "rsync -r -vc -e ssh --exclude .git --exclude venv _site/ %s@%s:%s" % (STAGING['DEV_USER'], STAGING['DEV_URL'], STAGING['DEV_PATH'])
         local(rsync_call)
 
-def checkout_codebase(server):
+def checkout_codebase(server, branch):
     """ remove any old checked out repo and grab the latest
         build the _site directory and rsync it """
     with lcd(LOCAL_TEMP_DIR):
@@ -55,8 +57,9 @@ def checkout_codebase(server):
 
     with lcd("%s%s/" % (LOCAL_TEMP_DIR, DEPLOY_DIR_NAME)):
         print("cloning into %s%s/" % (LOCAL_TEMP_DIR, DEPLOY_DIR_NAME))
-        branch = 'staging' if server != 'production' else 'master'
         clone_cmd = "git clone -b %s %s" % (branch, GIT_REPO)
         print(clone_cmd)
         local(clone_cmd)
+    with lcd("%s%s/spaceprobes/" % (LOCAL_TEMP_DIR, DEPLOY_DIR_NAME)):
+        local("sudo gem install jekyll-multiple-languages-plugin")
 
