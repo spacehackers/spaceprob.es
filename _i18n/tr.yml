@@ -3,8 +3,8 @@ global:
   english: English
   spanish: Español
   and: ve
-  worth_exploring_label: İncelemeye değer
-  latest_news_label: Güncel haberler
+  worth_exploring: İncelemeye değer
+  latest_news: Güncel haberler
   from_earth: uzakta
   distance: mesafe
   launch: fırlatılma tarihi
