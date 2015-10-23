@@ -25,7 +25,9 @@
     {% if page.instruments %}
         Wherever {{ page.title }} goes, it carries its trusty
         <strong>
-            {{ page.instruments | array_to_sentence_string }}.
+            {% capture instrument_list %}{{ page.instruments | array_to_sentence_string }}{% endcapture %}
+            {% capture and_translated %}{% translate global.and %}{% endcapture %}
+            {{ instrument_list | replace:'and', and_translated }}
         </strong>
     {% endif %}
 
