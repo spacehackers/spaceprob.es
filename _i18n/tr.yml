@@ -2,8 +2,13 @@ global:
   turkish: Turkish
   english: English
   spanish: Español
+
   worth_exploring_label: İncelemeye değer
   latest_news_label: Güncel haberler
+
+  distance: mesafe
+  launch: fırlatılma tarihi
+
 pages:
   about: About
   shop: Shop

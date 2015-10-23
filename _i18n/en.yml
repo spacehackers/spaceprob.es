@@ -1,9 +1,15 @@
 global:
+
   turkish: Turkish
   english: English
   spanish: Español
+
   worth_exploring_label: Worth Exploring 
   latest_news_label: Latest News
+
+  distance: distance
+  launch: launch
+
 pages:
   about: About
   shop: Shop

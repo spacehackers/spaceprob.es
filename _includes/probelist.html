@@ -1,14 +1,14 @@
-<div class = "sorting">
-    sort by:
-    <a href = "" class = "distance sortby_selected">distance</a>
-    <a href = "" class = "launch">launch</a>
-</div>
-
 {% if site.lang == 'en' %}
     {% assign lang = "" %}
 {% else %}
     {% capture lang %}/{{ site.lang }}{% endcapture %}
 {% endif %}
+
+<div class = "sorting" lang = "{{ site.lang }}">
+    sort by:
+    <a href = "" class = "distance sortby_selected">{% translate global.distance %}</a>
+    <a href = "" class = "launch">{% translate global.launch %}</a>
+</div>
 
 <div id="probes" class="row">
 
