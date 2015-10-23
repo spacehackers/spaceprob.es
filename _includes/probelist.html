@@ -42,8 +42,11 @@
                 <div class="title visible-sm">{{ table_title }}</div>
             {% endif %}
 
-            <div class="distance"><span class="{{ probe.title|slugify }}">Unknown</span> km from Earth</div>
-          </div>
+            <div class="distance"><span class="{{ probe.title|slugify }}">
+                {% translate global.unknown %}</span> 
+                km {% translate global.from_earth %}</div>
+            </div>
+
         </a>
     </div>
 

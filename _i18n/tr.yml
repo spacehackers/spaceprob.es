@@ -5,8 +5,10 @@ global:
   and: ve
   worth_exploring_label: İncelemeye değer
   latest_news_label: Güncel haberler
+  from_earth: uzakta
   distance: mesafe
   launch: fırlatılma tarihi
+  Unknown: Unknown 
 pages:
   about: About
   shop: Shop

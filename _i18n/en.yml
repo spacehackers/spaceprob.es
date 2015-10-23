@@ -5,8 +5,10 @@ global:
   and: and
   worth_exploring_label: Worth Exploring 
   latest_news_label: Latest News
+  from_earth: from Earth
   distance: distance
   launch: launch
+  Unknown: Unknown 
 pages:
   about: About
   shop: Shop
