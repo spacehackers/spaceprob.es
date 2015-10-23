@@ -9,6 +9,8 @@ global:
   distance: distance
   launch: launch
   Unknown: Unknown 
+  back_to_top: Back to top
+  footer_credit: A space hack from <a href="http://arielwaldman.com">Ariel Waldman</a> + <a href="http://twitter.com/basilleaf">Lisa Ballard</a>.
 pages:
   about: About
   shop: Shop
