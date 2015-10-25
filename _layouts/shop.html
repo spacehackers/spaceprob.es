@@ -3,7 +3,13 @@ layout: base
 ---
 <div class = "shop_container container">
 
-  {% for product in page.products %}
+  {% if site.lang == 'en' %}
+    {% assign shop = site.data.shop.en.shop %}
+  {% elsif site.lang == 'tr' %}
+    {% assign shop = site.data.shop.tr.shop %}
+  {% endif %}
+
+  {% for product in shop %}
  
   <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-12">
     <div class = "panel panel-default">
@@ -13,7 +19,12 @@ layout: base
           {{ product.title }}
         </a>
         <span class = "price pull-right">
-          {{ product.price }}
+          {{ product.price }} 
+          {% if site.lang != 'en' %} 
+            USD
+          {% endif %}
+
+
         </span>
       </div>
 

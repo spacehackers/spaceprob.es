@@ -55,7 +55,12 @@
     <div class="container">
 
       <div class="navbar-header pull-left">
-        <h1><a href="/{{ site.lang }}">spaceprob.es</a></h1>
+        {% if site.lang == 'en' %}
+          {% assign lang = "" %}
+        {% else %}
+          {% capture lang %}{{ site.lang }}/{% endcapture %}
+        {% endif %}
+        <h1><a href="/{{ lang }}">spaceprob.es</a></h1>
       </div>
 
       <!-- larger screens menu -->
@@ -70,29 +75,29 @@
             
             <!-- news -->
             <li
-              {% if page.url == '/news/index.html' %}
+              {% if page.url contains 'news' %}
                 class = "goforlaunch"
               {% endif %}
             >
-              <a href = "/news">{% translate global.news %}</a>
+              <a href = "/{{ lang }}news">{% translate global.news %}</a>
           </li>
 
             <!-- shop -->
             <li 
-              {% if page.url == '/shop/index.html' %}
+              {% if page.url contains 'shop' %}
                 class = "goforlaunch"
               {% endif %}
             >
-              <a href = "/shop">{% translate global.shop %}</a>
+              <a href = "/{{ lang }}shop">{% translate global.shop %}</a>
             </li>
 
             <!-- about -->
             <li
-              {% if page.url == '/about/index.html' %}
+              {% if page.url contains 'about' %}
                 class = "goforlaunch"
               {% endif %}
             >
-              <a href = "/about">{% translate global.about %}</a>
+              <a href = "/{{ lang }}about">{% translate global.about %}</a>
           </li>          
 
         </ul><!-- /navbar -->
@@ -106,9 +111,9 @@
           </a>
 
         <ul id = "dropdown-menu" class="dropdown-menu" role="menu">
-          <li><a class = "news" href = "/news"> {% translate global.news %} </a></li>
-          <li><a class = "shop" href = "/shop"> {% translate global.shop %} </a></li>
-          <li><a class = "about" href = "/about"> {% translate global.about %} </a></li>
+          <li><a class = "news" href = "/{{ lang }}news"> {% translate global.news %} </a></li>
+          <li><a class = "shop" href = "/{{ lang }}shop"> {% translate global.shop %} </a></li>
+          <li><a class = "about" href = "/{{ lang }}about"> {% translate global.about %} </a></li>
           <li><a href="https://twitter.com/{{ site.twitter }}">Twitter</a></li>
         </ul>
 

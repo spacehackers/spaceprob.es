@@ -15,3 +15,8 @@ global:
   shop: Dükkan
   news: Haberler
   sort_by: sırala
+  usd: USD
+pages:
+    shop: Shop
+    about: About
+    news: News
