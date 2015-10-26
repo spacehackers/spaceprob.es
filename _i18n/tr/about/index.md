@@ -1,7 +1,3 @@
----
-layout: base
----
-
 <div class = "aboutpage">
 
 <div id="probe-detail" class="container">
