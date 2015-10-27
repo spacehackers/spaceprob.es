@@ -1,6 +1,6 @@
 global:
-  turkish: Turkish
-  english: English
+  turkish: Türkçe
+  english: İngilizce
   spanish: Español
   and: ve
   worth_exploring: İncelemeye değer
@@ -8,7 +8,7 @@ global:
   from_earth: uzakta
   distance: mesafe
   launch: fırlatılma tarihi
-  unknown: Unknown 
+  unknown: Bilinmeyen
   back_to_top: Başa dön
   footer_credit: <a href="http://arielwaldman.com">Ariel Waldman</a> ve <a href="http://twitter.com/basilleaf">Lisa Ballard</a>'ın hazırladığı bir uzay hack'idir
   about: Hakkında
