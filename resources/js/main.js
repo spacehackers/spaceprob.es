@@ -30,30 +30,30 @@ $(document).ready(function() {
     // The following allows relative links within spaceprob.es to remain within the Apple web
     // app on iOS. Non-relative links open in Safari.
     if (window.navigator.standalone) {
-    	// The app is running in standalone mode.
-	    var a=document.getElementsByTagName("a");
-		for(var i=0;i<a.length;i++)
-		{
-			var pat = /^https?:\/\//i;
-			var href = a[i].getAttribute("href");
-			if (!pat.test(href) && href !== ""){
-			    a[i].onclick=function() {
-			        window.location=this.getAttribute("href");
-			        return false
-			    }
-		    }
-		}
-	}
+        // The app is running in standalone mode.
+        var a=document.getElementsByTagName("a");
+        for(var i=0;i<a.length;i++)
+        {
+            var pat = /^https?:\/\//i;
+            var href = a[i].getAttribute("href");
+            if (!pat.test(href) && href !== ""){
+                a[i].onclick=function() {
+                    window.location=this.getAttribute("href");
+                    return false
+                }
+            }
+        }
+    }
 
     // pre-load some of the top images
     spaceprobes.preload(
-        "http://spaceprob.es/resources/img/attract/voyager1_imageheader.jpg",
-        "http://spaceprob.es/resources/img/attract/voyager2_imageheader.jpg",
-        "http://spaceprob.es/resources/img/attract/newhorizons_imageheader.jpg",
-        "http://spaceprob.es/resources/img/attract/mangalyaan_imageheader.jpg",
-        "http://spaceprob.es/resources/img/attract/cassini_imageheader.jpg",
-        "http://spaceprob.es/resources/img/attract/lro_imageheader.jpg",
-        "http://spaceprob.es/resources/img/attract/juno_imageheader.jpg"
+        "https://spaceprob.es/resources/img/attract/voyager1_imageheader.jpg",
+        "https://spaceprob.es/resources/img/attract/voyager2_imageheader.jpg",
+        "https://spaceprob.es/resources/img/attract/newhorizons_imageheader.jpg",
+        "https://spaceprob.es/resources/img/attract/mangalyaan_imageheader.jpg",
+        "https://spaceprob.es/resources/img/attract/cassini_imageheader.jpg",
+        "https://spaceprob.es/resources/img/attract/lro_imageheader.jpg",
+        "https://spaceprob.es/resources/img/attract/juno_imageheader.jpg"
     );
 
 });
@@ -61,15 +61,14 @@ $(document).ready(function() {
 var spaceprobes = {
     // how to test distances locally is explained in https://github.com/spacehackers/api.spaceprob.es/blob/master/api.py
 
-    distances_feed_url: "http://murmuring-anchorage-8062.herokuapp.com/distances.json",
+    distances_feed_url: "https://murmuring-anchorage-8062.herokuapp.com/distances.json",
     // distances_feed_url: "http://127.0.0.1:5000/distances.json", // local
 
     slugs_sorted_by_distance:[],
     slugs_sorted_by_launch:[],
     probe_snippets: {},
     current_sort: 'distance',  // 'distance' or 'launch'
-    all_probes_meta: {},
-
+    all_probes_meta: {},    
 
     preload: function() {
         var images = new Array()
@@ -90,9 +89,6 @@ var spaceprobes = {
             error:function (xhr, ajaxOptions, thrownError){
                 // just show the #probes div as it was drawn by Jekyll
                 $('#probes').show();
-                if(textStatus==="timeout") {
-                      // todo
-                }
             },
             success: function(data) {
 
