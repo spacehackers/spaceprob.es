@@ -290,7 +290,7 @@ ul.nav li a {
 ul.nav li a:hover, ul.nav li a:active {
     color:white;
  }
-ul.nav li.goforlaunch a {  /* active nav style */
+ul.nav li.highlight a {  /* active nav style */
     color:white !important;
 }
 
