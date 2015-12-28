@@ -7,7 +7,6 @@ image: lisapathfinder.svg
 primary_target: a halo orbit at the Earth-Sun L1 point
 launch_date: December 3, 2015
 arrival_date: January 23, 2016
-distance: Beyond Earth Orbit  # Reaching L1 on January 23
 instruments:
     - disturbance reduction system
     - gravitational wave interferometer
