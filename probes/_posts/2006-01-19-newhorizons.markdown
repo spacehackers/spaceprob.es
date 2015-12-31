@@ -23,6 +23,7 @@ links:
     - New Horizons on <a href="https://twitter.com/NASAnewhorizons">Twitter</a>
     - create <a href="http://www.oneearthmessage.org/">a message</a> for New Horizons to carry on its journey beyond the solar system
     - an <a href="https://itunes.apple.com/us/app/new-horizons-nasa-voyage-to/id473217882?mt=8">iPhone/iPad app</a> detailing New Horizons' mission and updates
+    - a <a href="https://twitter.com/bitsofpluto">Twitter bot</a> that posts a different image of Pluto every six hours
 
 caption: >
     (top image: <a href="http://solarsystem.nasa.gov/multimedia/display.cfm?Category=Planets&IM_ID=20233">Pluto</a> as seen by New Horizons on July 13, 2015, NASA/JHUAPL/SWRI)
