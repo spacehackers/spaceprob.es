@@ -5,8 +5,8 @@ color: '#77ccc9'
 attract: voyager1_imageheader.jpg
 image: voyager1.svg
 primary_target: Jupiter and Saturn
-launch_date: September 5, 1977
-arrival_date: March 5, 1979
+launch_date: 1977-09-05
+arrival_date: 1979-03-05
 dsn_name: VGR1
 instruments:
     - cameras

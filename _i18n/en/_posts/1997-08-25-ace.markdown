@@ -4,8 +4,8 @@ title: ACE
 color: '#77ccc9'
 attract: ace_imageheader.jpg
 image: ace.svg
-launch_date: August 25, 1997
-arrival_date: January 21, 1998
+launch_date: 1997-08-25
+arrival_date: 1998-01-21
 primary_target: a halo orbit at the Earth-Sun L1 point
 dsn_name: ACE
 instruments:

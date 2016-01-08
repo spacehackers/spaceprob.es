@@ -5,8 +5,8 @@ color: '#77ccc9'
 attract: voyager1_imageheader.jpg
 image: voyager1.svg
 primary_target: Jüpiter ve Satürn
-launch_date: 5 Eylül 1977
-arrival_date: 5 Mart 1979
+launch_date: 1977-09-05
+arrival_date: 1979-03-05
 dsn_name: VGR1
 instruments:
     - kameralar

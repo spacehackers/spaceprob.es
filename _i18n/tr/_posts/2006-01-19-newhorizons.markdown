@@ -6,8 +6,8 @@ color: '#8e8566'
 attract: newhorizons_imageheader.jpg
 image: newhorizons.svg
 dsn_name: NHPC
-launch_date: 19 Ocak 2006
-arrival_date: 14 Temmuz 2015
+launch_date: 2006-01-19
+arrival_date: 2015-07-14
 instruments:
     - görüntüleme spektrometreleri
     - parçacık spektrometresi

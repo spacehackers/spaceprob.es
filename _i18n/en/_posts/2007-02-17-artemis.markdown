@@ -6,8 +6,8 @@ color: '#fe9d99'
 attract: artemis_imageheader.jpg
 image: artemis.svg
 orbit_planet: Moon
-launch_date: February 17, 2007
-arrival_date: July 2, 2011
+launch_date: 2007-02-17
+arrival_date: 2011-07-02
 instruments:
     - <a href="http://artemis.ssl.berkeley.edu/instrument_efi.shtml">electric field sensors</a>
     - <a href="http://artemis.ssl.berkeley.edu/instrument_esa.shtml">electrostatic analyzers</a>

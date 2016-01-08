@@ -6,8 +6,8 @@ primary_target: the Moon
 attract: change5t1_imageheader.jpg
 image: change5t1.svg
 orbit_planet: Moon
-launch_date: October 23, 2014
-arrival_date: January 13, 2015
+launch_date: 2014-10-23
+arrival_date: 2015-01-13
 instruments:
     - radiation sensor
     - radio beacon

@@ -5,8 +5,8 @@ color: '#ff6e48'
 attract: gaia_imageheader.jpg
 image: gaia.svg
 primary_target: the Sun-Earth L2 point
-launch_date: December 19, 2013
-arrival_date: January 8, 2014
+launch_date: 2013-12-19
+arrival_date: 2014-01-08
 distance: 1500000  # Gaia orbits around L2
 instruments:
     - photometer

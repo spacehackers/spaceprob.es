@@ -6,8 +6,8 @@ color: '#fe9d99'
 attract: artemis_imageheader.jpg
 image: artemis.svg
 orbit_planet: Ay
-launch_date: 17 Şubat 2007
-arrival_date: 2 Temmuz 2011
+launch_date: 2007-02-17
+arrival_date: 2011-07-02
 instruments:
     - <a href="http://artemis.ssl.berkeley.edu/instrument_efi.shtml">elektrik alanı sensörleri</a>
     - <a href="http://artemis.ssl.berkeley.edu/instrument_esa.shtml">elektrostatik analizörü</a>

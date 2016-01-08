@@ -6,8 +6,8 @@ color: '#78ae62'
 attract: mro_imageheader.jpg
 image: mro.svg
 orbit_planet: Mars
-launch_date: 12 Ağustos 2005
-arrival_date: 10 Mart 2006
+launch_date: 2005-08-12
+arrival_date: 2006-03-10
 instruments:
     - <a href="http://mars.jpl.nasa.gov/mro/mission/instruments/">kameralar</a>
     - <a href="http://www.asi.it/en/activity/solar_system/sharad">radar</a>

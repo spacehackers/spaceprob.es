@@ -4,8 +4,8 @@ title: ACE
 color: '#77ccc9'
 attract: ace_imageheader.jpg
 image: ace.svg
-launch_date: 25 Ağustos 1997
-arrival_date: 21 Ocak 1998
+launch_date: 1997-08-25
+arrival_date: 1998-01-21
 primary_target: Dünya-Güneş L1 noktasındaki bir hale yörüngesi (halo orbit)
 dsn_name: ACE
 instruments:

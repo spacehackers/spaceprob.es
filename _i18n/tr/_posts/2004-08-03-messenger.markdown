@@ -6,8 +6,8 @@ primary_target: Merkür
 color: '#faca66'
 attract: messenger_imageheader.jpg
 image: messenger.svg
-launch_date: 3 Ağustos 2004
-arrival_date: 4 Nisan 2011
+launch_date: 2004-08-03
+arrival_date: 2011-04-04
 dsn_name: MSGR
 instruments:
     - kameralar

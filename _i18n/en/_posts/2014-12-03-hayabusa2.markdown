@@ -5,8 +5,8 @@ primary_target: asteroid 1999 JU3
 color: '#fe9d99'
 attract: hayabusa2_imageheader.jpg
 image: hayabusa2.svg
-launch_date: December 3, 2014
-arrival_date: June 3, 2018
+launch_date: 2014-12-03
+arrival_date: 2018-06-03
 dsn_name: HYB2
 instruments:
     - ion engine

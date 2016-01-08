@@ -6,9 +6,9 @@ color: '#78ae62'
 attract: juno_imageheader.jpg
 image: juno.svg
 dsn_name: JNO
-launch_date: 5 Ağustos 2011
+launch_date: 2011-08-05
 primary_target: Jüpiter
-arrival_date: 26 Haziran 2016
+arrival_date: 2016-06-26
 instruments:
     - mıknatısölçer
     - parçacık detektörü

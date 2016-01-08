@@ -5,8 +5,8 @@ color: '#78ae62'
 attract: lro_imageheader.jpg
 image: lro.svg
 dsn_name: LRO
-launch_date: 18 Haziran 2009
-arrival_date: 23 Haziran 2009
+launch_date: 2009-06-18
+arrival_date: 2009-06-23
 primary_target: Ay
 instruments:
     - <a href="http://www.lroc.asu.edu/">kamera</a>

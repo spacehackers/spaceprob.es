@@ -3,8 +3,8 @@ layout: probe
 title: SOHO
 color: '#938bbe'
 attract: soho_imageheader.jpg
-launch_date: 2 Aralık 1995
-arrival_date: 2 Mayıs 1996
+launch_date: 1995-12-02
+arrival_date: 1996-05-02
 primary_target: Dünya-Güneş L1 noktasındaki bir hale yörüngesi (halo orbit)
 image: soho.svg
 dsn_name: SOHO

@@ -4,8 +4,8 @@ title: IKAROS
 primary_target: Venüs
 color: '#faca66'
 attract: ikaros_imageheader.jpg
-launch_date: 20 Mayıs 2010
-arrival_date: 8 Aralık 2010
+launch_date: 2010-05-20
+arrival_date: 2010-12-08
 image: ikaros.svg
 distance: 120000000  # IKAROS is on a 10 month heliocentric orbit
 instruments:

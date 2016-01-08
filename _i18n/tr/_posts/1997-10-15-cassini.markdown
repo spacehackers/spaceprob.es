@@ -4,8 +4,8 @@ title: Cassini
 primary_target: Satürn
 color: '#fe9d99'
 attract: cassini_imageheader.jpg
-launch_date: 15 Ekim 1997
-arrival_date: 1 Temmuz 2004
+launch_date: 1997-10-15
+arrival_date: 2004-07-01
 image: cassini.svg
 dsn_name: CAS
 instruments:

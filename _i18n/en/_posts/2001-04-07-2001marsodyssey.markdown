@@ -5,9 +5,9 @@ color: '#77ccc9'
 attract: 2001marsodyssey_imageheader.jpg
 image: 2001marsodyssey.svg
 orbit_planet: Mars
-launch_date: April 7, 2001
+launch_date: 2001-04-07
 primary_target: Mars
-arrival_date: October 24, 2001
+arrival_date: 2001-10-24
 instruments:
     - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/themis/">camera</a>
     - <a href="http://mars.jpl.nasa.gov/odyssey/mission/instruments/grs/">gamma ray spectrometer</a>

@@ -3,8 +3,8 @@ layout: probe
 title: STEREO
 color: '#77ccc9'
 primary_target: Güneş merkezli bir yörünge
-launch_date: 26 Ekim 2006
-arrival_date: 21 Ocak 2007
+launch_date: 2006-10-26
+arrival_date: 2007-01-21
 attract: stereo_imageheader.jpg
 image: stereo.svg
 dsn_name: STA

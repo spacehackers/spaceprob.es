@@ -5,8 +5,8 @@ primary_target: Dünya-Güneş L1 noktasındaki bir hale yörüngesi (halo orbit
 color: '#faca66'
 attract: dscovr_imageheader.jpg
 image: dscovr.svg
-launch_date: 11 Şubat 2015
-arrival_date: 1 Haziran 2015
+launch_date: 2015-02-11
+arrival_date: 2015-06-01
 dsn_name: DSCO
 instruments:
     - <a href="http://www.nesdis.noaa.gov/DSCOVR/pdf/DSCOVR%20-%20EPIC%20Instrument%20Info%20Sheet.pdf">kamera</a>

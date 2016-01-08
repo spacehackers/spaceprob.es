@@ -4,8 +4,8 @@ title: Curiosity
 primary_target: Mars
 color: '#ff6e48'
 attract: curiosity_imageheader.jpg
-launch_date: November 26, 2011
-arrival_date: August 6, 2012
+launch_date: 2011-11-26
+arrival_date: 2012-08-06
 image: curiosity.svg
 orbit_planet: Mars
 instruments:

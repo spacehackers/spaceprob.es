@@ -4,8 +4,8 @@ title: Mars Express
 primary_target: Mars
 color: '#fe9d99'
 attract: marsexpress_imageheader.jpg
-launch_date: 2 Haziran 2003
-arrival_date: 25 Aralık 2003
+launch_date: 2003-06-02
+arrival_date: 2003-12-25
 image: marsexpress.svg
 orbit_planet: Mars
 instruments:

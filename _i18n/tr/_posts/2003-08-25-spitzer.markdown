@@ -5,8 +5,8 @@ primary_target: Güneş merkezli bir yörünge
 color: '#8e8566'
 attract: spitzer_imageheader2.jpg
 image: spitzer.svg
-launch_date: 25 Ağustos 2003
-arrival_date: 18 Aralık 2003
+launch_date: 2003-08-25
+arrival_date: 2003-12-18
 dsn_name: STF
 instruments:
     - <a href="http://www.spitzer.caltech.edu/mission/398-The-Infrared-Array-Camera-IRAC-">kızılötesi kamera</a>

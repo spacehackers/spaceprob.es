@@ -2,8 +2,8 @@
 layout: probe
 title: Rosetta
 primary_target: 67P/Churyumov-Gerasimenko kuyrukluyıldızı
-launch_date: 2 Mart 2004
-arrival_date: 6 Ağustos 2014
+launch_date: 2004-03-02
+arrival_date: 2014-08-06
 color: '#938bbe'
 attract: rosetta_imageheader.jpg
 image: rosetta.svg

@@ -3,8 +3,8 @@ layout: probe
 title: Akatsuki
 primary_target: Venüs
 color: '#ff6e48'
-launch_date: 20 Mayıs 2010
-arrival_date: 7 Aralık 2015
+launch_date: 2010-05-20
+arrival_date: 2015-12-07
 attract: akatsuki_imageheader.jpg
 image: akatsuki.svg
 dsn_name: PLC

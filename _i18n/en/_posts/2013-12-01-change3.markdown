@@ -6,8 +6,8 @@ color: '#77ccc9'
 attract: change3_imageheader.jpg
 image: chang'e3.svg
 orbit_planet: Moon
-launch_date: December 1, 2013
-arrival_date: December 14, 2013
+launch_date: 2013-12-01
+arrival_date: 2013-12-14
 instruments:
     - engineering cameras
     - extreme ultraviolet camera

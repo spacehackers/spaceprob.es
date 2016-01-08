@@ -5,8 +5,8 @@ primary_target: Mars
 color: '#938bbe'
 attract: opportunity_imageheader.jpg
 image: opportunity.svg
-launch_date: 7 Temmuz 2003
-arrival_date: 25 Ocak 2004
+launch_date: 2003-07-07
+arrival_date: 2004-01-25
 orbit_planet: Mars
 instruments:
     - matkap

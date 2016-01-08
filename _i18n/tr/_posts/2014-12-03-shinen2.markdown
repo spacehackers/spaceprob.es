@@ -5,8 +5,8 @@ primary_target: Güneş merkezli bir yörünge
 color: '#78ae62'
 attract: hayabusa2_imageheader.jpg
 image: shinen2.svg
-launch_date: 3 Aralık 2014
-arrival_date: 3 Haziran 2018
+launch_date: 2014-12-03
+arrival_date: 2018-06-03
 dsn_name: HYB2
 instruments:
     - transponder

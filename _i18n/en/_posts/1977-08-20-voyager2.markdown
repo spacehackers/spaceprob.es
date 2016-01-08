@@ -5,9 +5,9 @@ color: '#ff6e48'
 attract: voyager2_imageheader.jpg
 image: voyager2.svg
 dsn_name: VGR2
-launch_date: August 20, 1977
+launch_date: 1977-08-20
 primary_target: the outer solar system
-arrival_date: July 9, 1979
+arrival_date: 1979-07-09
 instruments:
     - cameras
     - cosmic dust analyzer

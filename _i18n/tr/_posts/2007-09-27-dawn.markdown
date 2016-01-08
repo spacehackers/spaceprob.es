@@ -6,8 +6,8 @@ color: '#faca66'
 attract: dawn_imageheader.jpg
 image: dawn.svg
 dsn_name: DAWN
-launch_date: 27 Eylül 2007
-arrival_date: 16 Temmuz 2011
+launch_date: 2007-09-27
+arrival_date: 2011-07-16
 instruments:
     - <a href="http://www.nasa.gov/mission_pages/dawn/spacecraft/instruments.html">kamera</a>
     - <a href="http://www.nasa.gov/mission_pages/dawn/spacecraft/instruments.html">radyo vericisi</a> 

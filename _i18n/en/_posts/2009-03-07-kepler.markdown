@@ -6,9 +6,9 @@ color: '#938bbe'
 attract: kepler_imageheader_2.jpg
 image: kepler.svg
 dsn_name: KEPL
-launch_date: March 7, 2009
+launch_date: 2009-03-07
 primary_target: a heliocentric orbit
-arrival_date: May 12, 2009
+arrival_date: 2009-05-12
 instruments:
     - <a href="http://www.nasa.gov/mission_pages/kepler/spacecraft/">photometer</a>
 teams:

@@ -5,8 +5,8 @@ primary_target: Mars
 color: '#faca66'
 attract: maven_imageheader.jpg
 image: maven.svg
-launch_date: 18 Kasım 2013
-arrival_date: 22 Eylül 2014
+launch_date: 2013-11-18
+arrival_date: 2014-09-22
 orbit_planet: Mars
 instruments:
     - <a href="http://lasp.colorado.edu/home/maven/science/instrument-package/">güneş rüzgarı ve iyonosfer sensörleri</a>

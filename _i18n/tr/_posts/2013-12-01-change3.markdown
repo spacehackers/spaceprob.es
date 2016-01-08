@@ -6,8 +6,8 @@ color: '#77ccc9'
 attract: change3_imageheader.jpg
 image: chang'e3.svg
 orbit_planet: the Moon
-launch_date: 1 Aralık 2013
-arrival_date: 14 Aralık 2013
+launch_date: 2013-12-01
+arrival_date: 2013-12-14
 instruments:
     - teknik kameralar
     - ekstrem ultraviyole kamera

@@ -5,8 +5,8 @@ primary_target: Mars
 color: '#8e8566'
 attract: mangalyaan_imageheader.jpg
 image: mangalyaan.svg
-launch_date: November 5, 2013
-arrival_date: September 24, 2014
+launch_date: 2013-11-05
+arrival_date: 2014-09-24
 orbit_planet: Mars
 instruments:
     - camera
