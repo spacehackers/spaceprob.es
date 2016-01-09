@@ -39,10 +39,8 @@ def production():
         local(rsync_call)
 
 def staging():
-    """
-        todo: change this so it checks out a branch other than master (master = production)
-    """
     print("deploying to staging")
+    print("%s%s/%s/" % (LOCAL_TEMP_DIR, DEPLOY_DIR_NAME, 'spaceprobes'))
     with lcd("%s%s/%s/" % (LOCAL_TEMP_DIR, DEPLOY_DIR_NAME, 'spaceprobes')):
         local("jekyll build")
         rsync_call = "rsync -r -vc -e ssh --exclude .git --exclude venv _site/ %s@%s:%s" % (STAGING['DEV_USER'], STAGING['DEV_URL'], STAGING['DEV_PATH'])
@@ -60,6 +58,4 @@ def checkout_codebase(server, branch):
         clone_cmd = "git clone -b %s %s" % (branch, GIT_REPO)
         print(clone_cmd)
         local(clone_cmd)
-    with lcd("%s%s/spaceprobes/" % (LOCAL_TEMP_DIR, DEPLOY_DIR_NAME)):
-        local("sudo gem install jekyll-multiple-languages-plugin")
 

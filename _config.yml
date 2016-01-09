@@ -12,5 +12,6 @@ exclude: [README.markdown, Makefile]
 timezone: UTC
 encoding: utf-8
 baseurl: /
+gems: [jekyll-multiple-languages]
 
 languages: ["en", "tr"]
