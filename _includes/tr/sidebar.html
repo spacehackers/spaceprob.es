@@ -1,12 +1,29 @@
+{% assign months = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}
+{% assign m = page.launch_date | date: "%-m" | minus: 1 %}
+{% assign launch_day = page.launch_date | date: "%-d" %}
+{% assign launch_month = months[m] %}
+{% assign launch_year = page.launch_date | date: "%Y" %}
+{% capture launch_date %}{{ launch_day }} {{ launch_month }} {{ launch_year }}{% endcapture %}
+
+{% assign m = page.arrival_date | date: "%-m" | minus: 1 %}
+{% assign arrival_day = page.arrival_date | date: "%-d" %}
+{% assign arrival_month = months[m] %}
+{% assign arrival_year = page.arrival_date | date: "%Y" %}
+{% capture arrival_date %}{{ arrival_day }} {{ arrival_month }} {{ arrival_year }}{% endcapture %}
+
 {% capture nowiso %}{{'now' | date: '%F'}}{% endcapture %}
-{% capture arrivaliso %}{{page.arrival_date | date: '%F'}}{% endcapture %}
+{% capture arrivaliso %}{{ page.arrival_date }}{% endcapture %}
 
 <img src="/resources/img/silhouette/{{ page.image }}" alt="{{ page.title }}" class="img-responsive">
 <div class="title">{{ page.title }}</div>
 
 <div class = "content">
 
-    {{page.title}} uzaya <strong>{{page.launch_date}}</strong> tarihinde fırlatışmıştır
+        {{site.lang}}/{{ page.url }}
+        <br>
+
+
+    {{page.title}} uzaya <strong>{{ launch_date }}</strong> tarihinde fırlatışmıştır
     ve şu an Dünya'ya olan uzaklığı 
 
     <strong><span class = "distance"><span class="{{ page.title|slugify }}">unknown</span></strong> kilometredir.</span>
@@ -15,9 +32,9 @@
     ve 
 
     {% if arrivaliso > nowiso %}
-        aracın buraya {{ page.arrival_date }} tarihinde ulaşması planlanmaktadır. <!-- Future -->
+        aracın buraya {{ arrival_date }} tarihinde ulaşması planlanmaktadır. <!-- Future -->
     {% else %}
-        araç buraya {{ page.arrival_date }} tarihinde ulaşmıştır. <!-- Past -->
+        araç buraya {{ arrival_date }} tarihinde ulaşmıştır. <!-- Past -->
     {% endif %}
     
 

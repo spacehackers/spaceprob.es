@@ -1,12 +1,26 @@
 {% capture nowiso %}{{'now' | date: '%F'}}{% endcapture %}
-{% capture arrivaliso %}{{page.arrival_date | date: '%F'}}{% endcapture %}
+{% capture arrivaliso %}{{ page.arrival_date }}{% endcapture %}
+
+{% assign d = page.launch_date | date: "%-d" %}
+{% capture launch_date %}
+    {{ page.launch_date | date: "%B" }} 
+    {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, 
+    {{ page.launch_date | date: "%Y" }}
+{% endcapture %}
+
+{% assign d = page.arrival_date | date: "%-d" %}
+{% capture arrival_date %}
+    {{ page.arrival_date | date: "%B" }} 
+    {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, 
+    {{ page.arrival_date | date: "%Y" }}
+{% endcapture %}
 
 <img src="/resources/img/silhouette/{{ page.image }}" alt="{{ page.title }}" class="img-responsive">
 <div class="title">{{ page.title }}</div>
 
 <div class = "content">
 
-    {{page.title}} launched into space on <strong>{{page.launch_date}}</strong>
+    {{page.title}} launched into space on <strong>{{ launch_date }}</strong>
     and is now
 
     <strong><span class = "distance"><span class="{{ page.title|slugify }}">unknown</span></strong> km from Earth</span>.
@@ -20,7 +34,7 @@
         it arrived at on
     {% endif %}
 
-    {{ page.arrival_date }}.
+    {{ arrival_date }}.
 
     {% if page.instruments %}
         Wherever {{ page.title }} goes, it carries its trusty
