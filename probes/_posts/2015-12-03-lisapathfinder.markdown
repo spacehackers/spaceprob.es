@@ -7,6 +7,7 @@ image: lisapathfinder.svg
 primary_target: a halo orbit at the Earth-Sun L1 point
 launch_date: December 3, 2015
 arrival_date: January 23, 2016
+dsn_name: DSCO
 instruments:
     - disturbance reduction system
     - gravitational wave interferometer
