@@ -15,6 +15,7 @@ instruments:
 teams:
     - <a href="http://www.nesdis.noaa.gov/DSCOVR/">NOAA</a>
 links:
+    - a <a href="https://twitter.com/dscovr_epic">Twitter bot</a> that posts the latest whole-Earth photos taken by DSCOVR
     - DSCOVR on <a href="https://www.flickr.com/photos/noaasatellites/sets/72157647534218825/">Flickr</a>
 caption: >
     (top image: the launch of the DSCOVR space probe, SpaceX)
