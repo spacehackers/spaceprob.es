@@ -49,6 +49,11 @@
 
     {% if page.teams %}
         {{ page.title }},
-        <strong>{{ page.teams | array_to_sentence_string }}</strong> merkeziyle sık sık haberleşir.
+            {% capture teams %}{{ page.teams | array_to_sentence_string }}{% endcapture %}
+            {% capture and_translated %}{% translate global.and %}{% endcapture %}
+            <strong>
+                {{ teams | replace:'and', and_translated }}
+            </strong> 
+            merkeziyle sık sık haberleşir.
     {% endif %}
 </div>

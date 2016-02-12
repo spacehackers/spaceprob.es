@@ -41,13 +41,17 @@
         <strong>
             {% capture instrument_list %}{{ page.instruments | array_to_sentence_string }}{% endcapture %}
             {% capture and_translated %}{% translate global.and %}{% endcapture %}
-            {{ instrument_list | replace:'and', and_translated }}
+            {{ instrument_list | replace:'and', and_translated }}.
         </strong>
     {% endif %}
 
     {% if page.teams %}
         {{ page.title }} often chats with humans from
-        <strong>{{ page.teams | array_to_sentence_string }}</strong>.
+            {% capture teams %}{{ page.teams | array_to_sentence_string }}{% endcapture %}
+            {% capture and_translated %}{% translate global.and %}{% endcapture %}
+            <strong>
+                {{ teams | replace:'and', and_translated }}
+            </strong> 
     {% endif %}
 </div>
 
