@@ -125,9 +125,6 @@ var spaceprobes = {
             error:function (xhr, ajaxOptions, thrownError){
                 // just show the #probes div as it was drawn by Jekyll
                 $('#probes').show();
-                if(textStatus==="timeout") {
-                      // todo
-                }
             },
             success: function(data) {
 
