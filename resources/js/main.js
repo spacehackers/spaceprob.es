@@ -82,13 +82,13 @@ $(document).ready(function() {
 
     // pre-load some of the top images
     spaceprobes.preload(
-        "http://spaceprob.es/resources/img/attract/voyager1_imageheader.jpg",
-        "http://spaceprob.es/resources/img/attract/voyager2_imageheader.jpg",
-        "http://spaceprob.es/resources/img/attract/newhorizons_imageheader.jpg",
-        "http://spaceprob.es/resources/img/attract/mangalyaan_imageheader.jpg",
-        "http://spaceprob.es/resources/img/attract/cassini_imageheader.jpg",
-        "http://spaceprob.es/resources/img/attract/lro_imageheader.jpg",
-        "http://spaceprob.es/resources/img/attract/juno_imageheader.jpg"
+        "https://spaceprob.es/resources/img/attract/voyager1_imageheader.jpg",
+        "https://spaceprob.es/resources/img/attract/voyager2_imageheader.jpg",
+        "https://spaceprob.es/resources/img/attract/newhorizons_imageheader.jpg",
+        "https://spaceprob.es/resources/img/attract/mangalyaan_imageheader.jpg",
+        "https://spaceprob.es/resources/img/attract/cassini_imageheader.jpg",
+        "https://spaceprob.es/resources/img/attract/lro_imageheader.jpg",
+        "https://spaceprob.es/resources/img/attract/juno_imageheader.jpg"
     );
 
 });
@@ -97,7 +97,7 @@ var spaceprobes = {
 
     // how to test distances locally is explained in https://github.com/spacehackers/api.spaceprob.es/blob/master/api.py
 
-    distances_feed_url: "http://murmuring-anchorage-8062.herokuapp.com/distances.json",
+    distances_feed_url: "https://murmuring-anchorage-8062.herokuapp.com/distances.json",
     // distances_feed_url: "http://127.0.0.1:5000/distances.json", // local
 
     slugs_sorted_by_distance:[],
