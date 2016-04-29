@@ -8,7 +8,7 @@ image: juno.svg
 dsn_name: JNO
 launch_date: 2011-08-05
 primary_target: Jüpiter
-arrival_date: 2016-06-26
+arrival_date: 2016-07-04
 instruments:
     - mıknatısölçer
     - parçacık detektörü
