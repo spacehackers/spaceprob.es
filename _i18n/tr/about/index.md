@@ -93,7 +93,7 @@
  <div style = "clear:all; height:50px">&nbsp;</div>
 
   <div class = "content">
-<p><a href="https://github.com/natronics">Nathan Bergey</a>, <a href="http://twitter.com/mattb">Matt Biddulph</a> ve <a href="https://alog.lu">Abdullah Aloğlu</a>'na yardımları için teşekkürü bir borç biliriz.</p>
+<p><a href="https://github.com/natronics">Nathan Bergey</a>, <a href="http://twitter.com/mattb">Matt Biddulph</a> ve <a href="https://alog.lu">Abdullah Aloğlu</a>'na yardımları için teşekkür ederiz.</p>
 </div>
 
   <div style = "clear:all; height:50px">&nbsp;</div>
