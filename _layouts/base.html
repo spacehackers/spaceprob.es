@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="{{ site.lang }}">
  <head>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300,700,100' rel='stylesheet' type='text/css'>
+
+  <link href="/resources/css/font.css" rel="stylesheet">
+
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -72,7 +74,7 @@
         </a>
 
           <ul class="nav navbar-nav navbar-right site-menu" role = "menu">
-            
+
             <!-- news -->
             <li
               {% if page.url contains 'news' %}
@@ -83,7 +85,7 @@
           </li>
 
             <!-- shop -->
-            <li 
+            <li
               {% if page.url contains 'shop' %}
                 class = "goforlaunch"
               {% endif %}
@@ -98,7 +100,7 @@
               {% endif %}
             >
               <a href = "/{{ lang }}about">{% translate global.about %}</a>
-          </li>          
+          </li>
 
         </ul><!-- /navbar -->
       </div> <!-- /collapse navbar -->
@@ -153,7 +155,7 @@
   {% if page.url == '/news/index.html' %}
 
     {% include footer-news.html %}
-  
+
   {% endif %}
 
 

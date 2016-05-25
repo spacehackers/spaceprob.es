@@ -116,7 +116,7 @@ a, a:hover {
     padding:0;
     padding-top:14px;
     font-family: 'Roboto Slab', serif;
-    font-weight: 300;
+    font-weight:lighter;
     font-size:140%;
     color:#505050;
     line-height: 1.5;
@@ -187,12 +187,13 @@ a, a:hover {
 
 #probe-detail {
     font-family: 'Roboto Slab', serif;
-    font-weight: 300;
+    font-weight:lighter;
 }
 
 #probe-detail h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
     text-align: center;
-    font-weight:100;
     color:#262224;
     text-transform: uppercase;
     font-size: 7.0em;
@@ -203,6 +204,7 @@ a, a:hover {
     font-size:190%;
     color: #696969;
     line-height: 1.5;
+
 }
 
 #probe-detail .caption {
@@ -213,7 +215,7 @@ a, a:hover {
 
 .link {
     font-family: 'Roboto Slab', serif;
-    font-weight: 300;
+    font-weight:lighter;
     font-size:190%;
     color: #696969;
 }
@@ -249,7 +251,8 @@ a, a:hover {
 }
 #footer {
     background: #f5f2eb;
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Slab', serif;
+    font-weight:lighter;
     color: #bbb;
     text-shadow: 1px 1px 1px #fff;
     margin-top:5px;
@@ -294,7 +297,7 @@ ul.nav li.highlight a {  /* active nav style */
     color:white !important;
 }
 
-/* mobile hamburger */ 
+/* mobile hamburger */
 .dropdown-menu li {
     font-size:0.9em;
     padding: 7px;
@@ -380,9 +383,9 @@ ul.nav li.highlight a {  /* active nav style */
 
     .aboutpage .sidebar .title {
         font-size: 19px;
-    } 
+    }
     .aboutpage .sidebar .distance {
-        white-space: normal; 
+        white-space: normal;
     }
 }
 
@@ -394,12 +397,12 @@ ul.nav li.highlight a {  /* active nav style */
  */
 /* 1 */
 .ie9 img[src*=".svg"] {
-  width: 100%; 
+  width: 100%;
 }
 /* 2 */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   img[src*=".svg"] {
-    width: 100%; 
+    width: 100%;
   }
 }
 
@@ -431,7 +434,7 @@ ul.nav li.highlight a {  /* active nav style */
     overflow: hidden;
 }
 .shop_container .panel-body {
-    padding:0; margin:0; 
+    padding:0; margin:0;
     height: 300px;
     overflow:hidden;
 }
@@ -440,7 +443,7 @@ ul.nav li.highlight a {  /* active nav style */
 }
 
 .shop_container .panel-body img {
-    padding:0; margin:0; 
+    padding:0; margin:0;
     width:100%;
 }
 
@@ -555,6 +558,7 @@ ul.nav li.highlight a {  /* active nav style */
 .news .news_title a {
     color: #696969;
     font-family: 'Roboto Slab', serif;
+    font-weight:lighter;
 }
 .news .news_title a:hover {
     color: #77ccc9;
@@ -600,14 +604,14 @@ ul.nav li.highlight a {  /* active nav style */
 @media screen and (max-width : 480px) {
 
 }
-.blurb  {    
-    margin:0; 
+.blurb  {
+    margin:0;
     padding:7px 0;
     padding-right:50px;
     margin-left:-10px;
 }
 @media screen and (max-width : 480px) {
-    .blurb  {    
+    .blurb  {
         padding-right:10px;
     }
 }
@@ -615,7 +619,7 @@ ul.nav li.highlight a {  /* active nav style */
 .vcenter {
     display: inline-block;
     vertical-align: middle;
-    float: none;    
+    float: none;
 }
 .news .probe_title {
     text-transform: uppercase;
@@ -627,10 +631,10 @@ ul.nav li.highlight a {  /* active nav style */
     color:#B4B4B4;
     font-size:85%;
 }
-/* 
-  Allow angular.js to be loaded in body, hiding cloaked elements until 
-  templates compile.  The !important is important given that there may be 
-  other selectors that are more specific or come later and might alter display.  
+/*
+  Allow angular.js to be loaded in body, hiding cloaked elements until
+  templates compile.  The !important is important given that there may be
+  other selectors that are more specific or come later and might alter display.
  */
 [ng\:cloak], [ng-cloak], .ng-cloak {
   display: none !important;
