@@ -5,7 +5,7 @@
 <h1>Hakkında</h1>
 <hr class="accent-line" style="border-color:#77ccc9;">
 <div class = "content">
-    <p>Biz uzay araçlarını dünyalar kadar seviyoruz! <a href="http://spaceprob.es">Spaceprob.es</a> insanlar tarafından üretilmiş, güneş sistemimizi gezen ve galaksimizde iz bırakan makineleri listeler. Her uzay aracı için sevgiyle, içinde basit bilgilerin ve itinayla seçilmiş, araştırılması gerektiğini düşündüğümüz linklerin bulunduğu kısa ama öz sayfalar yarattık. Mümkün olduğunda <a href="https://eyes.nasa.gov/dsn/dsn.html">Deep Space Network</a>'ten aldığımız verileri de değerlendirdik.</p>
+    <p>Biz uzay araçlarını dünyalar kadar seviyoruz! <a href="http://spaceprob.es/tr">Spaceprob.es/tr</a> insanlar tarafından üretilmiş, güneş sistemimizi gezen ve galaksimizde iz bırakan makineleri listeler. Her uzay aracı için sevgiyle, içinde basit bilgilerin ve itinayla seçilmiş, araştırılması gerektiğini düşündüğümüz linklerin bulunduğu kısa ama öz sayfalar yarattık. Mümkün olduğunda <a href="https://eyes.nasa.gov/dsn/dsn.html">Deep Space Network</a>'ten aldığımız verileri de değerlendirdik.</p>
 </div>
 
 <div style = "clear:all; height:50px">&nbsp;</div>
