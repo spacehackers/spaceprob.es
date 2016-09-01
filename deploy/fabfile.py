@@ -34,7 +34,7 @@ def deploy():
 def production():
     print("deploying to production")
     with lcd("%s%s/%s/" % (LOCAL_TEMP_DIR, DEPLOY_DIR_NAME, 'spaceprob.es')):
-        local("jekyll build")
+        local("jekyll _2.5.2_ build")
         rsync_call = "rsync -r -vc -e ssh --exclude .git --exclude venv _site/ %s@%s:%s" % (DEV_USER, DEV_URL,DEV_PATH)
         local(rsync_call)
 
@@ -42,7 +42,7 @@ def staging():
     print("deploying to staging")
     print("%s%s/%s/" % (LOCAL_TEMP_DIR, DEPLOY_DIR_NAME, 'spaceprob.es'))
     with lcd("%s%s/%s/" % (LOCAL_TEMP_DIR, DEPLOY_DIR_NAME, 'spaceprob.es')):
-        local("jekyll build")
+        local("jekyll _2.5.2_ build")
         rsync_call = "rsync -r -vc -e ssh --exclude .git --exclude venv _site/ %s@%s:%s" % (STAGING['DEV_USER'], STAGING['DEV_URL'], STAGING['DEV_PATH'])
         local(rsync_call)
 
