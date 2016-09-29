@@ -1,4 +1,14 @@
-<a class="pull-right hidden-xs" href="#">{% translate global.back_to_top %}</a>
+<!-- a class="pull-right hidden-xs" href="#">{% translate global.back_to_top %}</a -->
+
+
+<div class="pull-right langs">
+{% if site.lang == 'tr' %}
+  <a href = "/">EN</a> | TR
+{% else %}
+  EN | <a href = "/tr">TR</a>
+{% endif %}
+</div>
+
 <p>
   {% translate global.footer_credit %}
 </p>
