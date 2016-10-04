@@ -1,6 +1,7 @@
 ---
 layout: probe
 title: Rosetta
+past: true
 primary_target: Comet 67P/Churyumov-Gerasimenko
 launch_date: 2004-03-02
 arrival_date: 2014-08-06
@@ -28,4 +29,3 @@ caption: >
 
 ---
 Rosetta is a space probe orbiting Comet 67P/Churyumov-Gerasimenko, witnessing how it changes as it orbits the Sun. The Rosetta orbiter was launched carrying the Philae lander which semi-successfully landed on Comet 67P in 2014, becoming the first space probe to ever land on a comet. Philae bounced twice before landing at an angle in the shadow of a cliff and soon after powered down due to the lack of sunlight. Philae later gained enough sunlight to power back on, do a few science experiments and send a few communications to Earth before succumbing to a suspected transmitter failure. Meanwhile, Rosetta continues to study the comet and its role in the evolution of the solar system. On board Rosetta is a <a href="http://rosettaproject.org/">micro-etched nickel disk</a> containing an archive of 1500 human languages compiled by the Long Now Foundation.
-

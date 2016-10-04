@@ -1,6 +1,7 @@
 ---
 layout: probe
 title: Rosetta
+past: true
 primary_target: 67P/Churyumov-Gerasimenko kuyrukluyıldızı
 launch_date: 2004-03-02
 arrival_date: 2014-08-06
@@ -17,7 +18,7 @@ instruments:
 teams:
     - <a href="http://rosetta.esa.int/">ESA</a>
 links:
-    - Kuyrukluyıldızın Rosetta'nın <a href="http://instagram.com/rosettamission">Instagram</a> sayfasındaki müthiş fotoğrafları 
+    - Kuyrukluyıldızın Rosetta'nın <a href="http://instagram.com/rosettamission">Instagram</a> sayfasındaki müthiş fotoğrafları
     - 67P kuyrukluyıldızının 3 boyutlu yazıcılar için hazırlanmış bir <a href="http://sci.esa.int/rosetta/54728-shape-model-of-comet-67p/">modeli</a>
     - Kuyrukluyıldıza inmeye hazırlanan Rosetta ve Philae'yle ilgili çizilmiş <a href="https://www.youtube.com/watch?v=AvkPFXdpOQQ">sevimli bir karikatür</a>
     - Rosetta'nın güneş sisteminde nerede bulunduğunu gösteren <a href="http://sci.esa.int/where_is_rosetta/">interaktif bir harita</a>
