@@ -12,12 +12,19 @@
 
 <div id="probes" class="row">
 
-{% for probe in site.posts]%}
-    
-    {% if probe.past %}
-        {% continue %}
+{% for probe in site.posts %}
+
+    {% if page.status == 'live' %}
+        {% if probe.past %}
+            {% continue %}
+        {% endif %}
+    {% else if page.status == 'past' %}
+        {% if probe.past != true %}
+            {% continue %}
+        {% endif %}
     {% endif %}
-    
+
+
     {% capture probe_title %}{{ probe.title }}{% endcapture %}
     {% assign new_prope_title = false %}
 
@@ -47,7 +54,7 @@
             {% endif %}
 
             <div class="distance"><span class="{{ probe.title|slugify }}">
-                {% translate global.unknown %}</span> 
+                {% translate global.unknown %}</span>
                 km {% translate global.from_earth %}</div>
             </div>
 
