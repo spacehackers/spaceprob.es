@@ -3,15 +3,15 @@
 
 {% assign d = page.launch_date | date: "%-d" %}
 {% capture launch_date %}
-    {{ page.launch_date | date: "%B" }} 
-    {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, 
+    {{ page.launch_date | date: "%B" }}
+    {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
     {{ page.launch_date | date: "%Y" }}
 {% endcapture %}
 
 {% assign d = page.arrival_date | date: "%-d" %}
 {% capture arrival_date %}
-    {{ page.arrival_date | date: "%B" }} 
-    {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, 
+    {{ page.arrival_date | date: "%B" }}
+    {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
     {{ page.arrival_date | date: "%Y" }}
 {% endcapture %}
 
@@ -21,10 +21,24 @@
 <div class = "content">
 
     {{page.title}} launched into space on <strong>{{ launch_date }}</strong>
-    and is now
+    and
 
-    <strong><span class = "distance"><span class="{{ page.title|slugify }}">unknown</span></strong> km from Earth</span>.
-    Its primary destination is <strong>{{page.primary_target}}</strong>,
+    {% if page.past != true %}
+      is now
+      <strong><span class = "distance"><span class="{{ page.title|slugify }}">unknown</span></strong> km from Earth</span>.
+    {% else %}
+      has now completed its mission.
+    {% endif %}
+
+    Its primary destination
+
+    {% if page.past != true %}
+    is
+    {% else %}
+    was
+    {% endif %}
+
+    <strong>{{page.primary_target}}</strong>,
 
     which
 
@@ -51,8 +65,6 @@
             {% capture and_translated %}{% translate global.and %}{% endcapture %}
             <strong>
                 {{ teams | replace:'and', and_translated }}
-            </strong> 
+            </strong>
     {% endif %}
 </div>
-
-

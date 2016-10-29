@@ -53,10 +53,20 @@
                 <div class="title visible-sm">{{ new_prope_title }}</div>
             {% endif %}
 
-            <div class="distance"><span class="{{ probe.title|slugify }}">
-                {% translate global.unknown %}</span>
-                km {% translate global.from_earth %}</div>
+            {% if probe.past != true %}
+              <div class="distance">
+                  <span class="{{ probe.title|slugify }}">
+                    {% translate global.unknown %}
+                  </span>
+                  km {% translate global.from_earth %}
+              </div>
+            {% else %}
+            <div class="distance">
+              <span class="">Mission Ended</span>
             </div>
+            {% endif %}
+
+          </div>
 
         </a>
     </div>
