@@ -1,6 +1,7 @@
 ---
 layout: probe
 title: LISA Pathfinder
+past: true
 color: '#938bbe'
 attract: lisapathfinder_imageheader.jpg
 image: lisapathfinder.svg
