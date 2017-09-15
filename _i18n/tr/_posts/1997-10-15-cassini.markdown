@@ -1,6 +1,7 @@
 ---
 layout: probe
 title: Cassini
+past: true
 primary_target: Satürn
 color: '#fe9d99'
 attract: cassini_imageheader.jpg
