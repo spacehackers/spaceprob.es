@@ -2,6 +2,7 @@
 layout: probe
 title: IKAROS
 primary_target: Venüs
+past: true
 color: '#faca66'
 attract: ikaros_imageheader.jpg
 launch_date: 2010-05-20

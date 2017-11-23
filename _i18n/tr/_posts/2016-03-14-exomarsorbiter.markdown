@@ -7,7 +7,7 @@ image: exomarsorbiter.svg
 primary_target: Mars
 launch_date: 14 Mart 2016
 arrival_date: 19 Ekim 2016
-dsn_name: TGO
+orbit_planet: Mars
 instruments:
     - <a href="http://mars.aeronomie.be/en/exomars/nomad.htm">geniş spektrum spektrometreleri</a>
     - <a href="http://www.cassis.unibe.ch/">kamera</a>

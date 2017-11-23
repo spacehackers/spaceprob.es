@@ -2,6 +2,7 @@
 layout: probe
 title: Shin'en 2
 primary_target: Güneş merkezli bir yörünge
+past: true
 color: '#78ae62'
 attract: hayabusa2_imageheader.jpg
 image: shinen2.svg

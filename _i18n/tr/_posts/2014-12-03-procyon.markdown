@@ -2,6 +2,7 @@
 layout: probe
 title: PROCYON
 primary_target: Astroid 2000 DP107
+past: true
 color: '#77ccc9'
 attract: hayabusa2_imageheader.jpg
 image: procyon.svg
