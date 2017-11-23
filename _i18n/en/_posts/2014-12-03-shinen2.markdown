@@ -8,6 +8,7 @@ image: shinen2.svg
 launch_date: 2014-12-03
 arrival_date: 2018-06-03
 dsn_name: HYB2
+past: true
 instruments:
     - transponder
 teams:
