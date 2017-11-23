@@ -5,9 +5,9 @@ color: '#78ae62'
 attract: exomarsorbiter_imageheader.jpg
 image: exomarsorbiter.svg
 primary_target: Mars
+orbit_planet: Mars
 launch_date: March 14, 2016
 arrival_date: October 19, 2016
-dsn_name: TGO
 instruments:
     - <a href="http://mars.aeronomie.be/en/exomars/nomad.htm">broad spectrum spectrometers</a>
     - <a href="http://www.cassis.unibe.ch/">camera</a>
