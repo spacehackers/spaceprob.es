@@ -8,6 +8,7 @@ image: procyon.svg
 launch_date: 2014-12-03
 arrival_date: 2016-05-12
 dsn_name: PRCN
+past: true
 instruments:
     - antennas
     - cold gas jet thrusters
@@ -24,7 +25,7 @@ links:
 caption: >
     (top image: the launch of the PROCYON space probe in Japan)
 ---
-PROCYON, short for PRoximate Object Close flYby with Optical Navigation, is a space probe set to conduct flybys of asteroids. The space probe is designed to use its optical telescope as a way of navigating closely around asteroids. In April 2015, the asteroid 2000 DP107 was selected as PROCYON's target destination. PROCYON was launched as a secondary payload aboard the rocket that carried <a href="/hayabusa2/">Hayabusa 2</a> to space.
+PROCYON, short for PRoximate Object Close flYby with Optical Navigation, is a space probe set to conduct flybys of asteroids. The space probe is designed to use its optical telescope as a way of navigating closely around asteroids. In April 2015, the asteroid 2000 DP107 was selected as PROCYON's target destination. PROCYON was launched as a secondary payload aboard the rocket that carried <a href="/hayabusa2/">Hayabusa 2</a> to space. Contact with PROCYON was lost on December 4, 2015 despite multiple attempts to reestablish a link.
 
 
 
