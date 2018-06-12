@@ -13,9 +13,27 @@ For the latest news see: <https://github.com/spacehackers/topstories>
 
 For the space probe distances to Earth see: <https://github.com/spacehackers/api.spaceprob.es>
 
-*test*
 
-## Render Locally
+## Installing
 
-    $ jekyll serve --watch
+1. Clone the repo
 
+        git clone https://github.com/<GITHUB_USERNAME>/spaceprob.es.git
+        cd spaceprob.es
+
+
+2. install jekyll and the i18n plugin
+
+        # if these fail because of write permissions
+        # add sudo to the front: "sudo gem install.."
+        
+        gem install jekyll -v 2.5.3
+        gen install i18n
+
+
+3. Serve locally
+
+        jekyll _2.5.2_ serve --watch
+
+
+        
