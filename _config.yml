@@ -8,7 +8,7 @@ poster_url: http://society6.com/product/space-probes_print
 # jekyll stuff:
 markdown: kramdown
 permalink: /:title/
-exclude: [README.markdown, Makefile]
+exclude: [README.markdown, Makefile, vendor]
 timezone: UTC
 encoding: utf-8
 baseurl: /

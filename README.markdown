@@ -22,18 +22,18 @@ For the space probe distances to Earth see: <https://github.com/spacehackers/api
         cd spaceprob.es
 
 
-2. install jekyll and the i18n plugin
+2. install jekyll and the i18n plugin using Ruby Bundler
 
         # if these fail because of write permissions
         # add sudo to the front: "sudo gem install.."
         
-        gem install jekyll -v 2.5.3
-        gen install i18n
+        gem install bundler
+        bundle install --path=vendor
 
 
 3. Serve locally
 
-        jekyll _2.5.2_ serve --watch
+        bundle exec jekyll serve --watch
 
 
         
