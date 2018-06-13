@@ -1,0 +1,32 @@
+---
+layout: probe
+title: InSight
+primary_target: Mars
+color: '#938bbe'
+attract: insight_imageheader.jpg
+image: insight.svg
+dsn_name: NSYT
+launch_date: 2018-05-05
+arrival_date: 2018-11-26
+instruments:
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#7">cameras</a>
+    - <a href="https://mars.nasa.gov/insight/mission/instruments/hp3/">heat probe</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#8">laser retroreflector</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#7">magnetometer</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#7">pressure sensor</a>
+    - <a href="https://mars.nasa.gov/insight/mission/instruments/rise/">radio science experiment</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#5">radiometer</a>
+    - <a href="https://mars.nasa.gov/insight/mission/instruments/seis/">seismometer</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#7">temperature/wind sensor</a>
+teams:
+    - <a href="https://mars.nasa.gov/insight/">NASA</a> / <a href="https://www.jpl.nasa.gov/missions/insight/">JPL</a> 
+links:
+    - <a href="https://twitter.com/NASAInSight">NASA InSight</a> on Twitter
+    - the <a href="https://www.jpl.nasa.gov/news/press_kits/insight/">press kit</a> from InSight's launch that includes many details about it
+
+caption: >
+    (top image: the <a href="https://mars.nasa.gov/insight/multimedia/images/21802/insight-lifts-off-2">launch</a> of InSight from California, NASA/Cory Huston)
+
+---
+The InSight space probe is a Mars lander detecting meteorite impacts and seismic activity on Mars, also known as "Marsquakes". InSight stands for Interior Exploration using Seismic Investigations, Geodesy and Heat Transport. In addition to searching for Marsquakes, Insight is investigating the interior structure and composition of Mars in hopes of learning more about how other planets like it form. InSight comes equipped with a heat probe capable of taking the planet's temperature and burrowing down five meters (16 feet), deeper than any space probe has ever dug on Mars. By studying the interior of Mars, InSight could draw the most precise picture to date of the history of the planet and its present-day anatomy.
+
