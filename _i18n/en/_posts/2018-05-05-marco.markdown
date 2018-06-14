@@ -1,0 +1,26 @@
+---
+layout: probe
+title: MarCO
+primary_target: Mars
+color: '#77ccc9'
+attract: marco_imageheader.jpg
+image: marco.svg
+dsn_name: MCOB
+launch_date: 2018-05-05
+arrival_date: 2018-11-26
+instruments:
+    - cameras
+    - radios
+    - star tracker
+    - sun sensors
+teams:
+    - <a href="https://www.jpl.nasa.gov/cubesat/missions/marco.php">NASA JPL</a>
+links:
+    - an <a href="https://www.youtube.com/watch?v=P_8ZEAPrrHQ">animated video</a> about MarCO
+    - an <a href="https://youtu.be/MZAtxIm9ukM?t=2m40s">interview</a> with two of the people who built MarCO
+
+caption: >
+    (top image: first <a href="https://mars.nasa.gov/insight/multimedia/images/21859/first-image-from-marco-b">photo</a> captured by MarCO-B of Earth, the bright dot, and the Moon, the faint dot, NASA/JPL-Caltech)
+
+---
+MarCO are a twin pair of small space probes on a mission to test out new communication technologies during their flyby of Mars that coincides with the landing of <a href="/insight">InSight</a> on the surface of Mars. At approximately the size of a briefcase, MarCO, also known as Mars Cube One, are the very first interplanetary small space probes. To move around, MarCO-A and MarCO-B use a propellant commonly found in fire extinguishers, which inspired their nicknames of WALL-E and Eve, the two Pixar robot characters. MarCO will use its antennas to listen to InSight as it lands and transmit the information back to Earth before any other space probe. After their flyby of Mars, they will orbit the Sun. The two space probes are trailblazers for future small space probes to explore other planets.
