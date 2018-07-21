@@ -1,0 +1,3 @@
+# this is what's in our crontab: 
+*/10 * * * * ~/spaceprob.es/fetch_feeds.bash
+* 22 * * * python ~/spaceprob.es/monitor_feeds.py
