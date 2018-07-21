@@ -1,16 +1,16 @@
 $(document).ready(function() {
     spaceprobes.init();
 
-    // main menu highlighting what page we are on 
+    // main menu highlighting what page we are on
     $('ul.nav li a').css("color", "#B8B8B8");
     if ($('.aboutpage').is(":visible")) {
         $('ul.nav li a.about').css("color", "white");
-    } 
+    }
     if ($('.shop').is(":visible")) {
         $('.nav a.shop').css("color", "white");
-    } 
+    }
 
-    // the sorting buttons behavior 
+    // the sorting buttons behavior
     $('#content').on("click", 'a.distance, a.launch', function(e) {
 
         $('.sorting a').removeClass('sortby_selected');
@@ -59,7 +59,7 @@ $(document).ready(function() {
                 billion: 'billion',
                 trillion: 'trillion'
             },
-        }, 
+        },
 
         'tr', {
             delimiters: {
@@ -97,7 +97,7 @@ var spaceprobes = {
 
     // how to test distances locally is explained in https://github.com/spacehackers/api.spaceprob.es/blob/master/api.py
 
-    distances_feed_url: "https://murmuring-anchorage-8062.herokuapp.com/distances.json",
+    distances_feed_url: "distances.json",
     // distances_feed_url: "http://127.0.0.1:5000/distances.json", // local
 
     slugs_sorted_by_distance:[],
@@ -113,13 +113,13 @@ var spaceprobes = {
             images[i] = new Image()
             images[i].src = spaceprobes.preload.arguments[i]
         }
-    }, 
+    },
 
     init: function() {
         $.ajax({
             url: spaceprobes.distances_feed_url,
             type: 'get',
-            dataType: 'jsonp',
+            dataType: 'json',
             cache : false,
             timeout: 4000,
             error:function (xhr, ajaxOptions, thrownError){
@@ -203,15 +203,15 @@ var spaceprobes = {
     },
 
     order_by_distance: function(distances) {
-        /* 
+        /*
             order spaceprobes by distance
-            for probes that are of equal distance, sort them alphabetically 
+            for probes that are of equal distance, sort them alphabetically
         */
 
         // Note: Why is this so long? was originally 2 lines of code:
         // var sorted_keys = Object.keys(data.spaceprobe_distances).sort();  // first sort by alpha
         // spaceprobes.slugs_sorted_by_distance = sorted_keys.sort(function(a,b){return parseInt(distances[b], 10)-parseInt(distances[a], 10); });
-        // which works in FF, Safari but not Chrome (others?): 
+        // which works in FF, Safari but not Chrome (others?):
         // because of the unpredictable way Chrome traverses the array in the sort function
 
         // sort the probes into distance groups, keys are distances values are lists of slugs
@@ -239,7 +239,7 @@ var spaceprobes = {
         // now flatten the array of arrays and return that
         merged = []
         merged = merged.concat.apply(merged, slugs_arrays);
-        return merged                
+        return merged
     },
 
     display_paging_links: function() {
@@ -277,5 +277,3 @@ var spaceprobes = {
 
 
 }; // /var spaceprobes
-
-
