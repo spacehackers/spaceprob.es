@@ -1,12 +1,12 @@
 ---
 layout: probe
 title: Hayabusa 2
-primary_target: asteroid 1999 JU3
+primary_target: Ryugu
 color: '#fe9d99'
 attract: hayabusa2_imageheader.jpg
 image: hayabusa2.svg
 launch_date: 2014-12-03
-arrival_date: 2018-06-03
+arrival_date: 2018-06-27
 dsn_name: HYB2
 instruments:
     - ion engine
@@ -24,9 +24,9 @@ links:
     - an orbital view of Hayabusa 2's <a href="http://www.lizard-tail.com/isana/hayabusa2/">current position</a> in space
 
 caption: >
-    (top image: the launch of the Hayabusa 2 space probe in Japan)
+    (top image: the asteroid Ryugu as seen by Hayabusa 2 when it was <a href="http://www.hayabusa2.jaxa.jp/topics/20180711je/index_e.html">20 km away</a>, JAXA, University of Tokyo, Kochi University, Rikkyo University, Nagoya University, Chiba Institute of Technology, Meiji University, University of Aizu and AIST.
 ---
-Hayabusa 2 is a space probe on a mission to collect a piece of an asteroid and return it back to Earth. Hayabusa 2 hopes to learn more about the origin and evolution of the solar system by landing various devices on the primordial asteroid called "1999 JU3". Among other activities, the space probe intends to hurl an explosive impactor at the asteroid in order to create an artificial crater for studying its inside structure. Three hopping rovers and a small lander will also be sent to the surface of the asteroid to study it. Additionally, Hayabusa 2 comes equipped with a "sampling horn" so that it can capture gas and materials from the asteroid by pecking at it without landing.
+Hayabusa 2 is a space probe on a mission to collect a piece of an asteroid and return it back to Earth. Hayabusa 2 hopes to learn more about the origin and evolution of the solar system by landing various devices on the primordial asteroid called Ryugu. Among other activities, the space probe intends to hurl an explosive impactor at the asteroid in order to create an artificial crater for studying its inside structure. Three hopping rovers and a small lander will also be sent to the surface of the asteroid to study it. Additionally, Hayabusa 2 comes equipped with a "sampling horn" so that it can capture gas and materials from the asteroid by pecking at it without landing.
 
 
 
