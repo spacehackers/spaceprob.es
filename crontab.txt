@@ -1,3 +1,4 @@
-# this is what's in our crontab: 
-*/10 * * * * ~/spaceprob.es/fetch_feeds.bash
-* 22 * * * python ~/spaceprob.es/monitor_feeds.py
+MAILTO="lballard.cat@gmail.com"
+*/10 * * * * bash ~/spaceprob.es/fetch_distances.bash  # this heroku instance is funded to stay awake
+0 09 * * * bash ~/spaceprob.es/fetch_news.bash
+0 22 * * * python ~/spaceprob.es/monitor_feeds.py
