@@ -3,7 +3,7 @@ layout: probe
 title: Hayabusa 2
 primary_target: Ryugu
 color: '#fe9d99'
-attract: hayabusa2_imageheader.jpg
+attract: hayabusa2new_imageheader.jpg
 image: hayabusa2.svg
 launch_date: 2014-12-03
 arrival_date: 2018-06-27
