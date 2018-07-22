@@ -97,7 +97,7 @@ var spaceprobes = {
 
     // how to test distances locally is explained in https://github.com/spacehackers/api.spaceprob.es/blob/master/api.py
 
-    distances_feed_url: "distances.json",
+    distances_feed_url: "/distances.json",
     // distances_feed_url: "http://127.0.0.1:5000/distances.json", // local
 
     slugs_sorted_by_distance:[],
