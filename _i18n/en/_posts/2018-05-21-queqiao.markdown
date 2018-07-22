@@ -13,7 +13,7 @@ instruments:
     - laser reflector
     - <a href="https://www.astron.nl/r-d-laboratory/ncle/netherlands-china-low-frequency-explorer-ncle">radio antennas</a>
 teams:
-    - China Academy of Space Technology.
+    - China Academy of Space Technology
 links:
     - how Queqiao will <a href="http://www.planetary.org/blogs/guest-blogs/2018/0519-change-4-relay-satellite.html">help Chang'e 4 explore</a> the far side of the Moon
 

@@ -13,7 +13,7 @@ instruments:
     - camera
     - polarization antennas
 teams:
-    - <a href="http://en.hit.edu.cn/news/3117">Harbin Institute of Technology</a>.
+    - <a href="http://en.hit.edu.cn/news/3117">Harbin Institute of Technology</a>
 links:
     - <a href="https://www.heavens-above.com/orbit.aspx?satid=43472">orbital data</a> for Longjiang-2
     - how to <a href="https://amsat-uk.org/2018/04/03/dslwp-lunar-amateur-radio-satellites/">communicate with Longjiang-2</a> as an amateur radio operator
