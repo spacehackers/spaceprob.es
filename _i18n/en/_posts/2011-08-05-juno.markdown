@@ -3,7 +3,7 @@ layout: probe
 title: Juno
 target: [jupiter]
 color: '#78ae62'
-attract: juno_imageheader.jpg
+attract: juno3_imageheader.jpg
 image: juno.svg
 dsn_name: JNO
 launch_date: 2011-08-05
@@ -24,7 +24,6 @@ links:
     - a DIY <a href="http://www.jpl.nasa.gov/images/pdf/Juno_Spacecraft_Paper_Model_FC.pdf">paper model</a> of Juno
     - a <a href="https://www.youtube.com/watch?v=_CzBlSXgzqI">video</a> of Earth and the Moon as seen from Juno
 caption: >
-    (top image: an infrared <a href="http://www.jpl.nasa.gov/spaceimages/details.php?id=PIA21033">image</a> captured by Juno of an aurora on Jupiter, NASA/JPL-Caltech/SwRI/ASI/INAF/JIRAM)
+    (top image: Jupiter as <a href="https://www.flickr.com/photos/kevinmgill/38515428164/">seen</a> by Juno, NASA/JPL-Caltech/SwRI/MSSS/Kevin M. Gill)
 ---
 Juno is a space probe currently orbiting Jupiter. Juno will study Jupiter's origin, interior, atmosphere and <a href="https://solarsystem.nasa.gov/scitech/display.cfm?ST_ID=1589">magnetosphere</a>. Notably, the space probe will be gathering clues as to what the inside of Jupiter is made up of – whether it has a solid core and how much water is present in its atmosphere. Juno will also directly sample the charged particles that make up planet's auroras, while simultaneously observing them in ultraviolet.
-
