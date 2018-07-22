@@ -64,7 +64,7 @@
             {% capture teams %}{{ page.teams | array_to_sentence_string }}{% endcapture %}
             {% capture and_translated %}{% translate global.and %}{% endcapture %}
             <strong>
-                {{ teams | replace:'and', and_translated }}
-            </strong>.
+                {{ teams | replace:'and', and_translated }}.
+            </strong>
     {% endif %}
 </div>
