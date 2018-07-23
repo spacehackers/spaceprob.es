@@ -5,7 +5,7 @@ primary_target: a halo orbit at the Earth-Moon L2 point
 color: '#faca66'
 attract: queqiao_imageheader.jpg
 image: queqiao.svg
-distance: 450000  # Queqiao orbits around Earth-Moon L2, which is distance of the Moon plus 65,000-80,000km
+orbit_planet: Earth-Moon-L2  # Queqiao orbits around Earth-Moon L2
 launch_date: 2018-05-21
 arrival_date: 2018-06-14
 instruments:
@@ -21,6 +21,4 @@ caption: >
     (top image: the <a href="https://gbtimes.com/china-launches-queqiao-relay-satellite-to-support-change-4-lunar-far-side-landing-mission">launch</a> of Queqiao from the Xichang Satellite Launch Centre, CNS)
 
 ---
-Queqiao (鹊桥), meaning "Magpie Bridge", is a space probe sent to stay above the far side of the Moon to communicate with China's upcoming lunar rover and lander pair named Chang'e 4. While its primary mission is to help the Chang'e 4 rover and lander communicate with Earth, Queqiao will also be doing radio astronomy. Using its radio antennas, Queqiao is studying solar storms, auroras on Jupiter, the Milky Way galaxy, and even the beginning of our own universe, when it was only just a few hundred million years old and the first stars were being born. 
-
-
+Queqiao (鹊桥), meaning "Magpie Bridge", is a space probe sent to stay above the far side of the Moon to communicate with China's upcoming lunar rover and lander pair named Chang'e 4. While its primary mission is to help the Chang'e 4 rover and lander communicate with Earth, Queqiao will also be doing radio astronomy. Using its radio antennas, Queqiao is studying solar storms, auroras on Jupiter, the Milky Way galaxy, and even the beginning of our own universe, when it was only just a few hundred million years old and the first stars were being born.
