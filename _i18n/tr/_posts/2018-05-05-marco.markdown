@@ -1,0 +1,26 @@
+---
+layout: probe
+title: MarCO
+primary_target: Mars
+color: '#77ccc9'
+attract: marco_imageheader.jpg
+image: marco.svg
+dsn_name: MCOB
+launch_date: 2018-05-05
+arrival_date: 2018-11-26
+instruments:
+    - kameralar
+    - radyolar
+    - yıldız takip cihazı
+    - güneş sensörleri
+teams:
+    - <a href="https://www.jpl.nasa.gov/cubesat/missions/marco.php">NASA JPL</a>
+links:
+    - MarCO ile ilgili bir <a href="https://www.youtube.com/watch?v=P_8ZEAPrrHQ">video animasyonu</a>
+    - MarCO'yu geliştiren iki kişiyle yapılmış bir <a href="https://youtu.be/MZAtxIm9ukM?t=2m40s">röportaj</a>
+
+caption: >
+    (Görsel: first <a href="https://mars.nasa.gov/insight/multimedia/images/21859/first-image-from-marco-b">photo</a> captured by MarCO-B of Earth, the bright dot, and the Moon, the faint dot, NASA/JPL-Caltech)
+
+---
+MarCO, yeni komünikasyon teknolojilerini test etme amacındaki ve Mars flyby'ı (bilgi toplama amaçlı bir gezegenin yakınından geçme olayı) <a href="/insight">InSight</a> ile kesişecek olan iki uzay aracına verilen ortak isimdir. Aynı zamanda Mars Cube One olarak da adlandırılan, evrak çantası büyüklüğündeki MarCO, gezegenlerarası ilk küçük uzay aracı olma özelliğini taşıyor. MarCO-A ve MarCO-B, hareketleri için yangın söndürücülerin içinde de yaygın olarak bulunan bir yakıt kullanır. Buna istinaden, bu iki uzay aracına Pixar robot karakterlerini referans alan WALL-E ve Eve takma isimleri verilmiştir. MarCO, bünyesindeki antenleri kullanarak InSight'ı iniş sırasında dinleyecek, ve topladığı bilgileri diğer uzay araçlarından önce Dünya'ya yollayacak. Flyby'ın tamamlanması sonrasında ise iki nano-uzay aracı güneşin yörüngesine girecek. İki uzay aracı da gelecekte küçük uzay araçlarının yapacağı gezegen keşiflerine öncülük etmiş olmayı umuyor.

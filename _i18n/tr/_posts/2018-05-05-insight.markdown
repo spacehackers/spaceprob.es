@@ -1,0 +1,31 @@
+---
+layout: probe
+title: InSight
+primary_target: Mars
+color: '#938bbe'
+attract: insight_imageheader.jpg
+image: insight.svg
+dsn_name: NSYT
+launch_date: 2018-05-05
+arrival_date: 2018-11-26
+instruments:
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#7">kameralar</a>
+    - <a href="https://mars.nasa.gov/insight/mission/instruments/hp3/">ısı sondası</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#8">lazer geri yansıtıcı</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#7">mıknatısölçer</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#7">basınç sensörü</a>
+    - <a href="https://mars.nasa.gov/insight/mission/instruments/rise/">radyo bilim deneyi</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#5">radyometre</a>
+    - <a href="https://mars.nasa.gov/insight/mission/instruments/seis/">sismometre</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#7">ısı/rüzgar sensörü</a>
+teams:
+    - <a href="https://mars.nasa.gov/insight/">NASA</a> / <a href="https://www.jpl.nasa.gov/missions/insight/">JPL</a> 
+links:
+    - <a href="https://twitter.com/NASAInSight">NASA InSight</a>'ın Twitter sayfası
+    - InSight'ın fırlatılışıyla ilgili birçok detayın bulunduğu <a href="https://www.jpl.nasa.gov/news/press_kits/insight/">basın kiti</a>
+
+caption: >
+    (Görsel: InSight'ın California'dan <a href="https://mars.nasa.gov/insight/multimedia/images/21802/insight-lifts-off-2">fırlatıldığı</a> an, NASA/Cory Huston)
+
+---
+InSight (Interior Exploration using Seismic Investigations, Geodesy and Heat Transport), "Marsquakes" olarak da adlandırılan, Mars'taki meteor çarpmaları ve sismik aktiviteleri ölçmek için tasarlanmış bir uzay aracıdır (lander). InSight, Marsquake'ler haricinde Mars'ın iç yapısı ve kompozisyonunu da araştırarak Mars'a benzeyen diğer gezegenlerin nasıl oluşmuş olabileceğine dair bilgiler edinmeyi amaçlıyor. InSight, gezegenin ısısını ölçme ve yerde beş metre uzunluğunda delik açma özelliklerine sahip ısı sondasını bünyesinde bulundurur. InSight, Mars'ın iç yapısını araştırarak gezegenin hem geçmiş, hem de günümüzdeki anatomisine dair en net bilgileri açığa çıkarabilir.
