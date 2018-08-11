@@ -1,6 +1,5 @@
-GIT_REPO = "file:////LOCAL/PATH/TO/spaceprobes/"  # local repo location
-LOCAL_TEMP_DIR = '/some/temporary/path/different/than/GIT_REPO/'  # some local directory to check out the repo, will be deleted!
-DEV_USER = 'DEV_SERVER_USER'
-DEV_URL = 'www.DEV_SERVER_URL.com'
-DEV_PATH = '~/DEV_SERVER_WEB_ROOT/spaceprobes'  # no trailing slash
-STAGING = {'DEV_USER':'', 'DEV_URL','DEV_PATH'}
+GIT_REPO = "<local or remote git repo>"  # local repo location
+LOCAL_PROJECT_PATH = "<local project path>"
+PROD_USER = '<Production website user>'
+PROD_URL = '<production website url>'
+PROD_PATH = '<production file path>'  # no trailing slash
