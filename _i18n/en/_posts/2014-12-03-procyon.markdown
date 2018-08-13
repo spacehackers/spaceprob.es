@@ -3,7 +3,7 @@ layout: probe
 title: PROCYON
 primary_target: asteroid 2000 DP107
 color: '#77ccc9'
-attract: hayabusa2_imageheader.jpg
+attract: shinen2_imageheader.jpg
 image: procyon.svg
 launch_date: 2014-12-03
 arrival_date: 2016-05-12
