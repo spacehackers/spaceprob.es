@@ -37,6 +37,10 @@
         {% assign new_prope_title = "Exomars" %}
     {% endif %}
 
+    {% if probe_title == 'Parker Solar Probe' %}
+        {% assign new_prope_title = "Parker" %}
+    {% endif %}
+
     <div class = "{{ probe.title|slugify }} col-sm-4" data-title = "{{ probe.title }}" data-slug = "{{ probe.title|slugify }}" data-id = "{{ probe.title|slugify }}">
         <a class="probe" href="{{ lang }}{{ probe.url }}">
           <div style="background-color:{{probe.color}};">
