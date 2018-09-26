@@ -96,7 +96,6 @@ var spaceprobes = {
       type: "get",
       dataType: "json",
       cache: false,
-      timeout: 4000,
       error: function(xhr, ajaxOptions, thrownError) {
         // just show the #probes div as it was drawn by Jekyll
         $("#probes").show();
