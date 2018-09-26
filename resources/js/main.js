@@ -168,6 +168,9 @@ var spaceprobes = {
       }
 
       $(probes_container).append(probe_snippets[slug]);
+      $("." + slug).hide();
+
+      spaceprobes.load_probe(slug, $(probe_snippets[slug]));
 
       delete probe_snippets[slug]; // see below, some probes have no distance
     } // slug_list
@@ -177,6 +180,16 @@ var spaceprobes = {
     for (var slug in probe_snippets) {
       $(probes_container).append(probe_snippets[slug]);
     }
+  },
+
+  load_probe: function(slug, el) {
+    // preloads the probe image and then displays the probe square
+    var imgUrl = el.find("img").attr("src");
+    $(new Image())
+      .attr("src", imgUrl)
+      .load(function() {
+        $("." + slug).show();
+      });
   },
 
   order_by_distance: function(distances) {
