@@ -89,6 +89,7 @@ var spaceprobes = {
   probe_snippets: {},
   current_sort: "distance", // 'distance' or 'launch'
   all_probes_meta: {},
+  distances: {},
 
   init: function() {
     $.ajax({
@@ -96,82 +97,86 @@ var spaceprobes = {
       type: "get",
       dataType: "json",
       cache: false,
-      error: function(xhr, ajaxOptions, thrownError) {
-        // just show the #probes div as it was drawn by Jekyll
-        $("#probes").show();
-      },
       success: function(data) {
-        distances = {};
         // the distances arrive as text, make them numbers in
         // this data struct, and also display them in their
         // html place holders and properly formatted
         for (var slug in data.spaceprobe_distances) {
-          distance = Number(data.spaceprobe_distances[slug]);
+          var distance = Number(data.spaceprobe_distances[slug]);
           if (distance > 0) {
-            distance_str = numeral(distance).format("0.00 a");
-            elem = ".distance span[class=" + slug + "]";
-            $(elem).html(distance_str);
-            distances[slug] = distance;
+            spaceprobes.distances[slug] = distance;
           }
         }
 
         // make a list of probes slugs ordered by distance, then alphabetically
         spaceprobes.slugs_sorted_by_distance = spaceprobes.order_by_distance(
-          data.spaceprobe_distances
+          spaceprobes.distances
         );
 
         // rearrange the homepage probes and store the sorting by launch date
         if (!$("#probe-detail").length) {
-          // true if this is the homepage
+          // this is the homepage!
 
           // grab each probe snippet and info from the homepage Jekyll drew it
           // this will be in launch date order
 
-          count = 0;
-          $("#probes")
-            .children()
-            .each(function() {
-              count = count + 1;
-              title = $(this).data("title");
-              slug = $(this).data("slug");
-              spaceprobes.slugs_sorted_by_launch.push(slug);
-              spaceprobes.probe_snippets[slug] = $(this);
-            });
+          $.ajax({
+            url: "/probelist.html",
+            type: "get",
+            dataType: "html",
+            success: function(probelist) {
+              count = 0;
+              $(probelist)
+                .filter("#probelist")
+                .children()
+                .each(function() {
+                  count = count + 1;
+                  title = $(this).data("title");
+                  slug = $(this).data("slug");
+                  spaceprobes.slugs_sorted_by_launch.push(slug);
+                  spaceprobes.probe_snippets[slug] = $(this);
+                });
 
-          // no we have 2 lists of sorted slugs
-          // and a dict containing the html for each slug
-
-          spaceprobes.display_probes(spaceprobes.slugs_sorted_by_distance);
-        } else {
-          // end if homepage
-          // this is a probe page, display the  the next/prev links
-          spaceprobes.display_paging_links();
+              // no we have 2 lists of sorted slugs
+              // and a dict containing the html for each slug
+              spaceprobes.display_probes(spaceprobes.slugs_sorted_by_distance);
+            }
+          });
         }
       } // success
     });
   }, // /init
 
   display_probes: function(slug_list) {
-    $("#probes").hide();
-
     // make a local clone of the spaceprobes.probe_snippets array
     var probe_snippets = $.extend(true, {}, spaceprobes.probe_snippets);
 
-    // append the snippets to the div in slug_list order
+    var probes_container = $('<div id="probes" class="row"></div>');
+    $(".frontpage").append(probes_container);
+
+    // append the snippets to the div in slug_list order, add the distances
     for (var k in slug_list) {
       slug = slug_list[k];
-      $("#probes").append(probe_snippets[slug]);
-      delete probe_snippets[slug];
-    }
+
+      // update the distance
+      var distance = Number(spaceprobes.distances[slug]);
+      if (distance > 0) {
+        var distance_str = numeral(distance).format("0.00 a");
+        $(probe_snippets[slug])
+          .find(".distance span[class=" + slug + "]")
+          .html(distance_str);
+      }
+
+      $(probes_container).append(probe_snippets[slug]);
+
+      delete probe_snippets[slug]; // see below, some probes have no distance
+    } // slug_list
 
     // are there any left over? append those at bottom of page
     // (this happens like when a probe has no distance data yet)
     for (var slug in probe_snippets) {
-      $("#probes").append(probe_snippets[slug]);
+      $(probes_container).append(probe_snippets[slug]);
     }
-
-    // $('#probes').fadeIn("fast");
-    $("#probes").show();
   },
 
   order_by_distance: function(distances) {
@@ -217,37 +222,5 @@ var spaceprobes = {
     merged = [];
     merged = merged.concat.apply(merged, slugs_arrays);
     return merged;
-  },
-
-  display_paging_links: function() {
-    /*
-        // for the probe detail page, computes the
-        // next/prev link href and displays the next/prev link
-
-        slug = $('#probe-detail').data("slug");
-        key = spaceprobes.sorted.indexOf(slug);
-
-        var slugs_sorted;
-        if (spaceprobes.current_sort == 'launch') {
-            slugs_sorted = spaceprobes.slugs_sorted_by_launch;
-        } else {
-            slugs_sorted = spaceprobes.slugs_sorted_by_distance;
-        }
-
-        key = slugs_sorted.indexOf(slug);
-
-        try {
-            next = slugs_sorted[key + 1];
-            $('.pagination a.next').attr("href", '/' + next.replace(/-/g,''));
-        } catch(e) {
-            $('.pagination a.next').hide();
-        }
-        try {
-            prev = slugs_sorted[key - 1];
-            $('.pagination a.prev').attr("href", '/' + prev.replace(/-/g,''));
-        } catch(e) {
-            $('.pagination a.prev').hide();
-        }
-        */
   }
 }; // /var spaceprobes
