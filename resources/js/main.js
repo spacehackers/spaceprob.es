@@ -147,16 +147,22 @@ var spaceprobes = {
     });
   }, // /init
 
-  display_probes: function(slug_list) {
+  display_probes: function(slugs_ordered) {
     // make a local clone of the spaceprobes.probe_snippets array
     var probe_snippets = $.extend(true, {}, spaceprobes.probe_snippets);
 
     var probes_container = $('<div id="probes" class="row"></div>');
     $(".frontpage").append(probes_container);
 
-    // append the snippets to the div in slug_list order, add the distances
-    for (var k in slug_list) {
-      slug = slug_list[k];
+    // append the snippets to the div in slugs_ordered order, add the distances
+    for (var k in slugs_ordered) {
+      slug = slugs_ordered[k];
+
+      if (!(slug in probe_snippets)) {
+        // this is in slug list but does not have slug snippet
+        // this happens when a probe is dead
+        continue;
+      }
 
       // update the distance
       var distance = Number(spaceprobes.distances[slug]);
@@ -168,28 +174,14 @@ var spaceprobes = {
       }
 
       $(probes_container).append(probe_snippets[slug]);
-      $("." + slug).hide();
-
-      spaceprobes.load_probe(slug, $(probe_snippets[slug]));
-
       delete probe_snippets[slug]; // see below, some probes have no distance
-    } // slug_list
+    } // slugs_ordered
 
     // are there any left over? append those at bottom of page
     // (this happens like when a probe has no distance data yet)
     for (var slug in probe_snippets) {
       $(probes_container).append(probe_snippets[slug]);
     }
-  },
-
-  load_probe: function(slug, el) {
-    // preloads the probe image and then displays the probe square
-    var imgUrl = el.find("img").attr("src");
-    $(new Image())
-      .attr("src", imgUrl)
-      .load(function() {
-        $("." + slug).show();
-      });
   },
 
   order_by_distance: function(distances) {
