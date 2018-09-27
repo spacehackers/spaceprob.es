@@ -108,11 +108,6 @@ var spaceprobes = {
           }
         }
 
-        // make a list of probes slugs ordered by distance, then alphabetically
-        spaceprobes.slugs_sorted_by_distance = spaceprobes.order_by_distance(
-          spaceprobes.distances
-        );
-
         // rearrange the homepage probes and store the sorting by launch date
         if (!$("#probe-detail").length) {
           // this is the homepage!
@@ -137,6 +132,11 @@ var spaceprobes = {
                   spaceprobes.probe_snippets[slug] = $(this);
                 });
 
+              // make a list of probes slugs ordered by distance, then alphabetically
+              spaceprobes.slugs_sorted_by_distance = spaceprobes.order_by_distance(
+                spaceprobes.distances
+              );
+
               // no we have 2 lists of sorted slugs
               // and a dict containing the html for each slug
               spaceprobes.display_probes(spaceprobes.slugs_sorted_by_distance);
@@ -157,12 +157,6 @@ var spaceprobes = {
     // append the snippets to the div in slugs_ordered order, add the distances
     for (var k in slugs_ordered) {
       slug = slugs_ordered[k];
-
-      if (!(slug in probe_snippets)) {
-        // this is in slug list but does not have slug snippet
-        // this happens when a probe is dead
-        continue;
-      }
 
       // update the distance
       var distance = Number(spaceprobes.distances[slug]);
@@ -200,6 +194,10 @@ var spaceprobes = {
     // so that probes with the same distance end up in the same groupings
     var distance_groups = {};
     for (slug in distances) {
+      if (!(slug in spaceprobes.probe_snippets)) {
+        continue; // this slug won't be displayed
+      }
+
       distance = distances[slug];
       if (distance in distance_groups) {
         distance_groups[distance].push(slug);
