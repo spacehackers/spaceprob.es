@@ -108,6 +108,10 @@ var spaceprobes = {
           }
         }
 
+        if (window.location.href.indexOf("dead") > -1) {
+          return; // dead page is rendered server side
+        }
+
         // rearrange the homepage probes and store the sorting by launch date
         if (!$("#probe-detail").length) {
           // this is the homepage!
