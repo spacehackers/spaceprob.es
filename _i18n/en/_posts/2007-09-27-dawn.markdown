@@ -1,6 +1,7 @@
 ---
 layout: probe
 title: Dawn
+past: true
 primary_target: Vesta and Ceres
 color: '#faca66'
 attract: dawn_imageheader.jpg
@@ -21,5 +22,5 @@ links:
 caption: >
     (top image: one of the largest asteroids in the Solar System, <a href="http://sservi.nasa.gov/articles/nasas-dawn-spacecraft-orbits-vesta/">Vesta</a>, as seen by Dawn, NASA/JPL-Caltech/UCLA/MPS/DLR/IDA)
 ---
-Dawn is a space probe located within our solar system's asteroid belt (situated roughly between Mars and Jupiter) that is studying the giant asteroid Vesta and the dwarf planet Ceres. Vesta and Ceres are considered to be two of the first bodies formed in the solar system. Vesta and Ceres hold many insights into characterizing what the early solar system was like. Vesta is a dry, rocky environment while Ceres is thought to be similar to some of the icy moons in the outer solar system. By studying their evolutionary differences, Dawn may provide surprising new knowledge into how our solar system formed.
 
+Dawn is a space probe located within our solar system's asteroid belt (situated roughly between Mars and Jupiter) that is studying the giant asteroid Vesta and the dwarf planet Ceres. Vesta and Ceres are considered to be two of the first bodies formed in the solar system. Vesta and Ceres hold many insights into characterizing what the early solar system was like. Vesta is a dry, rocky environment while Ceres is thought to be similar to some of the icy moons in the outer solar system. By studying their evolutionary differences, Dawn may provide surprising new knowledge into how our solar system formed.
