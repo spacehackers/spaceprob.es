@@ -108,19 +108,24 @@ var spaceprobes = {
           }
         }
 
-        if (window.location.href.indexOf("dead") > -1) {
+        let href = window.location.href;
+        if (href.indexOf("dead") > -1) {
           return; // dead page is rendered server side
         }
 
         // rearrange the homepage probes and store the sorting by launch date
         if (!$("#probe-detail").length) {
           // this is the homepage!
+          let url = "/probelist.html";
 
+          if (href.indexOf("tr") > -1) {
+            url = "/tr" + url; // Turkish!
+          }
           // grab each probe snippet and info from the homepage Jekyll drew it
           // this will be in launch date order
 
           $.ajax({
-            url: "/probelist.html",
+            url: url,
             type: "get",
             dataType: "html",
             success: function(probelist) {
