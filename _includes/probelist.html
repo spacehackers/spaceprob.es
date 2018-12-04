@@ -1,5 +1,13 @@
 <div id="probelist">
 
+
+{% if site.lang == 'en' %}
+    {% assign lang = "" %}
+{% else %}
+    {% capture lang %}/{{ site.lang }}{% endcapture %}
+{% endif %}
+
+
 {% for probe in site.posts %}
 
     {% if page.status == 'live' %}
