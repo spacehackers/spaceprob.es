@@ -1,0 +1,27 @@
+---
+layout: probe
+title: Parker Solar Probe
+primary_target: a heliocentric orbit
+color: '#78ae62'
+attract: parker_imageheader.jpg
+image: parker.svg
+launch_date: 2018-08-12
+arrival_date: 2018-11-01
+dsn_name: SPP
+instruments:
+    - <a href="https://www.cfa.harvard.edu/sweap/about_sweap.html">electrostatic analyzer</a>
+    - <a href="https://www.cfa.harvard.edu/sweap/about_sweap.html">faraday cup</a>
+    - magnetometers
+    - spectrometer
+    - telescopes
+teams:
+    - <a href="https://www.nasa.gov/content/goddard/parker-solar-probe/">NASA</a>
+    - <a href="http://parkersolarprobe.jhuapl.edu/">JHUAPL</a>
+links:
+    - why the Parker Solar Probe <a href="https://www.youtube.com/watch?v=TN6rZF5dSRg">won't melt</a> near the Sun
+    - the Parker Solar Probe mission <a href="https://blogs.nasa.gov/parkersolarprobe/">blog</a>
+caption: >
+    (top image: the <a href="https://www.flickr.com/photos/nasahqphoto/42184535980/in/album-72157694237748940/">launch</a> of the Parker Solar Probe, NASA/Bill Ingalls)
+---
+The Parker Solar Probe is studying the Sun closer than any space probe before. The space probe will come as close as 6.16 million kilometers (3.83 million miles) from the Sun, seven times closer than any space probe in history, and face nearly 1400 degrees Celsius (2500 F) while keeping its insides at room temperature thanks to an 11.43-centimeter-thick (4.5-inch) carbon-composite shield. Studying the Sun so close will provide new insights on its activity, its outer atmosphere (known as the corona), and help humans forecast solar storms that could negatively effect Earth. The Parker Solar Probe will also be studying the solar wind which carries charged particles from the Sun's atmosphere out across the solar system.
+
