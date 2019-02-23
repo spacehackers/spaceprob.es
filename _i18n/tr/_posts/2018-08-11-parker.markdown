@@ -1,7 +1,7 @@
 ---
 layout: probe
-title: Parker Solar Probe
-primary_target: a heliocentric orbit
+title: Parker Güneş Sondası
+primary_target: Güneş merkezli bir yörünge
 color: '#78ae62'
 attract: parker_imageheader.jpg
 image: parker.svg
@@ -9,19 +9,19 @@ launch_date: 2018-08-12
 arrival_date: 2018-11-01
 dsn_name: SPP
 instruments:
-    - <a href="https://www.cfa.harvard.edu/sweap/about_sweap.html">electrostatic analyzer</a>
-    - <a href="https://www.cfa.harvard.edu/sweap/about_sweap.html">faraday cup</a>
-    - magnetometers
-    - spectrometer
-    - telescopes
+    - <a href="https://www.cfa.harvard.edu/sweap/about_sweap.html">elektrostatik analizörü</a>
+    - <a href="https://www.cfa.harvard.edu/sweap/about_sweap.html">faraday bardağı</a>
+    - mıknatısölçerler
+    - spektrometre
+    - teleskoplar
 teams:
     - <a href="https://www.nasa.gov/content/goddard/parker-solar-probe/">NASA</a>
     - <a href="http://parkersolarprobe.jhuapl.edu/">JHUAPL</a>
 links:
-    - why the Parker Solar Probe <a href="https://www.youtube.com/watch?v=TN6rZF5dSRg">won't melt</a> near the Sun
-    - the Parker Solar Probe mission <a href="https://blogs.nasa.gov/parkersolarprobe/">blog</a>
+    - Parker Güneş Sondası, Güneş'e <a href="https://www.youtube.com/watch?v=TN6rZF5dSRg">erimeden nasıl yaklaşacak?</a>
+    - Parker Güneş Sondası misyonuna ait<a href="https://blogs.nasa.gov/parkersolarprobe/">blog sayfası</a>
 caption: >
-    (top image: the <a href="https://www.flickr.com/photos/nasahqphoto/42184535980/in/album-72157694237748940/">launch</a> of the Parker Solar Probe, NASA/Bill Ingalls)
+    (Görsel: Parker Güneş Sondası'nın <a href="https://www.flickr.com/photos/nasahqphoto/42184535980/in/album-72157694237748940/">fırlatılışı</a>, NASA/Bill Ingalls)
 ---
-The Parker Solar Probe is studying the Sun closer than any space probe before. The space probe will come as close as 6.16 million kilometers (3.83 million miles) from the Sun, seven times closer than any space probe in history, and face nearly 1400 degrees Celsius (2500 F) while keeping its insides at room temperature thanks to an 11.43-centimeter-thick (4.5-inch) carbon-composite shield. Studying the Sun so close will provide new insights on its activity, its outer atmosphere (known as the corona), and help humans forecast solar storms that could negatively effect Earth. The Parker Solar Probe will also be studying the solar wind which carries charged particles from the Sun's atmosphere out across the solar system.
 
+Parker Güneş Sondası, Güneş'i en yakından inceleyen sonda (probe) olma özelliğini taşıyor. Uzay aracı, Güneş'e kendisinden önceki araçlardan yedi kat daha fazla yakınlaşarak, Güneş'e 6.16 milyon kilometre (3.83 mil) mesafede, 1400 celcius'a (2500 F) kadar çıkan sıcaklıklara maruz kalacaktır. Parker, bu sıcaklıklara karşı kendini 11.43 santimetre (4.5 inç) kalınlığındaki karbon kompozit bir kalkanla koruyacak. Güneş'i daha önce olmadığı kadar yakından takip etmek, Güneş'in korona olarak da bilinen dış atmosferini incelemeye, ve Dünya'yı olumsuz etkileyebilecek çeşitli Güneş aktivitelerini anlamamıza yardımcı olacak. Parker Güneş Sondası, aynı zamanda Güneş'in atmosferinden, güneş sistemimize kadar taşınan ve yüklü parçacıklar içeren güneş rüzgarlarını da inceleyecek.
