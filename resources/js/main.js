@@ -154,7 +154,7 @@ var spaceprobes = {
         } else {
           // this is a probe detail page
           var slug = $("#probe-detail").data("slug");
-          distance_str = spaceprobes.distance_to_str(slug);
+          var distance_str = spaceprobes.distance_to_str(slug);
           if (distance_str) {
             $("#probe-detail")
               .find(".distance span[class=" + slug + "]")
@@ -181,10 +181,10 @@ var spaceprobes = {
 
     // append the snippets to the div in slugs_ordered order, add the distances
     for (var k in slugs_ordered) {
-      slug = slugs_ordered[k];
+      var slug = slugs_ordered[k];
 
       // update the distance
-      distance_str = spaceprobes.distance_to_str(slug);
+      var distance_str = spaceprobes.distance_to_str(slug);
       if (distance_str) {
         $(probe_snippets[slug])
           .find(".distance span[class=" + slug + "]")
