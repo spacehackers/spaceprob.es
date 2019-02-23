@@ -151,10 +151,26 @@ var spaceprobes = {
               spaceprobes.display_probes(spaceprobes.slugs_sorted_by_distance);
             }
           });
+        } else {
+          // this is a probe detail page
+          var slug = $("#probe-detail").data("slug");
+          distance_str = spaceprobes.distance_to_str(slug);
+          if (distance_str) {
+            $("#probe-detail")
+              .find(".distance span[class=" + slug + "]")
+              .html(distance_str);
+          }
         }
       } // success
     });
   }, // /init
+
+  distance_to_str: function(slug) {
+    var distance = Number(spaceprobes.distances[slug]);
+    if (!distance) return;
+
+    return numeral(distance).format("0.00 a");
+  },
 
   display_probes: function(slugs_ordered) {
     // make a local clone of the spaceprobes.probe_snippets array
@@ -168,9 +184,8 @@ var spaceprobes = {
       slug = slugs_ordered[k];
 
       // update the distance
-      var distance = Number(spaceprobes.distances[slug]);
-      if (distance > 0) {
-        var distance_str = numeral(distance).format("0.00 a");
+      distance_str = spaceprobes.distance_to_str(slug);
+      if (distance_str) {
         $(probe_snippets[slug])
           .find(".distance span[class=" + slug + "]")
           .html(distance_str);
