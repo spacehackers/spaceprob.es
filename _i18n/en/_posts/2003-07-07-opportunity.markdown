@@ -1,6 +1,7 @@
 ---
 layout: probe
 title: Opportunity
+past: true
 primary_target: Mars
 color: '#938bbe'
 attract: opportunity_imageheader.jpg
