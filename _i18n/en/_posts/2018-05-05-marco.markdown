@@ -1,6 +1,7 @@
 ---
 layout: probe
 title: MarCO
+past: true
 primary_target: Mars
 color: '#77ccc9'
 attract: marco_imageheader.jpg
