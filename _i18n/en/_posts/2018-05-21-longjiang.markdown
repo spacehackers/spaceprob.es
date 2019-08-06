@@ -1,6 +1,7 @@
 ---
 layout: probe
 title: Longjiang
+past: true
 primary_target: 
 color: '#ff6e48'
 attract: longjiang_imageheader.jpg
