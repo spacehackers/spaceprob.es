@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # use an older version of Jekyll
-gem "jekyll", "~> 2.5.3"
+gem "jekyll", "~> 3.6.3"
 gem "i18n"
 
 group :jekyll_plugins do
