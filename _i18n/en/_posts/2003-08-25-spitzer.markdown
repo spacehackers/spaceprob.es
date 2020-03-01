@@ -1,6 +1,7 @@
 ---
 layout: probe
 title: Spitzer
+past: true
 primary_target: a heliocentric orbit
 color: '#8e8566'
 attract: spitzer_imageheader2.jpg
