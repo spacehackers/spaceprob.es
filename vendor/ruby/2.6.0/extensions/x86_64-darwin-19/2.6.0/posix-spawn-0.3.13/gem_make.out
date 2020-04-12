@@ -1,0 +1,15 @@
+current directory: /Users/arielwaldman/Documents/GitHub/spaceprob.es/vendor/ruby/2.6.0/gems/posix-spawn-0.3.13/ext
+/Users/arielwaldman/.rbenv/versions/2.6.0/bin/ruby -I /Users/arielwaldman/.rbenv/versions/2.6.0/lib/ruby/2.6.0 -r ./siteconf20200411-32227-b1jdwg.rb extconf.rb
+creating Makefile
+
+current directory: /Users/arielwaldman/Documents/GitHub/spaceprob.es/vendor/ruby/2.6.0/gems/posix-spawn-0.3.13/ext
+make "DESTDIR=" clean
+
+current directory: /Users/arielwaldman/Documents/GitHub/spaceprob.es/vendor/ruby/2.6.0/gems/posix-spawn-0.3.13/ext
+make "DESTDIR="
+compiling posix-spawn.c
+linking shared-object posix_spawn_ext.bundle
+
+current directory: /Users/arielwaldman/Documents/GitHub/spaceprob.es/vendor/ruby/2.6.0/gems/posix-spawn-0.3.13/ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 posix_spawn_ext.bundle ./.gem.20200411-32227-x4b0cy
