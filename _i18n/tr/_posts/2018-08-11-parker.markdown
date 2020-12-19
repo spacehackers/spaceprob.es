@@ -9,8 +9,8 @@ launch_date: 2018-08-12
 arrival_date: 2018-11-01
 dsn_name: SPP
 instruments:
-    - <a href="https://www.cfa.harvard.edu/sweap/about_sweap.html">elektrostatik analizörü</a>
-    - <a href="https://www.cfa.harvard.edu/sweap/about_sweap.html">faraday bardağı</a>
+    - <a href="http://sweap.cfa.harvard.edu/SWEAP.html">elektrostatik analizörü</a>
+    - <a href="http://sweap.cfa.harvard.edu/SWEAP.html">faraday bardağı</a>
     - mıknatısölçerler
     - spektrometre
     - teleskoplar

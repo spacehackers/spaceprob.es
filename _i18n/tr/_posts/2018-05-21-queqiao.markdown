@@ -11,13 +11,13 @@ arrival_date: 2018-06-14
 instruments:
     - kameralar
     - lazer reflektörü
-    - <a href="https://www.astron.nl/r-d-laboratory/ncle/netherlands-china-low-frequency-explorer-ncle">radyo antenleri</a>
+    - <a href="https://www.isispace.nl/projects/ncle-the-netherlands-china-low-frequency-explorer/">radyo antenleri</a>
 teams:
     - China Academy of Space Technology.
 links:
     - Queqiao'nun Ay'ın uzak noktasını keşfetmede <a href="http://www.planetary.org/blogs/guest-blogs/2018/0519-change-4-relay-satellite.html">Chang'e 4</a>'e nasıl yardımcı olacağıyla ilgili bir makale
 caption: >
-    (Görsel: Xichang Launch Centre'dan fırlatılan <a href="https://gbtimes.com/china-launches-queqiao-relay-satellite-to-support-change-4-lunar-far-side-landing-mission">Queqiao</a>, CNS)
+    (Görsel: Xichang Launch Centre'dan fırlatılan <a href="https://www.nature.com/articles/d41586-018-05231-9">Queqiao</a>, CNS) - - AFP/Getty
 
 ---
 Aynı zamanda "Saksağan Köprüsü" olarak da adlandırılan Queqiao (鹊桥), Çin'in yakın zamanda Ay'ın uzak noktasına fırlatmayı düşündüğü bir gezgin ve lander'dan oluşan Chang'e 4 ile iletişim sağlayacak bir uzay aracıdır. Queqiao'nun asıl görevi her ne kadar Chang'e 4'ün Dünya ile haberleşmesine yardımcı olmak olsa da, uzay aracı aynı zamanda radyo astronomisi sorumluluğunu da üstlenecek. Queqiao, radyo antenlerini kullanarak solar fırtınalarını, Jupiter'in aroralarını, Samanyolu Galaksisi'ni, hatta evrenin yalnızca birkaç milyon yüzyıl yaşında olduğu ve yıldızların yeni doğmaya başladığı ilk dönemini araştıracak.

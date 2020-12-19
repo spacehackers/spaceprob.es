@@ -9,8 +9,8 @@ launch_date: 2018-08-12
 arrival_date: 2018-11-01
 dsn_name: SPP
 instruments:
-    - <a href="https://www.cfa.harvard.edu/sweap/about_sweap.html">electrostatic analyzer</a>
-    - <a href="https://www.cfa.harvard.edu/sweap/about_sweap.html">faraday cup</a>
+    - <a href="http://sweap.cfa.harvard.edu/SWEAP.html">electrostatic analyzer</a>
+    - <a href="http://sweap.cfa.harvard.edu/SWEAP.html">faraday cup</a>
     - magnetometers
     - spectrometer
     - telescopes
