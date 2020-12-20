@@ -35,5 +35,11 @@ For the space probe distances to Earth see: <https://github.com/spacehackers/api
 
         bundle exec jekyll serve --watch
 
+## troubleshooting
 
+• homepage loads but no probes appear
+
+  - in the local directory do: 
+
+    `curl -O https://spaceprob.es/distances.json`
         
