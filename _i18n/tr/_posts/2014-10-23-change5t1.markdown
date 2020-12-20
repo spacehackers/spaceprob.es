@@ -17,6 +17,6 @@ links:
     - Xiaofei kapsülünün başarıyla dönüşünü detaylandıran bir <a href="http://sen.com/news/china-s-moon-sample-test-mission-returns-successfully-to-earth">makale</a>
 
 caption: >
-    (Görsel: Chang'e 5-T1'in görüntülediği Ay'daki <a href="http://news.xinhuanet.com/world/2014-10/28/c_1113016268.htm">Mare Marginis</a>, Xinhua News/CNSA
+    (Görsel: Chang'e 5-T1'in görüntülediği Ay'daki <a href="https://www.planetary.org/space-images/change5t1-mare-marginis">Mare Marginis</a>, Xinhua News/CNSA
 ---
 Chang'e 5-T1, Chang'e 5'in 2017 yılında yapacağı dönüşlü ve örnek toplayacağı misyon için gerekli teknolojileri test eden, Ay yörüngesindeki bir uzay aracıdır. Uzay aracı, Xiaofei (Küçük Havacı) ismindeki bir dönüş kapsülüne ve servis modülüne sahiptir. Dönüş kapsülü, organik yaşamı radyasyonlu bir ortama maruz bırakma ve yüksek hızlı atmosfere dönüş (reentry) kabiliyetlerini test ettikten sonra 2014 yılında Dünya'ya başarılı bir şekilde geri dönmüştür. Chang'e 5-T1 servis modülü hala Ay'ın yörüngesindedir ve yaklaşmakta olan Chang'e 5 misyonuna yardımcı olacak verileri göndermeye devam etmektedir.
