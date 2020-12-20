@@ -9,15 +9,17 @@ dsn_name: NSYT
 launch_date: 2018-05-05
 arrival_date: 2018-11-26
 instruments:
-    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#7">kameralar</a>
-    - <a href="https://mars.nasa.gov/insight/mission/instruments/hp3/">ısı sondası</a>
-    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#8">lazer geri yansıtıcı</a>
-    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#7">mıknatısölçer</a>
-    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#7">basınç sensörü</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/launch/mission/science/#7">kameralar</a>
+    - <a href="https://mars.nasa.gov/insight/spacecraft/instruments/hp3/">ısı sondası</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/launch/mission/science/#8">lazer geri yansıtıcı</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/launch/mission/science/#7">mıknatısölçer</a>
+
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/launch/mission/science/#7">basınç sensörü</a>
     - <a href="https://mars.nasa.gov/insight/mission/instruments/rise/">radyo bilim deneyi</a>
-    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#5">radyometre</a>
-    - <a href="https://mars.nasa.gov/insight/mission/instruments/seis/">sismometre</a>
-    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#7">ısı/rüzgar sensörü</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/launch/mission/science/#5">radyometre</a>
+    - <a href="https://mars.nasa.gov/insight/spacecraft/instruments/seis/">sismometre</a>
+
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/launch/mission/science/#7">ısı/rüzgar sensörü</a>
 teams:
     - <a href="https://mars.nasa.gov/insight/">NASA</a> / <a href="https://www.jpl.nasa.gov/missions/insight/">JPL</a> 
 links:

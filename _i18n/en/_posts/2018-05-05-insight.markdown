@@ -9,15 +9,17 @@ launch_date: 2018-05-05
 arrival_date: 2018-11-26
 orbit_planet: Mars
 instruments:
-    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#7">cameras</a>
-    - <a href="https://mars.nasa.gov/insight/mission/instruments/hp3/">heat probe</a>
-    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#8">laser retroreflector</a>
-    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#7">magnetometer</a>
-    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#7">pressure sensor</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/launch/mission/science/#7">cameras</a>
+    - <a href="https://mars.nasa.gov/insight/spacecraft/instruments/hp3/">heat probe</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/launch/mission/science/#8">laser retroreflector</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/launch/mission/science/#7">magnetometer</a>
+
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/launch/mission/science/#7">pressure sensor</a>
     - <a href="https://mars.nasa.gov/insight/mission/instruments/rise/">radio science experiment</a>
-    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#5">radiometer</a>
-    - <a href="https://mars.nasa.gov/insight/mission/instruments/seis/">seismometer</a>
-    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/mission/science/#7">temperature/wind sensor</a>
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/launch/mission/science/#5">radiometer</a>
+    - <a href="https://mars.nasa.gov/insight/spacecraft/instruments/seis/">seismometer</a>
+
+    - <a href="https://www.jpl.nasa.gov/news/press_kits/insight/launch/mission/science/#7">temperature/wind sensor</a>
 teams:
     - <a href="https://mars.nasa.gov/insight/">NASA</a> / <a href="https://www.jpl.nasa.gov/missions/insight/">JPL</a>
 links:
