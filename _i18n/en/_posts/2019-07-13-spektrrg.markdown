@@ -1,0 +1,25 @@
+---
+layout: probe
+title: Spektr-RG
+color: '#78ae62'
+attract: spektrrg_imageheader.jpg
+image: spektr-rg.svg
+primary_target: the Sun-Earth L2 point
+launch_date: 2019-07-13
+arrival_date: 2019-10-21
+distance: 1500000  # Spektr-RG orbits around L2
+instruments:
+    - <a href="https://wwwastro.msfc.nasa.gov/artxc/">high-energy x-ray telescope</a>
+    - <a href="https://www.mpe.mpg.de/eROSITA">x-ray telescope</a>
+teams:
+    - Roscosmos and ESA
+links:
+  - <a href="https://skyandtelescope.org/astronomy-news/first-light-german-x-ray-telescope-erosita/">what Spektr-RG saw</a> when it first opened its telescope
+
+caption: >
+    (top image: The energetic universe <a href="https://www.mpe.mpg.de/7461761/news20200619">as seen</a> with one of Spektr-RG's x-ray telescopes, Jeremy Sanders, Hermann Brunner and the eSASS team (MPE); Eugene Churazov, Marat Gilfanov (on behalf of IKI))
+
+---
+Spektr-RG is an astrophysical observatory space probe equipped with two x-ray telescopes aimed at creating an all-sky map of the universe. Additionally, Spektr-RG will be investigating an estimated 100,000 galaxy clusters and three million supermassive black holes. By studying the large structures of galaxies that cluster together, the space probe is expected to improve our understanding of dark matter and dark energy. Spektr-RG has been a space probe decades in the making after first being proposed in the late 1980s.
+
+
