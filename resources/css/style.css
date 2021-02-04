@@ -249,16 +249,7 @@ a:hover {
 }
 
 .latest_news {
-  background-color: #d0d0d0;
-  min-height: 50px;
-  margin: 40px 0;
-  padding: 13px;
-  font-size: 140%;
-  color: #505050;
-}
-.latest_news a {
-  color: #505050;
-  text-decoration: underline;
+  border: 1px solid #d0d0d0;
 }
 
 .fast-easeOutQuad {

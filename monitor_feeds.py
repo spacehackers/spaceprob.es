@@ -3,8 +3,6 @@ import pprint
 from datetime import datetime
 
 all_urls = ['http://spaceprob.es/distances.json',
-        'http://spaceprob.es/news.json',
-        'http://dry-eyrie-9951.herokuapp.com/news.json',
         'http://murmuring-anchorage-8062.herokuapp.com/distances.json'
         ]
 
