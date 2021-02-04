@@ -83,15 +83,6 @@ ga("send", "pageview");
 
           <ul class="nav navbar-nav navbar-right site-menu" role = "menu">
 
-            <!-- news -->
-            <li
-              {% if page.url contains 'news' %}
-                class = "goforlaunch"
-              {% endif %}
-            >
-              <a href = "/{{ lang }}news">{% translate global.news %}</a>
-          </li>
-
             <!-- shop -->
             <li
               {% if page.url contains 'shop' %}
@@ -121,7 +112,6 @@ ga("send", "pageview");
           </a>
 
         <ul id = "dropdown-menu" class="dropdown-menu" role="menu">
-          <li><a class = "news" href = "/{{ lang }}news"> {% translate global.news %} </a></li>
           <li><a class = "shop" href = "/{{ lang }}shop"> {% translate global.shop %} </a></li>
           <li><a class = "about" href = "/{{ lang }}about"> {% translate global.about %} </a></li>
           <li><a href="https://twitter.com/{{ site.twitter }}">Twitter</a></li>
@@ -156,15 +146,6 @@ ga("send", "pageview");
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   <script src="/resources/js/main.js"></script>
-
-
-  {% if page.url == '/news/index.html' %}
-
-    {% include footer-news.html %}
-
-  {% endif %}
-
-
 
 
  </body>

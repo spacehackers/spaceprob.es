@@ -67,15 +67,6 @@
         </a>
 
           <ul class="nav navbar-nav navbar-right site-menu" role = "menu">
-            
-            <!-- news -->
-            <li
-              {% if page.url == '/news/index.html' %}
-                class = "highlight"
-              {% endif %}
-            >
-              <a href = "/news/">News</a>
-          </li>
 
             <!-- shop -->
             <li 
@@ -106,7 +97,6 @@
           </a>
 
         <ul id = "dropdown-menu" class="dropdown-menu" role="menu">
-          <li><a class = "news" href = "/news/"> News </a></li>
           <li><a class = "shop" href = "/shop/"> Shop </a></li>
           <li><a class = "about" href = "/about/"> About </a></li>
           <li><a href="https://twitter.com/{{ site.twitter }}">Twitter</a></li>
@@ -141,13 +131,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
   <script src="/resources/js/main.js"></script>
-
-
-  {% if page.url == '/news/index.html' %}
-
-    {% include footer-news.html %}
-  
-  {% endif %}
 
 
 
