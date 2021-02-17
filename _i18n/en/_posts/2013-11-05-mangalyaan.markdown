@@ -15,7 +15,7 @@ instruments:
     - photometer
     - spectrometer
 teams:
-    - <a href="http://isro.gov.in/pslv-c25-mars-orbiter-mission">ISRO</a>
+    - <a href="https://www.isro.gov.in/pslv-c25-mars-orbiter-mission">ISRO</a>
 links:
     - a Vine of <a href="https://vine.co/v/OqbduWXK0Qw">Phobos crossing Mars</a> shot by MOM
     - MOM on <a href="https://twitter.com/MarsOrbiter/">Twitter</a>

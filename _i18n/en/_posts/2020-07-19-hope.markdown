@@ -1,0 +1,25 @@
+---
+layout: probe
+title: Hope
+color: '#faca66'
+attract: hope_imageheader.jpg
+image: hope.svg
+launch_date: 2020-07-19
+arrival_date: 2021-02-09
+primary_target: Mars
+orbit_planet: Mars
+instruments:
+    - <a href="https://www.emiratesmarsmission.ae/hope-probe/instruments">camera</a>
+    - <a href="https://www.emiratesmarsmission.ae/hope-probe/instruments">infrared spectrometer</a>
+    - <a href="https://www.emiratesmarsmission.ae/hope-probe/instruments">ultraviolet spectrometer</a>
+teams:
+    - <a href="https://www.emiratesmarsmission.ae/">UAE Space Agency</a>
+links:
+    - <a href="https://www.emiratesmarsmission.ae/track-the-hope-probe-live/">track</a> where the Hope probe is live 
+
+caption: >
+    (top image: <a href="https://twitter.com/MohamedBinZayed/status/1360882127164887042">Mars</a> as seen from the Hope space probe once it entered orbit, UAE Space Agency)
+
+---
+Hope is a space probe orbiting Mars, on a mission to provide a complete picture of the planet's atmosphere and observe daily weather patterns. The space probe is also tasked with monitoring the loss of hydrogen and oxygen gases from Mars's atmosphere into space. Hope will investigate Mars as the seasons change and gain a better understanding about the planet's climate. When Hope reached the orbit of Mars, the United Arab Emirates became the first Arab country and the fifth space agency to successfully reach Mars, after the Soviet space program, NASA, the European Space Agency, and the Indian Space Research Organization (ISRO).
+
