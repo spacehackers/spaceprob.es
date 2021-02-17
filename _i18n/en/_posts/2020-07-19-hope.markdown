@@ -16,6 +16,7 @@ teams:
     - <a href="https://www.emiratesmarsmission.ae/">UAE Space Agency</a>
 links:
     - <a href="https://www.emiratesmarsmission.ae/track-the-hope-probe-live/">track</a> where the Hope probe is live 
+    - <a href="https://twitter.com/HopeMarsMission">follow the Hope probe on Twitter</a>
 
 caption: >
     (top image: <a href="https://twitter.com/MohamedBinZayed/status/1360882127164887042">Mars</a> as seen from the Hope space probe once it entered orbit, UAE Space Agency)

@@ -1,0 +1,28 @@
+---
+layout: probe
+title: Tianwen-1
+color: '#ff6e48'
+attract: tianwen1_imageheader.jpg
+image: tianwen-1.svg
+launch_date: 2020-07-23
+arrival_date: 2021-02-10
+primary_target: Mars
+orbit_planet: Mars
+instruments:
+    - cameras
+    - magnetic field detector
+    - magnetometer
+    - meteorological measurer
+    - particle analyzers
+    - radars
+    - spectrometers
+teams:
+    - <a href="http://www.cnsa.gov.cn/">China National Space Administration</a>
+links:
+    - <a href="https://www.planetary.org/space-missions/tianwen-1">learn</a> more about the importance and operations of Tianwen-1
+
+caption: >
+    (top image: the <a href="http://www.cnsa.gov.cn/english/n6465652/n6465653/c6811227/content.html">first photo</a> Tianwen-1 took of Mars, China National Space Administration)
+
+---
+The Tianwen-1 (天问, "heavenly questions") rover and orbiter are on a mission to investigate Mars's geology, looking at the planet's rocks, water ice, atmosphere, and the structure of what lies underneath the surface. Tianwen-1 is China's first interplanetary space probes, which also include a lander for the rover to deploy from and a small satellite equipped with two cameras to help the orbiter on its way to Mars. The solar-powered rover is due to land on Mars by June 2021. Tianwen-1 aims to spend its time at Mars creating a map of buried water ice on the planet, which could prove useful both for studying the geology of Mars and in providing supplies to future humans on Mars. China is the sixth space agency to have a space probe successfully reach Mars, after the Soviet space program, NASA, the European Space Agency, the Indian Space Research Organization (ISRO), and the UAE Space Agency.
