@@ -23,7 +23,7 @@
               <div class="title">Ariel Waldman</div>
 
               <div class="distance">
-                  <span class="voyager-1"></span> 22 billion+ km from <span class = "nowrap">Voyager 1</span>
+                  <span style="font-weight: 400;">22 billion+ km from Voyager 1</span>
               </div>
 
             </div><!-- /content -->
@@ -63,7 +63,7 @@
               <div class="title">Lisa Ballard</div>
 
               <div class="distance">
-                  <span class="cassini"></span>1 billion+ km from Saturn
+                  <span style="font-weight: 400;">1 billion+ km from Saturn</span>
               </div>
 
             </div><!-- /content -->
