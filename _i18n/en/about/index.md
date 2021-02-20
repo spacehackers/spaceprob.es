@@ -23,7 +23,7 @@
               <div class="title">Ariel Waldman</div>
 
               <div class="distance">
-                  <span class="voyager-1">Unknown</span> km from <span class = "nowrap">Voyager 1</span>
+                  <span class="voyager-1"></span> 22 billion+ km from <span class = "nowrap">Voyager 1</span>
               </div>
 
             </div><!-- /content -->
@@ -38,9 +38,7 @@
 
       <div class = "content">
             <p>
-                <a href="http://arielwaldman.com">Ariel Waldman</a> is a human in orbit of San Francisco on a mission to create "massively multiplayer science". Waldman has traveled vast distances as part of her mission, performing flybys of Colombia, China, Kenya, Madagascar, Mexico and South Africa. The human has performed an array of operations on her journey through the solar system, including founding Spacehack.org, directing Science Hack Day, advising NASA’s Innovative Advanced Concepts program, and co-authoring the National Academy of Sciences' report on the future of human spaceflight. You can support Spaceprob.es and Waldman's extended mission on <a href="http://patreon.com/arielwaldman">Patreon</a>.
-
-
+                <a href="http://arielwaldman.com">Ariel Waldman</a> is a human roving the Earth on a mission to create multidisciplinary projects that explore the world below our feet and beyond our atmosphere. Ariel is the chair of the council for NASA's Innovative Advanced Concepts program. As PI she led an expedition to Antarctica to film microscopic life under the ice. She is the co-author of a congressionally-requested National Academy of Sciences report on the future of human spaceflight and the author of <em>What’s It Like in Space?: Stories from Astronauts Who’ve Been There</em>. Ariel is the global director of Science Hack Day, a National Geographic Explorer, and received an honor from the Obama White House as a Champion of Change in citizen science.
             </p>
       </div>
 
@@ -65,7 +63,7 @@
               <div class="title">Lisa Ballard</div>
 
               <div class="distance">
-                  <span class="cassini">Unknown</span> km from Cassini
+                  <span class="cassini"></span>1 billion+ km from Saturn
               </div>
 
             </div><!-- /content -->

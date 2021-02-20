@@ -1,7 +1,7 @@
 ---
 layout: probe
 title: Solar Orbiter
-color: '#faca66'
+color: '#8e8566'
 attract: solarorbiter_imageheader.jpg
 image: solarorbiter.svg
 primary_target: an elliptical heliocentric orbit
