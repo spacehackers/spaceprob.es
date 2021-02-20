@@ -17,7 +17,7 @@ links:
   - <a href="https://skyandtelescope.org/astronomy-news/first-light-german-x-ray-telescope-erosita/">what Spektr-RG saw</a> when it first opened its telescope
 
 caption: >
-    (top image: The energetic universe <a href="https://www.mpe.mpg.de/7461761/news20200619">as seen</a> with one of Spektr-RG's x-ray telescopes, Jeremy Sanders, Hermann Brunner and the eSASS team (MPE); Eugene Churazov, Marat Gilfanov (on behalf of IKI))
+    (top image: the energetic universe <a href="https://www.mpe.mpg.de/7461761/news20200619">as seen</a> with one of Spektr-RG's x-ray telescopes, Jeremy Sanders, Hermann Brunner and the eSASS team (MPE); Eugene Churazov, Marat Gilfanov (on behalf of IKI))
 
 ---
 Spektr-RG is an astrophysical observatory space probe equipped with two x-ray telescopes aimed at creating an all-sky map of the universe. Additionally, Spektr-RG will be investigating an estimated 100,000 galaxy clusters and three million supermassive black holes. By studying the large structures of galaxies that cluster together, the space probe is expected to improve our understanding of dark matter and dark energy. Spektr-RG has been a space probe decades in the making after first being proposed in the late 1980s.
