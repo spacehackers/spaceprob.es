@@ -14,3 +14,4 @@ encoding: utf-8
 baseurl: /
 exclude_from_localizations: []
 languages: ["en","tr"]
+include: ["_redirect"]
