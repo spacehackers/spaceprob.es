@@ -63,7 +63,7 @@ ga("send", "pageview");
 {% if page.instruments %}
 
 <meta name="twitter:title" content="Spaceprob.es: {{ page.title }}">
-<meta name="twitter:description" content="{{ page.content | truncatewords: 30 }}">
+<meta name="twitter:description" content="{{ page.content | truncatewords: 40 | escape }}">
 
 {% else %}
 
