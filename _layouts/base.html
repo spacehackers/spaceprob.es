@@ -59,9 +59,31 @@ ga("send", "pageview");
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@arielwaldman">
 <meta name="twitter:creator" content="@arielwaldman">
+
+{% if page.instruments %}
+
+<meta name="twitter:title" content="Spaceprob.es: {{ page.title }}">
+{% assign content_sentences = page.content | split: '. ' %}
+<meta name="twitter:description" content="{{ content_sentences.first }}.">
+
+{% else %}
+
+{% if page.url contains 'shop' %}
+<meta name="twitter:title" content="Spaceprob.es: Shop">
+{% elsif page.url contains 'about' %}
+<meta name="twitter:title" content="Spaceprob.es: About">
+{% else %}
 <meta name="twitter:title" content="Spaceprob.es">
+{% endif %}
+
 <meta name="twitter:description" content="A catalog of the active human-made machines that freckle our solar system and dot our galaxy.">
+{% endif %}
+
+{% if page.attract %}
+<meta name="twitter:image" content="https://spaceprob.es/resources/img/attract/{{ page.attract }}">
+{% else %}
 <meta name="twitter:image" content="https://spaceprob.es/resources/img/grid.jpg">
+{% endif %}
 
  </head>
  <body ng-app="spaceapp">
