@@ -337,6 +337,13 @@ ul.nav li.highlight a {
   #probe-detail .content {
     margin-top: 25px;
   }
+  #probe-detail p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #footer p{
+  padding-left: 15px;
+}
 }
 
 @media (max-width: 768px) {
@@ -356,8 +363,12 @@ ul.nav li.highlight a {
     font-size: 2em !important;
   }
   #probe-detail {
-    padding-left: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
+    #footer p{
+  padding-left: 15px;
+}
 }
 
 /* table portrait */

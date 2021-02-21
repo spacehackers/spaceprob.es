@@ -78,15 +78,6 @@ ga("send", "pageview");
 
           <ul class="nav navbar-nav navbar-right site-menu" role = "menu">
 
-            <!-- shop -->
-            <li
-              {% if page.url contains 'shop' %}
-                class = "goforlaunch"
-              {% endif %}
-            >
-              <a href = "/{{ lang }}shop">{% translate global.shop %}</a>
-            </li>
-
             <!-- about -->
             <li
               {% if page.url contains 'about' %}
@@ -95,6 +86,15 @@ ga("send", "pageview");
             >
               <a href = "/{{ lang }}about">{% translate global.about %}</a>
           </li>
+
+                      <!-- shop -->
+            <li
+              {% if page.url contains 'shop' %}
+                class = "goforlaunch"
+              {% endif %}
+            >
+              <a href = "/{{ lang }}shop">{% translate global.shop %}</a>
+            </li>
 
         </ul><!-- /navbar -->
       </div> <!-- /collapse navbar -->
@@ -107,8 +107,9 @@ ga("send", "pageview");
           </a>
 
         <ul id = "dropdown-menu" class="dropdown-menu" role="menu">
-          <li><a class = "shop" href = "/{{ lang }}shop"> {% translate global.shop %} </a></li>
+          <li><a class = "home" href = "/">HOME</a></li>
           <li><a class = "about" href = "/{{ lang }}about"> {% translate global.about %} </a></li>
+          <li><a class = "shop" href = "/{{ lang }}shop"> {% translate global.shop %} </a></li>
         </ul>
 
       </div>
