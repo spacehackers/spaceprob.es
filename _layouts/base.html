@@ -63,8 +63,7 @@ ga("send", "pageview");
 {% if page.instruments %}
 
 <meta name="twitter:title" content="Spaceprob.es: {{ page.title }}">
-{% assign content_sentences = page.content | split: '. ' %}
-<meta name="twitter:description" content="{{ content_sentences.first }}.">
+<meta name="twitter:description" content="{{ page.content | truncatewords: 30 }}">
 
 {% else %}
 
