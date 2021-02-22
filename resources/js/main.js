@@ -165,9 +165,19 @@ var spaceprobes = {
 
   distance_to_str: function (slug) {
     var distance = Number(spaceprobes.distances[slug])
+
+    if (!distance) {
+      // look for esa distance
+      distance = Number(spaceprobes.get_esa_distances(slug))
+    }
+
     if (!distance) return
 
     return numeral(distance).format("0.00 a")
+  },
+
+  get_esa_distances: function (slug) {
+    // todo
   },
 
   display_probes: function (slugs_ordered) {
