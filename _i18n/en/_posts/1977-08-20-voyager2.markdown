@@ -21,7 +21,7 @@ instruments:
 teams:
     - <a href = "http://voyager.jpl.nasa.gov/">NASA / JPL</a>
 links:
-    - the <a href="http://voyager.gsfc.nasa.gov/heliopause/data.html">data</a> from the cosmic ray detector on Voyager 1 and 2
+    - the <a href="https://voyager.gsfc.nasa.gov/data.html">data</a> from the cosmic ray detector on Voyager 1 and 2
     - a <a href="http://web.mit.edu/lilybui/www/">playlist</a> of the music, sounds and greetings on the Voyager Golden Record
 
 caption: >

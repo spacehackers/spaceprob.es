@@ -21,7 +21,7 @@ instruments:
 teams:
     - <a href = "http://voyager.jpl.nasa.gov/">NASA / JPL</a>
 links:
-    - the <a href="http://voyager.gsfc.nasa.gov/heliopause/data.html">data</a> from the cosmic ray detector on Voyager 1 and 2
+    - the <a href="https://voyager.gsfc.nasa.gov/data.html">data</a> from the cosmic ray detector on Voyager 1 and 2
     - a <a href="http://web.mit.edu/lilybui/www/">playlist</a> of the music, sounds and greetings on the Voyager Golden Record
     - a cute <a href="https://www.youtube.com/watch?v=BwcJXUWXMTI">animated story</a> about Voyager 1
     - the <a href="https://www.youtube.com/watch?v=LIAZWb9_si4">sound of interstellar space</a> as captured by Voyager 1's plasma spectrometer
