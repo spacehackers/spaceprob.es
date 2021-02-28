@@ -21,7 +21,7 @@ teams:
     - <a href = "http://missionjuno.swri.edu/">SWRI</a>
 links:
     - Juno's <a href="http://missionjuno.swri.edu/">interactive walk-through</a> of the science behind the mission
-    - a DIY <a href="http://www.jpl.nasa.gov/images/pdf/Juno_Spacecraft_Paper_Model_FC.pdf">paper model</a> of Juno
+    - a DIY <a href="https://solarsystem.nasa.gov/resources/350/juno-spacecraft-paper-model/">paper model</a> of Juno
     - a <a href="https://www.youtube.com/watch?v=_CzBlSXgzqI">video</a> of Earth and the Moon as seen from Juno
 caption: >
     (top image: Jupiter as <a href="https://www.flickr.com/photos/kevinmgill/38515428164/">seen</a> by Juno, NASA/JPL-Caltech/SwRI/MSSS/Kevin M. Gill)
