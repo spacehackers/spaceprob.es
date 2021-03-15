@@ -1,0 +1,27 @@
+---
+layout: probe
+title: Chang'e 5
+color: '#938bbe'
+attract: change5_imageheader.jpg
+image: change5.svg
+launch_date: 2020-11-23
+arrival_date: 2020-12-01
+primary_target: the Moon
+dsn_name: DSCO
+instruments:
+    - cameras
+    - drill
+    - radar
+    - scoop
+    - spectrometer
+teams:
+    - <a href="http://www.cnsa.gov.cn/">China National Space Administration</a>
+links:
+    - a life-size <a href="https://twitter.com/AJ_FI/status/1350447070566625282">wooden version</a> of the Chang'e 5 lander a person crafted
+    - a video of the ascender <a href="https://twitter.com/AJ_FI/status/1337504153065693193">launching</a> from the lander on the Moon
+
+caption: >
+    (top image: a photo from the Chang'e 5 lander from <a href="https://twitter.com/AJ_FI/status/1336920834838040577">the surface</a> of the Moon, CLEP/GRAS)
+
+---
+Chang'e 5 (嫦娥四号, "Moon goddess") is a group of space probes that worked together to drill into the lunar surface, scoop up Moon rocks, and return them to Earth. Chang'e 5 included a lunar lander, a lunar ascender, an orbiter, and a return capsule. Chang'e 5 is the first space probe to return Moon rocks to Earth in over four decades. The Moon rocks that Chang'e 5 collected are the youngest to date at under two billion years old and may record the last volcanic eruptions on the Moon. The lander and ascender were not designed to survive for more than a few days. The orbiter continues on an extended mission to study the Sun from a halo orbit at the Earth-Sun L1 point.

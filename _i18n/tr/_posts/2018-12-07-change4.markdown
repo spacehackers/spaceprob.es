@@ -1,0 +1,29 @@
+---
+layout: probe
+title: Chang'e 4
+color: '#ff6e48'
+attract: change4_imageheader.jpg
+image: chang'e4.svg
+primary_target: the Moon
+orbit_planet: Moon
+launch_date: 2018-12-07
+arrival_date: 2019-01-03
+instruments:
+    - landing camera
+    - panoramic camera
+    - terrain camera
+    - radar
+    - spectrometers
+    - neutron dosimeter
+    - neutral atom analyzer
+    - a sealed biosphere
+teams:
+    - <a href = "http://www.cnsa.gov.cn/">China National Space Administration</a>
+links:
+    - first image of a <a href="https://www.bbc.com/news/world-asia-china-46873526">seed sprouting</a> on the Moon
+    - a <a href="https://weibo.com/6180132521/HbtMRq6a0?refer_flag=1001030103_&type=comment">video</a> of the Yutu-2 rover roving around on the Moon
+
+caption: >
+    (top image: the <a href="http://www.clep.org.cn/n5982014/c6805153/content.html">Yutu-2 rover</a> making tracks on the Moon, taken by the Chang'e 4 lander, China Lunar Exploration Project)
+---
+The Chang'e 4 (嫦娥四号, "Moon goddess") lander and Yutu-2 (玉兔二号, "Jade Rabbit") rover are studying the geophysics of the Moon and carried with them a sealed container of the very first seeds to sprout on the Moon. Chang'e 4 was also the first space probe to softly land on the far side of the Moon. The lander and rover regularly communicate with Earth through talking to the <a href="/queqiao">Queqiao</a> (鹊桥) space probe. Chang'e 4's main objectives are to inspect lunar rocks and soil, conduct radio astronomy, and study the Sun and cosmic rays. Chang'e 4's sealed biological experiment contained a variety of plant seeds, yeast, and fruit fly eggs to test whether they could survive on the Moon. Photographic <a href="https://www.bbc.com/news/world-asia-china-46873526">evidence</a> showed the cottonseed successfully sprouted, but the experiment was terminated after nine days when it was no longer able to keep the container warm.
