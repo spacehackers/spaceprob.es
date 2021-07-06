@@ -7,7 +7,7 @@ image: solarorbiter.svg
 primary_target: an elliptical heliocentric orbit
 launch_date: 2020-02-10
 arrival_date: 2021-11-01
-distance: 219747918  # eccentric heliocentric orbit
+distance: 219448079  # eccentric heliocentric orbit
 instruments:
     - <a href="https://www.cosmos.esa.int/web/solar-orbiter-new/solohi">camera</a>
     - <a href="https://www.cosmos.esa.int/web/solar-orbiter-new/metis">coronagraph</a>
